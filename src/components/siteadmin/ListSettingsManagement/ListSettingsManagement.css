@@ -1,0 +1,19 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+
+.button {
+	border-color: #ff7e82;
+    background-color: #ff7e82;
+    color: #fff;
+    font-size: 16px;
+    float: none;
+}
+
+.buttonMargin{
+    margin-bottom: 10px;
+}
+
+.nxtLineStyle{
+    white-space: pre-line;
+}

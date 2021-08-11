@@ -1,0 +1,28 @@
+query reportUserManagement($currentPage: Int, $searchList: String){
+  reportUserManagement(currentPage: $currentPage, searchList: $searchList) {
+    count
+    reportsData{
+     id
+    reporterId
+    userId
+    reportType
+    createdAt
+    reporterData{
+      displayName
+    }
+    userData{
+      displayName
+      profileId
+    }
+    userEmail{
+      email         
+    }
+    reporterEmail{
+      email      
+    }
+    userProfileId{
+      profileId
+    }
+    } 
+   }
+}

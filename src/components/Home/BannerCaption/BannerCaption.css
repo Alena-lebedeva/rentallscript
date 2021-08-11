@@ -1,0 +1,36 @@
+/** Common - Start **/
+.noPadding {
+    padding: 0px;
+}
+
+.noMargin {
+    margin: 0px;
+}
+/** Common - End **/
+
+/** Banner caption - Start **/
+.bannerCaptionContainer {
+    position: relative;
+}
+.bannerCaptionText {
+    font-family: inherit;
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #484848;
+    margin: 0px;
+    font-weight: 200;
+}
+.bannerCaptionHighlight {
+    font-weight: 700;
+    color: #FF5A5F;
+}
+
+@media screen and (max-width: 767px) {
+    .bannerCaptionText {
+        font-size: 25px;
+        line-height: 30px;
+    }    
+}
+/** Banner caption - End **/

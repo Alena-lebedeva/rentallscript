@@ -1,0 +1,6 @@
+query {
+  getAllAdminRoles {
+    id
+    name
+  }
+}

@@ -1,0 +1,402 @@
+@import '../../components/variables.css';
+
+.textTruncate{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 95px;
+  
+}
+
+.threadName{
+  font-size: 14px;
+  padding-top:5px
+}
+
+.threadName div {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.threadBody{
+  padding-top:5px;
+}
+
+.textMuted{
+  color:#767676;
+  cursor:pointer;
+  font-size:14px;
+}
+
+.threadLabel{
+  padding-top:5px;
+}
+
+.listUnstyled{
+  padding-left: 0;
+  list-style: none;
+  line-height:0.8;
+}
+
+.space1{
+  margin-bottom:6px;
+}
+
+.spaceTop2 {
+  margin-top: 12px;
+}
+
+
+.threadAction{
+  display:inline-block;
+}
+
+.iconText{
+  font-size:14px;
+  display:none;
+}
+
+.PanelBody:hover .iconText{
+  display:block;
+}
+
+/* .showLg{
+  display:none !important;
+} */
+
+.labelText{
+  font-size:16px;
+}
+
+.tabs{
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  font-size: inherit;
+
+}
+
+@media screen and (min-width: 1128px) {
+  .showLg {
+    display: block !important;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+
+  .progressContainerResponsive{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+  .tabs{
+    width: 100%;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-bottom: 1px solid #dce0e0;
+  }
+
+  .inboxNav{
+    padding: 10px 20px 13px;
+
+}
+  .h4{
+    font-size:17px;
+  }
+
+
+  .formControlSelect{
+    font-size:15px;
+    width:100%
+  }
+
+  .threadAuthor {
+    position:static;
+  } 
+  .threadAvatar{
+    float:left;
+    padding-right:0;
+  }
+
+  .threadName{
+    font-size: 16px;
+    margin-top: -5px;
+    padding-top: 0;
+    padding-left: 32px;
+    position:static;
+
+  }
+  .threadDate{
+    font-weight: normal;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    color: #767676;
+  }
+
+  .threadLink{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .threadBody{
+    position:static;
+  }
+
+  .threadSubject{
+      position: absolute;
+      top: 36px;
+      left: 61.5px;
+      width: calc(100% - 105px);
+      padding-left: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      }
+
+    .threadSubject::before{
+      left:0;
+    }
+  
+
+  .PanelBody:hover .iconText{
+    display:none;
+}
+  .threadLabel{
+    position: absolute;
+    top: 51px;
+    left: 70px;
+    padding-top:10px;
+  }
+}
+
+.panelHeader{
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #dce0e0;
+  border:none;
+  box-shadow: none;
+  background:transparent;
+}
+
+.PanelBody{
+  margin: 0;
+  padding: 15px 0px;
+  position: relative;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.formControlSelect {
+  height: 40px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px 10px;
+  width:100%;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  color: #484848;
+  display: inline-block;
+  overflow: hidden;
+  appearance: none;
+  }
+
+  .textRight{
+
+    float: right;
+  }
+
+.listLayout{
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  color: #484848;
+}
+
+a{
+  color: #008489;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #008489;
+  cursor: pointer;
+}
+
+
+
+/*************************verification Styles end******************************************/
+
+
+.profileAvatarSection {
+  position: relative;
+  margin: 0 auto;
+}
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: relative;
+  z-index: 4;
+}
+
+.iconColor{
+  color: #008489;
+}
+.displayTable{
+  display:table;
+  width: 100%;
+}
+.displayTableRow{
+  width:100%;
+  display: table-row;
+}
+.displayTableCell{
+  display: table-cell;
+  vertical-align: middle;
+}
+.IconWidth{
+  width:10%;
+}
+.rightBg{
+  vertical-align: top;
+  background: #ffffff;
+  padding: 24px;
+  position: relative;
+  width: 90%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.timeWidth{
+  width: 20%;
+}
+.addressWidth {
+  width: 65%;
+}
+.btnWidth{
+  width: 15%;
+}
+.floatLeft{
+  float: left;
+  margin: 0 3px 0 0;
+}
+.rightBg::before{
+  content: ' ';
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  bottom: auto;
+  border: 10px solid transparent;
+  border-left: 0;
+  border-right-color: #fff;
+  top: 0px;
+  left: initial;
+  right: 100%;
+  border-width: 0 24px 24px 0;
+  border-color: transparent #fff transparent transparent;
+}
+.rightBg::after{
+  content: '';
+  position: absolute;
+  left: -38px;
+  top: 0;
+  right: auto;
+  width: 38px;
+  height: 40px;
+  background: #f5f5f5;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  z-index: 3;
+}
+@media screen and (max-width: 640px) {
+  .xsHidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .displayBlock{
+    display: block;
+    width:100%;
+    margin-bottom: 6px;
+  }
+  .rightBg{
+   
+    padding: 15px;
+   
+}
+.textTruncate{
+
+  max-width: 70%;
+  
+}
+}
+
+.progressContainerResponsive{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  width: 100%;
+}
+
+.h4{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.tabItem{
+  display: block;
+  padding: 14px 15px;
+  position: relative;
+  text-align: center;
+  color: #767676;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+}
+
+.tabItem:hover{
+  text-decoration: none;
+  color: #484848;
+}
+
+.active .tabItem {
+  color: #484848;
+  border-color: #008489;
+  text-decoration: none;
+}
+
+.vtrTop {
+  vertical-align: top !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+

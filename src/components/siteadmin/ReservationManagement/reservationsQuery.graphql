@@ -1,0 +1,80 @@
+query getAllReservationAdmin ($currentPage:Int, $searchList: String){
+  getAllReservationAdmin (currentPage: $currentPage, searchList: $searchList){
+    reservationData{
+    id
+    listId
+    hostId
+    guestId
+    checkIn
+    checkOut
+    guestServiceFee
+    hostServiceFee
+    reservationState
+    total
+    currency
+    confirmationCode
+    createdAt
+    updatedAt
+    listData {
+      id
+      title
+    }
+    hostData {
+      profileId
+      firstName
+      userData {
+        email
+      }
+    }
+    hostPayout {
+      id
+      payEmail
+      methodId
+      currency
+      last4Digits
+    }
+    hostTransaction {
+      id
+    }
+    guestData {
+      profileId
+      firstName
+    }
+    transaction {
+      id
+      payerId
+      payerEmail
+      receiverEmail
+      receiverId
+      paymentType
+      total
+      currency
+      paymentMethodId
+      transactionId
+    }
+    refundStatus {
+      id
+      receiverEmail
+      total
+      currency
+    }
+    cancellationDetails {
+      id
+      reservationId
+      refundToGuest
+      payoutToHost
+      guestServiceFee
+      hostServiceFee
+      total
+      currency
+      status
+    }
+    threadData {
+      id
+      threadId
+    } 
+    status
+    }
+    count
+  }
+}

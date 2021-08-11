@@ -1,0 +1,13 @@
+@import '../../../components/variables.css';
+
+.footerContainer {
+    margin-left: 250px;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    background: #e7e7e7;
+    /* height: 100%; */
+    width: calc(100% - 250px);
+    text-align: center;
+}

@@ -1,0 +1,129 @@
+@import '../../helpers.css';
+/** Common **/
+.textEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/** Common **/
+/** Home slider Item - Start **/
+.imgContainer {
+    position: relative;
+    width: 100%;
+}
+.parent {
+    background: #d8d8d8 none repeat scroll 0 0;
+    padding-top: 66.6667%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.children {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.imageContent {
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.infoContainer {
+    /* padding-top: 8px; */
+    padding-top: 0px;
+}
+.linkContainer, .linkContainer:hover {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.infoText {
+    color: #484848;
+    font-family: inherit;
+    margin: 0px;
+    word-wrap: break-word;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline;
+}
+
+.infoReview {
+    /* font-size: 15px; */
+    font-size: 12px;
+}
+
+.infoTitle {
+    font-size: 15px;
+    /* margin-top: 8px; */
+    margin-top: 0px;
+    margin-bottom: 4px !important;
+}
+
+.infoDesc {
+    font-weight: 200;
+    font-size: 14px;
+    color: #767676;
+}
+
+.space1 {
+    margin-bottom: 6px;
+}
+
+.textStrong {
+    font-weight: bold;
+}
+
+.reviewStar {
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+.reviewText {
+    padding: 5px;
+}
+
+.roomTitleBlock {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+.instantIcon{
+    color: #ffb400;
+    height: 16px;
+    width: 16px;
+}
+
+.infoSpace{
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.listingInfo {
+    word-wrap: break-word;
+    /* font-size: 13px; */
+    font-size: 11px;
+    /* line-height: 16px; */
+    line-height: 14px;
+    letter-spacing: normal;
+    color: #A02F18;
+    font-weight: 800;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+/** Home slider Item - Start **/

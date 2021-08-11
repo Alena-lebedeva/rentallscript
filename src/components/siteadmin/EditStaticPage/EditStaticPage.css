@@ -1,0 +1,32 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+
+.contentBox {
+  min-height:1239px !important;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+}
+
+.panelHeader{
+	padding-bottom: 0px !important;
+}
+
+.BlogInputSection {
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+  z-index: 0 !important;
+}
+
+.noBorderRadius {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}

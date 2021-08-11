@@ -1,0 +1,13 @@
+query getBlogDetails {
+  getBlogDetails{
+    id
+    metaTitle
+    metaDescription
+    pageUrl
+    pageTitle
+    content
+    footerCategory
+    isEnable
+    createdAt
+  }
+}

@@ -1,0 +1,13 @@
+query editBlogDetails ($id: Int!) {
+    editBlogDetails (id: $id) {
+         id
+        metaTitle
+        metaDescription
+        pageUrl
+        pageTitle
+        content
+        footerCategory
+        isEnable
+        createdAt
+    }
+}

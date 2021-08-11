@@ -1,0 +1,6 @@
+{
+    "name": "ListDefaultPhoto",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ListDefaultPhoto.js"
+}

@@ -1,0 +1,259 @@
+@import '../common.css';
+.bookItContainer {
+  width: 100%;
+  display: block;
+  margin-top: 30px;
+  position: relative;
+  background: transparent;
+}
+
+.bookItContentBox {
+  width: 100%;
+  /* position: absolute;
+  top: 0px; */
+  background: transparent;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.bootItPriceSection {
+    /* background-color: #3c3f40; */
+    background-color: #ffffff;
+    border: 0;
+    color: #484848;
+    height: 90px;
+    padding: 10px 13px 5px;
+    text-transform: capitalize;
+    width: 100%;
+    z-index: 1001;
+    overflow-y: hidden;
+    border-radius: 5px;
+}
+
+.bookItPriceAmount {
+  display: inline-block;
+}
+
+.bookItPrice {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.instantIcon {
+  color: #ffb400;
+  position: relative;
+  bottom: 5px;
+  height: 22px;
+  width: 22px;
+}
+
+.bookItPanel {
+  /* border: 1px solid #dce0e0; */
+  background-color: #fff;
+  border-radius: 0;
+  padding: 15px;
+  position: relative;
+  padding-top: 0px;
+  border-radius: 5px;
+}
+
+.bookItMessage {
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.btnPrimary {
+  border-color: #ff5a5f !important;
+  background-color: #ff5a5f !important;
+  color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .bookItContainer {
+    margin-top: 0px;
+    margin-bottom: 48px;
+  }
+  .bookItContentBox {
+    position: relative;
+  }
+}
+
+@media (max-width:1023px) and (min-width:768px) {
+  .container {
+    max-width: 720px;
+  }
+  .bookItContentBox{  
+    position: static;
+  }
+  .bookItContainer {
+    margin-top: 20px;
+    ;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bookItPriceAmount {
+    float: left;
+  }
+  /* .bootItPriceSection{
+    background-color: rgba(60,63,64,.9);
+    color: #fff;
+  } */
+  .mobileRight{
+    float:right;
+    padding: 6px 0px 0 0;
+  }
+  .bookItPanel {
+    text-align: left;
+  }
+}
+
+.discountText {
+  color: #3fb34f;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .bookItContentBox {
+    width: 100%;
+    border: none;
+  }
+}
+
+.reviewSection {
+  display: inline-block;
+  float: left;
+  padding-right: 5px;
+}
+
+.scrollTable {
+  max-height: 160px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.iconSection {
+  padding-left: 5px;
+}
+
+.positionR {
+  position: relative;
+}
+
+.toolTipColor {
+    color: #484848 !important;
+    position: relative;
+    bottom: 5px;
+    height: 18px;
+    width: 18px;
+}
+
+.specialPriceText { 
+  display: inline-block;
+  vertical-align: initial;
+  width: auto;
+    word-break: break-word;
+   
+}
+
+.specialPriceIcon {
+  position: absolute;
+  display: inline-block;
+  width: 19px;
+  vertical-align: top;
+  margin-right: 4px;
+}
+.paddingLeft{
+  padding: 0 0 0 22px;
+}
+
+
+.tltip
+{
+  position: absolute;
+  top: -48px;
+  right: 0;
+  left: 0px;
+  display: none;
+  background: #484848;
+  min-width: 280px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.specialPriceIcon:hover .tltip
+{
+ display:block;
+}
+
+.relativeSection::after
+{
+  content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    right: 0;
+    top: 34px;
+    bottom: 0;
+    text-align: center;
+    background-color: #484848;
+    z-index: 1;
+    max-width: 11px;
+    max-height: 11px;
+    transform: rotate(136deg);
+}
+
+.faqImage {
+  width: 100%;
+  max-width: 19px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .tltip
+{
+  position: absolute;
+  top: -48px;
+  right: 0;
+  left: 0;
+  display: none;
+  background: #484848;
+  min-width: 260px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.specialPriceIcon:hover .tltip
+{
+ display:block;
+}
+
+.relativeSection::after
+{
+  content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    right: 0;
+    top: 32px;
+    bottom: 0;
+    text-align: center;
+    background-color: #484848;
+    z-index: 1;
+    max-width: 11px;
+    max-height: 11px;
+    transform: rotate(136deg);
+}
+}

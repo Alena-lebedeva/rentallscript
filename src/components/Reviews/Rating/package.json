@@ -1,0 +1,6 @@
+{
+  "name": "Rating",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Rating.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ImageBannerForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ImageBannerForm.js"
+}

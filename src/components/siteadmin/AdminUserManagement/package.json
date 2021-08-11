@@ -1,0 +1,6 @@
+{
+  "name": "AdminUserManagement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AdminUserManagement.js"
+}

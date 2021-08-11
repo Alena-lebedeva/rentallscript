@@ -1,0 +1,6 @@
+{
+  "name": "BannerCaption",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BannerCaption.js"
+}

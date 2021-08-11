@@ -1,0 +1,6 @@
+{
+    "name": "AdminFooter",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./AdminFooter.js"
+}

@@ -1,0 +1,73 @@
+query ManageListingsProfile($userId: String) {
+  ManageListingsProfile(userId: $userId) {
+    id
+    title
+    city
+    updatedAt
+    coverPhoto
+    isPublished
+    isReady
+    beds
+    bedrooms
+    bookingType
+    personCapacity
+    listingData {
+      basePrice
+      currency
+    }
+    reviewsStarRating
+    reviews {
+      id
+      reservationId
+      reviewsCount
+      listId
+      authorId
+      userId
+      reviewContent
+      rating
+      parentId
+      automated
+      createdAt
+      status
+      authorData {
+        profileId
+        firstName
+        lastName
+        picture
+      }
+    }
+    listPhotos {
+      id
+      name
+    }
+    settingsData {
+      listsettings {
+        id
+        itemName
+      }
+    }
+    listingSteps {
+      id
+      step1
+      step2
+      step3
+    }
+    user {
+      id
+      email
+      profile {
+        profileId
+        firstName
+        lastName
+        displayName
+        dateOfBirth
+        picture
+        location
+        info
+        createdAt
+     
+      }
+    }
+   
+  }
+}

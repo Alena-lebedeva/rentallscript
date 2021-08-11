@@ -1,0 +1,6 @@
+{
+    "name": "ThankYouModal",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ThankYouModal.js"
+}

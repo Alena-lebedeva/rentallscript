@@ -1,0 +1,34 @@
+{
+  GetMostViewedListing {
+    id
+    title
+    personCapacity
+    beds
+    bookingType
+    coverPhoto
+    reviewsCount,
+    reviewsStarRating,
+    listPhotos {
+      id
+      name
+      type
+      status
+    }
+    user {
+      id
+      userBanStatus
+    }
+    listingData {
+      basePrice
+      currency
+    }
+    settingsData {
+      listsettings {
+        id
+        itemName
+      }
+    }
+    wishListStatus
+    isListOwner
+  }
+}

@@ -1,0 +1,9 @@
+{
+    getImageBanner {
+        id
+        title
+        description
+        buttonLabel
+        image
+    }
+}

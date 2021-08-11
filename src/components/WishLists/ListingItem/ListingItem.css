@@ -1,0 +1,173 @@
+/** Common **/
+.textEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pullRight {
+    float: right;
+}
+/** Common **/
+/* List Item - Start **/
+.listItemContainer {
+    position: relative;
+}
+.listPhotoContainer {
+    position: relative;
+}
+.listPhotoCover {
+  display: block;
+  height: 345px;
+  backface-visibility: hidden;
+  position: relative;
+  vertical-align: middle;
+  overflow: hidden;
+  background-color: #D8D8D8;
+  text-align: center;
+}
+
+.listPhotoMedia {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.imgResponsive{
+  height: 100%;
+  width: auto;
+}
+
+/* .listInfo {
+    padding-top: 8px;
+} */
+
+.listInfoLink {
+    cursor: pointer;
+    display: block;
+}
+
+.infoText {
+    color: #484848;
+    font-family: inherit;
+    margin: 0px;
+    word-wrap: break-word;
+    line-height: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline;
+}
+
+.infoPrice {
+    font-size: 15px;
+}
+
+.infoReview {
+    font-size: 12px;
+}
+
+.infoTitle {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.infoDesc {
+    font-weight: 200;
+    font-size: 14px;
+    color: #767676;
+}
+
+.wishListContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.wishListBtn {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.wishListBtn:hover, .wishListBtn:focus {
+    color: #ff7e82;
+}
+
+.activeWishList {
+    color: #ff7e82;
+}
+
+.listingInfo {
+    word-wrap: break-word;
+    /* font-size: 13px; */
+    font-size: 11px;
+    /* line-height: 16px; */
+    line-height: 14px;
+    letter-spacing: normal;
+    color: #A02F18;
+    font-weight: 800;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.infoSpace{
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.space1 {
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 1280px) {
+    .listPhotoCover {
+            height: 200px;
+        }
+}    
+
+@media screen and (max-width: 800px) {
+        .listPhotoCover {
+            height: 345px;
+        }    
+}
+
+@media screen and (max-width: 480px) {
+        .listPhotoCover {
+            height: 215px;
+        }    
+}
+
+.reviewStar {
+    display: block;
+    position: relative;
+}
+
+.reviewText {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.displayInline {
+    display: inline;
+}
+
+.displayInlineBlock {
+    display: inline-block;
+}
+
+.instantIcon{
+    color: #ffb400;
+    height: 16px;
+    width: 16px;
+}
+
+/* @media screen and (max-width: 640px){
+.infoDesc {
+    padding-bottom: 20px;
+ }
+} */
+
+/* List Item - End */

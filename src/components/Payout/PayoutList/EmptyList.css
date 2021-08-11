@@ -1,0 +1,101 @@
+@import '../../variables.css';
+
+.panelHeader{
+
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.textTitle{
+  font-size: 14px;
+  font-weight: bold;
+  color: #484848;
+}
+
+.textLead{
+  font-size: 14px;
+  color: #484848;
+
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.space2{
+  margin-bottom: 12px;
+}
+
+.button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 7px 21px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background: #ff5a5f;
+  color: #484848;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff5a5f;
+}
+
+.button:focus {
+  border-color: #ff5a5f;
+  box-shadow: 0 0 8px #ff5a5f;
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+

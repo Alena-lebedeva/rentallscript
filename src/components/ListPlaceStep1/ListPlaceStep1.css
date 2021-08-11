@@ -1,0 +1,980 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/common.css';
+@import 'common.css';
+/* Common Helpers Style - Start */
+
+.button {
+  border-color: #007d73;
+  background-color: #008489;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background: #ff5a5f;
+}
+
+.button:focus {
+  border-color: #ff5a5f;
+  box-shadow: 0 0 8px #008489;
+}
+
+.btnPrimary {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnlarge {
+  padding: 9px 27px;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active, .btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff5a5f !important;
+  background-color: #ff5a5f !important;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active, .btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+}
+#ff5a5f
+.formControlInputMaxWidth {
+  max-width: 320px;
+}
+
+.jumboInput {
+  font-size: 18px;
+  height: 65px;
+  padding: 0 20px;
+  border-color: #dce0e0;
+  vertical-align: middle;
+}
+
+.textareaInput {
+  height: 123px !important;
+  border: solid 1px #dce0e0;
+  padding: 20px;
+  font-size: 19px;
+  border-radius: 2px;
+  resize: none;
+}
+
+.formControlSelect {
+  padding: 10px 32px 10px 10px;
+  height: 40px;
+  border-radius: 3px;
+  font-size: 14px;
+  border: 1px solid #dce0e0;
+  background-color: #fff;
+  color: #767676;
+  max-width: 320px;
+  /* Drop Down Caret Icon*/
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 6px, 5px 6px, 1px 1.5em;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  /*Drop Down Caret Icon */
+}
+
+/* .backgroundPosition{
+  background-position: 96% 7px!important
+} */
+
+.formControlSelectLarge {
+  max-width: 100%;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.blockRadioButton {
+  margin-top: 0;
+  max-width: 320px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.landingContainer {
+  max-width: 912px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.landingTitle {
+  font-size: 32px;
+  color: #484848;
+  margin: 0px 0px 30px 0px;
+}
+
+.landingStep {
+  font-size: 14px;
+  color: #bbb;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0px 0px 6px 0px;
+  display: block;
+}
+
+.landingStep2 {
+  font-size: 18px;
+  color: #767676;
+  margin: 0px 0px 10px 0px;
+  display: block;
+}
+
+.landingStep3 {
+  font-size: 18px;
+  color: #767676;
+  line-height: 1.43;
+  font-weight: normal;
+}
+
+.landingContentTitle {
+  font-size: 24px;
+  color: #484848;
+  margin: 0px 0px 18px 0px;
+}
+
+.landingContent {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.landingMainContent {
+  min-height: 300px;
+}
+
+.landingLabel {
+  color: #767676;
+  font-size: 18px;
+  font-weight: normal;
+  display: block;
+  padding: 8px 0px;
+  margin: 0px;
+  line-height: 1.1;
+}
+
+.bookingTitle {
+  font-weight: normal;
+  color: #484848;
+  margin: 0px;
+  word-wrap: break-word;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.bookText {
+  font-size: 16px;
+  color: #484848;
+  font-weight: normal;
+}
+
+.radioInput {
+  position: relative;
+  height: 1.25em;
+  width: 1.25em;
+  margin-right: 10px !important;
+  vertical-align: top;
+}
+
+.radioSize {
+  height: 15px;
+  width: 15px
+}
+
+.checkboxLabel {
+  color: #767676;
+  font-weight: normal;
+  display: inline;
+  padding: 0px 10px;
+  margin: 0px;
+  line-height: 1.1;
+  vertical-align: middle;
+}
+
+.landingCaption {
+  color: #767676;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.listContainer {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.listContent {
+  margin-bottom: 30px;
+  font-size: 17px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top !important;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.blockRadioButton {
+  margin-top: 0;
+  max-width: 320px;
+  border: 1px solid #dce0e0;
+  padding: 20px;
+}
+
+.blockRadioButton:first-of-type {
+  border-radius: 3px 3px 3px 3px;
+}
+
+.blockRadioButton:last-of-type {
+  border-radius: 0px 0px 3px 3px;
+}
+
+.blockRadioButton:not(:last-of-type) {
+  border-bottom: 0px;
+}
+
+.helpPanelContainer {
+  max-width: 320px;
+}
+
+.helpPanel {
+  margin: 60px 30px 0;
+  border: 1px solid #dce0e0;
+  border-radius: 4px;
+  width: 100%;
+  padding: 26px;
+  background: #FFF;
+}
+
+.helpPanelText {
+  font-size: 16px;
+  line-height: 150%;
+  color: #767676;
+}
+
+.helpPanelTextTitle {
+  color: #2d2d2d;
+  display: block;
+  width: 100%;
+}
+
+.incrementDecrementButton {
+  max-width: 320px;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  display: block;
+  overflow: hidden;
+}
+
+.incrementDecrementText {
+  float: left;
+  width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 20px 20px;
+  height: 52px;
+  margin: 0px;
+  font-size: 18px;
+  color: #767676;
+  line-height: 1;
+  vertical-align: middle;
+  font-weight: normal;
+  background: #fff;
+}
+
+.iconButton {
+  width: 20%;
+  float: left;
+  border-color: #dce0e0;
+  border-width: 0px 0px 0px 1px;
+  border-radius: 0px;
+  padding: 12px 20px;
+  height: 52px;
+  margin: 5px 0px;
+  font-size: 15px;
+  line-height: 1px;
+  color: #767676;
+  background: #fff;
+}
+
+.iconButton:hover, .iconButton:focus, .iconButton:active {
+  background: #fff;
+  border-color: #dce0e0;
+  border-width: 0px 0px 0px 1px;
+  margin-left: 0px;
+}
+
+.checkBoxSection {
+  display: table-cell;
+}
+
+.checkBoxLabel {
+  padding: 0px 10px;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.pullRight {
+  float: right;
+}
+
+.pullLeft {
+  float: left;
+}
+
+.space5 {
+  margin-bottom: 30px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.unorderedList li {
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.checkIcon {
+  color: #008489;
+  margin: 0px 10px 5px 0px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.space4 {
+  margin-bottom: 24px;
+}
+
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.textHigh {
+  font-size: 18px;
+  color: #484848;
+  line-height: 1.43;
+}
+
+.textLow {
+  font-size: 16px;
+  color: #767676;
+  line-height: 1.43;
+}
+
+/* Common Helpers Style - End */
+
+/** List Photo Cover Style - Start */
+
+.listPhotoCover {
+  display: block;
+  height: 185px;
+  backface-visibility: hidden;
+  position: relative;
+  vertical-align: bottom;
+  overflow: hidden;
+  background-color: #bbb;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.listPhotoMedia {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.imgResponsive {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+.coverPhotoSelection {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: 100px;
+  height: 30px;
+  background: #ff5a5f;
+  color: #FFF;
+  font-size: 14px;
+  border-radius: 5px 12px 12px 5px;
+  line-height: 30px;
+}
+
+.coverPhotoCheckbox {
+  margin: 0px !important;
+  vertical-align: middle;
+}
+
+/** List Photo Cover Style - End */
+
+.landingContainer {
+  max-width: 912px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.landingContent {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.landingContentTitle {
+  font-size: 24px;
+  color: #484848;
+  margin: 0px 0px 18px 0px;
+}
+
+.landingSaftyTitle {
+  font-size: 20px !important;
+  color: #484848;
+  margin: 0px 0px 18px 0px;
+}
+
+.bookingLandingStep {
+  font-size: 18px;
+  color: #767676;
+  margin: 0px 0px 10px 0px;
+  display: block;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 0;
+  display: block;
+  margin: 0px 0px 15px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #D8D8D8;
+  box-shadow: 0px -2px 10px #ccc !important;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.space6 {
+  margin-bottom: 36px;
+}
+
+.BookingradioInput {
+  height: 1.25em;
+  width: 1.25em;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.bookText {
+  font-size: 16px;
+  color: #484848;
+  font-weight: normal;
+  margin-left: 10px;
+  display: block;
+}
+
+.subText {
+  color: #767676;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+}
+
+.displayTable {
+  display: table;
+}
+
+.displayTableCell {
+  display: table-cell;
+}
+
+/** SyncCalendar Start **/
+
+.landingText {
+  margin: 0px;
+  word-wrap: break-word;
+  font-size: 19px;
+  line-height: 24px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.listType {
+  padding-left: 0;
+  list-style: none;
+}
+
+.iconContainer {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+  display: block;
+}
+
+.iconContainer:active, .iconContainer:focus, .iconContainer:hover, .iconContainer:active:focus {
+  border: 0px;
+  background-color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+
+.iconSize {
+  height: 20px;
+  width: 20px;
+  color: #767676;
+}
+
+.calenderText {
+  font-size: 19px;
+  color: #767676;
+}
+
+.LineColor {
+  border-top: 1px solid #f5f5f5;
+}
+
+.btnContainer {
+  color: #008489;
+  font-size: 18px;
+  text-decoration: none;
+  border: 0px;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  user-select: auto;
+}
+
+.btnContainer:hover, .btnContainer:focus, .btnContainer:active, .btnContainer:active:focus {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  color: #008489;
+}
+
+.displayTableCellVertical {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.paddingLeft {
+  padding-left: 8px;
+}
+
+.iconColor {
+  color: #008489;
+}
+
+.space0 {
+  margin-bottom: 0px;
+}
+
+.step3IconLeft {
+  display: inline-block;
+}
+
+.displayTableRow {
+  display: table-row;
+  width: 100%;
+}
+
+.displayTableCellWidth {
+  width: 5%
+}
+
+.displayTableCellTop {
+  vertical-align: top;
+}
+
+.tableWidthTwo {
+  width: 80%;
+}
+
+.tableWidth {
+  width: 5%;
+}
+
+.noFontWeight {
+  font-weight: normal;
+}
+.nextPosition{
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 4;
+    padding: 0 0px 25px;
+}
+.nextBackButton{
+  width: 35.5%;
+  
+}
+.nextBackButtonMap{
+  width:62%;
+
+}
+.nextBackButtonCalendar{
+  width:62.5%;
+ 
+}
+.posRelative{
+  position: relative;
+}
+.imagefeed{
+  position: absolute;
+  top: 20px;
+  width: 30%;
+  height: 50px;
+  border: 1px solid #ccc;
+  padding: 7px 7px;
+  border-radius: 5px;
+  z-index: 3;
+}
+.caListimg {
+  max-width: 55px;
+  width: 100%;
+  height: 35px;
+  float: left;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 2px;
+}
+.caListPara {
+  float: left;
+    width:78%;
+    padding: 0 0 0 10px;
+}
+.caListPara h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.caListPara p {
+  max-width: 100%;
+  height: 20px;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.becomeAHostSelect {
+  background-position: 96% 7px !important;
+}
+
+.lableWeight p {
+  font-weight: bold;
+}
+
+.calenderColorText {
+  display: inline-block;
+  width: 20%;
+  font-size: 18px;
+}
+
+.bookedWidth {
+  width: 14%;
+  display: inline-block;
+  font-size: 18px;
+}
+
+@media (max-width:1023px) and (min-width:768px) {
+  .nextBackButton {
+    width: 100%;
+}
+.nextPosition {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 4;
+  padding: 0 25px 25px;
+  left: 0;
+}
+.nextBackButtonMap {
+  width:100%;
+}
+
+.nextBackButtonCalendar {
+  width: 100%;
+}
+
+.helpPanel {
+  margin: 60px 13px 0;
+}
+.caListPara {
+  float: left;
+  width: 70%;
+  padding: 0 0 0 10px;
+}
+.calenderColorText{
+  width:24%;
+}
+.bookedWidth {
+  width: 16%;
+ 
+}
+}
+
+@media screen and (max-width:480px){
+  .btnlarge {
+    padding: 7px 21px;
+  }
+}
+
+/** SyncCalendar End **/
+
+
+
+@media (max-width:767px) {
+  .imagefeed{
+    width: 100%;
+    left: 0;
+    top:0;
+  }
+
+  .landingContent{
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .landingContentTitle{
+    font-size: 20px;
+  }
+
+  .calenderColorText,
+  .bookedWidth{
+    font-size: 14px !important;
+  }
+  .caListPara {
+    float: left;
+    width: 70%;
+    padding: 0 0 0 10px;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+  .calenderColorText {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+  }
+  .bookedWidth {
+    width: 100% !important;
+  }
+  .nextBackButton {
+    width: 100%;
+}
+.imagefeed{
+  width: 100%;
+  left: 0;
+  top:0;
+}
+.nextPosition{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 4;
+  padding: 10px 25px 25px;
+  left: 0;
+}
+.nextBackButtonMap{
+  width:100%;
+}
+.nextBackButtonCalendar{
+  width: 100%;
+}
+.button {
+  
+  margin-top: 10px;
+}
+.horizontalLineThrough {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+ 
+}
+.caListPara {
+  float: left;
+  width: 70%;
+  padding: 0 0 0 10px;
+}
+}
+
+.notAvailableColor {
+  background-color: #dce0e0;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.bookedColor {
+  background-color: #FA7475;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.availableColor {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #aaa;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.specialColor {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #aaa;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #1DD265;
+}
+
+.fullWidth {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.noMarginMaximum {
+  margin: 0px !important;
+}
+
+.maximumSpace2 {
+  margin-bottom: 12px !important;
+}
+
+.maximumCharcter{
+  font-size: 14px;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.maximumCharColor{
+  color:#ff0000
+}
+
+
+.fullWidthCalendar {
+  width: 100% !important;
+  max-width: 1170px !important;
+}
+
+.imgSection {
+  width: 100%;
+  max-width: 28px;
+  max-height: 28px;
+  margin-right: 8px;
+  height: auto;
+}
+.listIcon {
+  display: inline-block;
+  width: 28px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+.listContent {
+  display: inline-block;
+  width: 85%;
+  vertical-align: middle;
+}

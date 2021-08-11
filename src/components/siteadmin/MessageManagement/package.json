@@ -1,0 +1,6 @@
+{
+    "name": "MessageManagement",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./MessageManagement.js"
+}

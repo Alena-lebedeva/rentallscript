@@ -1,0 +1,181 @@
+@import '../../../components/variables.css';
+
+
+.container {
+  margin: 0px auto;
+  padding-top: 30px;
+  max-width: var(--max-content-width);
+}
+
+.landingContainer {
+  max-width: 1080px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.spaceTop4{
+  margin-top: 24px;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.button {
+
+	border-color: #eb6f6f;
+    background-color: #eb6f6f;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #d04d4d;
+    background-color: #d04d4d;
+    color: #fff;
+}
+
+.btnlarge{
+
+	    padding: 9px 27px;
+  }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #eb6f6f;
+  background-color: #eb6f6f;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #d04d4d;
+    color: #d04d4d;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #eb6f6f;
+  color: #eb6f6f;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+
+.panelHeader{
+
+	border-radius: 0;
+	width: 100%;
+	display: block;
+	color: #484848;
+	font-size: 16px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #dce0e0;
+
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+  font-weight: normal;
+
+}
+
+.formControlSelect {
+  padding: 10px 32px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+  font-weight: normal;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.captionText {
+  font-size: 16px;
+  color: #484848;
+  margin: 6px 0px;
+}
+
+.labelText{
+	font-size: 14px;
+  color: #767676;
+  margin: 6px 0px;
+  line-height: 1.43;
+  font-weight: normal;
+
+
+
+}
+
+.modalCaptionLink {
+    color: #008489;
+}
+
+.modalCaptionLinkLarge {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+  .smPadding{
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 640px){
+  .smBottom{
+    margin-bottom: 18px;
+  }
+}

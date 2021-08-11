@@ -1,0 +1,6 @@
+{
+  "name": "EmptyInbox",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./EmptyInbox.js"
+}

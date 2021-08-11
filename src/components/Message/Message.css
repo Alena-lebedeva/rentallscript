@@ -1,0 +1,10 @@
+@import '../variables.css';
+
+.notification{
+  fill: #008489;
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(4px, -8px, 0);
+}

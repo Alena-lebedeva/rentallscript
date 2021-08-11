@@ -1,0 +1,7 @@
+{
+  getListingDashboard{
+    totalCount
+    todayCount
+    monthCount
+  }
+}

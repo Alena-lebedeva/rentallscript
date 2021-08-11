@@ -1,0 +1,6 @@
+{
+    "name": "BlogContent",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./BlogContent.js"
+}

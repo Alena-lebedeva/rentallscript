@@ -1,0 +1,39 @@
+@import '../../components/variables.css';
+
+.helpPanelContainer {
+	max-width: 320px;
+}
+
+.helpPanel {
+	margin: 60px 30px 0;
+  border: 1px solid #dce0e0;
+  border-radius: 4px;
+  width: 100%;
+	padding: 26px;
+	background: #FFF;
+}
+
+.helpPanelText {
+	font-size: 16px;
+  line-height: 150%;
+  color: #767676;
+}
+
+.helpPanelTextTitle {
+	color: #2d2d2d;
+	display: block;
+	width: 100%;
+}
+@media (max-width:1023px) and (min-width:768px) {
+
+.helpPanel {
+  margin: 60px 13px 0;
+ 
+}
+
+  }
+@media screen and (max-width: 768px){
+	.helpPanel{
+		margin: 60px 0px 0px;
+	}
+}

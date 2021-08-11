@@ -1,0 +1,431 @@
+@import 'utils.css';
+@import 'helpers.css';
+
+.btn, .btn:focus {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 6px 12px !important;
+  width: auto;
+  outline: 0 !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 4px !important;
+  background: var(--background-color) !important;
+  color: var(--btn-color) !important;
+}
+
+.btn:hover {
+  background: var(--border-color) !important;
+  outline: 0 !important;
+}
+
+.btnPrimary, .btnPrimary:focus {
+    border-color: var(--btn-primary-bg) !important;
+    background-color: var(--btn-primary-bg) !important;
+    color: var(--btn-primary-color) !important;
+}
+
+.btnPrimary:hover {
+  border-color: var(--btn-primary-hover-bg) !important;
+  background-color: var(--btn-primary-hover-bg) !important;
+  color: var(--btn-primary-color) !important;
+}
+
+.btnPrimaryBorder, .btnPrimaryBorder:focus {
+    border-color: var(--btn-primary-bg) !important;
+    color: var(--btn-primary-bg) !important;
+    background-color: var(--btn-primary-color) !important;
+}
+
+.btnPrimaryBorder:hover {
+  border-color: var(--btn-primary-hover-bg) !important;
+  color: var(--btn-primary-hover-bg) !important;
+  background-color: var(--btn-primary-color) !important;
+}
+
+.btnSecondary, .btnSecondary:focus {
+    border-color: var(--btn-secondary-bg) !important;
+    background-color: var(--btn-secondary-bg) !important;
+    color: var(--btn-secondary-color) !important;
+}
+
+.btnSecondary:hover {
+  border-color: var(--btn-secondary-hover-bg) !important;
+  background-color: var(--btn-secondary-hover-bg) !important;
+  color: var(--btn-secondary-color) !important;
+}
+
+.btnLink, .btnLink:focus {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0px !important;
+  width: auto !important;
+  outline: 0 !important;
+  background: var(--background-color) !important;
+  color: var(--btn-color) !important;
+  font-weight: inherit;
+  word-wrap: break-word;
+  line-height: 18px;
+  letter-spacing: normal;
+  font-size: inherit;
+  border: 0px !important;
+}
+
+.btnLink:hover {
+  background: var(--background-color) !important;
+  color: var(--btn-color) !important;
+  outline: 0 !important;
+  text-decoration: underline;
+  font-weight: inherit;
+  word-wrap: break-word;
+  line-height: 18px;
+  letter-spacing: normal;
+  border: 0px !important;
+}
+
+.btnLinkPrimary, .btnLinkPrimary:focus {
+    background-color: var(--background-color) !important;
+    color: var(--btn-primary-bg) !important;
+}
+
+.btnLinkPrimary:hover {
+  background-color: var(--background-color) !important;
+  color: var(--btn-primary-bg) !important;
+}
+
+.btnLinkSecondary, .btnLinkSecondary:focus {
+  background-color: var(--background-color) !important;
+  color: var(--btn-secondary-bg) !important;
+}
+
+.btnLinkSecondary:hover {
+  background-color: var(--background-color) !important;
+  color: var(--btn-secondary-bg) !important;
+}
+
+.searchFilterPopover {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 14px 36px 2px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: normal;
+    display: inline-block;
+    max-height: 65vh;
+    visibility: visible;
+    background: var(--background-color);
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-image: initial;
+    border-radius: 4px;
+}
+
+.searchFilterPopoverFull {
+    z-index: 10;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: normal;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 66%;
+    height: initial;
+    box-shadow: none;
+    visibility: visible;
+    top: 148px;
+    background: var(--background-color);
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.searchFilterPopoverOverlay {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 64px;
+    z-index: 2;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: normal;
+    background: rgba(255, 255, 255, 0.85);
+    left: 0;
+    right: 0;
+    visibility: visible;
+    bottom: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.searchFilterPopoverContent {
+  min-width: 370px;
+  padding: 24px;
+}
+
+.searchFilterCloseIcon {
+  font-size: 30px;
+  color: #767676;
+}
+
+.searchFilterPopoverFooter {
+  width: 100%;
+  position: relative;
+  line-height: 0;
+}
+
+.displayTable {
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.displayTableRow {
+  display: table-row;
+  vertical-align: middle;
+}
+
+.displayTableCell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.displayInlineBlock {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.fullWidth {
+  width: 100% !important;
+}
+
+.captionTitle {
+  font-size: 16px;
+}
+
+.showTabletSection {
+  display: none !important;
+}
+
+.incrementDecrementButton {
+	max-width: 320px;
+	width: 100%;
+	border: 1px solid #dce0e0;
+	border-radius: 2px;
+	display: block;
+    overflow: hidden;
+}
+.incrementDecrementButton {
+  max-width: 320px;
+  width: 100%;
+  border: 1px solid #dce0e0;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+}
+.blockRadioButton {
+	margin-top: 0;
+  max-width: 320px;
+  border: 1px solid #dce0e0;
+  padding: 20px;
+}
+.jumboSelect {
+  height: 65px !important;
+  font-size: 18px !important;
+  padding: 20px 47px 20px 20px !important;
+  border: 1px solid #dce0e0 !important;
+  border-radius: 3px !important;
+  max-width: 320px;
+}
+.jumboSelectPadding{
+  padding: 20px 50px 20px 20px !important;
+}
+.commonBorder {
+  
+   border: 1px solid #dce0e0 !important;
+   color: #767676 !important;
+   box-shadow: none !important;
+   border-radius: 3px !important;
+}
+.textAignRight {
+  text-align: right;
+}
+.textAlignLeft{
+  text-align: left;
+}
+.textAignCenter {
+  text-align: center;
+}
+.moreFilterTitle {
+  font-size: 18px;
+  font-weight: 700 !important;
+}
+.filterToggleLink:focus {
+  font-size: 16px !important;
+}
+.dot {
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+/*************************** SearchButton Start **********************/
+.searchBtn {
+  padding: 7px 15px !important;
+  border-radius: 20px !important;
+}
+.searchBtn:focus {
+  padding: 7px 15px !important;
+  border-radius: 20px !important;
+}
+.searchBtn:hover {
+  background: #008489 !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  border-color: #008489 !important;
+}
+/*************************** SearchButton End **********************/
+/*************************** Header Modal Start **********************/
+.activeItem {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mainSection {
+  display: inline-block;
+  padding: 0px 8px;
+  width: 20%;
+}
+
+.activeItem:hover, .activeItem:focus, .activeItem:active {
+  background-color: rgb(242, 242, 242);
+  color: #484848;
+}
+
+.activeSection:first-child {
+  background-color: #fff;
+  color: #484848;
+  border: 1px solid #767676;
+}
+
+@media screen and (max-width: 767px) {
+  .mainSection {
+    width: 50%;
+  }
+}
+/*************************** Header Modal End **********************/
+
+@media screen and (max-width: 768px) {
+  .searchFilterPopoverFull {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    box-shadow: none;
+    border: 1px solid #fff;
+    max-height: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .searchFilterPopoverContent {
+    min-width: 320px;
+    padding: 15px 15px 70px !important;
+    height: 100%;
+    min-height: 100vh;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .searchFilterPopoverHeader {
+    position: fixed;
+    top: 0;
+    z-index: 7;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 15px;
+    background: #fff;
+  }
+
+  .searchFilterPopoverFooter {
+    font-weight: 600;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: var(--background-color);
+    z-index: 10;
+    text-align: center;
+    font-size:17px;
+  }
+  .showTabletSection {
+    display: block !important;
+  }
+  .hideTabletSection {
+    display: none !important;
+  }
+}
+
+.capitalizeText {
+    text-transform: capitalize;
+}
+@media screen and (max-width: 767px) {
+  .searchFilterPopoverFooter {
+    position: relative !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .btnFontsize {
+    font-size: 14px !important;
+  }
+}
+@media (max-width:360px)
+{
+  .searchFilterCloseIcon {
+    font-size: 25px;
+   
+  }
+}
+
+
+
+@media (max-width: 993px) and (min-width:769px) {
+  .responsiveFontsize {
+    font-size: 12px;
+  }
+
+  .searchFilterPopoverInstantBook {
+    left: auto;
+    right: 0;
+  }
+}
+
+/*****************Apply Button Alignment Start **********************/
+.applyBtnDesktop {
+  text-align: right;
+}
+.applyBtn, .applyBtn:hover, .applyBtn:active, .applyBtn:focus {
+  background-color: #008489 !important;
+  color: #ffffff !important;
+  padding: 6px 18px !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+@media screen and (max-width: 991px) {
+  .applyBtnDesktop {
+    text-align: center;
+  }
+  .applyBtnDesktopRight {
+    text-align: right !important;
+  }
+  .applyBtnDesktopNoPaddingRight {
+    padding-right: 0px !important;
+  }
+}
+/*****************Apply Button Alignment Start **********************/

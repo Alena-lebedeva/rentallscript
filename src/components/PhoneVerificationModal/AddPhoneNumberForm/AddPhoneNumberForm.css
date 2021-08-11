@@ -1,0 +1,180 @@
+@import '../../variables.css';
+@import '../../utils.css';
+
+/** RentAll - Begin **/
+
+.formGroup {
+  margin-bottom: 15px !important;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+  font-weight: normal;
+
+}
+
+.formControlSelect {
+  padding: 10px 32px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+  font-weight: normal;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.formMaxWidth{
+  max-width: 350px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.space1{
+  margin-bottom: 12px;
+}
+
+.space2{
+  margin-bottom: 12px;
+}
+
+.space3{
+  margin-bottom: 18px;
+}
+
+.labelText{
+	font-size: 15px;
+  color: #767676;
+  margin: 6px 0px;
+  line-height: 1.43;
+  font-weight: normal;
+}
+
+.btnRight{
+  margin-right: 10px;
+}
+
+.btnAlignRight{
+  float: right;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.modalCaptionLink {
+    color: #008489;
+}
+
+.modalCaptionLinkLarge {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: underline;
+}
+
+.button {
+  box-sizing: border-box;
+  margin: 0;
+  width: auto;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+  padding: 
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:disabled:hover, .btnPrimary:disabled:focus {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.btnLarge {
+  padding: 7px 21px;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.formGroup .input-group-addon, .inputGroupAddon {
+  border: 1px solid #aaa;
+}
+
+.formContainer {
+  border: 1px solid #aaa;
+  padding: 15px;
+  border-radius: 2px;
+}
+

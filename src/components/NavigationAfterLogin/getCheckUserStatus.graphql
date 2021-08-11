@@ -1,0 +1,6 @@
+query getCheckUserStatus{
+  getCheckUserStatus {
+    status
+    userExistStatus
+  }
+}

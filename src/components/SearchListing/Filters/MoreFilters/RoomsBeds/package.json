@@ -1,0 +1,6 @@
+{
+    "name": "RoomsBeds",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./RoomsBeds.js"
+}

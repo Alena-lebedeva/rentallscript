@@ -1,0 +1,6 @@
+{
+  "name": "AboutSection",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AboutSection.js"
+}

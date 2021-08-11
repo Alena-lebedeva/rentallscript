@@ -1,0 +1,6 @@
+{
+  "name": "LocationMap",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./LocationMap.js"
+}

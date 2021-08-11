@@ -1,0 +1,61 @@
+@import '../../variables.css';
+@import '../common.css';
+
+.iconContainer{
+  border-radius: 50%;
+  border: 3px solid #bbb;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+}
+
+.iconEnvelope{
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.iconSize{
+  font-size: 3.6em;
+}
+
+.iconGray{
+  color: #767676;
+  height: 80px;
+  width: 80px;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formControlInput {
+  height: 45px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+}
+
+.activationStepPanel{
+  max-width: 530px;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 520px;
+  text-align: center;
+  border: none;
+}
+
+.panelBody{
+  position: relative;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+a , a:hover, a:focus, a:active{
+  color: #008489;
+  text-decoration: none;
+}

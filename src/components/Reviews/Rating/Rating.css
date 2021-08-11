@@ -1,0 +1,235 @@
+@import '../../variables.css';
+@import '../../utils.css';
+
+.landingContainer {
+  max-width: 1080px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.landingContentTitle {
+  font-size: 24px;
+  color: #484848;
+  margin: 0 0px 18px;
+}
+
+.landingStep {
+  font-size: 18px;
+  color: #767676;
+  margin: 0 0px 10px;
+  display: block;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn{
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.42857143;
+  text-align: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+}
+
+.button {
+  border-color: #007d73;
+  background-color: #008489;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background: #ff5a5f;
+}
+
+.button:focus {
+  border-color: #ff5a5f;
+  box-shadow: 0 0 8px #008489;
+}
+
+.btnPrimary {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnlarge {
+  padding: 9px 27px;
+}
+
+.btnJumbo {
+  padding: 20px 36px;
+  line-height: 1;
+  font-size: 18px;
+  text-align: center;
+}
+
+.btnPrimary:hover,
+.btnPrimary:focus,
+.btnPrimary:active,
+.btnPrimary:active:hover,
+.btnPrimary:active:focus {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnPrimaryBorder:hover,
+.btnPrimaryBorder:focus,
+.btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover,
+.btnPrimaryBorder:active:focus {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+}
+
+.jumboInput {
+  font-size: 18px;
+  height: 63px;
+  padding: 0 20px;
+  vertical-align: middle;
+}
+
+.textareaInput {
+  height: 117px !important;
+  padding: 18px !important;
+  border-color: #dce0e0;
+  font-size: 16px !important;
+  border-radius: 2px;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+}
+
+.parent {
+  background: #d8d8d8 none repeat scroll 0 0;
+  padding-top: 56.6667%;
+  position: relative;
+}
+
+.children {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.imageContent {
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.starSize {
+  font-size: 28px;
+}
+
+.starReview {
+  display: inline;
+  position: relative;
+  float: left;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+.reviewEndText {
+  font-size: 16px;
+  color: #484848;
+}
+
+.space1 {
+  margin-bottom: 6px;
+}
+
+.spaceTop2 {
+  margin-top: 12px;
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.textMuted,
+.textMuted:hover,
+.textMuted:focus,
+.textMuted:hover:focus {
+  color: #767676;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+@media screen and (max-width: 640px) {
+  .showLg {
+    display: none;
+  }
+}
+
+a, a:hover, a:active, a:focus{
+  text-decoration: none;
+  color: #484848;
+}
+

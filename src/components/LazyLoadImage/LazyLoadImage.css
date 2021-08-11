@@ -1,0 +1,39 @@
+.lazyLoadImageContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.lazyLoadImagePreload {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    background-color: #d8d8d8;
+}
+
+.lazyLoadImageLoaded {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: opacity 1s ease;
+    background-color: transparent !important;
+}
+
+
+

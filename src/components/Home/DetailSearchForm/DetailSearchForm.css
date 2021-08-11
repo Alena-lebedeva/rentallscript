@@ -1,0 +1,238 @@
+/** Common - Start **/
+.btn {
+    padding: 7px 21px;
+    border-color: #c4c4c4;
+    background: white;
+    color: #484848;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btnBlock {
+  width: 150px;
+  position: relative; 
+  white-space: normal;
+  display: block;
+  font-size: 16px;
+}
+
+.btn:hover, .btn:focus, .btn:hover:focus {
+  background: white;
+  color: #484848;
+}
+
+.btnPrimary {
+  border-color: #ff5a5f !important;
+  background-color: #ff5a5f !important;
+  color: #fff;
+}
+
+.btnlarge {
+     padding: 9px 27px;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82 !important;
+    background-color: #ff7e82 !important;
+    color: #fff !important;
+    outline: 0 !important;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: none;
+  background-color: #fff;
+  color: #767676;
+}
+
+.formControlSelect {
+  height: 40px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  max-width: 100%;
+  border: none;
+  background-color: #fff;
+  color: #767676;
+  line-height: 24px;
+  display: block;
+  overflow: hidden;
+   appearance: none;
+  }
+
+.noPadding {
+    padding: 0px !important;
+}
+/** Common - End **/
+
+/** Search Form - Start **/
+.searchFormInputs {
+    display: table;
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    table-layout: auto;
+    width: 100%;
+}
+.table {
+    width: 100%;
+    display: table;
+}
+.tableRow {
+    display: table-row;
+    width: 100%;
+}
+.tableCell {
+    padding: 15px 0 0;
+    vertical-align: middle;
+    margin: 0;
+}
+.location, .dates {
+    width: 100%;
+}
+.guests {
+    width: 100%;
+}
+.search {
+    padding: 15px 0 0;
+    float: right;
+}
+.label {
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0 0 10px;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #484848;
+    letter-spacing: 0.1px;
+}
+.input, .input:hover, .input:focus {
+    margin: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    letter-spacing: -0.5px;
+    outline: 0 !important;
+}
+
+/* .searchButton {
+    line-height: 15px;
+    padding: 15px 10px;
+    position: relative;
+    overflow: hidden;
+}
+.searchButton:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform: rotate(50deg);
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.5s all ease;
+}
+.searchButton:hover::before{
+   left:100%
+} */
+
+.pad0{
+    padding: 0;
+}
+.selectBorder{
+    border: 1px solid #dce0e0 !important;
+    border-radius: 3px;
+    height: 45px;
+}
+
+.formControlInput {
+    padding: 10px 35px 10px 10px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    color: #767676;
+  }
+
+
+  .loadfield{
+    border: 1px solid #dce0e0 !important;
+    padding: 0 10px !important;
+    border-radius: 3px !important;
+    height: 45px;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    letter-spacing: 0px !important;
+    color: #484848 !important;
+  }
+
+@media screen and (max-width: 767px) {
+  .location, .dates, .guests {
+      width: 100%;
+  }  
+
+  .tableCell {
+      border-right: 0px;
+      display: block;
+  }
+  .tableCell:not(first-child) {
+    border-right:inherit;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+    .selectPadding{
+        padding: 0px;
+    }
+    .btnBlock{
+        width: 100px;
+        font-size: 14px;
+        padding: 10px 0 !important;
+    }
+    
+}
+
+.geoSuggestContainer {
+    width: 100% !important;
+    margin: 0px !important;
+}
+@media (max-width:350px)
+{
+    .tableCell {
+        padding: 5px 0 0;
+        
+    }
+    .label{
+        margin:0 0 5px;
+    }
+}
+
+.searchElement {
+    display: block !important;
+    margin-bottom: 0px;
+    min-height: 45px;
+  }
+  
+/** Search Form - End **/

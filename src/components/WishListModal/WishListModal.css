@@ -1,0 +1,289 @@
+@import '../../components/variables.css';
+
+.root {
+  padding: 32px;
+  padding-top: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  min-height: 50vh;
+  overflow: hidden;
+}
+
+/** RentAll - Begin **/
+
+.logInModalContainer {
+  max-width: 900px;
+  border-radius: 0px !important;
+  width:100%;
+  padding:10px;
+}
+
+.logInModalBody {
+  padding: 0px;
+}
+
+.wishListTitle{
+  font-weight: 700 !important;
+    margin-top:10px !important;
+    margin-bottom:10px !important;
+    word-wrap: break-word !important;
+    font-family: inherit;
+    font-size: 28px !important;
+    line-height: 32px !important;
+    letter-spacing: 0.6px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    color: #484848 !important;
+    text-align: center;
+    margin-bottom: 30px !important;
+}
+
+.lineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 12px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.lineThrough::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  margin-top: -5px;
+  margin-left: -20px;
+  width: 40px;
+  height: 10px;
+  background-color: #fff;
+  content: '';
+}
+
+.lineThrough::after {
+  position: absolute;
+  top: 49%;
+  z-index: -2;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  content: '';
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+
+.noPadding {
+  padding: 0px;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.modalCaptionLink {
+    color: #008489;
+}
+
+.modalCaptionLinkLarge {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: underline;
+}
+
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.footerContainer{
+  right: 0px;
+  left: 0px;
+  /* background-color: #ffffff; */
+  bottom: 0px;
+  /* top: calc(100% - 128px);
+  box-shadow: 0 -8px 20px -6px rgba(0,0,0,0.2); */
+  overflow-y: hidden;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.linkContainer{
+    width: 100%;
+    background: #33303070;
+    border: 0px;
+    cursor: pointer;
+    text-align: left;
+    text-align: left;
+    /* padding: 24px 0px; */
+    position: relative;
+    float: left;
+    display: block;
+    padding-bottom: 36px;
+    
+}
+
+.displayTable {
+  display: table;
+  width: 100%;
+}
+
+.displayTableRow {
+  display: table-row;
+  width: 100%;
+}
+
+.displayTableCell {
+  display: table-cell;
+}
+
+.vtrMiddle {
+  vertical-align: middle;
+}
+
+.vtrTop {
+  vertical-align: top;
+}
+
+.contentWidth {
+  width: 50%;
+}
+
+.wishListTitlePadding {
+  padding: 32px;
+}
+
+.sectionBlock
+{
+ max-width:450px;
+ width:100%;
+}
+
+.image
+{
+ max-width:450px;
+ /* background:url("./Banner.jpg"); */
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size:cover;
+ position: relative;
+ overflow: hidden;
+ background-color: #dedede;
+}
+
+.listDetail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100% !important;
+  max-width: 439px !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+@media screen and (max-width: 640px){
+  .logInModalContainer{
+    margin: 0px auto;
+}
+}
+
+
+
+@media(max-width:767px)
+{
+  .sectionBlock{
+    max-width:900px;
+    width:100%
+  }
+  .carImage
+  {
+    display:none;
+  }
+
+  .responsiveView {
+    display: none;
+  }
+
+  .imgContainer::before {
+    display: none;
+  }
+
+}
+
+
+@media (max-width:992px ) and (min-width: 768px) {
+  .sectionBlock{
+    max-width:375px;
+    width:100%
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .linkContainer{
+    width: 100%;
+    background: #fff;  
+  }
+}
+

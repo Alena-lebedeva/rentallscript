@@ -1,0 +1,49 @@
+@import '../../../components/variables.css';
+
+/** RentAll - Begin **/
+
+
+.seperator {
+  background-color: #484848;
+  width: 64px;
+  display: block;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.boxseperator {
+  height: 2.5px;
+  border: 1px solid #484848;
+  background-color: transparent;
+}
+
+
+.centerimgsection{
+	
+  margin-bottom: 160px
+}
+
+
+
+@media screen and (max-width:767px){
+
+  .centerimgsection{ margin-bottom: 15px}
+
+  .mainhedding h1{font-size: 28px;line-height: 51px;text-align: left;margin-bottom: 5px;}
+	    
+  h4.common {font-size: 26px;}
+
+}
+
+
+@media screen and (max-width:992px){
+
+  .centerimgsection{ margin-bottom: 64px}
+
+  h4.common {font-size: 23px;font-weight: 600;}
+	
+	.mainhedding h1{font-size: 36px;line-height: 51px;margin-bottom: 13px;}
+
+  
+}

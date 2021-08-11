@@ -1,0 +1,16 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+
+
+.userVerticalAlign{
+    vertical-align: middle !important;
+}
+
+.btnMarginBottom{
+    margin-bottom: 0px !important;
+}
+
+.selectSection {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}

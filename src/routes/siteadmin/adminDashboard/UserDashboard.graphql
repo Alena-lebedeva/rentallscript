@@ -1,0 +1,7 @@
+{
+  getUserDashboard{
+    totalCount
+    todayCount
+    monthCount
+  }
+}

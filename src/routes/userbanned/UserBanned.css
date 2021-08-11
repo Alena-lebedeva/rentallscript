@@ -1,0 +1,65 @@
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: 700px;
+}
+
+.textJumbo{
+  font-size: 95px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.textMedium{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.listStyled{
+  padding-left: 0;
+  list-style: none;
+}
+
+.subTitle{
+  font-size: 22px;
+  color: #484848;
+  margin-left: 10px;
+}
+
+a, a:hover{
+  color: #008489;
+}
+
+.spaceTop2{
+  margin-top: 12px;
+}
+
+.space2{
+  margin-bottom: 12px;
+}
+
+.space6{
+  margin-bottom: 48px;
+}
+
+.spaceTop6{
+  margin-top: 48px;
+}
+
+.subText{
+  font-size:22px !important;
+  line-height:normal;
+  margin-top:36px;
+}

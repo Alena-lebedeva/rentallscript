@@ -1,0 +1,6 @@
+{
+  "name": "Itinerary",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Itinerary.js"
+}

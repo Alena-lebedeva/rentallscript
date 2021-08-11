@@ -1,0 +1,6 @@
+{
+    "name": "AdminNavigation",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./AdminNavigation.js"
+}

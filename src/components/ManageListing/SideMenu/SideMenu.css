@@ -1,0 +1,39 @@
+@import '../common.css';
+
+.listContainer {
+  padding-left: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.listContainer .panelBody:first-child {
+  padding-top: 0px;
+}
+
+.listContainer .panelBody:last-child {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.sideNavitem{
+  display: block;
+  padding: 6px 0;
+  font-size: 16px;
+  color: #767676;
+}
+
+.sideNavitem:hover, .sideNavitem:active , .sideNavitem:focus{
+  text-decoration: none;
+  color: #484848;
+}
+
+a:hover, a:focus, a:active{
+  text-decoration: none;
+  color: #484848;
+}
+
+@media screen and (max-width: 768px){
+  .smPadding{
+    padding: 0px;
+  }
+}

@@ -1,0 +1,13 @@
+query {
+  getPhoneData {
+    userId
+    profileId
+    phoneNumber
+    country
+    countryCode
+    verification {
+      id
+      isPhoneVerified
+    }
+  }
+}

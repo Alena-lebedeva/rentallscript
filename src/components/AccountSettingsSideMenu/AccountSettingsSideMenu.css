@@ -1,0 +1,72 @@
+@import '../variables.css';
+
+.listContainer {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sideNavitem{
+  display: block;
+  padding: 6px 0;
+  font-size: 16px;
+  color: #767676;
+  text-decoration: none;
+}
+
+.sideNavitem:hover, .sideNavitem:active , .sideNavitem:focus{
+  text-decoration: none;
+  color: #484848;
+}
+
+.button {
+  border-color: #c4c4c4;
+  background: white;
+  color: #484848;
+  margin-bottom: 0;
+  border-radius: 4px;
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  line-height: 1.43;
+  white-space: normal;
+  cursor: pointer;
+  max-width: 280px;
+  width: 100%;
+
+}
+
+.button:hover {
+  border-color: #aaa;
+  color: #484848;
+  text-decoration: none;
+}
+
+.button:focus {
+  border-color: #aaa;
+  color: #484848;
+  text-decoration: none;
+}
+
+.btnlarge {
+  display: block;
+  white-space: normal;
+  padding: 7px 21px;
+ }
+
+.btnPrimaryBorder {
+   border-color: #ff5a5f;
+   color: #ff5a5f;
+   background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.space4{
+    margin-bottom: 24px;
+}

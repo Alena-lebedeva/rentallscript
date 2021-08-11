@@ -1,0 +1,266 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+
+/** RentAll - Begin **/
+
+.formContainer {
+  max-width: 380px;
+  width: 100%;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 64px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignCenter{
+  text-align: center;
+}
+
+.modalCaptionLink {
+    color: #008489;
+    font-size: 14px;
+}
+
+.modalCaptionLinkLarge {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px 25px;
+  width: auto;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus {
+  border-color: #ff7e82 !important;
+  background-color: #ff7e82 !important;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.checkboxLabel {
+  word-wrap: break-word;
+  color: #484848;
+  font-weight: normal;
+  padding: 8px 0px;
+  margin: 0px;
+  line-height:24px;
+  font-size: 18px;
+
+}
+
+.labelSection {
+  width: 80%;
+  float: left;
+  position: relative;
+}
+.checkBoxSection {
+  width: 20%;
+  float: left;
+  position: relative;
+  text-align: right;
+  padding: 8px 10px 8px 5px;
+}
+
+.landingCaption {
+	color: #767676;
+	font-size: 16px;
+	margin-bottom: 5px;
+  font-weight: normal;
+  width: 100%;
+  position: relative;
+}
+
+.listContainer {
+  padding: 0px;
+  list-style-type: none;
+  max-height: 40vh;
+  overflow-y: auto;
+}
+
+.listContent {
+    margin: 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+
+.listContainer .listContent:last-child {
+  /*border-bottom: 0px;*/
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.wishListIcon {
+    color: #FF5A5F;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.loader {
+    position: relative;
+    max-height: 30px;
+    max-width: 30px;
+    float: right;
+    padding-right: 35px;
+    text-align: right;
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+}
+
+.labelText {
+    font-size: 14px;
+    color: #767676;
+    margin: 6px 0px;
+    line-height: 1.43;
+    font-weight: normal
+}
+
+.iconSize, .iconSize:hover, .iconSize:active {
+  font-size: 20px;
+  color: #008489;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tableBox {
+  width: 100%;
+  border: 1px solid #d1d1c9;  
+}
+
+.tableBoxHeader {
+  background-color: #f1f1f1;
+  color: #484848;
+  border-right: 1px solid #d1d1c9;
+  padding: 0px 10px;
+  width: 30%;
+}
+
+.tableBox tr td {
+  padding: 8px 10px;
+  color: #484848;
+  font-size: 14px;
+}
+
+.confirmedIcon {
+  font-size: 20px;
+  color: #767676;
+  vertical-align: sub;
+}
+
+@media screen and (max-width: 767px) {
+  .tableBox tr {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+
+  .tableBoxHeader {
+    display: block;
+    padding: 10px;
+    border-right-width: 0px;
+    border-bottom: 1px solid #d1d1c9;
+    width: 100%;
+  }
+  .tableBox tr td {
+    width: 100%;
+  }
+}

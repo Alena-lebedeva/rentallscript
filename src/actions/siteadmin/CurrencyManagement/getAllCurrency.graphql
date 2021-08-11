@@ -1,0 +1,10 @@
+query getAllCurrencies {
+    getCurrencies {
+        id
+        symbol
+        isEnable
+        isPayment
+        isBaseCurrency
+        status
+    }
+}

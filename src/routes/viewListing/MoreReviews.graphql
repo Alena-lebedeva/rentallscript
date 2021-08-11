@@ -1,0 +1,22 @@
+query MoreListReviews($listId: Int!, $offset: Int, $loadCount: Int){
+    moreListReviews(listId: $listId, offset: $offset, loadCount: $loadCount){
+        id
+        reservationId
+        listId
+        authorId
+        userId
+        reviewContent
+        rating
+        parentId
+        automated
+        createdAt
+        status
+        isAdmin
+        authorData {
+            profileId
+            firstName
+            lastName
+            picture
+        }
+    }
+}

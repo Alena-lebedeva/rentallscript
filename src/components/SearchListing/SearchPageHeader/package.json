@@ -1,0 +1,6 @@
+{
+  "name": "SearchPageHeader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SearchPageHeader.js"
+}

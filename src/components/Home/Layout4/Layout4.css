@@ -1,0 +1,71 @@
+.layout4Container {
+  width: 100%;
+  height: 100vh;
+}
+
+.bannerLayoutContainer {
+  width: 100%;
+  height: auto;
+}
+
+.bannerBackgroundImage {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background-size: cover;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	transition: all 0.1s ease;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.searchFormContainer {
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  max-width: 1080px;
+  padding: 0px 15px;
+}
+
+.searchFormWrap {
+  color: #767676;
+  position: absolute;
+  top: 16%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
+}
+
+.searchFormWrap h1 span {
+  margin: 0 0 10px;
+  color: #ff5a5f;
+}
+
+.searchFormWrap h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 26px;
+  color: #484848;
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 767px) {
+  .searchFormContainer {
+    padding: 0px 10px;
+  }
+  .searchFormWrap {
+    max-width: calc(100% - 20px);
+  }
+}
+
+@media screen and (max-width: 767px) and (max-height: 720px) {
+  .layout4Container, .bannerBackgroundImage {
+    min-height: 720px;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "HomeUploader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HomeUploader.js"
+}

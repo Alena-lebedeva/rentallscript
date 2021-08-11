@@ -1,0 +1,176 @@
+@import '../../../components/variables.css';
+/** RentAll - Begin **/
+
+.seperator {
+  background-color: #484848;
+  width: 64px;
+  display: block;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.boxseperator {
+  height: 2.5px;
+  border: 1px solid #484848;
+  background-color: transparent;
+}
+
+.mainhedding h1 {
+  font-size: 60px;
+  line-height: 64px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 73px;
+}
+
+h4.common {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+p.common {
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.quotesection {
+  margin-bottom: 160px;
+}
+
+.contentarea {
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 8%;
+}
+
+.imagearea {
+  width: 50%;
+  display: table-cell;
+}
+
+.contentarea h6 {
+  color: #767676;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.qutoIcon {
+  height: 33px;
+}
+
+span.qutoSize {
+  font-size: 100px;
+  color: #FDB32B;
+}
+
+.quotesectionH2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+  color: #484848;
+}
+
+.rightsidecontent {
+  padding-left: 8%;
+  padding-right: 0%;
+}
+
+.btnlearn {
+  border: 2px solid #484848;
+  font-size: 17px;
+  padding: 10px 22px;
+  margin-top: 19px;
+  color: #484848;
+  font-weight: bold;
+}
+
+
+@media screen and (max-width:991px) {
+  h4.common {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .mainhedding h1 {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 13px;
+  }
+  .quotesection {
+    margin-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .contentarea h2 {
+    font-size: 22px;
+  }
+  .contentarea {
+    padding-right: 15px;
+  }
+  .textarea {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .contentarea h3 {
+    height: 25px;
+    margin-top: 0px;
+  }
+  .coveredsection ul {
+    padding-left: 19px;
+    margin-top: 17px;
+  }
+  .coveredsection ul li {
+    line-height: 2;
+  }
+  .coveredsection {
+    margin-bottom: 45px;
+  }
+  .centerimgsection {
+    margin-bottom: 45px;
+  }
+}
+
+
+
+@media screen and (max-width:767px) {
+  .mainhedding h1 {
+    font-size: 28px;
+    line-height: 51px;
+    margin-bottom: 5px;
+  }
+  h4.common {
+    font-size: 26px;
+  }
+  .quotesection {
+    margin-bottom: 45px;
+  }
+  .quotesectionH2 {
+    font-size: 25px;
+  }
+  .contentarea {
+    width: 100%;
+    padding-right: 0;
+  }
+  .imagearea {
+    width: 100%;
+    display: block;
+    margin-top: 35px;
+  }
+  .textarea {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .rightsidecontent {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+.leftsidecontent {
+  padding-left: 0%;
+  padding-right: 8%;
+}

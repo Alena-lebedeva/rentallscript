@@ -1,0 +1,84 @@
+/* Filepicker CSS */
+.filepicker {
+    font-family: inherit;
+}
+
+div.filepicker {
+    text-align: center;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    min-height: 200px;
+    border: 2px dashed #C7C7C7;
+    margin-bottom: 15px;
+}
+
+/* Icon */
+.filepicker-file-icon
+{
+    position: relative;
+
+    display: inline-block;
+
+    margin: 1.5em 0 2.5em 0;
+    padding-left: 45px;
+
+    color: black;
+}
+.filepicker-file-icon::before
+{
+    position: absolute;
+    top: -7px;
+    left: 0;
+
+    width: 29px;
+    height: 34px;
+
+    content: '';
+
+    border: solid 2px #7F7F7F;
+    border-radius: 2px;
+}
+.filepicker-file-icon::after
+{
+    font-size: 11px;
+    line-height: 1.3;
+
+    position: absolute;
+    top: 9px;
+    left: -4px;
+
+    padding: 0 2px;
+
+    content: 'file';
+    content: attr(data-filetype);
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #fff;
+    background-color: #000;
+}
+.filepicker-file-icon .fileCorner
+{
+    position: absolute;
+    top: -7px;
+    left: 22px;
+
+    width: 0;
+    height: 0;
+
+    border-width: 11px 0 0 11px;
+    border-style: solid;
+    border-color: white transparent transparent #920035;
+}
+
+.filepicker .dz-message {
+    margin: 6em auto;
+    color: #767676;
+    font-size: 18px;
+}
+
+.dropzone .dz-preview .dz-image{
+    z-index: 0;
+}

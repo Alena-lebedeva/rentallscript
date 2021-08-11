@@ -1,0 +1,42 @@
+.root {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container{
+    display: inline-block;
+}
+
+.buttonBlock{
+    display: inline-block;
+    position: relative;
+    margin: 0px 4px 0px 8px;
+}
+
+.button{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: normal;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: rgb(72, 72, 72);
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    position: relative;
+    text-align: center;
+    width: auto;
+    background: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(220, 224, 224);
+    border-image: initial;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.button:hover .button:focus .button:visited .button:active{
+    background: rgb(242, 242, 242) !important;
+    border-color: rgb(242, 242, 242) !important;
+}

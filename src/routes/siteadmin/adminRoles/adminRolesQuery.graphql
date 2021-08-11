@@ -1,0 +1,10 @@
+query {
+  getAllAdminRoles {
+    id
+    name
+    description
+    createdAt
+    updatedAt
+    privileges
+  }
+}

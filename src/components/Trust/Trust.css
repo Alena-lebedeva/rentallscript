@@ -1,0 +1,205 @@
+@import '../../components/variables.css';
+
+/*************************Sidenavigation Styles start******************************************/
+
+.listContainer {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sideNavitem{
+  display: block;
+  padding: 6px 0;
+  font-size: 16px;
+  color: #767676;
+  text-decoration: none;
+}
+
+.sideNavitem:hover{
+  text-decoration: none;
+  color: #484848;
+}
+
+.sideNavitem:active{
+  text-decoration: none;
+  color: #484848;
+  font-weight: bold;
+}
+.sideNavitem:active{
+  text-decoration: none;
+  color: #484848;
+  font-weight: bold;
+}
+
+/*************************Sidenavigation Styles end******************************************/
+
+
+/*************************verification Styles start******************************************/
+
+.panelHeader{
+
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce0e0;
+  background:#f5f5f5;
+}
+
+.listLayout{
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  color: #484848;
+}
+.description{
+  font-size: 14px;
+  line-height: 1.43;
+
+}
+
+a{
+  color: #008489;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #008489;
+  cursor: pointer;
+}
+
+.space4{
+  margin-bottom: 24px;
+}
+
+
+.button {
+  border-color: #c4c4c4;
+  background: white;
+  color: #484848;
+  margin-bottom: 0;
+  border-radius: 4px;
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  line-height: 1.43;
+  white-space: normal;
+  cursor: pointer;
+  max-width: 280px;
+  width: 100%;
+
+}
+
+.button:hover {
+  border-color: #aaa;
+  color: #484848;
+  text-decoration: none;
+}
+
+.button:focus {
+  border-color: #aaa;
+  color: #484848;
+  text-decoration: none;
+}
+
+.btnPrimary {
+   border-color: #ff5a5f;
+   background-color: #ff5a5f;
+   color: #fff;
+}
+
+
+.btnlarge {
+  display: block;
+  white-space: normal;
+  padding: 7px 21px;
+    
+ }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+   border-color: #ff5a5f;
+   color: #ff5a5f;
+   background-color: #fff;
+}
+.btnverified 
+{
+  border-color: green;
+  background-color: #fff;
+  color: green;
+} 
+.btnverified:hover, .btnverified:focus, .btnverified:active,
+.btnverified:active:hover, .btnverified:active:focus {
+  border-color: green !important; 
+  color: green;
+  background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+.background
+{
+  padding:15px;
+  background:#fff;
+  border-radius:5px;
+  box-shadow:rgba(0, 0, 0, 0.15) 0px 3px 5px 1px;
+}
+.displayFlex
+{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content: center;
+ 
+}
+.centerFlex
+{
+  display:inline-flex;
+ justify-content: center;
+}
+.iconImages
+{
+  height:70px;
+}
+.iconImageone
+{
+  height:50px;
+}
+.inlineFlex
+{
+  display: inline-flex;
+  justify-content: center;
+}
+@media(max-width:767px)
+{
+  .responsiveCenter
+  {
+    text-align:center;
+  }
+  .responsiveFlex
+  {
+    display:inline-flex;
+    justify-content: center;
+    margin-bottom:8px;
+  }
+
+
+}
+
+/*************************verification Styles end******************************************/
+
+

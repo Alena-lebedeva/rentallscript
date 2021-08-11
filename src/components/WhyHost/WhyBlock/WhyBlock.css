@@ -1,0 +1,92 @@
+@import '../../../components/variables.css';
+/** RentAll - Begin **/
+
+.whybnb {
+  padding-top: 56px;
+  margin-bottom: 84px;
+}
+
+h4.common {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+p.common {
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.whybnb .whyblock {
+  padding-right: 45px;
+}
+
+
+@media screen and (max-width:991px) {
+  .whybnb {
+    padding-top: 45px;
+    margin-bottom: 0px;
+  }
+  h4.common {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .whyblock {
+    margin-bottom: 85px;
+    padding-right: 0px!important;
+    padding-left: 0px;
+  }
+  .mainhedding h1 {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 13px;
+  }
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+  .whyblock {
+    padding-right: 15px!important;
+ 
+  }
+
+}
+
+
+@media screen and (max-width:767px) {
+  .whybnb {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .common {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .whyblock {
+    margin-bottom: 35px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .mainhedding h1 {
+    font-size: 32px;
+    line-height: 51px;
+    text-align: left;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .steps {
+    margin-top: 24px;
+  }
+  h4.common {
+    font-size: 20px;
+  }
+  p.common {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+  }
+}

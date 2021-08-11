@@ -1,0 +1,346 @@
+@import '../variables.css';
+
+.root {
+  background: #ffffff;
+  color: #333;
+  padding: 0px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: var(--max-container-width);
+  border-top: 1px solid #dce0e0;
+}
+.footerSectionContainer {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  position: relative;
+  padding: 48px 0px;
+  display: block;
+  line-height:1.43;
+  font-size: 14px;
+}
+.dropDownSection {
+  padding-left: 0px;
+}
+.noPadding {
+  padding: 0px;
+}
+.pullRight {
+  float: right;
+}
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+.shareIcon {
+  color: #767676;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  float: right;
+  font-size: 15px;
+  cursor: pointer;
+}
+.shareIcon:hover, .shareIcon:hover:focus .shareIcon:hover:focus {
+  color: #767676;
+}
+.textLink {
+  color: #767676;
+  font-weight: normal;
+  padding: 0px 0px;
+  margin: 0px;
+  line-height: 1.1;
+  cursor: pointer;
+}
+.textLink:hover, .textLink:focus,
+.textLink:hover:focus {
+  color: #767676;
+}
+.footerLink {
+  padding: 4px 5px;
+}
+.formControlSelect {
+  height: 53px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 19px;
+  display: block;
+  overflow: hidden;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  color: #484848;
+  line-height: 24px;
+  /*Drop Down Caret Icon*/
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 6px,
+    5px 6px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  /*Drop Down Caret Icon*/
+}
+
+.listContainer {
+  padding: 0px;
+  margin-top: 16px;
+  list-style-type: none;
+}
+
+.landingLabel {
+  color: #484848;
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  line-height: 18px;
+}
+.nativeLabel{
+  color: #484848;
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  line-height: 18px;
+}
+.appLink{
+  margin: 30px 0 0;
+}
+.andriodIcon{
+  margin: 38px 0 0;
+  position: relative;
+}
+.noPaddingLeft{
+  padding-left: 0px !important;
+}
+.andriodIcon img{
+  width: auto;
+  max-height:45px;
+}
+.iosIcon{
+  margin: 38px 0 0;
+}
+.iosIcon img{
+  width:auto;
+  max-height: 47px;
+  margin: -2px 0 0 -31px;
+}
+.comingSoon{
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+.topImageBanner{
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+ 
+}
+.positionRelative{
+  position: relative;
+}
+.spaceTop1 {
+  margin-top: 6px;
+}
+.spaceTop2 {
+  margin-top: 12px;
+}
+.spaceTop3 {
+  margin-top: 18px;
+}
+.spaceTop4 {
+  margin-top: 24px;
+}
+.space5{
+  margin-bottom: 30px;
+}
+.space4 {
+  margin-bottom: 24px;
+}
+.space3 {
+  margin-bottom: 18px;
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@-moz-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@-o-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@keyframes hue {
+ from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+.comingIcon{
+  position: absolute;
+    top: 14px;
+    left: -18px;
+    z-index: 4;
+}
+.comingIcon img{
+  width:22%;
+}
+.displayInlineBlock {
+  display: inline-block;
+}
+.anroidImg {
+  width: 100%;
+  max-width: 100px;
+}
+.iosImg {
+  width: 100%;
+  max-width: 110px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 768px) {
+  .xsHidden {
+    display: none;
+  }
+  .dropDownSection {
+    padding-left: 15px;
+  }
+}
+@media (max-width:1199px) and (min-width:1024px) {
+  .footerSectionContainer {
+    max-width: 960px;
+   
+}
+.iosIcon img {
+  width: auto;
+  max-height: 46px;
+  margin: -2px 0 0 -11px;
+}
+  }
+@media (max-width: 1199px) and (min-width:992px) {
+  .iosImg {
+    max-width: 95px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .anroidImg {
+    max-width: 86px;
+  }
+}
+@media (max-width:991px) and (min-width:768px) {
+  .iosImg {
+    width: 100%;
+    max-width: 73px;
+    margin-left: 3px;
+    margin-top: 0px;
+  }
+  .anroidImg {
+    max-width: 67px;
+  }
+  .copyRightTabNoMargin {
+    margin: 30px 0px 0px 0px;
+  }
+}
+@media (max-width:1199px) and (min-width:768px) {
+  .container{
+    max-width: 100%;
+    padding: 0 23px;
+  }
+}
+  @media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+  .iosIcon img {
+    width: auto;
+    max-height: 47px;
+    margin: -2px 0 0 -15px;
+}
+}
+@media only screen 
+	and (min-width: 375px) 
+	and (max-width: 812px)
+	and (orientation: landscape) {
+    .comingIcon img {
+      width: 15%;
+  }
+  }
+  @media (max-width: 767px) {
+    .iosIcon img{
+      width:auto;
+      max-height: 48px;
+      margin: -2px 0 0 0px;
+    }
+    .allPaddingMobile{
+      padding: 0 20px;
+    }
+    .iosIcon{
+      margin: 33px 0 0;
+    }
+    .andriodIcon{
+      margin: 33px 0 0;
+    }
+    .copyrightSection {
+      padding: 0px 15px;
+    } 
+  }
+  @media screen and (max-width: 991px) {
+    .responsivePadding {
+      padding: 0px 15px !important; 
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .responsiveMargin {
+      margin-bottom: 12px !important;
+    }
+    .anroidImg {
+      max-width: 130px;
+    }
+    .iosImg {
+      max-width: 141px;
+    }
+    .noPaddingMobile {
+      padding: 0px;
+    }
+  }
+  @media (max-width: 320px) {
+    .comingIcon img {
+      width: 25%;
+  }
+  .comingIcon{
+    position: absolute;
+    top: 11px;
+    left: -14px;
+    z-index: 4;
+  }
+}

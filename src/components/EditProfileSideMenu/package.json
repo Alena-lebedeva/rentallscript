@@ -1,0 +1,6 @@
+{
+  "name": "EditProfileSideMenu",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./EditProfileSideMenu.js"
+}

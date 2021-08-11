@@ -1,0 +1,6 @@
+{
+  "name": "AccountSettingsSideMenu",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AccountSettingsSideMenu.js"
+}

@@ -1,0 +1,117 @@
+/** Common **/
+.textEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/** Common **/
+/** Home slider Item - Start **/
+.imgContainer {
+    position: relative;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.parent {
+    background: #484848 none repeat scroll 0 0;
+    padding-top: 66.6667%;
+    position: relative;
+    border-radius: 4px;
+}
+.children {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.imageContent {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 4px;
+}
+.infoContainer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #ffffff;
+    background: -webkit-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -moz-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+    text-shadow: 0 2px 1em #000000;
+    padding: 10px 0px;
+    border-radius: 4px;
+}
+.linkContainer, .linkContainer:hover {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.infoText {
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+}
+
+.infoTitle {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+}
+
+.space1 {
+    margin-bottom: 6px;
+}
+
+.space2 {
+    margin-bottom: 12px;
+}
+
+.textStrong {
+    font-weight: bold;
+}
+
+.reviewStar {
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+.reviewText {
+    padding: 5px;
+}
+
+.roomTitleBlock {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+.instantIcon{
+    color: #ffb400;
+    height: 16px;
+    width: 16px;
+}
+/** Home slider Item - Start **/

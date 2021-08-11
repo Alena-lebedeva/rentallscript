@@ -1,0 +1,244 @@
+@import '../../variables.css';
+@import '../../utils.css';
+
+.noBorder{
+  border: 0px none !important;
+}
+
+.rowBorder{
+  border-bottom: 1px solid #dce0e0 ;
+}
+.panelHeader{
+
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.panelBody{
+  margin: 0;
+  padding: 5px;
+  position: relative;
+}
+
+.payoutIntro{
+  font-size: 14px;
+  color: #484848;
+  line-height: 1.43;
+}
+
+.textTruncate{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sectionTitleLight{
+  color: #484848;
+  font-size: 14px;
+  }
+
+.textMuted{
+  color: #767676;
+}
+
+.labelText{
+  font-size: 14px;
+  color: #484848;
+  font-weight: normal;
+}
+
+.textSpace{
+  margin-left: 10px;
+  color: #522B48;
+}
+
+.textSpace:hover{
+  color: #522B48;
+}
+
+.radioText{
+  font-size: 14px;
+  color: #484848;
+  font-weight: normal;
+  display: inline;
+  padding-right: 5px;
+
+}
+.formControlSelect {
+  height: 40px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  width:100%;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+  line-height: 24px;
+  display: block;
+  overflow: hidden;
+  appearance: none;
+}
+
+
+.formControlInput{
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+  font-weight: normal;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+/*************************Panel Styles End******************************************/
+
+
+a{
+  color: #CEB8BD;
+  text-decoration: none;
+
+}
+
+a:hover, a:focus, a:active{
+  color: #CEB8BD;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.miniDivider{
+  width: 0;
+  border-left: 2px solid #dce0e0;
+  height: 1em;
+  margin: 0 15px;
+}
+
+.button {
+  border-color: #CEB8BD;
+  background-color: #CEB8BD;
+  color: #fff;
+  font-size: 14px;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #522B48;
+    background-color: #522B48;
+    color: #fff;
+}
+
+.btnlarge{
+    padding: 7px 21px;
+  }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #CEB8BD !important;
+  background-color: #CEB8BD !important;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #522B48;
+    color: #522B48;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #CEB8BD;
+  color: #CEB8BD;
+  background-color: #fff;
+}
+
+
+.space1{
+  margin-bottom:6px;
+}
+
+.spaceTop1{
+  margin-top:6px;
+}
+
+.space2{
+  margin-bottom:12px;
+}
+
+.space4{
+  margin-bottom: 24px;
+}
+
+
+.btnRight{
+  margin-right: 10px;
+}
+
+.noPadding {
+  padding: 0px !important;
+}
+.noMargin {
+  margin: 0px !important;
+}
+.noPaddingRight {
+  padding-right: 0px !important;
+}
+.noPaddingLeft {
+  padding-left: 0px !important;
+}
+
+.creditCardForm {
+  padding: 15px;
+  float: left;
+  position: relative;
+  display: block;
+  height: auto;
+  width: 100%;
+  border: 1px solid #dce0e0;
+}
+
+.creditCardFormSection {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  position: relative;
+  display: block;
+}
+
+@media screen and (max-width: 743px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+
+  .textMuted{
+    display: block;
+    padding-top:5px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+

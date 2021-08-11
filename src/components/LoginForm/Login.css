@@ -1,0 +1,133 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+
+/** RentAll - Begin **/
+
+.formGroup {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 46px;
+  border-radius: 2px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignCenter{
+  text-align: center;
+}
+
+.modalCaptionLink {
+    color: #008489;
+}
+
+.modalCaptionLinkLarge {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 13px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus {
+  border-color: #ff7e82 !important;
+  background-color: #ff7e82 !important;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+.iconPosition{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.backgroundOne{
+
+  background: url("./mail.png") no-repeat;
+  background-position:98% 50%;
+}
+.backgroundTwo{
+
+  background: url("./lock.png") no-repeat;
+  background-position:98% 50%;
+}

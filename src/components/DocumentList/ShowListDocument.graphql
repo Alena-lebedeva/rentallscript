@@ -1,0 +1,8 @@
+query ShowDocumentList{
+  ShowDocumentList{
+      id
+      userId,
+      fileName,
+      fileType
+  }
+}

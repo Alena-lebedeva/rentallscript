@@ -1,0 +1,92 @@
+@import '../variables.css';
+
+.root {
+  background: #ffffff;
+  color: #333;
+  padding: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  border-top: 1px solid #dce0e0;
+  max-width: var(--max-container-width);
+  font-size: 1.5em; /* ~24px */
+  display: block;
+}
+
+.feedbackContainer {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+}
+
+.feedbackRow {
+  display: block;
+}
+
+.feedbackBox {
+  padding: 40px 30px;
+  border-right: 1px solid #dce0e0;
+  display: table-cell;
+  float: none;
+}
+
+.feedbackBox:last-of-type {
+  border-right: 1px solid transparent;
+}
+
+.feedbackIcon {
+  float: left;
+  display: table;
+  font-size: 33px;
+  height: 33px;
+  width: 33px;
+  line-height: 20px;
+  margin-right: 22px;
+}
+
+.feedbackContent {
+  display: table;
+  text-align: left;
+}
+
+.landingLabel {
+  color: #484848;
+  font-size: 15px;
+  font-weight:700;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.landingCaption {
+  color: #484848;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  padding-top: 10px;
+}
+
+.modalCaptionLink {
+    color: #008489;
+}
+
+@media screen and (max-width: 767px) {
+  .feedbackBox {
+    display: block;
+    float: left;
+    border-bottom: 1px solid #dce0e0;
+  }
+
+  .feedbackBox:last-of-type {
+    border-bottom: 1px solid transparent;
+  }
+}
+
+.overviewIcon {
+  font-size: 2.4em;
+  text-align: center;
+  color: #767676;
+  fill: #767676;
+  max-height: 34px;
+  max-width: 34px;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CoverSection",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CoverSection.js"
+}

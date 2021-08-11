@@ -1,0 +1,6 @@
+ {
+    getHomeBanner {
+        id
+        name
+    }
+}

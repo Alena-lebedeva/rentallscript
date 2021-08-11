@@ -1,0 +1,8 @@
+query editUserReviews ($reviewId: Int!) {
+    editUserReviews (reviewId: $reviewId) {
+        id
+        listId
+        reviewContent
+        rating
+    }
+}

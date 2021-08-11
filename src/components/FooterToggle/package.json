@@ -1,0 +1,6 @@
+{
+    "name": "FooterToggle",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./FooterToggle.js"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Dates",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./Dates.js"
+}

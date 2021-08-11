@@ -1,0 +1,111 @@
+@import '../../variables.css';
+.root {
+  background: #fff;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 100%;
+  margin-bottom: 63px;
+}
+
+.rentAllHeader {
+  background: #fff;
+  border-width: 0px 0px 1px 0px;
+  border-color: #dce0e0;
+  border-radius: 0px;
+  height: 63px;
+  line-height: 63px;
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 0px;
+  z-index: 99;
+}
+
+.brand {
+  line-height: inherit;
+  vertical-align: middle;
+  text-decoration: none;
+  height: 63px;
+  float: none;
+  padding: 0px 19px;
+  color: #484848;
+  font-size: 24px;
+}
+
+.brand:hover, .brand:focus {
+  text-decoration: none;
+}
+
+.brandImg {
+  display: table-cell;
+  padding-left: 12px;
+  padding-right: 12px;
+  backface-visibility: hidden;
+}
+
+.brandImgToggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+a:hover, a:focus, a:visited, a:active {
+  text-decoration: none !important;
+}
+
+.navBarToggle {
+  color: #484848;
+  float: none;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  list-style: none;
+  vertical-align: middle;
+  border: 0px;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px 19px 0px 0px;
+}
+
+.exitToggle {
+  float: right !important;
+  font-size: 19px;
+  color: #008489;
+}
+
+.exitText {
+  color: #008489;
+}
+
+.brandBorder {
+  border-right: 1px solid #dce0e0;
+}
+
+.navBarToggle:hover, .navBarToggle:focus, .navBarToggle:hover:focus {
+  background: none;
+}
+
+@media screen and (max-width: 640px) {
+  .rentAllHeader {
+    height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .breakPoint {
+    display: none !important;
+  }
+}
+
+.navBarToggleList {
+  float: left;
+  padding: 0px;
+  max-height: 63px;
+}
+
+.listBrand {
+  padding: 0px 12px;
+  vertical-align: top;
+}

@@ -1,0 +1,91 @@
+@import '../../components/variables.css';
+
+/** RentAll - Begin **/
+
+.formGroup {
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.facebook {
+  border-color: #3b5998;
+  background: #3b5998;
+  border-radius: 4px;
+  text-decoration: none;
+  composes: button;
+}
+
+.facebook:hover, .facebook:focus  {
+  background: #2d4373;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.google {
+  border-color: #555;
+  background: transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  composes: button;
+  color: #000;
+}
+
+.google:hover, .google:focus {
+  background: transparent;
+  color: #FFFFFF;
+  text-decoration: none;
+  color: #000;
+}
+
+.icon {
+  display: inline-block;
+  margin: 1px 0px 0px 0px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  float: left;
+  fill: currentColor;
+}
+/* .googleIcon{
+  width:20px;
+  height:20px;
+  background: url("./googleIcon.png") no-repeat;
+  background-position: 50% 50%;
+  position: absolute;
+} */
+.googleIcon{
+  display: inline-block;
+  margin: 1px 0px 0px 0px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  float: left;
+  fill: currentColor;
+}

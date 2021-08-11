@@ -1,0 +1,125 @@
+@import '../common.css';
+.pageContent {
+  
+}
+.reviewContainer{
+  position: relative;
+}
+
+.alignMiddle{
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.mediaContainer {
+  display: inline-block;
+  position: relative;
+}
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.avatarDisplay{
+  display: table-cell;
+}
+
+.display{
+  display: inline-block;
+}
+
+.infoAlign{
+  margin-left: 16px;
+}
+
+.commentSection{
+  margin: 0px;
+  word-wrap: break-word;
+  font-size: 16px;
+
+}
+
+.textBold{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.starReview{
+ display: inline;
+ position: relative;
+ float: left;
+}
+
+.textLeft{
+  margin-left: 5px;
+}
+
+.horizontalLineThrough:last-child{
+  border:0px;
+}
+
+.btn {
+    padding: 7px 21px;
+    border-color: #c4c4c4;
+    background: white;
+    color: #484848;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0px;
+    cursor: pointer;
+} 
+
+.btnPrimary {
+   border-color: #ff5a5f;
+   background-color: #ff5a5f;
+   color: #fff;
+   font-family: inherit;
+}
+
+.btnlarge {
+   padding: 9px 27px;
+ }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+   border-color: #ff5a5f;
+   color: #ff5a5f;
+   background-color: #fff;
+  
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnRadius{
+  border-radius: 0px;
+}
+
+.linkBtn{
+  border-radius: 4px;
+  padding: 9px 21px;
+}
+
+a:hover, a:focus, a:active{
+  text-decoration: none;
+}
+
+.noBackground {
+  background: transparent !important;
+}
+

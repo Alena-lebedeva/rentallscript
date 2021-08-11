@@ -1,0 +1,53 @@
+query getReceipt ($reservationId: Int!){
+  getItinerary(reservationId: $reservationId){
+    id
+    listId
+    hostId
+    guestId
+    checkIn
+    checkOut
+    basePrice
+    cleaningPrice
+    total
+    currency
+    confirmationCode
+    guestServiceFee
+    discount
+    discountType
+    createdAt
+    updatedAt
+    hostServiceFee
+    listData {
+      id
+      title
+      street
+      city
+      state
+      country
+      zipcode
+      listingData {
+        checkInStart
+        checkInEnd
+      }
+      settingsData {
+        id
+        listsettings {
+          id
+          itemName
+        }
+      }
+    }
+    hostData {
+      displayName
+    }
+    guestData {
+      displayName
+    }
+    bookingSpecialPricing {
+      id
+      reservationId
+      blockedDates
+      isSpecialPrice
+    }
+  }
+}

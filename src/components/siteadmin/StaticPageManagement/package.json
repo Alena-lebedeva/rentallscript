@@ -1,0 +1,6 @@
+{
+    "name": "StaticPageManagement",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./StaticPageManagement.js"
+}

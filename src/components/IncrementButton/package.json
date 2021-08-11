@@ -1,0 +1,6 @@
+{
+  "name": "IncrementButton",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./IncrementButton.js"
+}

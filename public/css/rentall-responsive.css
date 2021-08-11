@@ -1,0 +1,510 @@
+
+/* start */
+@media only screen and (min-width: 2000px) and (max-width: 2058px) {
+	.homeBannerSlider .slick-slide,
+	.homeBannerSlider .homePosition,
+	.homeBannerSlider .homeCarsoual {
+		height: 60vh !important;
+	}
+}
+/* End */
+/* start */
+@media only screen and (min-width: 1600px) and (max-width: 2048px) {
+	.homeBannerSlider .slick-slide,
+	.homeBannerSlider .homePosition,
+	.homeBannerSlider .homeCarsoual,
+	.homeBannerSlider .bgHeight {
+		height: 65vh !important;
+	}
+}
+/* End */
+/* start */
+@media only screen and (min-width: 1560px) and (max-width: 1599px) {
+	.homeBannerSlider .slick-slide,
+	.homeBannerSlider .homePosition,
+	.homeBannerSlider .homeCarsoual {
+		height: 90vh !important;
+	}
+}
+/* End */
+/* start */
+@media (max-width:1199px) and (min-width:1024px) {
+	.homeBannerSlider .slick-slide,
+	.homeBannerSlider .homePosition,
+	.homeBannerSlider .homeCarsoual {
+		height: 93vh !important;
+	}
+}
+/* End */
+/* start */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	.homeBannerSlider .slick-slide,
+	.homeBannerSlider .homePosition,
+	.homeBannerSlider .homeCarsoual {
+		height: 80vh !important;
+	}
+}
+/* End */
+/* start */
+
+@media screen and (max-width: 1200px) {
+	.rentAllHeader.navbar-default .navbar-toggle:focus,
+	.rentAllHeader.navbar-default .navbar-toggle:hover {
+		background: #FFF;
+	}
+	.rentAllHeader.navbar-default .navbar-nav {
+		border-bottom: 1px solid #e4e4e4;
+		margin-bottom: 0px;
+	}
+	.rentAllHeader.navbar-default .navbar-nav>li>a,
+	.rentAllHeader.navbar-default .navbar-nav>li>form>button {
+		font-size: 15px;
+		border-top: 1px solid #dce0e0;
+		width: 100%;
+		text-align: left;
+		line-height: 60px;
+		height: 63px;
+	}
+	.rentAllHeader.navbar-default .navbar-nav>li:first-child>a,
+	.rentAllHeader.navbar-default .navbar-nav>li:first-child>form>button {
+		border-top: 0px;
+	}
+	.ListHeader.navbar-default .navbar-toggle:focus,
+	.ListHeader.navbar-default .navbar-toggle:hover {
+		background: #FFF;
+	}
+	.location .navbar-form {
+		border-top: 1px solid #e7e7e7;
+		border-bottom: 1px solid #e7e7e7;
+    }
+    .navbar-header {
+		float: none;
+	}
+	.navbar-left,
+	.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin-top: 0px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.collapse.in {
+		display: block !important;
+	}
+	.rentAllHeader.navbar-default .navbar-nav>li>a,
+	.rentAllHeader.navbar-default .navbar-nav>li>form>button {
+		line-height: 61px;
+		height: 63px;
+	}
+	.headerNewDesign .navbar-default .navbar-toggle {
+		color: #fff !important;
+	}
+	.headerNewDesign .navbar-default .navbar-nav {
+		background: #fff;
+		overflow: hidden;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a::after {
+		border-radius: 0;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>form>button {
+		color: #555;
+		height: 62px !important;
+	}
+}
+/* End */
+
+/* start */
+@media (max-width:1200px) and (min-width:768px) {
+	.headerNewDesign .navbar-default .navbar-toggle {
+		color: #fff !important;
+	}
+	.headerNewDesign .navbar-default .navbar-nav {
+		background: #fff;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>form>button {
+		color: #555;
+		height: 62px !important;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a::after {
+		border-radius: 0;
+	}
+	.headerNewDesign .navbar-default .navbar-collapse,
+	.headerNewDesign .navbar-default .navbar-form {
+		width: 100%;
+		position: absolute;
+		top: 75px;
+		padding: 0;
+		left: 0;
+		right: 0;
+		
+	}
+	.homeSliderMobile .slick-slide.slick-active .sliderBg {
+		height: 100vh !important;
+	}
+	.sliderBg {
+		height: 80vh !important;
+		animation: inherit !important;
+	}
+	.homeBannerSlider .slick-slide,
+	.homeBannerSlider .homePosition,
+	.homeBannerSlider .homeCarsoual {
+		height: 80vh !important;
+	}
+}
+/* End */
+/* start */
+@media screen and (max-width: 1024px) {
+	.viewListingDate .DateInput {
+		max-width: 45%;
+		width: 100%;
+		padding: 4px 5px;
+		font-size: 14px;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a:focus,
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a:hover {
+		color: #484848 !important;
+	}
+}
+/* End */
+/* start */
+@media (min-width:768px) and (max-width:991px) {
+	.BecomeCalendar .DayPicker-Day {
+		height: 50px;
+		padding: 10px;
+		font-size: 14px;
+	}
+	.DayPicker-Day .priceAlignment {
+		bottom: 0px;
+		font-size: 12px;
+	}
+	.BecomeCalendar .DayPicker-WeekdaysRow .DayPicker-Weekday {
+		height: 50px;
+	}
+	.homeBannerSlider .slick-slide,
+	.homeBannerSlider .homePosition,
+	.homeBannerSlider .homeCarsoual,
+	.homeBannerSlider .bgHeight {
+		height: 65vh !important;
+	}
+	.homeSliderMobile .slick-slide.slick-active .sliderBg {
+		height: 70vh !important;
+	}
+}
+/* End */
+/* start */
+@media (max-width:768px) {
+	.homeSlider .slick-slide.slick-active .sliderBg {
+		height: 100vh !important;
+	}
+	.sliderBg {
+		height: 100vh !important;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+/* End */
+/* start */
+@media screen and (max-width: 935px) {
+	.homeDate .DateInput {
+		width: 100px;
+	}
+}
+/* End */
+/* start */
+@media (max-width:1023px) and (min-width:768px) {
+	.hiddenFooterMobile {
+		display: none;
+	}
+}
+/* End */
+/* start */
+@media (min-height:800px) {
+	.homeBannerSlider .slick-slide,
+	.homeBannerSlider .homePosition,
+	.homeBannerSlider .homeCarsoual,
+	.homeBannerSlider .bgHeight {
+		height: 65vh !important;
+	}
+}
+/* End */
+/* start */
+@media(min-height:1200px) {
+	.homeBannerSlider .slick-slide.slick-active .sliderBg {
+		height: 100vh !important;
+	}
+}
+/* End */
+/* start */
+@media(max-width:767px) {
+	.BecomeCalendar .DayPicker-NavBar {
+		width: 100%;
+		margin: 0;
+		top: 0;
+		right: 0;
+		position: relative;
+	}
+	.BecomeCalendar .DayPicker-Caption {
+		width: 100%;
+		right: 0;
+		top: -50px;
+		font-size: 14px;
+	}
+	@-moz-document url-prefix() {
+		.BecomeCalendar .DayPicker-Caption div {
+			left: 50%;
+			top: -25px;
+		}
+	}
+	.BecomeCalendar .DayPicker-Footer {
+		top: 60px;
+		width: 100%;
+	}
+	.BecomeCalendar .DayPicker-TodayButton {
+		width: 100%;
+		font-size: 14px;
+	}
+	.BecomeCalendar .DayPicker-WeekdaysRow .DayPicker-Weekday {
+		height: 36px;
+	}
+	.DayPicker-Day .priceAlignment {
+		bottom: -1px;
+	}
+	.faq-Collaps .Collapsible .is-closed:before {
+		margin-left: -20px;
+	}
+	.faq-Collaps .Collapsible .is-open:before {
+		margin-left: -20px;
+	}
+	.listHeaderLogo img {
+		max-width: 100px;
+		height: auto;
+	}
+	.BookingModalNew .modal-content {
+		border-radius: 0 !important;
+		border: 1px solid #999 !important;
+	}
+}
+/* End */
+/* start */
+@media screen and (max-width: 640px) {
+	.viewListingDate .DateInput {
+		max-width: 115px;
+		width: 100%;
+		padding: 4px 10px;
+	}
+	.searchDate .DateRangePickerInput {
+		margin-bottom: 12px;
+	}
+	.homeDate .DateInput {
+		width: auto;
+	}
+	.homeSliderMobile {
+		display: block;
+	}
+	.homeSlider {
+		display: none;
+	}
+	.sliderBg {
+		height: 100%;
+		background-size: cover;
+	}
+	.homeSliderMobile .slick-track {
+		width: 100% !important;
+	}
+	.homeSliderMobile .slick-initialized .slick-slide {
+		width: 100% !important;
+	}
+	.headerNewDesign .navbar-default .navbar-toggle {
+		color: #fff !important;
+	}
+	.headerNewDesign .navbar-default .navbar-nav {
+		background: #fff;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>form>button {
+		color: #555;
+		height: 62px !important;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a::after {
+		border-radius: 0;
+	}
+	.sliderBg::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(6, 15, 19, 0.27);
+		height: 100vh;
+	}
+	.homeLocationSearchForm .geosuggest__input {
+		padding: 8px 55px 8px 0!important;
+		position: relative;
+		z-index: 1;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a:focus,
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a:hover {
+		color: #484848;
+	}
+	.vidFormsearch .DateRangePickerInput {
+		width: 45% !important;
+	}
+	.videoDesignSlider .sliderBg {
+		height: 100% !important;
+		animation: inherit !important;
+	}
+	.ContactHost .modal-dialog {
+		margin: 0px;
+	}
+	.headerNewDesign .navbar-default .navbar-toggle {
+		color: #fff !important;
+	}
+	.headerNewDesign .navbar-default .navbar-nav {
+		background: #fff;
+		overflow: hidden;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>form>button {
+		color: #555;
+		height: 62px !important;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a::after {
+		border-radius: 0;
+	}
+	.signupModal .modal-content {
+		border-radius: 0px;
+	}
+	.loginModal .modal-content {
+		border-radius: 0px;
+	}
+	.BookingModal .modal-content {
+		border-radius: 0px;
+		overflow-y: auto !important;
+		top: 0px !important;
+		bottom: 0px !important;
+		width: 100% !important;
+		position: absolute !important;
+	}
+	.searchPage .slick-arrow {
+		opacity: 0;
+	}
+	.searchPage .slick-slider:hover .slick-arrow {
+		opacity: 1;
+	}
+}
+/* End */
+/* start */
+@media screen and (max-width: 370px) {
+	.homeLocationSearchForm .geosuggest__suggests {
+		left: -38px !important;
+		right: -5px !important;
+		width: calc(100% + 50px);
+	}
+}
+/* End */
+/* start */
+@media screen and (max-width: 480px) {
+	.viewListingDate .DateInput {
+		max-width: 95px;
+		width: 100%;
+		padding: 4px 5px;
+		font-size: 14px;
+	}
+	.ContactHost .DateInput {
+		width: 40%;
+	}
+
+	.homeDate .DateInput {
+		width: 115px;
+		padding: 4px 7px !important;
+	}
+	.homeDate .DateRangePickerInput {
+		width: 115px;
+	}
+}
+/* End */
+/* start */
+@media only screen and (min-width: 375px) and (max-width: 640px) and (orientation: landscape) {
+	.homeSliderMobile .slick-slide {
+		min-height: 560px;
+	}
+	.sliderBg {
+		min-height: 560px !important;
+	}
+}
+/* End */
+/* start */
+@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+	.homeSliderMobile .slick-slide {
+		min-height: 630px;
+	}
+	.sliderBg {
+		min-height: 630px !important;
+	}
+	.headerNewDesign .navbar-default .navbar-toggle {
+		color: #fff !important;
+	}
+	.headerNewDesign .navbar-default .navbar-nav {
+		background: #fff;
+		overflow: hidden;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>a::after {
+		border-radius: 0;
+	}
+	.headerNewDesign .navbar-default .navbar-nav>li>a,
+	.headerNewDesign .rentAllHeader.navbar-default .navbar-nav>li>form>button {
+		color: #555;
+		height: 62px !important;
+	}
+}
+/* End */
+/* start */
+@media(max-width:360px) {
+	button.DayPickerNavigation_button.DayPickerNavigation_button_1.DayPickerNavigation_button__default.DayPickerNavigation_button__default_2.DayPickerNavigation_button__vertical.DayPickerNavigation_button__vertical_3.DayPickerNavigation_button__verticalDefault.DayPickerNavigation_button__verticalDefault_4.DayPickerNavigation_prevButton__verticalDefault.DayPickerNavigation_prevButton__verticalDefault_5 {
+		height: 75% !important;
+	}
+	button.DayPickerNavigation_button.DayPickerNavigation_button_1.DayPickerNavigation_button__default.DayPickerNavigation_button__default_2.DayPickerNavigation_button__vertical.DayPickerNavigation_button__vertical_3.DayPickerNavigation_button__verticalDefault.DayPickerNavigation_button__verticalDefault_4.DayPickerNavigation_nextButton__verticalDefault.DayPickerNavigation_nextButton__verticalDefault_5 {
+		height: 75% !important;
+	}
+	svg.DayPickerNavigation_svg__vertical.DayPickerNavigation_svg__vertical_1 {
+		height: 25px !important;
+		width: 25px !important;
+	}
+
+}
+/* End */
+/* start */
+@media screen and (max-width: 321px) {
+	.gm-style-iw {
+		right: -20px !important;
+	}
+}/* End */

@@ -1,0 +1,209 @@
+.topImageBanner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  max-height: 600px;
+}
+
+.TopBannerHeader {
+  color: #fff;
+  position: relative;
+  padding-bottom: 10px;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.middleBannerHeader {
+  color: #fff;
+  position: relative;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  min-height: 600px;
+}
+
+.imageBanner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  max-height: 350px;
+}
+
+.landingContainer {
+  max-width: 1080px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.imgBlock {
+  height: auto;
+  width: 100%;
+}
+
+.bannerHeader {
+  color: #fff;
+  position: relative;
+  padding-bottom: 10px;
+  min-height: 350px;
+}
+
+.middleBannerText {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .08);
+  margin: 0 auto;
+  color: #fff;
+  width: 80%
+}
+
+.bannerTitle {
+  font-size: 45px;
+  letter-spacing: -0.8px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.bannerSubTitle {
+  font-size: 24px;
+  letter-spacing: -0.8px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.bannerDescription {
+  font-size: 22px;
+  letter-spacing: -0.8px;
+  color: #ffffff;
+}
+
+.bannerTestimonial {
+  font-size: 20px;
+  letter-spacing: -0.8px;
+  color: #ffffff;
+  font-style: italic
+}
+
+.button {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #484848;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.3333333;
+  cursor: pointer;
+  border-width: 2px !important;
+}
+
+.button:hover, .button:focus, .button:active, .button:active:hover, .button:active:focus {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #484848;
+}
+
+.btnPrimaryBorder {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  border-width: 2px !important;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active, .btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.linkButton {
+  text-decoration: none;
+  padding: 6px 12px;
+}
+
+.linkButton:hover, .linkButton:focus, .linkButton:active, .linkButton:active:hover, .linkButton:active:focus {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.buttonWidth {
+  max-width: 500px;
+}
+
+
+.noPadding {
+  padding: 0px;
+}
+
+@media screen and (max-width: 640px) {
+  .smSpace {
+    margin-bottom: 12px;
+  }
+  .smPadding {
+    padding: 0px;
+  }
+
+  .topImageBanner {
+    max-height: 400px;
+  }
+  .TopBannerHeader {
+    min-height: 400px;
+  }
+  .bannerDescription {
+    font-size: 24px;
+  }
+  .bannerSubTitle {
+    font-size: 18px;
+  }
+
+}
+
+.displayFlex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btnRight {
+  margin-left: 20px;
+}
+
+@media(max-width:500px) {
+  .displayFlex {
+    flex-direction: column;
+  }
+  .btnRight {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+
+.responsiveMargin {
+  margin-left: 10%;
+}
+
+@media(max-width:991px) {
+  .TopBannerHeader {
+    justify-content: center;
+  }
+  .responsiveMargin {
+    margin-left: 0;
+  }
+}

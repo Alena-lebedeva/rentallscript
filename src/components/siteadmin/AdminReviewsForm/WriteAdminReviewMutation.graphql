@@ -1,0 +1,15 @@
+mutation writeAdminReview(
+    $id: Int,
+    $listId: Int!,
+    $reviewContent: String!,
+    $rating: Float!
+) {
+    writeAdminReview(
+        id: $id,
+        listId: $listId,
+        reviewContent: $reviewContent,
+        rating: $rating
+    ) {
+        status
+    }
+}

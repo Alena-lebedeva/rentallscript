@@ -1,0 +1,6 @@
+{
+    "name": "CheckboxListItems",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./CheckboxListItems.js"
+}

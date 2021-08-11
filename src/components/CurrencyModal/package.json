@@ -1,0 +1,6 @@
+{
+  "name": "CurrencyModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CurrencyModal.js"
+}

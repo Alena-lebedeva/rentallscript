@@ -1,0 +1,193 @@
+@import '../../components/variables.css';
+
+/*************************Sidenavigation Styles start******************************************/
+
+.listContainer {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sideNavitem{
+  display: block;
+  padding: 6px 0;
+  font-size: 16px;
+  color: #767676;
+  text-decoration: none;
+}
+
+.sideNavitem:hover{
+  text-decoration: none;
+  color: #484848;
+}
+
+.sideNavitem:active{
+  text-decoration: none;
+  color: #484848;
+  font-weight: bold;
+}
+.sideNavitem:active{
+  text-decoration: none;
+  color: #484848;
+  font-weight: bold;
+}
+
+/*************************Sidenavigation Styles end******************************************/
+
+.panelHeader{
+
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce0e0;
+
+}
+
+a{
+  color: #008489;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #008489;
+  cursor: pointer;
+}
+
+.spaceTop1{
+  margin-top: 6px;
+}
+
+.space1{
+  margin-bottom: 6px;
+}
+
+.space2{
+  margin-bottom: 12px;
+}
+
+.space4{
+  margin-bottom: 24px;
+}
+
+.noPadding{
+  padding: 0;
+}
+
+.noBorder{
+  border: 0px none !important;
+}
+
+
+.listLayout{
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.currencyColor{
+
+  color: #3fb34f;
+}
+
+.labelText{
+  font-size: 14px;
+  color: #484848;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+.formControlSelect {
+  border-radius: 2px;
+  font-size: 14px;
+  width:100%;
+  padding-right: 2em;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+  display: block;
+  overflow: hidden;
+  appearance: none;
+  height: 40px;
+  background-position: 99% 7px;
+}
+
+.formWidth{
+  min-width: 100px;
+  max-width: 200px;
+}
+
+.select{
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  margin-right: 4px;
+}
+
+.pagintaion{
+  text-align:center;
+}
+
+.labelText{
+  font-size: 14px;
+  color: #484848;
+  font-weight: normal;
+}
+
+.rowBorder{
+  border-bottom: 1px solid #dce0e0 ;
+}
+
+.tabItem{
+  display: block;
+  padding: 14px 15px;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  color: #767676;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+}
+
+.tabItem:hover{
+  text-decoration: none;
+  color: #484848;
+}
+
+.active .tabItem {
+  color: #484848;
+  border-color: #aaa;
+  text-decoration: none;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.csvExport{
+  display: inline-block;
+  float: right;
+}
+
+@media screen and (max-width:640px){
+  .csvExport{
+    display: block;
+    float: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

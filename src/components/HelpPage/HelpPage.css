@@ -1,0 +1,340 @@
+@import '../../components/variables.css';
+
+/** RentAll - Begin **/
+
+.root{
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-top: 56px;
+}
+
+.headerBottom{
+  margin-bottom: 56px;
+}
+
+.headerText{
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.8px;
+  color: #484848;
+  font-weight: 700;
+}
+
+.block{
+  min-height: 441px;
+  margin-bottom: 72px;
+}
+
+.numberStyle{
+    font-weight: 700;
+    color: #B4A76C;
+    letter-spacing: -1.22px;
+    font-size: 108px;
+    line-height: 90px;
+    margin-top: 40px;
+    padding: 0 6px 0 0;
+    float: left;
+}
+
+.textBlock{
+    top: 0px;
+    margin-bottom: 72px;
+    max-width: 417px;
+    padding-top: 40px;
+    display: inline-block;
+    position: relative;
+    margin-right: 40px;
+    float: left;
+    padding-left: 12px;
+}
+
+.titleText{
+  font-weight: 700;
+    word-wrap: break-word;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #484848;
+}
+
+.subText{
+    word-wrap: break-word;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: undefined;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #484848;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.imgBlock{
+      margin-top: 0px;
+    width: 417px;
+    height: 417px;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px #d8d8d8;
+}
+
+.bannerImage{
+      width: 417px;
+    height: 417px;
+}
+
+.leftImage{
+    float: left;
+    margin-right: 40px;
+    
+}
+.space2{
+  margin-bottom: 12px;
+}
+
+.space3{
+  margin-bottom: 18px;
+}
+
+.space6{
+  margin-bottom: 48px;
+}
+
+.spaceTop3{
+  margin-top: 18px;
+}
+
+.noPadding{
+  padding: 0px;
+}
+
+
+.modalCaptionLink {
+    color: #008489;
+    font-size: 18px;
+}
+
+.modalCaptionLinkLarge {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: none;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+  text-decoration: none;
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.buttonWidth{
+  max-width: 500px;
+}
+
+.btnRight{
+  padding-left: 78px;
+}
+
+@media (max-width:1023px) and (min-width:768px) {
+  .textBlock{
+   
+    width: 340px;
+    height: auto;
+   
+}
+.bannerImage {
+  width: 100%;
+  height: auto;
+}
+.imgBlock{
+  margin-top: 50px;
+  width: 290px;
+  height: auto;
+  display: inline-block;
+ 
+}
+  }
+@media screen and (max-width:640px){
+
+
+ .headerBottom{
+  margin-bottom: 0px;
+}
+
+.numberStyle{
+  margin-top: 0px;
+}
+
+.titleText{
+  padding-top: 20px;
+  padding-left: 11px;
+}
+
+.titleTextChild{
+  padding-left: 16px;
+}
+
+.textBlock{
+    display: inline-block;margin-bottom: 20px;
+    position: relative;
+    max-width: 100%;
+    top: -52px;
+    margin-left: 8px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+.titleText{
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.6px;
+}
+
+.numberStyle{
+  font-weight: 700;
+  color: #B4A76C;
+  letter-spacing: -1.22px;
+  font-size: 30px;
+  padding: 0 6px 0 0;
+  line-height: 36px;
+}
+
+.headerText{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.6px;
+}
+
+.secondBlock{
+  display:none;
+}
+
+.smTop{
+  margin-top: 24px;
+}
+.smBottom{
+  margin-bottom: 0px;
+}
+
+.imgBlock{
+  height: auto;
+  width: 100%;
+}
+
+.bannerImage{
+  height: auto;
+  width: 100%;
+}
+
+.btnRight{
+  padding-left: 0px;
+}
+
+.smPadding{
+  padding: 0px;
+}
+.leftImage{
+    
+    margin-bottom:24px;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.textBlock{
+  max-width: 100%;
+}
+
+ .headerBottom{
+  margin-bottom: 0px;
+}
+
+.imgBlock{
+  height: auto;
+  width: 100%;
+}
+
+.bannerImage{
+  height: auto;
+  width: 100%;
+}
+
+.block{
+  min-height: 350px;
+  margin-bottom: 0px;
+}
+
+.secondBlock{
+  display:none;
+}
+
+.smSpace{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.buttonWidth{
+  max-width: 100%;
+}
+
+}

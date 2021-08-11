@@ -1,0 +1,6 @@
+{
+  "name": "HomeItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HomeItem.js"
+}

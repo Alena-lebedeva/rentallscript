@@ -1,0 +1,246 @@
+@import '../../components/variables.css';
+
+.Container{
+  min-height: 700px;
+  position: relative;
+}
+
+.containerResponsive{
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.landingContainer{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.noBorder {
+  border: 0px none !important;
+}
+
+.noPadding{
+  padding: 0px !important;
+}
+
+a, a:hover{
+  color: #ff5a5f;
+}
+
+.textBold{
+  font-weight: bold;
+  color: #484848;
+}
+
+.titleText {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0px;
+  margin-bottom: 6px;
+  color: #484848;
+}
+
+.titleText:hover, .titleText:active, .titleText.focus{
+  color: #484848;
+  text-decoration: none;
+}
+
+.textMuted, .textMuted:hover, .textMuted:focus, .textMuted:hover:focus {
+  color: #767676;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.cardPanel{
+  background-color: #fff;
+  border:0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.rowTable{
+  display: table;
+  table-layout: fixed;
+  width: calc(100% + 25px);
+}
+
+.dateRange{
+  position: relative;
+}
+
+.miniDivider{
+  width: 0;
+  border-left: 1px solid #dce0e0;
+  height: 1em;
+  margin: 0 15px;
+}
+.textEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/** Common **/
+
+/** Home slider Item - Start **/
+.imgContainer {
+    position: relative;
+    width: 100%;
+}
+.parent {
+    background: #d8d8d8 none repeat scroll 0 0;
+    padding-top: 56.6667%;
+    position: relative;
+}
+.children {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.imageContent {
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.listPhotoCover {
+  backface-visibility: hidden;
+  position: relative;
+  vertical-align: bottom;
+  overflow: hidden;
+  background-color: #cacccd;
+}
+
+.listPhotoMedia {
+  display: block;
+}
+
+.imgResponsive{
+  height: 100%;
+  width: auto;
+}
+
+.imgSize{
+  height: 250px;
+  width: 450px;
+}
+
+.profileAvatarSection {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.profileAvatar {
+  height: 75px;
+  width: 75px;
+}
+
+.starReview{
+  display: inline;
+  position: relative;
+ float: left;
+}
+
+.showSm{
+  display: none;
+}
+
+.showLg{
+  display: block;
+}
+.textWidth{
+  word-break: break-word;
+}
+.tableWidth {
+  width: 36%;
+}
+
+@media screen and (max-width:768px){
+  .textCenter{
+    text-align: center;
+  }
+
+  .showSm{
+    display: block;
+  }
+
+  .hideSm{
+    display: none;
+  }
+
+  .showLg{
+    display: none;
+  }
+}
+
+.space1 {
+  margin-bottom: 6px;
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.space4 {
+  margin-bottom: 24px;
+}
+
+.space5 {
+  margin-bottom: 48px;
+}
+
+.spaceTop1 {
+  margin-top: 6px;
+}
+
+.spaceTop2 {
+  margin-top: 12px;
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.spaceTop5 {
+  margin-top: 48px;
+}
+
+@media screen and (max-width: 991px) {
+  .tableWidth {
+    width: 50%;
+  }
+}

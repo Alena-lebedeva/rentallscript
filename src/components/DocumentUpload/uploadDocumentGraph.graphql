@@ -1,0 +1,11 @@
+mutation uploadDocument($fileName: String,$fileType: String,){
+    uploadDocument(
+      fileName: $fileName,
+      fileType: $fileType
+    ) 
+    {
+        fileName
+        fileType
+        status       
+    }
+}

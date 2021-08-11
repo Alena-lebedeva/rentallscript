@@ -1,0 +1,6 @@
+{
+  "name": "ActionBlock",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ActionBlock.js"
+}

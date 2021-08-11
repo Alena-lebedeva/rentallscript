@@ -1,0 +1,10 @@
+{
+    getCurrencies {
+        id
+        symbol
+        isEnable
+        isPayment
+        isBaseCurrency
+        status
+    }
+}

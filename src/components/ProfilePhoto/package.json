@@ -1,0 +1,6 @@
+{
+  "name": "ProfilePhoto",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ProfilePhoto.js"
+}

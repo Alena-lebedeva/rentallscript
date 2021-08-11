@@ -1,0 +1,57 @@
+query getTransactionHistory ($mode: String, $payoutId: Int, $listId: Int, $currentPage: Int){
+  getTransactionHistory(mode: $mode, payoutId: $payoutId, listId: $listId, currentPage: $currentPage){
+    reservationData {
+      id
+      listId
+      hostId
+      checkIn
+      checkOut
+      confirmationCode
+      guestServiceFee
+      hostServiceFee
+      reservationState
+      total
+      currency
+      payoutId
+      createdAt
+      cancellationDetails {
+        refundToGuest
+        payoutToHost
+        cancelledBy
+        cancellationPolicy      
+        reservationId
+      }
+      listData {
+        id
+        title
+        street
+        city
+        state
+        country
+      }
+      hostTransaction {
+        id
+        payoutId
+        payoutEmail
+        amount
+        currency
+        createdAt
+      }
+      hostPayout {
+        id
+        payEmail
+      }
+      hostData {
+        profileId
+        firstName
+        picture
+      }
+      guestData {
+        profileId
+        firstName
+        picture
+      }
+    }
+    count
+  }
+}

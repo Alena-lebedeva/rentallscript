@@ -1,0 +1,18 @@
+query {
+  getAllAdminUsers {
+    id
+    email
+    isSuperAdmin
+    roleId
+    createdAt
+    updatedAt
+    adminRole {
+      id
+      name
+      description
+      createdAt
+      updatedAt
+      privileges
+    }
+  }
+}

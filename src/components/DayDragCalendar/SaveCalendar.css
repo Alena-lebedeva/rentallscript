@@ -1,0 +1,121 @@
+@import '../ListPlaceStep1/ListPlaceStep1.css';
+@import '../../components/utils.css';
+.saveCalendarContainer {
+    padding: 20px 15px;
+    border: 1px solid #cccccc;
+    margin-top: 90px;
+}
+
+.selectedDatesBox {
+    padding: 7px 10px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(72, 72, 72);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 43px;
+}
+
+.arrowIcon {
+    vertical-align: middle;
+    fill: rgb(72, 72, 72);
+    height: 24px;
+    width: 24px;
+    margin: 0px 12px;
+}
+
+.loaderContainer {
+    display: inline;
+    padding-right: 10px;
+}
+
+.landingContentTitle {
+    margin: 0px 0px 18px 0px;
+}
+
+.floatLeftInput {
+    float: left;
+}
+
+.buttonLeft {
+    float: left;
+    margin: 0;
+}
+
+/* .buttonLeft button{
+    margin: 0 !important;
+} */
+
+.inputHeight {
+    height: 43px;
+}
+.aBlockWrap{
+    overflow: hidden;
+}
+.aBWLeft,.aBWRight{
+    width: 50%;
+    float: left;
+}
+.aBlockWrap .btnBg{
+    width:100%;
+    height: 40px;
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    border-radius: 0;
+}
+.aBlockWrap .btnBg:hover,
+.aBlockWrap .btnBg:active,
+.aBlockWrap .btnBg:focus,
+.aBlockWrap .btnBg.active
+{
+background:#ff5a5f;
+color: #fff;
+}
+.textLeft{
+    text-align: left;
+}
+.sDateWrap{
+    margin: 20px 0 10px;
+}
+.sDateWrap label{
+    margin:0;
+}
+/* .innerCPopup{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+.CalendarPopup{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 999;
+  } */
+
+.marginBottom {
+    margin-bottom: 10px;
+}
+
+@media (min-width:768px) and (max-width:991px){
+.saveCalendarContainer{
+    padding: 10px;
+}
+.sDateWrap{
+    margin: 20px 0 10px;
+}
+.sDateWrap h4{
+    font-size: 14px;
+    margin: 0;
+}
+}
+@media screen and (max-width: 767px) {
+    .innerCPopup{
+        width: 100%;
+    }
+}

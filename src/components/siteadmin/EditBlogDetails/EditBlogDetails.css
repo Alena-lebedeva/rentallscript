@@ -1,0 +1,60 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+
+.contentBox {
+  min-height:1239px !important;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+}
+.formControlInputMaxWidth {
+  max-width: 513px;
+}
+.addonStyle {
+  /* font-size: 24px; */
+  color: #484848;
+  height: 40px;
+  width: 100%;
+  max-width: 200px;
+  float: left;
+  padding-top: 12px;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  border-right: 1px solid #ccc !important;
+  margin-bottom: 6px;
+}
+.jumboInput {
+  font-size: 18px;
+  height: 65px;
+  padding: 0 20px;
+  border-color: #aaa;
+  vertical-align: middle;
+}
+
+.noPaddingLeft {
+  padding-left: 0px !important;
+}
+
+.panelHeader{
+	padding-bottom: 0px !important;
+}
+
+
+.BlogInputSection {
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+  z-index: 0 !important;
+}
+
+.noBorderRadius {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}

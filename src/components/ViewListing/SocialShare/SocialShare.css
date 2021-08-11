@@ -1,0 +1,23 @@
+@import '../../../components/variables.css';
+
+.displayIcon{
+    display: inline-block;
+    margin-right: 5px;
+}
+.textCenter{
+    text-align: center;
+}
+@media screen and (max-width: 767px){
+    .mobileBorder{
+        border: solid 1px #CCC;
+        padding: 20px;
+        margin: 40px 0 0 0;
+    }
+}
+/* @media screen and (max-width: 320px){
+    .mobileBorder{
+        border: inherit;
+        padding: 20px;
+        margin: 0px 0 0 0;
+    }
+} */

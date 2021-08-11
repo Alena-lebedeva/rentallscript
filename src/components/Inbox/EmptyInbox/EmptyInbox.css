@@ -1,0 +1,145 @@
+@import '../../components/variables.css';
+
+.progressContainerResponsive{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.h4{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.tabItem{
+  display: block;
+  padding: 14px 15px;
+  position: relative;
+  text-align: center;
+  color: #767676;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+}
+
+.tabItem:hover{
+  text-decoration: none;
+  color: #484848;
+}
+
+.active .tabItem {
+  color: #484848;
+  border-color: #008489;
+  text-decoration: none;
+}
+
+
+
+.textRight{
+  text-align: right;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.textMuted{
+  font-size: 16px;
+  color: #767676;
+}
+
+.textLead{
+  color: #484848;
+  line-height: 1.1;
+}
+
+
+.formControlSelect {
+  height: 40px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px 10px;
+  max-width: 240px;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  color: #484848;
+  display: inline-block;
+  overflow: hidden;
+  appearance: none;
+  }
+
+
+
+.noPadding {
+  padding: 0px;
+}
+.noMargin {
+  margin: 0px;
+}
+.space1 {
+  margin-bottom: 6px;
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.space4 {
+  margin-bottom: 24px;
+}
+
+.space5 {
+  margin-bottom: 48px;
+}
+
+.spaceTop1 {
+  margin-top: 6px;
+}
+
+.spaceTop2 {
+  margin-top: 12px;
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.spaceTop5 {
+  margin-top: 48px;
+}
+
+.spaceRight1 {
+  margin-right: 6px;
+}
+
+.spaceRight2 {
+  margin-right: 12px;
+}
+
+.spaceRight3 {
+  margin-right: 18px;
+}
+
+.spaceRight4 {
+  margin-right: 24px;
+}
+
+.spaceRight5 {
+  margin-right: 48px;
+}
+
+
+
+

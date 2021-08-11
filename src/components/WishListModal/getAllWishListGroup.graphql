@@ -1,0 +1,15 @@
+query ($profileId: Int!){
+    getAllWishListGroup(profileId: $profileId){
+    	wishListGroupData {
+        id
+        name
+        userId
+        isPublic
+        updatedAt
+        wishListCount
+        wishListIds
+  		}
+      count
+      status
+    }
+}

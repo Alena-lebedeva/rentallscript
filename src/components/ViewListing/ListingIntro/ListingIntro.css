@@ -1,0 +1,82 @@
+@import '../common.css';
+
+.profileAvatarSection {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.profileAvatar {
+  height: 70px;
+  width: 70px;
+}
+
+.overviewIcon {
+  width: 100%;
+  min-width: 18px;
+  height: auto;
+  text-align: center;
+  color: #767676;
+}
+
+.textMuted, .textMuted:hover, .textMuted:focus, .textMuted:hover:focus {
+  color: #767676;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.reviewStar {
+    display: inline;
+    position: relative;
+    float: left;
+}
+.introPadding{
+  padding-bottom: 15px;
+}
+
+.hostNameText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 640px){
+  .introCenter{
+    text-align: center;
+  }
+  /* .mobileBg{
+    background-color: rgba(60,63,64,.9);
+    color: #fff;
+    height: 50px;
+    padding: 9px 15px 0 12px;
+  } */
+  .bookItPanel {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profileAvatar {
+    height: 54px;
+    width: 54px;
+  } 
+  
+  .profileAvatarNew {
+    height: 100px;
+    width: 100px;
+  }
+}
+

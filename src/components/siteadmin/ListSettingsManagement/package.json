@@ -1,0 +1,6 @@
+{
+  "name": "ListSettingsManagement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ListSettingsManagement.js"
+}

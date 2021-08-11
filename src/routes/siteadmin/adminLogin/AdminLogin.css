@@ -1,0 +1,24 @@
+
+@import '../../../components/variables.css';
+
+.container {
+  margin: 5px auto;
+  padding: 0 0 40px;
+  margin-top: 0 auto;
+  max-width: var(--max-content-width);
+}
+
+.root {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url(../../../../public/adminBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: block;  
+}

@@ -1,0 +1,177 @@
+.space1 {
+    margin-bottom: 6px !important;
+}
+
+.space2 {
+    margin-bottom: 12px !important;
+}
+
+.space3 {
+    margin-bottom: 18px !important;
+}
+
+.space4 {
+    margin-bottom: 24px !important;
+}
+
+.space5 {
+    margin-bottom: 30px !important;
+}
+
+.space6 {
+    margin-bottom: 36px !important;
+}
+
+.space7 {
+    margin-bottom: 42px !important;
+}
+
+.spaceTop1 {
+    margin-top: 6px !important;
+}
+
+.spaceTop2 {
+    margin-top: 12px !important;
+}
+
+.spaceTop3 {
+    margin-top: 18px !important;
+}
+
+.spaceTop4 {
+    margin-top: 24px !important;
+}
+
+.spaceTop5 {
+    margin-top: 30px !important;
+}
+
+.spaceTop6 {
+    margin-top: 36px !important;
+}
+
+.spaceTop7 {
+    margin-top: 42px !important;
+}
+
+.noMargin {
+    margin: 0px !important;
+}
+
+.padding1 {
+    padding-bottom: 6px !important;
+}
+
+.padding2 {
+    padding-bottom: 12px !important;
+}
+
+.padding3 {
+    padding-bottom: 18px !important;
+}
+
+.padding4 {
+    padding-bottom: 24px !important;
+}
+
+.padding5 {
+    padding-bottom: 30px !important;
+}
+
+.padding6 {
+    padding-bottom: 36px !important;
+}
+
+.padding7 {
+    padding-bottom: 42px !important;
+}
+
+.paddingTop1 {
+    padding-top: 6px !important;
+}
+
+.paddingTop2 {
+    padding-top: 12px !important;
+}
+
+.paddingTop3 {
+    padding-top: 18px !important;
+}
+
+.paddingTop4 {
+    padding-top: 24px !important;
+}
+
+.paddingTop5 {
+    padding-top: 30px !important;
+}
+
+.paddingTop6 {
+    padding-top: 36px !important;
+}
+
+.paddingTop7 {
+    padding-top: 42px !important;
+}
+
+.noPadding {
+    padding: 0px !important;
+}
+
+.textBold {
+    font-weight: 500 !important;
+}
+
+.textBolder {
+    font-weight: 700 !important;
+}
+
+.textNormal {
+    font-weight: normal !important;
+}
+
+/*New Design Text Colors */
+.textDarkBlue {
+    color: rgb(20, 39, 94) !important;
+}
+
+.textLightBlue {
+    color: rgb(57, 87, 106) !important;
+}
+
+.textLightSandleGreen {
+    color: rgb(76, 86, 41) !important;
+}
+
+.textLightBrown {
+    color: rgb(115, 79, 33) !important;
+}
+
+.textMediumMaroon {
+    color: rgb(87, 37, 51) !important;
+}
+
+.textBrown {
+    color: #A02F18 !important;
+}
+
+.textMaroon {
+    color: rgb(155, 49, 67) !important;
+}
+
+.textDarkBrown {
+    color: rgb(83, 18, 16) !important;
+}
+
+.textMediumBrown {
+    color: rgb(142, 28, 10) !important;
+}
+
+.textSkyBlue {
+    color: rgb(37, 117, 141) !important;
+}
+
+.textGray {
+    color: rgb(77, 65, 51) !important;
+}
+

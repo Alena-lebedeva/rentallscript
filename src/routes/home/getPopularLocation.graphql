@@ -1,0 +1,11 @@
+query getPopularLocationAdmin {
+  getPopularLocationAdmin{
+    id
+    location
+    locationAddress
+    image
+    isEnable
+    createdAt
+    updatedAt
+  }
+}

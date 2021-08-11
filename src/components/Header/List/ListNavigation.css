@@ -1,0 +1,15 @@
+@import '../../variables.css';
+
+.root {
+  margin: 0;
+}
+
+.exitText{
+  color: #008489 !important;
+}
+
+@media screen and (max-width: 743px){
+  .hideSm{
+    display: none !important;
+  }
+}

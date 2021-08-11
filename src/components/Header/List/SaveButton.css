@@ -1,0 +1,28 @@
+.saveBtn {
+	line-height: 43px;
+}
+
+span {
+	text-decoration: none;
+}
+
+span:hover, span:active, span:focus, span:visited {
+	text-decoration: none !important;
+}
+
+.verySmallScreen {
+	display: none;
+}
+
+.nonVerySmallScreen {
+	display: block;
+}
+
+@media screen and (max-width: 360px) {
+	.verySmallScreen {
+		display: block;
+	}
+	.nonVerySmallScreen {
+		display: none;
+	}
+}

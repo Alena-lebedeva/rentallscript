@@ -1,0 +1,159 @@
+@import '../../variables.css';
+@import '../common.css';
+
+.iconContainer{
+  border-radius: 50%;
+  border: 3px solid #bbb;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+}
+
+.iconEnvelope{
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.iconSize{
+  font-size: 3.6em;
+}
+
+.iconGray{
+  color: #767676;
+  height: 80px;
+  width: 80px;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formControlInput {
+  height: 45px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+}
+
+.activationStepPanel{
+  max-width: 530px;
+  margin: 0 auto;
+  height: 100%;
+  min-height: 520px;
+  text-align: center;
+  border: none;
+}
+
+.panelBody{
+  position: relative;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+a , a:hover, a:focus, a:active{
+  color: #008489;
+  text-decoration: none;
+}
+
+.profileImage{
+  height: 130px;
+  width: 130px;
+}
+
+@media screen and (max-width:748px){
+  .profileImage{
+    height: 110px;
+    width:110px;
+  }
+
+}
+
+.mediaPhoto{
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+
+.mediaRound{
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.noPadding{
+  padding: 0px !important;
+}
+
+.button {
+  border-color: #c4c4c4;
+  background: white;
+  color: #484848;
+  margin-bottom: 0;
+  border-radius: 4px;
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  line-height: 1.43;
+  white-space: normal;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: #aaa;
+  color: #484848;
+  text-decoration: none;
+}
+
+.button:focus {
+  border-color: #aaa;
+  color: #484848;
+  text-decoration: none;
+}
+
+.btnPrimary {
+   border-color: #ff5a5f;
+   background-color: #ff5a5f;
+   color: #fff;
+}
+
+.btnlarge {
+   padding: 9px 27px;
+ }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+   border-color: #ff5a5f;
+   color: #ff5a5f;
+   background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+@media screen and (max-width:640px){
+  .button{
+    font-size: 16px;
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,33 @@
+.seeAllContainer {
+    float: right;
+    position: relative;
+}
+
+.seeAllBtn, .seeAllBtn:hover, .seeAllBtn:focus, .seeAllBtn:active:focus {
+    font-size: 14px;
+    color: #484848;
+    line-height: 24px;
+    padding: 0px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    outline: 0;
+}
+
+.seeAllBtnIcon {
+    margin-top: -4px;
+}
+
+@media screen and (max-width: 1170px) {
+    .seeAllBtn {
+        position: absolute;
+        right: 0;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .seeAllContainer {
+        display: none;
+    }
+}

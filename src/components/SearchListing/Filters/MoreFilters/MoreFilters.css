@@ -1,0 +1,61 @@
+@import '../../../../components/common.css';
+
+.filters {
+     border-bottom: 1px solid #dce0e0;
+ }
+
+ .filtersFooter {
+    width: 66%;
+    position: fixed;
+    -webkit-transform: translateZ(1px);
+    transform: translateZ(1px);
+    bottom: 0;
+    left: 0px;
+    background-color: var(--background-color);
+    padding: 10px;
+    display: block;
+    padding-right: 24px;
+ }
+
+ .filterSection {
+   overflow: auto;
+   height: 70vh;
+   padding: 20px 40px 0px 40px;
+ }
+
+ .footerSection {
+   padding: 15px 6px;
+   border-top: 1px solid #dedede;
+ }
+
+ .linkText, .linkText:hover {
+    font-size: 16px;
+    font-weight: 700;
+ }
+
+ .applyBtn, .applyBtn:hover, .applyBtn:focus, .applyBtn:active {
+   font-size: 16px;
+   font-weight: 700;
+   padding: 9px 27px !important;
+ }
+
+ @media screen and (max-width: 768px) {
+    .filtersFooter {
+        width: 100%;
+        padding-right: 0px;
+        position: fixed;
+        z-index: 5;
+    }
+ }
+ @media screen and (max-width: 767px) {
+   .applyBtn,.applyBtn:hover, .applyBtn:focus, .applyBtn:active {
+      padding: 9px 15px !important;
+    }
+    .filterSection {
+      padding: 20px 24px 0px 24px;
+    }
+    .filterSection {
+      height: 60vh;
+    }
+}
+

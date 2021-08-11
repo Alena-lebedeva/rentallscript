@@ -1,0 +1,18 @@
+query reviewsManagement($currentPage: Int, $searchList: String) {
+  reviewsManagement(currentPage: $currentPage, searchList: $searchList){
+    count
+    reviewsData{
+    id
+    listId
+    listData {
+      id
+      title
+    }
+    authorId
+    reviewContent
+    rating
+    createdAt
+    updatedAt
+    }
+  }
+}

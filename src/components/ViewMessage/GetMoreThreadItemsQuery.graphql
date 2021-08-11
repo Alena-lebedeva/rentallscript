@@ -1,0 +1,15 @@
+query getMoreThreadItems($offset: Int, $threadId: Int!){
+  getAllThreadItems(offset: $offset, threadId: $threadId) {
+    id
+    threadId
+    reservationId
+    content
+    sentBy
+    type
+    startDate
+    endDate
+    createdAt
+    status
+    isRead
+  }
+}

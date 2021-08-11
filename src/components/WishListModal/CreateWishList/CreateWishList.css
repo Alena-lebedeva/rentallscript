@@ -1,0 +1,196 @@
+@import '../../../components/variables.css';
+@import '../../../components/common.css';
+
+.root {
+  padding: 0px 15px 15px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  min-height: 50vh;
+  overflow: hidden;
+}
+
+/** RentAll - Begin **/
+
+.logInModalContainer {
+  max-width: 420px;
+}
+
+.logInModalBody {
+  padding: 0px;
+}
+
+.lineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 12px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.lineThrough::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  margin-top: -5px;
+  margin-left: -20px;
+  width: 40px;
+  height: 10px;
+  background-color: #fff;
+  content: '';
+}
+
+.lineThrough::after {
+  position: absolute;
+  top: 49%;
+  z-index: -2;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  content: '';
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+
+.noPadding {
+  padding: 0px;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.modalCaptionLink {
+    color: #008489 !important;
+    cursor: pointer;
+}
+
+.modalCaptionLinkLarge {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: underline;
+}
+
+
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 25px;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus {
+  border-color: #ff7e82 !important;
+  background-color: #ff7e82 !important;
+  color: #fff !important;
+}
+     
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus {
+  border-color: #ff7e82 !important;
+  color: #ff7e82 !important;
+  background-color: #fff !important;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 45px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+}
+
+.spaceTop3{
+  margin-top: 18px;
+}
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.marginLeft{
+  margin-left: 12px;
+}
+
+.labelText {
+  word-wrap: break-word;
+  /* color: #484848; */
+  font-weight: normal;
+  padding: 10px 0px;
+  margin: 0px;
+  line-height:24px;
+  font-size: 19px;
+}
+
+.btnText {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff !important;
+  padding: 9px 27px;
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+
+.btnSection {
+  display: block;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 640px){
+  .logInModalContainer{
+    margin: 0px auto;
+}
+}
+
+.formContainer {
+  padding: 15px 0px;
+  border-bottom: 1px solid #ccc;
+}

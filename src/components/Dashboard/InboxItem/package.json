@@ -1,0 +1,6 @@
+{
+  "name": "InboxItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./InboxItem.js"
+}

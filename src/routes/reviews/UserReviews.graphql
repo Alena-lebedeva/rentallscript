@@ -1,0 +1,51 @@
+query UserReviews($ownerType: String, $offset: Int, $loadCount: Int){
+  userReviews(ownerType: $ownerType, offset: $offset, loadCount: $loadCount){
+    id
+    reservationId
+    listId
+    authorId
+    userId
+    reviewContent
+    rating
+    parentId
+    automated
+    createdAt
+    status
+    isAdmin
+    yourReviewsCount
+    reviewsCount
+    authorData {
+      ...profile
+    }
+    userData {
+      ...profile
+    }
+    response {
+      id
+      reservationId
+      listId
+      authorId
+      userId
+      reviewContent
+      rating
+      parentId
+      automated
+      createdAt
+      status
+      isAdmin
+      authorData {
+        ...profile
+      }
+      userData {
+        ...profile
+      }
+    }
+  }
+}
+
+fragment profile on userProfile {
+  profileId
+  firstName
+  lastName
+  picture
+}

@@ -1,0 +1,164 @@
+@import '../../components/variables.css';
+
+.landingContainer {
+  max-width: 1080px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.landingTitle{
+   font-size: 44px;
+  font-weight: normal;
+}
+
+h1:first-child{
+ margin-top: 0px;
+}
+
+p{
+  font-size: 14px
+}
+
+.subText{
+  font-size: 14px;
+  color: #484848;
+}
+
+.textGray{
+  font-size: 16px;
+}
+
+.panelHeader{
+
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  padding-bottom: 120px;
+  border-bottom: 1px solid #dce0e0;
+
+}
+
+.tabItem{
+  display: block;
+  padding: 14px 15px;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  color: #767676;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+}
+
+.tabItem:hover{
+  text-decoration: none;
+  color: #484848;
+}
+
+.active .tabItem {
+  color: #484848;
+  border-color: #aaa;
+  text-decoration: none;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.lineGraph{
+  margin-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.graphContainer{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.timeLine{
+  text-align: center;
+  height: 24px;
+}
+
+.timeLinePoint{
+  position: absolute;
+  right: -30px;
+  top: 0;
+}
+
+.refund{
+  background-color: #3fb34f;
+}
+
+.semiRefund{
+  background-color: #ffb400;
+
+}
+.nonRefund{
+  background-color: #ff5a5f;
+}
+
+.toolTop{
+  position: relative;
+  opacity: 1;
+  padding: 6px 10px;
+  left: -50%;
+  top: -60px;
+  background-color: #ffffff;
+}
+
+.toolMarker{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  left: -6px;
+  background: #fff;
+}
+
+.toolLable{
+  position: relative;
+  left: -50%;
+  top: 3px;
+  text-align: center;
+}
+
+.toolText{
+  margin-top: 30px;
+}
+.FlexibleTop{
+  margin:102px 0 0;
+}
+.strictPadding{
+  padding-bottom: 25px;
+}
+@media (max-width:1023px) and (min-width:768px) {
+  .panelHeader{
+   
+    padding-bottom: 195px;
+;
+}
+}
+@media screen and (max-width:767px){
+
+.hidesm{
+    display: none;
+  }
+.panelHeader {
+    
+    padding-bottom: 0;
+    
+}
+.strictPadding {
+  padding-bottom: 0;
+}
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+

@@ -1,0 +1,50 @@
+@import '../variables.css';
+
+.root {
+  background: #ffffff;
+  color: #333;
+  padding: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: var(--max-container-width);
+}
+
+.alertContainer {
+  padding: 15px;
+  position: relative;
+  border-radius: 2px;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 18px;
+  color: #484848;
+}
+
+.alertDanger {
+  background: #ffd1c4;
+}
+
+.dangerIcon {
+  color: #e4a593;
+  position: absolute;
+  left: 18px;
+  top: 15px;
+  font-size: 20px;
+  transform: none;
+}
+
+.alertSuccess {
+  background: #bfeeb0;
+}
+
+.successIcon {
+  color: #8bd275;
+  position: absolute;
+  left: 18px;
+  top: 15px;
+  font-size: 20px;
+  transform: none;
+}
+

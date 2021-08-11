@@ -1,0 +1,6 @@
+{
+  "name": "VideoSection",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./VideoSection.js"
+}

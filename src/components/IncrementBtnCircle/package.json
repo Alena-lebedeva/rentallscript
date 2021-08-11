@@ -1,0 +1,6 @@
+{
+  "name": "IncrementBtnCircle",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./IncrementBtnCircle.js"
+}

@@ -1,0 +1,142 @@
+@import '../../../components/variables.css';
+/** RentAll - Begin **/
+
+.seperator {
+  background-color: #484848;
+  width: 64px;
+  display: block;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.boxseperator {
+  height: 2.5px;
+  border: 1px solid #484848;
+  background-color: transparent;
+}
+
+.hostingsection {
+  margin-bottom: 160px;
+}
+
+.mainhedding h1 {
+  font-size: 60px;
+  line-height: 46px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 73px;
+}
+
+p.common {
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.coveredsection {
+  margin-bottom: 74px;
+}
+
+.coveredsection p {
+  color: #484848;
+}
+
+.coveredtextarea {
+  padding-right: 96px;
+}
+
+.coveredsection a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+
+.coveredsection ul li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 3;
+  color: #484848;
+  list-style-type: none;
+  /* list-style-image: url('./symbol.png'); */
+}
+
+
+.coveredsection ul li:before {
+  content:'';
+  background-image: url('./symbol.png');
+  display: inline-block;
+  width: 24px;
+  height: 18px;
+  background-repeat: no-repeat;
+  margin-right: 12px;
+  margin-left: -40px;
+}
+
+
+
+.rightsidecontent {
+  padding-left: 8%;
+  padding-right: 0%;
+}
+
+@media screen and (max-width:991px) {
+  h4.common {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .mainhedding h1 {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 56px;
+  }
+}
+
+
+@media screen and (max-width:767px) {
+  .mainhedding h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align:left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  h4.common {
+    font-size: 26px;
+  }
+  .coveredtextarea {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .coverul {
+    padding-left: 40px;
+    margin-top: 14px;
+  }
+  .coveredsection {
+    margin-bottom: 30px;
+  }
+  
+  .coveredsection ul li {
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 10px;
+
+  }
+
+  .coveredsection ul li:before {
+
+    margin-left: -40px;
+  }
+
+  p.common {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+  }
+
+
+}
+

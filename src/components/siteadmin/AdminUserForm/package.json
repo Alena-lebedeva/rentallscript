@@ -1,0 +1,6 @@
+{
+  "name": "AdminUserForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AdminUserForm.js"
+}

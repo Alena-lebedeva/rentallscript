@@ -1,0 +1,172 @@
+/** Common - Start **/
+.btn {
+    padding: 9px 27px;
+    border-color: #c4c4c4;
+    background: white;
+    color: #484848;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.btnBlock {
+  width: 100%;
+  position: relative; 
+  white-space: normal;
+  display: block;
+}
+
+.btn:hover, .btn:focus, .btn:hover:focus {
+  background: white;
+  color: #484848;
+}
+
+.btnPrimary {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnlarge {
+     padding: 9px 27px;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82;
+    background-color: #ff7e82;
+    color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+a ,a:hover, a:active a:focus{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.noPadding {
+    padding: 0px;
+}
+/** Common - End **/
+/** News box - Start */
+.table {
+    width: 100%;
+    display: table;
+    margin-bottom: 48px;
+    padding-top: 35px;
+}
+
+.tableCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.textColumn {
+    width: 45%;
+    padding-right: 80px;
+}
+
+.imageColumn {
+    width: 55%;
+}
+
+.imgShadow{
+    width: 70%;
+    float: right;
+}
+
+.title {
+    font-weight: 700;
+    color: #484848;
+    margin: 0px;
+    word-wrap: break-word;
+    font-size: 28px;
+    line-height: 36px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.caption {
+    font-weight: 200;
+    color: #484848;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    word-wrap: break-word;
+    font-size: 19px;
+    line-height: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.mobileView {
+    display: none;        
+}
+@media (max-width:1023px) and (min-width:768px) {
+    .imgShadow {
+        width: 100%;
+        
+    }
+    .textColumn{
+   
+    padding-right: 10px;
+}
+    }
+
+@media screen and (max-width: 767px) {
+    .tableCell {
+        display: block;
+        width: 100%;
+    }
+    .desktopView {
+        display: none;
+    }
+    .mobileView {
+        display: block;
+    }
+    .textColumn {
+        padding: 24px 0px 0px;
+    }
+    .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .caption {
+    color: #484848;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.imgShadow {
+    width: 100%;
+    
+}
+}
+
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .table {
+        padding-top: 35px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+}
+/** News box - Start */

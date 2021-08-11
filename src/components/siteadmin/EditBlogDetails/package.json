@@ -1,0 +1,6 @@
+{
+    "name": "EditBlogDetails",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./EditBlogDetails.js"
+}

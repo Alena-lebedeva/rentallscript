@@ -1,0 +1,125 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../newcommonstyle.css';
+
+/* SideBar  styles Start */
+
+.sidebarWrapper {
+  z-index: 1;
+  position: absolute;
+  width: 250px;
+  overflow-y: hidden;
+  background: #ff7e82;
+  min-height: 100%;
+}
+
+.containerWrapper {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  overflow: auto;
+  height: 100%;
+  position: relative;
+}
+
+.sideBarWelcome {
+  padding: 15px 0px;
+  vertical-align: middle;
+  width: auto;
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+  border-bottom: 4px dotted #fff;
+  margin-bottom: 20px;
+}
+
+.sidebarNav {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebarNav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebarNav li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.listItem {
+  background: #767676;
+  list-style: none;
+}
+
+.navigationIcon {
+  font-size: 19px;
+  margin-left: 10px;
+  color: #fff;
+  padding-right: 5px;
+}
+
+.profileAvatarSection {
+  position: relative;
+  margin: 0 auto;
+}
+
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.button {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: normal;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.43;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button:active:focus,
+.button:focus {
+  outline: none;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.subMenu {
+  padding-left: 15px;
+}
+
+/* SideBar  styles End */
+.sidebarWrapper{
+  position: fixed!important;
+  background: #0a0a0aed;
+ background-image:url('./bg.jpg');
+  background-blend-mode: multiply;
+  background-size: cover;
+  
+}
+
+
+
+

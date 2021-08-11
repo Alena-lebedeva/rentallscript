@@ -1,0 +1,122 @@
+query getThread($threadType: String, $threadId: Int){
+  getThread(threadType: $threadType, threadId: $threadId) {
+    id
+    listId
+    guest
+    host
+    listData {
+      title
+      city
+      state
+      country
+      isPublished
+      listingData {
+        basePrice
+        cleaningPrice
+        currency
+        monthlyDiscount
+        weeklyDiscount
+      }
+    }
+    threadItemForType {
+      id
+      threadId
+      reservationId
+      content
+      sentBy
+      type
+      startDate
+      endDate
+      personCapacity
+      createdAt
+      cancelData {
+        id
+        reservationId
+        cancellationPolicy
+        guestServiceFee
+        hostServiceFee
+        refundToGuest
+        payoutToHost
+        total 
+        currency
+      }
+      reservation {
+        id
+        listId
+        hostId
+        guestId
+        checkIn
+        checkOut
+        basePrice
+        cleaningPrice
+        total
+        currency
+        guests
+        confirmationCode
+        guestServiceFee
+        discount
+        discountType
+        createdAt
+        updatedAt
+        hostServiceFee
+        bookingSpecialPricing {
+          id
+          reservationId
+          blockedDates
+          isSpecialPrice
+        }
+      }
+    }
+    threadItems {
+      id
+      threadId
+      reservationId
+      content
+      sentBy
+      type
+      startDate
+      endDate
+      createdAt
+    }
+    threadItemsCount
+    guestProfile {
+      profileId
+      displayName
+      firstName
+      picture
+      location
+      reviewsCount
+      userVerification {
+        id
+        isEmailConfirmed
+        isFacebookConnected
+        isGoogleConnected
+        isIdVerification
+      }
+    }
+    guestUserData {
+      email
+      userBanStatus
+    }
+    hostProfile {
+      profileId
+      displayName
+      firstName
+      picture
+      location
+      reviewsCount
+      userVerification {
+        id
+        isEmailConfirmed
+        isFacebookConnected
+        isGoogleConnected
+        isIdVerification
+      }
+    }
+    hostUserData {
+      email
+      userBanStatus
+    }
+    status
+  }
+}

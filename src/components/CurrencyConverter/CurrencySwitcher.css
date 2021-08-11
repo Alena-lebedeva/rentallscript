@@ -1,0 +1,30 @@
+
+@import '../variables.css';
+
+.formControlSelect {
+  height: 53px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 19px;
+  display: block;
+  overflow: hidden;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  color: #484848;
+  line-height: 24px;
+  /*Drop Down Caret Icon*/
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 6px,
+    5px 6px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  /*Drop Down Caret Icon*/
+}

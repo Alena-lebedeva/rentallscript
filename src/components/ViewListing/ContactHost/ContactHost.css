@@ -1,0 +1,241 @@
+@import '../../../components/variables.css';
+@import '../../../components/utils.css';
+
+.modalContainer{
+  background-color: rgba(0,0,0,0.75);
+  border-radius: 4px;
+}
+
+.logInModalBody {
+  padding: 0px;
+}
+
+.noPadding{
+  padding: 0px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.modalHeading{
+  color: #484848;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce0e0;
+  background-color: #edefed;
+}
+.panelHeader{
+  min-height:  55px;
+  padding-left: 76px;
+  text-transform: none;
+  padding: 15px;
+  border-radius: 0;
+  text-align: left;
+  background-color: #c2e4e7;
+  position: relative;
+}
+
+.alertIcon{
+  font-size: 30px;
+  color: #4cb0bb;
+}
+
+.hideSm{
+  display: inline-block;
+}
+
+@media screen and (max-width:768px){
+  .hideSm{
+    display: none !important;
+  }
+}
+
+.iconColor{
+  color: #4cb0bb;
+
+}
+
+.messageText{
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.root {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.modalDark{
+  background-color: #edefed;
+}
+
+.panelBody{
+  padding: 20px;
+
+}
+
+.hostModal{
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.guestModal{
+  background-color: #FFFFFF;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: 0px;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.space2{
+  margin-bottom: 12px;
+}
+
+.space3{
+  margin-bottom: 18px;
+}
+
+.spaceTop2{
+  margin-top: 12px
+}
+
+.mediaPhoto{
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+
+.mediaRound{
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.mediaBadge{
+  display: inline-block;
+  position: relative;
+}
+
+.listText{
+  font-size: 14px;
+  color: #484848;
+  line-height: 1.43;
+}
+
+.alertBlock{
+  min-height: 55px;
+  padding-left: 76px;
+  text-transform: none;
+  padding: 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.alertBlockSuccess{
+  background-color: #c2e4e7;
+}
+
+.alertBlockError{
+  background-color: #ff5a5f;
+}
+
+.listTitle{
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.formControlSelect {
+  height: 44px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  color: #484848;
+  line-height: 24px;
+  display: block;
+  overflow: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  background-position: 98% 50%;
+}
+
+.messagePanel{
+  position: relative;
+  max-width: none;
+  z-index: auto;
+  opacity: 1;
+}
+
+.textBox{
+  border-radius: 0;
+  height: 150px !important;
+  resize: none;
+  opacity: 1;
+}
+
+.lead {
+  font-size: 1.25em;
+}
+
+.btn {
+    padding: 7px 21px;
+    border-color: #c4c4c4;
+    background: white;
+    color: #484848;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+ 
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82 !important;
+  background-color: #ff7e82 !important;
+  color: #fff !important;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82 !important;
+  color: #ff7e82 !important;
+  background-color: #fff !important;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .smNomarginTop {
+    margin-top: 0px;
+  }
+}
+
+

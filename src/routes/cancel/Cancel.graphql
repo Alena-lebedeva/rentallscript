@@ -1,0 +1,88 @@
+query cancellationData($reservationId: Int!, $userType: String!){
+  cancelReservationData(reservationId: $reservationId, userType: $userType){
+    id
+    listId
+    hostId
+    guestId
+    checkIn
+    checkOut
+    guests
+    basePrice
+    cleaningPrice
+    hostServiceFee
+    guestServiceFee
+    total
+    currency
+    confirmationCode
+    reservationState
+    discount
+    cancellationPolicy
+    bookingSpecialPricing {
+      id
+      listId
+      blockedDates
+      isSpecialPrice      
+    }
+    cancellation {
+          id
+          policyName
+          priorDays
+          accommodationPriorCheckIn
+          accommodationBeforeCheckIn
+          accommodationDuringCheckIn
+          guestFeePriorCheckIn
+          guestFeeBeforeCheckIn
+          guestFeeDuringCheckIn
+          hostFeePriorCheckIn
+          hostFeeBeforeCheckIn
+          hostFeeDuringCheckIn
+          isEnable
+        }
+    listData {
+      id
+      title
+      listingData {
+        cancellation {
+          id
+          policyName
+          priorDays
+          accommodationPriorCheckIn
+          accommodationBeforeCheckIn
+          accommodationDuringCheckIn
+          guestFeePriorCheckIn
+          guestFeeBeforeCheckIn
+          guestFeeDuringCheckIn
+          hostFeePriorCheckIn
+          hostFeeBeforeCheckIn
+          hostFeeDuringCheckIn
+          isEnable
+        }
+      }
+      listPhotos{
+         id,
+         listId,
+         name,
+         type,
+      }
+    }
+    messageData {
+      id
+    }
+    hostData {
+      profileId
+      firstName
+      picture
+      userData {
+        id
+      }
+    }
+    guestData {
+      profileId
+      firstName
+      picture
+      userData {
+        id
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+
+
+.spaceLeft img{
+  width: 53%;
+  float: right;
+  height: 160px;
+}
+.spaceHeader{
+  font-size: 25px;
+  font-weight: bold;
+  color: #555;
+  width: 90%;
+}
+.spaceSmall{
+  margin: 5px 0 0 0;
+  color: #555;
+}
+
+.secFourbutt button {
+  display: inline-block;
+  padding: 10px 15px;
+  border: inherit;
+  background: #00878a;
+  border-radius: 5px;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: bold;
+  margin: 25px 0 0 0;
+  font-size: 14px;
+  outline: 0 !important;
+}
+.spaceFree{
+  padding: 50px 0;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+.spaceBg{
+  width: 50%;
+  height: 162px;
+  background-size: cover;
+  background-position: top center;
+  display: inline-block;
+  float: right;
+}

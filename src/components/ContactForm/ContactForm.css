@@ -1,0 +1,257 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+@import '../../components/common.css';
+
+/* .root {
+  padding: 32px;
+
+}
+.container {
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 500px;
+} */
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.button {
+	border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+  font-size: 16px;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82 !important;
+  background-color: #ff7e82 !important;
+  color: #fff;
+}
+
+.btnlarge {
+   padding: 9px 30px;
+}
+
+.formGroup {
+  margin-bottom: 18px;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 45px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+  font-weight: normal;
+
+}
+
+.pullCenter{
+  text-align: center;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.formControlSelect {
+  padding: 10px 32px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+  font-weight: normal;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.captionText {
+  font-size: 24px;
+  color: #767676;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.labelText{
+	font-size: 16px;
+  color: #767676;
+  margin: 6px 0px;
+  line-height: 1.43;
+  font-weight: 700;
+}
+
+.spaceTop3{
+  margin-top: 18px;
+}
+
+.textRight{
+  text-align: right;
+}
+.textAlign{
+  text-align: right;
+}
+.overFlowHidden {
+  overflow: hidden;
+}
+@media screen and (max-width: 640px){
+  .formGroup {
+    margin-bottom: 6px;
+  }
+}
+/* 
+.formContentBox {
+  max-width: 420px;
+  width: 100%;
+  position: relative;
+  margin: 50px auto 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1) !important;
+} */
+
+.formContainerHeader {
+  padding: 10px 15px;
+  width: 100%;
+  width: 100%;
+  position: relative;
+}
+.formContainer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  padding: 15px;
+}
+
+.backgroundOne{
+  background: url("./mail.png") no-repeat;
+  background-position:98% 50%;
+}
+.backgroundTwo{
+  background: url("./avatar.png") no-repeat;
+  background-position:98% 50%;
+}
+.backgroundThree {
+  background: url("./call.png") no-repeat;
+  background-position:98% 50%;
+}
+
+.backgroundFour {
+  background: url("./edit.png") no-repeat;
+  background-position:98% 20%;
+}
+
+.paperPlane {
+  position: absolute;
+  right: 0;
+  left: 90px;
+  bottom: 12px;
+  color: #fff;
+}
+
+.paddingRight {
+  padding-right: 46px;
+}
+
+.marginTop{
+  margin: 50px 0 0 0;
+}
+
+.formBackground {
+  box-shadow: 0 0px 10px rgba(0, 0, 0,0.2);
+  background: #ffffff;
+  border-radius: 4px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+.contactTitle {
+  font-weight: 700;
+  color: #767676;
+  text-align: center;
+  font-size: 36px;
+}
+
+.space6 {
+  margin-bottom: 36px;
+}
+
+.addressText {
+  color: #767676;
+}
+
+.linkText {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.subTitleText {
+  font-size: 24px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.mailIcon {
+  width: 100%;
+  max-width: 100px;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.iconMargin {
+  margin-bottom: 24px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .contactTitle {
+    font-weight: 700;
+    color: #767676;
+    text-align: center;
+    font-size: 28px;
+  }
+}

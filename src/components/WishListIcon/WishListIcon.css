@@ -1,0 +1,47 @@
+.iconContainer {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 2;
+}
+
+.buttonContainer {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    padding: 10px 16px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    width: auto;
+    font-size: 15px;
+    line-height: 18px;
+    color: #484848;
+    font-weight: normal;
+    border: 1px solid transparent;
+    min-width: 52px;
+    background: #ffffff;
+}
+
+.wishListIcon {
+    line-height: 1;
+    cursor: pointer; 
+    width: 100%;
+    max-width: 30px;
+}
+
+.buttonContainer .wishListIcon {
+    max-width: 20px !important;
+}
+
+.buttonText {
+    padding-left: 6px;
+}
+
+.vtrBottom {
+    vertical-align: bottom;
+}
+
+.vtrMiddle {
+    vertical-align: middle;
+}

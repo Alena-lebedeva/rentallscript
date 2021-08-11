@@ -1,0 +1,6 @@
+{
+  "name": "UserManagement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./UserManagement.js"
+}

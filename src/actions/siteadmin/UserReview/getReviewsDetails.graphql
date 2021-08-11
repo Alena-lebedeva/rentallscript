@@ -1,0 +1,28 @@
+query getReviewsDetails{
+  	getReviewsDetails{
+      id
+      reservationId
+      listId
+      authorId
+      userId
+      reviewContent
+      rating
+      privateFeedback
+      parentId
+      automated
+      isAdmin
+      createdAt
+      updatedAt
+      isAdminEnable
+      authorData {
+        userId
+        firstName
+        profileId
+      }
+      userData{
+        userId
+        profileId
+        firstName
+      }
+    }
+}

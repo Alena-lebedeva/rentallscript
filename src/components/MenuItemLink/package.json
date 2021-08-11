@@ -1,0 +1,6 @@
+{
+  "name": "MenuItemLink",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MenuItemLink.js"
+}

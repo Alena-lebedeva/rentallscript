@@ -1,0 +1,27 @@
+@import '../../components/variables.css';
+
+.listPhotoCover {
+    display: block;
+    height: 185px;
+    backface-visibility: hidden;
+    position: relative;
+    vertical-align: bottom;
+    overflow: hidden;
+    background-color: #bbb;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.listPhotoMedia {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.imgResponsive {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}

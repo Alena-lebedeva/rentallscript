@@ -1,0 +1,118 @@
+query getListingData($listId:String!, $preview: Boolean) {
+          UserListing (listId:$listId, preview: $preview) {
+            id
+            userId
+            title
+            description
+            coverPhoto
+            country
+            street
+            buildingName
+            city
+            state
+            zipcode
+            lat
+            lng
+            isMapTouched
+            bookingType
+            bedrooms
+            residenceType
+            beds
+            personCapacity
+            bathrooms
+            coverPhoto
+            listPhotos{
+              id
+              name
+            }
+            user {
+              id
+              email
+              profile{
+                profileId
+                firstName
+                lastName
+                displayName
+                dateOfBirth
+                picture
+                location
+                info
+                createdAt
+              }
+            }
+            userAmenities {
+              amenitiesId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            userSafetyAmenities {
+              safetyAmenitiesId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            userSpaces {
+              spacesId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            settingsData {
+              id
+              settingsId
+              listsettings {
+                id
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            houseRules {
+              houseRulesId
+              listsettings{
+                itemName
+                isEnable
+                settingsType {
+                  typeName
+                }
+              }
+            }
+            listingData {
+              bookingNoticeTime,
+              checkInStart,
+              checkInEnd,
+              maxDaysNotice,
+              minNight,
+              maxNight,
+              basePrice,
+              cleaningPrice,
+              currency,
+              weeklyDiscount,
+              monthlyDiscount,
+              cancellation{
+                id
+                policyName
+                policyContent
+              }
+            },
+            reviewsCount,
+            reviewsStarRating
+            isListOwner
+            wishListStatus
+          }
+        }

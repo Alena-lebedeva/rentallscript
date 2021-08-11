@@ -1,0 +1,66 @@
+@import '../common.css';
+
+.calendarContainer {
+    margin-left: -22px;
+}
+
+.customDayContainer {
+    height: 38px;
+    position: relative;
+    width: 38px;
+    margin: 0px;
+}
+
+.customDayDateOnly {
+    font-size: 12px;
+    font-weight: 700;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    width: 38px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+
+.hoverSection {
+    display: none;
+    position: absolute;
+    top: -34px;
+    /* bottom: -30px; */
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #4AD5DC;
+    background: #4AD5DC;
+    min-width: 165px;
+    padding: 10px;
+    z-index: 1034;
+    border: 1px solid #4AD5DC;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.newhover:hover .hoverSection {
+    display: block;
+}
+
+.listOneLeft {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 20px;
+  /* margin-right: 20px; */
+  margin-top: 20px;
+}
+
+.noPadddingLeftRight {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .calendarContainer {
+    margin-left: 6px;
+  }
+}

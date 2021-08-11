@@ -1,0 +1,6 @@
+{
+  "name": "EmailLogoUploader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./EmailLogoUploader.js"
+}

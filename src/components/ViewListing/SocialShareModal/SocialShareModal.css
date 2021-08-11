@@ -1,0 +1,242 @@
+@import '../../../components/variables.css';
+
+.root {
+  padding: 20px 32px 32px 32px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px;
+
+}
+
+/** RentAll - Begin **/
+
+.signupModalContainer {
+  max-width: 376px;
+}
+
+
+.signupModalBody {
+  padding: 0px;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.modalCaptionLink {
+    color: #008489;
+}
+
+.modalCaptionLinkLarge {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.modalCaptionLink:hover, .modalCaptionLink:focus {
+    color: #008489;
+    text-decoration: underline;
+}
+
+a, a:hover, a:focus, a:active{
+   color: #008489;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 13px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+  white-space: normal;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.lineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 12px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.lineThrough::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  margin-top: -5px;
+  margin-left: -20px;
+  width: 40px;
+  height: 10px;
+  background-color: #fff;
+  content: '';
+}
+
+.lineThrough::after {
+  position: absolute;
+  top: 49%;
+  z-index: -2;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  content: '';
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.captionText {
+  font-size: 16px;
+  color: #484848;
+  margin: 15px 0px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+.iconPosition{
+  display: inline-block;
+  margin: -2px 8px 0 0;
+}
+
+
+
+@media screen and (max-width: 640px){
+  .signupModalContainer{
+    margin: 0px auto;
+}
+  .smSpace{
+  margin-bottom: 12px;
+}
+
+}
+
+
+/** custom **/
+
+.marginBottom24
+{
+  margin-bottom:24px !important;
+}
+.share
+{
+font-size: 24px !important;
+font-weight: 800 !important;
+padding-bottom:10px;
+}
+.content
+{
+  font-size: 16px !important;
+ 
+}
+.paddingbottom24
+{
+  padding-bottom:24px;
+}
+.socialIcons
+{
+  color:#484848 !important;
+  font-size:24px !important;
+  margin-right:15px;
+  width:30px;
+}
+.customClose
+{
+  padding: 0px;
+  border: 1px solid black;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  background-color: #bbb;
+  border-radius: 50%;
+  
+}
+.marginleftM5
+{
+  margin-left:-5px;
+}
+.borderradiusNone
+{
+  border-radius:0px !important;
+}

@@ -1,0 +1,11 @@
+query getPopularLocation {
+  getPopularLocation{
+    id
+    location
+    locationAddress
+    image
+    isEnable
+    createdAt
+    updatedAt
+  }
+}

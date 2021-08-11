@@ -1,0 +1,7 @@
+@import '../common.css';
+
+.bookItMessage {
+  overflow: hidden;
+  display: block;
+  position: relative;
+}

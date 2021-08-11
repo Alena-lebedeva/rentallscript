@@ -1,0 +1,6 @@
+{
+  "name": "LocationSearchForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./LocationSearchForm.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "BlockUploader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BlockUploader.js"
+}

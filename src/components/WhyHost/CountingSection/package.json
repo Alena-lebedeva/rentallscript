@@ -1,0 +1,6 @@
+{
+  "name": "CountingSection",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CountingSection.js"
+}

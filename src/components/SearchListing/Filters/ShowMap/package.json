@@ -1,0 +1,6 @@
+{
+    "name": "ShowMap",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./ShowMap.js"
+}

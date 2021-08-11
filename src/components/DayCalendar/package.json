@@ -1,0 +1,6 @@
+{
+  "name": "DayCalendar",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DayCalendar.js"
+}

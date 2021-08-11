@@ -1,0 +1,77 @@
+@import '../../components/variables.css';
+
+.progressContainer {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.linkReset{
+  text-decoration: none;
+  color: inherit;
+}
+
+.textTrunck{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.progressStep{
+  padding: 12px 14px;
+  background-color: #fafafa;
+  vertical-align: top;
+}
+
+.progressSection{
+
+  display: inline-block;
+  background-color: #fafafa;
+  border-right: 1px solid #dce0e0;
+}
+
+.progressStyle{
+  width: 9.0909%;
+  left: 0%;
+  max-width: 100%;
+}
+
+a:hover, a:focus, a:active{
+  color: #008689;
+}
+
+.leanProgress{
+  height:5px;
+  background-color: #008489;
+  margin-bottom: 6px;
+}
+
+.progressContainer a:last-of-type div {
+  border-right: 1px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

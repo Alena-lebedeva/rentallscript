@@ -1,0 +1,6860 @@
+[
+  {
+    "id": "editForm.birthDay",
+    "description": "Your Birthday to Register",
+    "defaultMessage": "Birthday",
+    "message": ""
+  },
+  {
+    "id": "editForm.birthDayRequired",
+    "description": "Birthday Required",
+    "defaultMessage": "Birthday is required",
+    "message": ""
+  },
+  {
+    "id": "editForm.email",
+    "description": "Your Email Address to Login",
+    "defaultMessage": "Email Address",
+    "message": ""
+  },
+  {
+    "id": "editForm.emailAlreadyExists",
+    "description": "Email Address is already exist",
+    "defaultMessage": "That email address is already in use. Please choose different one!",
+    "message": ""
+  },
+  {
+    "id": "editForm.emailInValid",
+    "description": "Invalid Email Address",
+    "defaultMessage": "Invalid Email Address",
+    "message": ""
+  },
+  {
+    "id": "editForm.emailRequired",
+    "description": "Email is required",
+    "defaultMessage": "Email is required",
+    "message": ""
+  },
+  {
+    "id": "editForm.firstName",
+    "description": "Your First name to Register",
+    "defaultMessage": "First name",
+    "message": ""
+  },
+  {
+    "id": "editForm.firstNameRequired",
+    "description": "First name Required",
+    "defaultMessage": "First name is required",
+    "message": ""
+  },
+  {
+    "id": "editForm.gender",
+    "description": "Gender Field",
+    "defaultMessage": "Gender",
+    "message": ""
+  },
+  {
+    "id": "editForm.genderFemale",
+    "description": "Gender Female",
+    "defaultMessage": "Female",
+    "message": ""
+  },
+  {
+    "id": "editForm.genderMale",
+    "description": "Gender Male",
+    "defaultMessage": "Male",
+    "message": ""
+  },
+  {
+    "id": "editForm.genderOther",
+    "description": "Gender Other",
+    "defaultMessage": "Other",
+    "message": ""
+  },
+  {
+    "id": "editForm.genderRequired",
+    "description": "Gender is Required",
+    "defaultMessage": "Gender is Required",
+    "message": ""
+  },
+  {
+    "id": "editForm.iam",
+    "description": "Gender Label",
+    "defaultMessage": "I am",
+    "message": ""
+  },
+  {
+    "id": "editForm.info",
+    "description": "Describe Yourself",
+    "defaultMessage": "Describe Yourself",
+    "message": ""
+  },
+  {
+    "id": "editForm.infoRequired",
+    "description": "Describe Yourself is Required",
+    "defaultMessage": "Describe Yourself is Required",
+    "message": ""
+  },
+  {
+    "id": "editForm.lastName",
+    "description": "Your Last name to Register",
+    "defaultMessage": "Last name",
+    "message": ""
+  },
+  {
+    "id": "editForm.lastNameRequired",
+    "description": "Last name Required",
+    "defaultMessage": "Last name is Required",
+    "message": ""
+  },
+  {
+    "id": "editForm.location",
+    "description": "location",
+    "defaultMessage": "Where You Live",
+    "message": ""
+  },
+  {
+    "id": "editForm.locationRequired",
+    "description": "Location is required",
+    "defaultMessage": "Location is required",
+    "message": ""
+  },
+  {
+    "id": "editForm.phoneNumber",
+    "description": "Phone Number",
+    "defaultMessage": "Phone Number",
+    "message": ""
+  },
+  {
+    "id": "editForm.phoneNumberInvalid",
+    "description": "Phone Number is Invalid",
+    "defaultMessage": "Invalid Phone Number",
+    "message": ""
+  },
+  {
+    "id": "editForm.phoneNumberRequired",
+    "description": "Phone Number is Required",
+    "defaultMessage": "Phone Number is Required",
+    "message": ""
+  },
+  {
+    "id": "editForm.preferredCurrency",
+    "description": "Preferred Currency",
+    "defaultMessage": "Preferred Currency",
+    "message": ""
+  },
+  {
+    "id": "editForm.preferredCurrencyRequired",
+    "description": "Preferred Currency is Required",
+    "defaultMessage": "Preferred Currency is Required",
+    "message": ""
+  },
+  {
+    "id": "editForm.preferredLanguage",
+    "description": "Preferred Language",
+    "defaultMessage": "Preferred Language",
+    "message": ""
+  },
+  {
+    "id": "editForm.preferredLanguageRequired",
+    "description": "Preferred Language is Required",
+    "defaultMessage": "Preferred Language is Required",
+    "message": ""
+  },
+  {
+    "id": "editForm.save",
+    "description": "Save Button",
+    "defaultMessage": "Save",
+    "message": ""
+  },
+  {
+    "id": "editForm.somethingWentWrong",
+    "description": "Wrong went wrong",
+    "defaultMessage": "Sorry, something went wrong. Please try again",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.createdAt",
+    "description": "User Created Date and Time",
+    "defaultMessage": "Created Date",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.dateOfBirth",
+    "description": "User Birthday",
+    "defaultMessage": "Date of Birth",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.delete",
+    "description": "Delete Button",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.edit",
+    "description": "Edit Button",
+    "defaultMessage": "Edit",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.email",
+    "description": "User Email Address to Login",
+    "defaultMessage": "Email Address",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.firstName",
+    "description": "User First name",
+    "defaultMessage": "First name",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.gender",
+    "description": "Gender Field",
+    "defaultMessage": "Gender",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.info",
+    "description": "User Info",
+    "defaultMessage": "User Info",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.lastName",
+    "description": "User Last name",
+    "defaultMessage": "Last name",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.location",
+    "description": "location",
+    "defaultMessage": "Where You Live",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.phoneNumber",
+    "description": "Phone Number",
+    "defaultMessage": "Phone Number",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.preferredCurrency",
+    "description": "Preferred Currency",
+    "defaultMessage": "Preferred Currency",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.preferredLanguage",
+    "description": "Preferred Language",
+    "defaultMessage": "Preferred Language",
+    "message": ""
+  },
+  {
+    "id": "adminUserEditForm.profileId",
+    "description": "User Profile Id",
+    "defaultMessage": "Profile Id",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.email",
+    "description": "Your Email Address to Login",
+    "defaultMessage": "Email Address",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.emailInValid",
+    "description": "Invalid Email Address",
+    "defaultMessage": "Invalid Email Address",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.emailNotExists",
+    "description": "Email Address is not exist",
+    "defaultMessage": "No account exists for this email. Make sure it's typed in correctly, or “sign up” instead",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.emailRequired",
+    "description": "Email is required",
+    "defaultMessage": "Email is required",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.loggedIn",
+    "description": "You are already Logged-in",
+    "defaultMessage": "You are already logged in!",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.password",
+    "description": "Your Password to Login",
+    "defaultMessage": "Password",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.passwordInValid",
+    "description": "Invalid Password",
+    "defaultMessage": "Your password must be at least 8 characters. Please try again",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.passwordRequired",
+    "description": "Password is required",
+    "defaultMessage": "Password is required",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.passwordWrong",
+    "description": "Wrong Password",
+    "defaultMessage": "Wrong Password. Please try again",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.somethingWentWrong",
+    "description": "Wrong went wrong",
+    "defaultMessage": "Sorry, something went wrong. Please try again",
+    "message": ""
+  },
+  {
+    "id": "adminLoginform.userLoggedIn",
+    "description": "You are already Logged-in as user",
+    "defaultMessage": "You are already logged in as User, please logout in the main site to continue!",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.save",
+    "description": "Save Button",
+    "defaultMessage": "Save",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.siteName",
+    "description": "Your Site Name",
+    "defaultMessage": "Site name",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.siteNameRequired",
+    "description": "Site name Required",
+    "defaultMessage": "Site name is required",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.siteTitle",
+    "description": "Your Site title",
+    "defaultMessage": "Site Title",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.siteTitleRequired",
+    "description": "Site Title Required",
+    "defaultMessage": "Site title is Required",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.somethingWentWrong",
+    "description": "Wrong went wrong",
+    "defaultMessage": "Sorry, something went wrong. Please try again",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.metaKeyword",
+    "description": "Your Meta keyword",
+    "defaultMessage": "Meta keyword",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.metaDescription",
+    "description": "Meta Description",
+    "defaultMessage": "Meta description",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.logo",
+    "description": "Logo",
+    "defaultMessage": "Logo",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.facebookLink",
+    "description": "Facebook Page URL",
+    "defaultMessage": "Facebook Page URL",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.instagramLink",
+    "description": "Instagram Link",
+    "defaultMessage": "Instagram Link",
+    "message": ""
+  },
+  {
+    "id": "siteSettingsForm.twitterLink",
+    "description": "Your Twitter Profile Link",
+    "defaultMessage": "Twitter Profile Link",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.createdAt",
+    "description": "User Created Date and Time",
+    "defaultMessage": "Created Date",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.dateOfBirth",
+    "description": "User Birthday",
+    "defaultMessage": "Date of Birth",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.delete",
+    "description": "Delete Button",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.edit",
+    "description": "Edit Button",
+    "defaultMessage": "Edit",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.email",
+    "description": "User Email Address to Login",
+    "defaultMessage": "Email Address",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.firstName",
+    "description": "User First name",
+    "defaultMessage": "First name",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.gender",
+    "description": "Gender Field",
+    "defaultMessage": "Gender",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.info",
+    "description": "User Info",
+    "defaultMessage": "User Info",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.lastName",
+    "description": "User Last name",
+    "defaultMessage": "Last name",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.location",
+    "description": "location",
+    "defaultMessage": "Where You Live",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.phoneNumber",
+    "description": "Phone Number",
+    "defaultMessage": "Phone Number",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.preferredCurrency",
+    "description": "Preferred Currency",
+    "defaultMessage": "Preferred Currency",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.preferredLanguage",
+    "description": "Preferred Language",
+    "defaultMessage": "Preferred Language",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsManagement.profileId",
+    "description": "User Profile Id",
+    "defaultMessage": "Profile Id",
+    "message": ""
+  },
+  {
+    "id": "AddListSettingsForm.add",
+    "description": "Add Button",
+    "defaultMessage": "Add",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.addNew",
+    "description": "Item name",
+    "defaultMessage": "Item name",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.addOtherItem",
+    "description": "Other Item name",
+    "defaultMessage": "Other Item name",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.delete",
+    "description": "Delete Button",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.endValue",
+    "description": "Add end value here ....",
+    "defaultMessage": "End value",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.somethingWentWrong",
+    "description": "Wrong went wrong",
+    "defaultMessage": "Sorry, something went wrong. Please try again",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.startValue",
+    "description": "Start value",
+    "defaultMessage": "Start value",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.update",
+    "description": "Update Button",
+    "defaultMessage": "Update",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.disable",
+    "description": "Disable",
+    "defaultMessage": "Disable",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.enable",
+    "description": "Enable",
+    "defaultMessage": "Enable",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.itemNameIsRequired",
+    "description": "itemNameIsRequired",
+    "defaultMessage": "Item name is required",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.otherItemNameIsRequired",
+    "description": "otherItemNameIsRequired",
+    "defaultMessage": "Other item name is required",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.startValueIsInvalid",
+    "description": "startValueIsInvalid",
+    "defaultMessage": "Invalid Start value, provide a valid number",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.endValueIsInvalid",
+    "description": "endValueIsInvalid",
+    "defaultMessage": "Invalid End value, provide a valid number",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.endValueGreater",
+    "description": "endValueGreater",
+    "defaultMessage": "End value must be greater than Start value",
+    "message": ""
+  },
+  {
+    "id": "adminListing.delete",
+    "description": "Delete Button",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "adminListing.view",
+    "description": "View Button",
+    "defaultMessage": "View",
+    "message": ""
+  },
+  {
+    "id": "rentall.MaxDaysNoticeTitle",
+    "description": "How far in advance can guests book?",
+    "defaultMessage": "How far in advance can guests book?",
+    "message": ""
+  },
+  {
+    "id": "rentall.MinMaxNightsTitle",
+    "description": "How long can guests stay?",
+    "defaultMessage": "How long can guests stay?",
+    "message": ""
+  },
+  {
+    "id": "rentall.RequestToBook",
+    "description": "Request to book",
+    "defaultMessage": "Request to book",
+    "message": ""
+  },
+  {
+    "id": "rentall.Required",
+    "description": "Required Heading",
+    "defaultMessage": "*Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.WrongDayChosen",
+    "description": "Wrong day chosen for the month",
+    "defaultMessage": "Wrong day chosen for the month",
+    "message": ""
+  },
+  {
+    "id": "rentall.about",
+    "description": "Menu item",
+    "defaultMessage": "About",
+    "message": ""
+  },
+  {
+    "id": "rentall.aboutListing",
+    "description": "View listing description",
+    "defaultMessage": "About this listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.aboutYourTrip",
+    "description": "Payment About Your Trip",
+    "defaultMessage": "About Your Trip",
+    "message": ""
+  },
+  {
+    "id": "rentall.accommodates",
+    "description": "The space accommodates",
+    "defaultMessage": "Accommodates",
+    "message": ""
+  },
+  {
+    "id": "rentall.accommodationAddress",
+    "description": "Accommodation Address",
+    "defaultMessage": "Accommodation Address",
+    "message": ""
+  },
+  {
+    "id": "rentall.accommodationHost",
+    "description": "Accommodation Host",
+    "defaultMessage": "Accommodation Host",
+    "message": ""
+  },
+  {
+    "id": "rentall.accommodationType",
+    "description": "Accommodation Type",
+    "defaultMessage": "Accommodation Type",
+    "message": ""
+  },
+  {
+    "id": "rentall.account",
+    "description": "Account",
+    "defaultMessage": "Account",
+    "message": ""
+  },
+  {
+    "id": "rentall.accountSettings",
+    "description": "Menu item",
+    "defaultMessage": "Account Settings",
+    "message": ""
+  },
+  {
+    "id": "rentall.addListing",
+    "description": "Add New Listings Button",
+    "defaultMessage": "Add New Listings",
+    "message": ""
+  },
+  {
+    "id": "rentall.addPayout",
+    "description": "Payout",
+    "defaultMessage": "Add Payout Method",
+    "message": ""
+  },
+  {
+    "id": "rentall.addPayoutMethod",
+    "description": "Payout Method",
+    "defaultMessage": "To get paid, you need to set up a payout method",
+    "message": ""
+  },
+  {
+    "id": "rentall.addProfilePhoto",
+    "description": "Avatar upload title",
+    "defaultMessage": "Add your profile photo",
+    "message": ""
+  },
+  {
+    "id": "rentall.addVerifications",
+    "description": "View profile",
+    "defaultMessage": "Add Verifications",
+    "message": ""
+  },
+  {
+    "id": "rentall.address",
+    "description": "Itinerary",
+    "defaultMessage": "Address",
+    "message": ""
+  },
+  {
+    "id": "rentall.address1",
+    "description": "Payout Form",
+    "defaultMessage": "Address Line 1",
+    "message": ""
+  },
+  {
+    "id": "rentall.address2",
+    "description": "Payout Form",
+    "defaultMessage": "Address Line 2",
+    "message": ""
+  },
+  {
+    "id": "rentall.adminLoggedIn",
+    "description": "adminLoggedIn",
+    "defaultMessage": "You are logged in as admin, you can't perform this action!",
+    "message": ""
+  },
+  {
+    "id": "rentall.advanceNotice",
+    "description": "Tab bar",
+    "defaultMessage": "Advance Notice",
+    "message": ""
+  },
+  {
+    "id": "rentall.advanceNoticeCheckInTitle",
+    "description": "Advance Notice Check In Title",
+    "defaultMessage": "When can guests check in?",
+    "message": ""
+  },
+  {
+    "id": "rentall.advanceNoticeError",
+    "description": "Error Message",
+    "defaultMessage": "From time should be earlier than To time",
+    "message": ""
+  },
+  {
+    "id": "rentall.advanceNoticeFrom",
+    "description": "From",
+    "defaultMessage": "From:",
+    "message": ""
+  },
+  {
+    "id": "rentall.advanceNoticeInvalid",
+    "description": "Error Message",
+    "defaultMessage": "Invalid input value",
+    "message": ""
+  },
+  {
+    "id": "rentall.advanceNoticeTitle",
+    "description": "Advance Notice Title",
+    "defaultMessage": "How much notice do you need before a guest arrives?",
+    "message": ""
+  },
+  {
+    "id": "rentall.advanceNoticeTo",
+    "description": "To",
+    "defaultMessage": "To:",
+    "message": ""
+  },
+  {
+    "id": "rentall.allListings",
+    "description": "All listings",
+    "defaultMessage": "All listings",
+    "message": ""
+  },
+  {
+    "id": "rentall.allMessages",
+    "description": "Dashboard",
+    "defaultMessage": "All Messages",
+    "message": ""
+  },
+  {
+    "id": "rentall.alreadyHaveAccount",
+    "description": "alreadyHaveAccount",
+    "defaultMessage": "Already have an account?",
+    "message": ""
+  },
+  {
+    "id": "rentall.aminities",
+    "description": "Amenities",
+    "defaultMessage": "Amenities",
+    "message": ""
+  },
+  {
+    "id": "rentall.and",
+    "description": "And",
+    "defaultMessage": "and",
+    "message": ""
+  },
+  {
+    "id": "rentall.anyBath",
+    "description": "Any bathrooms",
+    "defaultMessage": "Any bathrooms",
+    "message": ""
+  },
+  {
+    "id": "rentall.anyBed",
+    "description": "Any bedrooms",
+    "defaultMessage": "Any bedrooms",
+    "message": ""
+  },
+  {
+    "id": "rentall.anyBeds",
+    "description": "Any beds",
+    "defaultMessage": "Any beds",
+    "message": ""
+  },
+  {
+    "id": "rentall.applyFilters",
+    "description": "Apply filters button",
+    "defaultMessage": "Apply filters",
+    "message": ""
+  },
+  {
+    "id": "rentall.approve",
+    "description": "Approve",
+    "defaultMessage": "Approve",
+    "message": ""
+  },
+  {
+    "id": "rentall.availability",
+    "description": "View listing availability",
+    "defaultMessage": "Availability",
+    "message": ""
+  },
+  {
+    "id": "rentall.back",
+    "description": "Back button",
+    "defaultMessage": "Back",
+    "message": ""
+  },
+  {
+    "id": "rentall.backToLogin",
+    "description": "Back to login",
+    "defaultMessage": "Back to login",
+    "message": ""
+  },
+  {
+    "id": "rentall.basePrice",
+    "description": "Base price",
+    "defaultMessage": "Base price",
+    "message": ""
+  },
+  {
+    "id": "rentall.basePriceInvalid",
+    "description": "Base price Invalid",
+    "defaultMessage": "Invalid Base Price, only numbers(eg: 25) are allowed",
+    "message": ""
+  },
+  {
+    "id": "rentall.basePriceLabel",
+    "description": "Base price Label",
+    "defaultMessage": "Price per night",
+    "message": ""
+  },
+  {
+    "id": "rentall.bathroom",
+    "description": "Bathroom",
+    "defaultMessage": "bathroom",
+    "message": ""
+  },
+  {
+    "id": "rentall.bathrooms",
+    "description": "The space bathrooms",
+    "defaultMessage": "Bathrooms",
+    "message": ""
+  },
+  {
+    "id": "rentall.baths",
+    "description": "Tab bar",
+    "defaultMessage": "Baths",
+    "message": ""
+  },
+  {
+    "id": "rentall.becomeAHost",
+    "description": "Menu item",
+    "defaultMessage": "Become a host",
+    "message": ""
+  },
+  {
+    "id": "rentall.bed",
+    "description": "Bed",
+    "defaultMessage": "Bed",
+    "message": ""
+  },
+  {
+    "id": "rentall.bedroom",
+    "description": "Bedroom",
+    "defaultMessage": "Bedroom",
+    "message": ""
+  },
+  {
+    "id": "rentall.bedrooms",
+    "description": "The space bedrooms",
+    "defaultMessage": "Bedrooms",
+    "message": ""
+  },
+  {
+    "id": "rentall.beds",
+    "description": "The space beds",
+    "defaultMessage": "Beds",
+    "message": ""
+  },
+  {
+    "id": "rentall.billing",
+    "description": "Itinerary",
+    "defaultMessage": "Billing",
+    "message": ""
+  },
+  {
+    "id": "rentall.birthDay",
+    "description": "Birthday",
+    "defaultMessage": "Birthday",
+    "message": ""
+  },
+  {
+    "id": "rentall.birthDayRequired",
+    "description": "birthDayRequired",
+    "defaultMessage": "Select your birth date to continue",
+    "message": ""
+  },
+  {
+    "id": "rentall.book",
+    "description": "Booking button",
+    "defaultMessage": "Book",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingCanceledInfo",
+    "description": "Booking canceld",
+    "defaultMessage": "You can contact your host and do necessary arrangements or you can cancel your reservation.",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingConfirmedInfo1",
+    "description": "Booking confirmed",
+    "defaultMessage": "Your booking is confirmed with",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingExpiredInfo",
+    "description": "Booking expired",
+    "defaultMessage": "Try sending request again or send an inquiry to get in touch with the host",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingExpiredTitle",
+    "description": "Booking expired",
+    "defaultMessage": "Your booking request has expired",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingInfo",
+    "description": "You won’t be charged yet",
+    "defaultMessage": "You won’t be charged yet",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingIsConfirmed",
+    "description": "Booking is confirmed",
+    "defaultMessage": "Booking is confirmed",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingIsExpired",
+    "description": "Booking request is expired",
+    "defaultMessage": "Booking request is expired",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingIsExpired1",
+    "description": "booking request is expired.",
+    "defaultMessage": "booking request is expired.",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingRequestCance2",
+    "description": "Your booking request has been canceled.",
+    "defaultMessage": "Your booking request has been canceled.",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingRequestCance3",
+    "description": "booking request is cancelled.",
+    "defaultMessage": "booking request is cancelled.",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingRequestCancel",
+    "description": "Booking request canceled",
+    "defaultMessage": "Booking request canceled",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookingWindow",
+    "description": "Tab bar",
+    "defaultMessage": "Booking window",
+    "message": ""
+  },
+  {
+    "id": "rentall.buildingName",
+    "description": "Building Name",
+    "defaultMessage": "Apt, Suite, Bldg. (optional)",
+    "message": ""
+  },
+  {
+    "id": "rentall.businessTravel",
+    "description": "Menu item",
+    "defaultMessage": "Business Travel",
+    "message": ""
+  },
+  {
+    "id": "rentall.button",
+    "description": "Post a new listing",
+    "defaultMessage": "Post a new listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.calendar",
+    "description": "calendar title",
+    "defaultMessage": "Update your calendar",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancel",
+    "description": "Cancel button",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancelInfo",
+    "description": "View message",
+    "defaultMessage": "Most hosts respond within 24 hours. If you don't want to continue with this host further, you can cancel this request.",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancelReservation",
+    "description": "Cancel Reservation",
+    "defaultMessage": "Cancel Reservation",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancelYourReservation",
+    "description": "Cancel your reservation",
+    "defaultMessage": "Cancel your reservation",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellationPolicies",
+    "description": "Cancellation Policies",
+    "defaultMessage": "Cancellation Policies",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellationPolicy",
+    "description": "Cancellation policy",
+    "defaultMessage": "Cancellation policy",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellations",
+    "description": "View listing cancellations",
+    "defaultMessage": "Cancellations",
+    "message": ""
+  },
+  {
+    "id": "rentall.cantLogin",
+    "description": "No se puede iniciar sesión?",
+    "defaultMessage": "Can’t Login?",
+    "message": ""
+  },
+  {
+    "id": "rentall.careers",
+    "description": "Menu item",
+    "defaultMessage": "Careers",
+    "message": ""
+  },
+  {
+    "id": "rentall.change",
+    "description": "Change Link",
+    "defaultMessage": "Change",
+    "message": ""
+  },
+  {
+    "id": "rentall.changeEmail",
+    "description": "Change email address",
+    "defaultMessage": "Change email address",
+    "message": ""
+  },
+  {
+    "id": "rentall.changePassword",
+    "description": "Change Your Password",
+    "defaultMessage": "Change Your Password",
+    "message": ""
+  },
+  {
+    "id": "rentall.checkAvailability",
+    "description": "Booking button",
+    "defaultMessage": "Check Availability",
+    "message": ""
+  },
+  {
+    "id": "rentall.checkEmail",
+    "description": "Email verification title",
+    "defaultMessage": "Check your email",
+    "message": ""
+  },
+  {
+    "id": "rentall.checkIn",
+    "description": "Check In",
+    "defaultMessage": "Check In",
+    "message": ""
+  },
+  {
+    "id": "rentall.checkOut",
+    "description": "Check Out",
+    "defaultMessage": "Check Out",
+    "message": ""
+  },
+  {
+    "id": "rentall.chooseCountry",
+    "description": "Payout Form",
+    "defaultMessage": "Choose Country",
+    "message": ""
+  },
+  {
+    "id": "rentall.chooseCurrency",
+    "description": "Choose Currency",
+    "defaultMessage": "Choose Currency",
+    "message": ""
+  },
+  {
+    "id": "rentall.chooseGuests",
+    "description": "Contact host choose guests dropdown",
+    "defaultMessage": "Choose Guests",
+    "message": ""
+  },
+  {
+    "id": "rentall.citizen",
+    "description": "Menu item",
+    "defaultMessage": "Citizen",
+    "message": ""
+  },
+  {
+    "id": "rentall.city",
+    "description": "Payout Form",
+    "defaultMessage": "City",
+    "message": ""
+  },
+  {
+    "id": "rentall.cityRequired",
+    "description": "cityRequired",
+    "defaultMessage": "City is Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.cleaningFee",
+    "description": "Bill details",
+    "defaultMessage": "Cleaning fee",
+    "message": ""
+  },
+  {
+    "id": "rentall.cleaningPrice",
+    "description": "Payment details",
+    "defaultMessage": "Cleaning Price",
+    "message": ""
+  },
+  {
+    "id": "rentall.cleaningPriceInvalid",
+    "description": "Cleaning price Invalid",
+    "defaultMessage": "Invalid Cleaning Price, only numbers(eg: 25) are allowed",
+    "message": ""
+  },
+  {
+    "id": "rentall.completeYourProfile",
+    "description": "Dashboard",
+    "defaultMessage": "Complete Your Profile",
+    "message": ""
+  },
+  {
+    "id": "rentall.completedTransactions",
+    "description": "Completed Transactions",
+    "defaultMessage": "Completed Transactions",
+    "message": ""
+  },
+  {
+    "id": "rentall.confirmPassword",
+    "description": "Confirm Password",
+    "defaultMessage": "Confirm Password",
+    "message": ""
+  },
+  {
+    "id": "rentall.confirmationCode",
+    "description": "Confirmation Code",
+    "defaultMessage": "Confirmation Code",
+    "message": ""
+  },
+  {
+    "id": "rentall.connect",
+    "description": "Connect button",
+    "defaultMessage": "Connect",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactGuest",
+    "description": "Contact Guest",
+    "defaultMessage": "You can contact your guest and do necessary arrangements or you can cancel.",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactHost",
+    "description": "Contact host button and link",
+    "defaultMessage": "Contact Host",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactHostDate",
+    "description": "Contact host dates title",
+    "defaultMessage": "When are you traveling",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactHostinfo1",
+    "description": "Contact host instructions",
+    "defaultMessage": "Make sure you share the following",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactHostinfo2",
+    "description": "Contact host instructions",
+    "defaultMessage": "Tell",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactHostinfo3",
+    "description": "Contact host instructions",
+    "defaultMessage": "a little about yourself",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactHostinfo4",
+    "description": "Contact host instructions",
+    "defaultMessage": "What brings you to",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactHostinfo5",
+    "description": "Contact host instructions",
+    "defaultMessage": "Who’s joining you",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactHostinfo6",
+    "description": "Contact host instructions",
+    "defaultMessage": "What do you love about this listing? Mention it",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactSupport",
+    "description": "Contact Support",
+    "defaultMessage": "Contact Support",
+    "message": ""
+  },
+  {
+    "id": "rentall.contacthostError1",
+    "description": "Contact host error message",
+    "defaultMessage": "You must select number of guests",
+    "message": ""
+  },
+  {
+    "id": "rentall.contacthostError2",
+    "description": "Contact host error message",
+    "defaultMessage": "Message is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.content",
+    "description": "content",
+    "defaultMessage": "Make money by renting out your extra space. You'll also get to meet interesting travellers from around the world!",
+    "message": ""
+  },
+  {
+    "id": "rentall.continue",
+    "description": "Continue button",
+    "defaultMessage": "Continue",
+    "message": ""
+  },
+  {
+    "id": "rentall.country",
+    "description": "Payout Form",
+    "defaultMessage": "Country",
+    "message": ""
+  },
+  {
+    "id": "rentall.countryRequired",
+    "description": "countryRequired",
+    "defaultMessage": "Country is Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.currency",
+    "description": "Currency",
+    "defaultMessage": "Currency",
+    "message": ""
+  },
+  {
+    "id": "rentall.currencyError",
+    "description": "Currency Error",
+    "defaultMessage": "Choose a payment currency",
+    "message": ""
+  },
+  {
+    "id": "rentall.customerReceipt",
+    "description": "Customer Receipt",
+    "defaultMessage": "Customer Receipt",
+    "message": ""
+  },
+  {
+    "id": "rentall.dashBoardHeader",
+    "description": "Dashboard",
+    "defaultMessage": "Welcome to",
+    "message": ""
+  },
+  {
+    "id": "rentall.dashBoardInfo",
+    "description": "Dashboard",
+    "defaultMessage": "Check your messages, view upcoming trip information, and find travel inspiration all from your dashboard. Before booking your first stay, make sure to:",
+    "message": ""
+  },
+  {
+    "id": "rentall.dashBoardInfo1",
+    "description": "Dashboard",
+    "defaultMessage": "Upload a photo and write a short bio to help hosts get to know you before inviting you into their home.",
+    "message": ""
+  },
+  {
+    "id": "rentall.dashboard",
+    "description": "Menu item",
+    "defaultMessage": "Dashboard",
+    "message": ""
+  },
+  {
+    "id": "rentall.dateLocation",
+    "description": "Dates and Location",
+    "defaultMessage": "Dates and Location",
+    "message": ""
+  },
+  {
+    "id": "rentall.dateOfBirth",
+    "description": "Your Birthday to Register",
+    "defaultMessage": "Birthday",
+    "message": ""
+  },
+  {
+    "id": "rentall.dateOfBirthRequired",
+    "description": "Birthday Required",
+    "defaultMessage": "Birthday is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.dates",
+    "description": "Dates",
+    "defaultMessage": "Dates",
+    "message": ""
+  },
+  {
+    "id": "rentall.datesDropDown",
+    "description": "Booking Dropdown",
+    "defaultMessage": "Dates unavailable by default",
+    "message": ""
+  },
+  {
+    "id": "rentall.datesOption1",
+    "description": "Booking Dropdown",
+    "defaultMessage": "3 months into the future",
+    "message": ""
+  },
+  {
+    "id": "rentall.datesOption2",
+    "description": "Booking Dropdown",
+    "defaultMessage": "6 months into the future",
+    "message": ""
+  },
+  {
+    "id": "rentall.datesOption3",
+    "description": "Booking Dropdown",
+    "defaultMessage": "9 months into the future",
+    "message": ""
+  },
+  {
+    "id": "rentall.datesOption4",
+    "description": "Booking Dropdown",
+    "defaultMessage": "12 months into the future",
+    "message": ""
+  },
+  {
+    "id": "rentall.datesOption5",
+    "description": "Booking Dropdown",
+    "defaultMessage": "All future dates",
+    "message": ""
+  },
+  {
+    "id": "rentall.day",
+    "description": "Day of birthday",
+    "defaultMessage": "Day",
+    "message": ""
+  },
+  {
+    "id": "rentall.dayRequired",
+    "description": "Day is required",
+    "defaultMessage": "Day is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.decline",
+    "description": "Decline",
+    "defaultMessage": "Decline",
+    "message": ""
+  },
+  {
+    "id": "rentall.declinedInfo",
+    "description": "Declined Info",
+    "defaultMessage": "Make sure your calendar is up-to-date and that your listing page accurately reflects your house rules and requirements.",
+    "message": ""
+  },
+  {
+    "id": "rentall.default",
+    "description": "Payout Method",
+    "defaultMessage": "Default",
+    "message": ""
+  },
+  {
+    "id": "rentall.delete",
+    "description": "Manage listing Delete button",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "rentall.deleteListing",
+    "description": "Manage listing delete this listing",
+    "defaultMessage": "Delete this Listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.deleteListingInfo",
+    "description": "Manage listing delete listing information",
+    "defaultMessage": "Are you sure you want to delete this listing? You cannot reverse this action.",
+    "message": ""
+  },
+  {
+    "id": "rentall.description",
+    "description": "Description",
+    "defaultMessage": "Edit your description",
+    "message": ""
+  },
+  {
+    "id": "rentall.descriptionInfo",
+    "description": "Payment description information",
+    "defaultMessage": "Visiting family or friends? Sight seeing? This helps your host plan for your trip.",
+    "message": ""
+  },
+  {
+    "id": "rentall.descriptionLabel",
+    "description": "Description Placeholder",
+    "defaultMessage": "Describe the decor, light, what's nearby, etc...",
+    "message": ""
+  },
+  {
+    "id": "rentall.descriptionRequired",
+    "description": "Description",
+    "defaultMessage": "Description is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.descriptionSubheading",
+    "description": "Description Subheading",
+    "defaultMessage": "Summary",
+    "message": ""
+  },
+  {
+    "id": "rentall.details",
+    "description": "Details",
+    "defaultMessage": "Details",
+    "message": ""
+  },
+  {
+    "id": "rentall.directDeposit",
+    "description": "Payout Method",
+    "defaultMessage": "Direct Deposit, Paypal, etc..",
+    "message": ""
+  },
+  {
+    "id": "rentall.disconnect",
+    "description": "Disconnect button",
+    "defaultMessage": "Disconnect",
+    "message": ""
+  },
+  {
+    "id": "rentall.discount",
+    "description": "Discounts",
+    "defaultMessage": "Discounts",
+    "message": ""
+  },
+  {
+    "id": "rentall.discountInvalid",
+    "description": "Invalid discount",
+    "defaultMessage": "Invalid discount. The discount must be between 0% and 99%.",
+    "message": ""
+  },
+  {
+    "id": "rentall.discountLabel",
+    "description": "Discount Label",
+    "defaultMessage": "% off",
+    "message": ""
+  },
+  {
+    "id": "rentall.discountMonthly",
+    "description": "Monthly discount",
+    "defaultMessage": "Monthly discount",
+    "message": ""
+  },
+  {
+    "id": "rentall.discountWeekly",
+    "description": "Weekly discount",
+    "defaultMessage": "Weekly discount",
+    "message": ""
+  },
+  {
+    "id": "rentall.discover",
+    "description": "Menu item",
+    "defaultMessage": "Discover",
+    "message": ""
+  },
+  {
+    "id": "rentall.dropzoneUpload",
+    "description": "Dropzone upload info",
+    "defaultMessage": "Upload a file from your computer",
+    "message": ""
+  },
+  {
+    "id": "rentall.dropzoneUploadError",
+    "description": "Dropzone upload error message",
+    "defaultMessage": "Remove the existing image and try upload again",
+    "message": ""
+  },
+  {
+    "id": "rentall.duration",
+    "description": "Duration",
+    "defaultMessage": "Duration",
+    "message": ""
+  },
+  {
+    "id": "rentall.earnedAmount",
+    "description": "Payment details",
+    "defaultMessage": "Earned Amount",
+    "message": ""
+  },
+  {
+    "id": "rentall.editListing",
+    "description": "Manage listing button",
+    "defaultMessage": "Edit listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.editProfile",
+    "description": "Menu item",
+    "defaultMessage": "Edit Profile",
+    "message": ""
+  },
+  {
+    "id": "rentall.email",
+    "description": "Your Email Address to Login",
+    "defaultMessage": "Email Address",
+    "message": ""
+  },
+  {
+    "id": "rentall.emailAlreadyExists",
+    "description": "Email Address is already exist",
+    "defaultMessage": "That email address is already in use. Please choose different one!",
+    "message": ""
+  },
+  {
+    "id": "rentall.emailConfirmed",
+    "description": "View profile",
+    "defaultMessage": "Email Confirmed",
+    "message": ""
+  },
+  {
+    "id": "rentall.emailInValid",
+    "description": "Invalid Email Address",
+    "defaultMessage": "Invalid Email Address",
+    "message": ""
+  },
+  {
+    "id": "rentall.emailInfo",
+    "description": "emailInfo",
+    "defaultMessage": "We won’t share your private email address with other users.",
+    "message": ""
+  },
+  {
+    "id": "rentall.emailNotExists",
+    "description": "Email Address is not exist",
+    "defaultMessage": "No account exists for this email. Make sure it's typed in correctly, or “sign up” instead",
+    "message": ""
+  },
+  {
+    "id": "rentall.emailRequired",
+    "description": "Email is required",
+    "defaultMessage": "Email is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.errorCode",
+    "description": "Not Found",
+    "defaultMessage": "Error code: 404",
+    "message": ""
+  },
+  {
+    "id": "rentall.errorMessage",
+    "description": "Error message",
+    "defaultMessage": "Oops something went wrong, refresh or check back later",
+    "message": ""
+  },
+  {
+    "id": "rentall.exportCSV",
+    "description": "Export to CSV",
+    "defaultMessage": "Export to CSV",
+    "message": ""
+  },
+  {
+    "id": "rentall.extraPeople",
+    "description": "View listing extra people",
+    "defaultMessage": "Extra people",
+    "message": ""
+  },
+  {
+    "id": "rentall.facebook",
+    "description": "sign up with facebook",
+    "defaultMessage": "Facebook",
+    "message": ""
+  },
+  {
+    "id": "rentall.facebookInfo",
+    "description": "Facebook information",
+    "defaultMessage": "Sign in with Facebook and discover your trusted connections to hosts and guests all over the world.",
+    "message": ""
+  },
+  {
+    "id": "rentall.facebookLogin",
+    "description": "Log in with Facebook",
+    "defaultMessage": "Log in with Facebook",
+    "message": ""
+  },
+  {
+    "id": "rentall.facilities",
+    "description": "Facilities",
+    "defaultMessage": "Facilities",
+    "message": ""
+  },
+  {
+    "id": "rentall.fbConnected",
+    "description": "View profile",
+    "defaultMessage": "Facebook Connected",
+    "message": ""
+  },
+  {
+    "id": "rentall.filter",
+    "description": "Filter button",
+    "defaultMessage": "Filter",
+    "message": ""
+  },
+  {
+    "id": "rentall.filters",
+    "description": "Filters button for mobile",
+    "defaultMessage": "Filters",
+    "message": ""
+  },
+  {
+    "id": "rentall.finish",
+    "description": "Finish button",
+    "defaultMessage": "Finish",
+    "message": ""
+  },
+  {
+    "id": "rentall.finishListing",
+    "description": "Manage listing button",
+    "defaultMessage": "Finish the Listings",
+    "message": ""
+  },
+  {
+    "id": "rentall.firstName",
+    "description": "Your First name to Register",
+    "defaultMessage": "First Name",
+    "message": ""
+  },
+  {
+    "id": "rentall.firstNameRequired",
+    "description": "First name Required",
+    "defaultMessage": "First name is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexible",
+    "description": "Flexible",
+    "defaultMessage": "Flexible",
+    "message": ""
+  },
+  {
+    "id": "rentall.forgotPassword",
+    "description": "Forgot Password",
+    "defaultMessage": "Forgot Password",
+    "message": ""
+  },
+  {
+    "id": "rentall.forgotPasswordInfo",
+    "description": "Forgot password info",
+    "defaultMessage": "Enter the email address associated with your account, and we’ll email you a link to reset your password.",
+    "message": ""
+  },
+  {
+    "id": "rentall.futureTransactions",
+    "description": "Completed Transactions",
+    "defaultMessage": "Future Transactions",
+    "message": ""
+  },
+  {
+    "id": "rentall.gender",
+    "description": "Gender Field",
+    "defaultMessage": "Gender",
+    "message": ""
+  },
+  {
+    "id": "rentall.genderFemale",
+    "description": "Gender Female",
+    "defaultMessage": "Female",
+    "message": ""
+  },
+  {
+    "id": "rentall.genderInfo",
+    "description": "genderInfo",
+    "defaultMessage": "We use this data for analysis and never share it with other users.",
+    "message": ""
+  },
+  {
+    "id": "rentall.genderMale",
+    "description": "Gender Male",
+    "defaultMessage": "Male",
+    "message": ""
+  },
+  {
+    "id": "rentall.genderOther",
+    "description": "Gender Other",
+    "defaultMessage": "Other",
+    "message": ""
+  },
+  {
+    "id": "rentall.genderRequired",
+    "description": "Gender is required",
+    "defaultMessage": "Gender is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.goBack",
+    "description": "Manage listing Go back button",
+    "defaultMessage": "Go Back",
+    "message": ""
+  },
+  {
+    "id": "rentall.google",
+    "description": "Signup with Google",
+    "defaultMessage": "Google",
+    "message": ""
+  },
+  {
+    "id": "rentall.googleConnected",
+    "description": "View profile",
+    "defaultMessage": "Google Connected",
+    "message": ""
+  },
+  {
+    "id": "rentall.googleInfo",
+    "description": "Google information",
+    "defaultMessage": "Connect your account to your Google account for simplicity and ease.",
+    "message": ""
+  },
+  {
+    "id": "rentall.googleLogin",
+    "description": "Log in with Google",
+    "defaultMessage": "Log in with Google",
+    "message": ""
+  },
+  {
+    "id": "rentall.gotoListing",
+    "description": "Go to Listing",
+    "defaultMessage": "Go to Listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.grossEarnings",
+    "description": "Gross Earnings",
+    "defaultMessage": "Gross Earnings",
+    "message": ""
+  },
+  {
+    "id": "rentall.guest",
+    "description": "Guests",
+    "defaultMessage": "Guest",
+    "message": ""
+  },
+  {
+    "id": "rentall.guestDeclinedInfo",
+    "description": "Request declined",
+    "defaultMessage": "Your request is declined by host. You can choose different dates or search for other listing.",
+    "message": ""
+  },
+  {
+    "id": "rentall.guestRefundPolicy",
+    "description": "Guest Refund Policy",
+    "defaultMessage": "Guest Refund Policy",
+    "message": ""
+  },
+  {
+    "id": "rentall.guestRequest",
+    "description": "Guest Request",
+    "defaultMessage": "sent a request to booking for your listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.guestRequirements",
+    "description": "Tab bar",
+    "defaultMessage": "Guest Requirements",
+    "message": ""
+  },
+  {
+    "id": "rentall.guestRequirementsDescription",
+    "description": "Guest Requirements Description",
+    "defaultMessage": "Require all guests to submit the following before they can book:",
+    "message": ""
+  },
+  {
+    "id": "rentall.guestRequirementsTitle",
+    "description": "Guest Requirements Title",
+    "defaultMessage": "Review guest requirements",
+    "message": ""
+  },
+  {
+    "id": "rentall.guests",
+    "description": "Guests",
+    "defaultMessage": "Guests",
+    "message": ""
+  },
+  {
+    "id": "rentall.guidebooks",
+    "description": "Menu item",
+    "defaultMessage": "Guidebooks",
+    "message": ""
+  },
+  {
+    "id": "rentall.headerText",
+    "description": "Header Text",
+    "defaultMessage": "Step",
+    "message": ""
+  },
+  {
+    "id": "rentall.help",
+    "description": "Menu item",
+    "defaultMessage": "Help",
+    "message": ""
+  },
+  {
+    "id": "rentall.hey",
+    "description": "View profile",
+    "defaultMessage": "Hey I’m",
+    "message": ""
+  },
+  {
+    "id": "rentall.hi",
+    "description": "Hi",
+    "defaultMessage": "Hi",
+    "message": ""
+  },
+  {
+    "id": "rentall.home",
+    "description": "Menu item",
+    "defaultMessage": "Home",
+    "message": ""
+  },
+  {
+    "id": "rentall.homeWhere",
+    "description": "Destination, city, address",
+    "defaultMessage": "Destination, city, address",
+    "message": ""
+  },
+  {
+    "id": "rentall.hospitality",
+    "description": "Menu item",
+    "defaultMessage": "Hospitality",
+    "message": ""
+  },
+  {
+    "id": "rentall.host",
+    "description": "Menu item",
+    "defaultMessage": "Host",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostAction1",
+    "description": "Host Action Block.",
+    "defaultMessage": "Invite",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostAction2",
+    "description": "Host Action Block.",
+    "defaultMessage": "to book by pre-approving this trip",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostAction3",
+    "description": "Host Action Block.",
+    "defaultMessage": "Let",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostAction4",
+    "description": "Host Action Block.",
+    "defaultMessage": "know these dates are available by pre-approving them.",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostErrorMessage1",
+    "description": "Contact host error message",
+    "defaultMessage": "Please specify check in and check out",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostErrorMessage2",
+    "description": "Contact host error message",
+    "defaultMessage": "Those dates are not available",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostErrorMessage3",
+    "description": "Contact host error message",
+    "defaultMessage": "You can contact the host now",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostGuaranteeTerms",
+    "description": "Host Guarantee Terms",
+    "defaultMessage": "Host Guarantee Terms",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostResponseTime1",
+    "description": "Host Action Block.",
+    "defaultMessage": "Respond within",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostResponseTime2",
+    "description": "Host Action Block.",
+    "defaultMessage": "to maintain your response rate.",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostedBy",
+    "description": "Hosted by",
+    "defaultMessage": "Hosted by",
+    "message": ""
+  },
+  {
+    "id": "rentall.hosting",
+    "description": "Menu item",
+    "defaultMessage": "Hosting",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostingOn",
+    "description": "Not Found",
+    "defaultMessage": "Hosting on",
+    "message": ""
+  },
+  {
+    "id": "rentall.houseRules",
+    "description": "House Rules",
+    "defaultMessage": "House Rules",
+    "message": ""
+  },
+  {
+    "id": "rentall.houseTypeRequired",
+    "description": "House Type is Required",
+    "defaultMessage": "House Type is Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManyBathrooms",
+    "description": "How many bathrooms?",
+    "defaultMessage": "How many bathrooms?",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManyBedrooms",
+    "description": "How many bedrooms can guests use?",
+    "defaultMessage": "How many bedrooms can guests use?",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManyBeds",
+    "description": "How many beds can guests use?",
+    "defaultMessage": "How many beds can guests use?",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManyGuests",
+    "description": "How many guests can your place accommodate?",
+    "defaultMessage": "How many guests can your place accommodate?",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManyGuestsStay",
+    "description": "How many guests can stay?",
+    "defaultMessage": "How many guests can stay?",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManyRooms",
+    "description": "How many total rooms does your property have?",
+    "defaultMessage": "How many total rooms does your property have?",
+    "message": ""
+  },
+  {
+    "id": "rentall.iam",
+    "description": "Gender Label",
+    "defaultMessage": "I am",
+    "message": ""
+  },
+  {
+    "id": "rentall.in",
+    "description": "in",
+    "defaultMessage": "in",
+    "message": ""
+  },
+  {
+    "id": "rentall.inbox",
+    "description": "Inbox",
+    "defaultMessage": "Inbox",
+    "message": ""
+  },
+  {
+    "id": "rentall.info",
+    "description": "Describe Yourself",
+    "defaultMessage": "Describe Yourself",
+    "message": ""
+  },
+  {
+    "id": "rentall.info1",
+    "description": "info1",
+    "defaultMessage": "Help other people get to know you.",
+    "message": ""
+  },
+  {
+    "id": "rentall.info2",
+    "description": "info2",
+    "defaultMessage": "Tell them about the things you like: What are 5 things you can’t live without? Share your favorite travel destinations, books, movies, shows, music, food.",
+    "message": ""
+  },
+  {
+    "id": "rentall.info3",
+    "description": "info3",
+    "defaultMessage": "Tell them what it’s like to have you as a guest or host: What’s your style of traveling? Of hosting?",
+    "message": ""
+  },
+  {
+    "id": "rentall.info4",
+    "description": "info4",
+    "defaultMessage": "Tell them about you: Do you have a life motto?",
+    "message": ""
+  },
+  {
+    "id": "rentall.infoRequired",
+    "description": "Describe Yourself is Required",
+    "defaultMessage": "Profile info is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.instantBook",
+    "description": "Instant Book",
+    "defaultMessage": "Instant Book",
+    "message": ""
+  },
+  {
+    "id": "rentall.instantBookInfo",
+    "description": "instant Book Information",
+    "defaultMessage": "Listings you can book without waiting for host approval.",
+    "message": ""
+  },
+  {
+    "id": "rentall.instantBookingInfo",
+    "description": "Instant booking",
+    "defaultMessage": "Instant Book can give your listing an edge.Not only do guests prefer to book instantly, we’re promoting Instant Book listings in search results.",
+    "message": ""
+  },
+  {
+    "id": "rentall.instantBookingTitle",
+    "description": "Instant booking",
+    "defaultMessage": "Increase your earnings with Instant Book",
+    "message": ""
+  },
+  {
+    "id": "rentall.isPersonalHome",
+    "description": "Is this your personal home?",
+    "defaultMessage": "Is this your personal home?",
+    "message": ""
+  },
+  {
+    "id": "rentall.isPersonalHomeInfo",
+    "description": "Personal Home Info",
+    "defaultMessage": "Guests like to know if this is a place you live and keep your personal belongings in.",
+    "message": ""
+  },
+  {
+    "id": "rentall.itinerayTitle",
+    "description": "Itinerary",
+    "defaultMessage": "You’re going to",
+    "message": ""
+  },
+  {
+    "id": "rentall.joinedIn",
+    "description": "View listing host joining date",
+    "defaultMessage": "Joined in",
+    "message": ""
+  },
+  {
+    "id": "rentall.keepReservation",
+    "description": "Keep reservation",
+    "defaultMessage": "Keep reservation",
+    "message": ""
+  },
+  {
+    "id": "rentall.lastName",
+    "description": "Your Last name to Register",
+    "defaultMessage": "Last Name",
+    "message": ""
+  },
+  {
+    "id": "rentall.lastNameInfo",
+    "description": "lastNameInfo",
+    "defaultMessage": "Your public profile only shows your first name. When you request a booking, your host will see your first and last name.",
+    "message": ""
+  },
+  {
+    "id": "rentall.lastNameRequired",
+    "description": "Last name Required",
+    "defaultMessage": "Last name is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.learnMore",
+    "description": "learnMore",
+    "defaultMessage": "Learn More",
+    "message": ""
+  },
+  {
+    "id": "rentall.letYouGetReady",
+    "description": "Let You Get Ready",
+    "defaultMessage": "Let’s get you ready to become a host",
+    "message": ""
+  },
+  {
+    "id": "rentall.linksTitle",
+    "description": "Not Found",
+    "defaultMessage": "Here are some helpful links instead:",
+    "message": ""
+  },
+  {
+    "id": "rentall.listYourSpace",
+    "description": "Menu item",
+    "defaultMessage": "List Your Space",
+    "message": ""
+  },
+  {
+    "id": "rentall.listed",
+    "description": "Manage listing dropdown",
+    "defaultMessage": "Listed",
+    "message": ""
+  },
+  {
+    "id": "rentall.listingPublished",
+    "description": "Listing index",
+    "defaultMessage": "Your listing is ready to be published!",
+    "message": ""
+  },
+  {
+    "id": "rentall.listingUpdateInfo",
+    "description": "Manage listing update info",
+    "defaultMessage": "Last updated on",
+    "message": ""
+  },
+  {
+    "id": "rentall.liveLocation",
+    "description": "location",
+    "defaultMessage": "Where You Live",
+    "message": ""
+  },
+  {
+    "id": "rentall.loadMore",
+    "description": "Load more button",
+    "defaultMessage": "Load More",
+    "message": ""
+  },
+  {
+    "id": "rentall.loadMoreMsg",
+    "description": "Load More Messages",
+    "defaultMessage": "Load More Messages",
+    "message": ""
+  },
+  {
+    "id": "rentall.localLaws",
+    "description": "Local Laws",
+    "defaultMessage": "Your local laws and taxes",
+    "message": ""
+  },
+  {
+    "id": "rentall.location",
+    "description": "Location",
+    "defaultMessage": "Location",
+    "message": ""
+  },
+  {
+    "id": "rentall.locationRequired",
+    "description": "Location is required",
+    "defaultMessage": "Location is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.loggedIn",
+    "description": "You are already Logged-in",
+    "defaultMessage": "You are already logged in!",
+    "message": ""
+  },
+  {
+    "id": "rentall.login",
+    "description": "Menu item",
+    "defaultMessage": "Login",
+    "message": ""
+  },
+  {
+    "id": "rentall.loginInfo",
+    "description": "Login information",
+    "defaultMessage": "Log into PayPal. You will be able to review your request before it is final.",
+    "message": ""
+  },
+  {
+    "id": "rentall.logout",
+    "description": "Menu item",
+    "defaultMessage": "Logout",
+    "message": ""
+  },
+  {
+    "id": "rentall.manageListing",
+    "description": "Menu item",
+    "defaultMessage": "Manage listings",
+    "message": ""
+  },
+  {
+    "id": "rentall.map",
+    "description": "Map button for mobile",
+    "defaultMessage": "Map",
+    "message": ""
+  },
+  {
+    "id": "rentall.mapSuccess",
+    "description": "Map Success",
+    "defaultMessage": "Great! Thank you!",
+    "message": ""
+  },
+  {
+    "id": "rentall.mapWarning",
+    "description": "Map Warning",
+    "defaultMessage": "Drag the pin to set your location.",
+    "message": ""
+  },
+  {
+    "id": "rentall.maxDaysTitle",
+    "description": "Booking Window",
+    "defaultMessage": "Booking Window",
+    "message": ""
+  },
+  {
+    "id": "rentall.maximumStay",
+    "description": "Maximum day error",
+    "defaultMessage": "Maximum stay is",
+    "message": ""
+  },
+  {
+    "id": "rentall.meetupInfo1",
+    "description": "Meetup information",
+    "defaultMessage": "We ask everyone to confirm a few things before traveling or hosting.",
+    "message": ""
+  },
+  {
+    "id": "rentall.meetupInfo2",
+    "description": "Meetup information",
+    "defaultMessage": "You’ll only have to do this once.",
+    "message": ""
+  },
+  {
+    "id": "rentall.meetupTitle",
+    "description": "Get ready to book with",
+    "defaultMessage": "Get ready to book with",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageAction1",
+    "description": "View message",
+    "defaultMessage": "You messaged",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageAction2",
+    "description": "View message",
+    "defaultMessage": "about their listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageAction3",
+    "description": "View message",
+    "defaultMessage": "Your booking request sent to",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageAction4",
+    "description": "View message",
+    "defaultMessage": "for their listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageActionInfo",
+    "description": "View message",
+    "defaultMessage": "Most hosts respond within 24 hours. If this listing is your top choice, enter your payment information to officially request a reservation.",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageHistroy",
+    "description": "Message History",
+    "defaultMessage": "Message History",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageHost",
+    "description": "Itinerary",
+    "defaultMessage": "Message Host",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus1",
+    "description": "Message Status",
+    "defaultMessage": "Inquiry",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus10",
+    "description": "Message Status",
+    "defaultMessage": "Request to book",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus11",
+    "description": "Message Status",
+    "defaultMessage": "Cancelled",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus2",
+    "description": "Message Status",
+    "defaultMessage": "Pre Approved",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus3",
+    "description": "Message Status",
+    "defaultMessage": "Declined",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus4",
+    "description": "Message Status",
+    "defaultMessage": "Approved",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus5",
+    "description": "Message Status",
+    "defaultMessage": "Pending",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus6",
+    "description": "Message Status",
+    "defaultMessage": "Cancelled by host",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus7",
+    "description": "Message Status",
+    "defaultMessage": "Cancelled by guest",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus8",
+    "description": "Message Status",
+    "defaultMessage": "Approved",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageStatus9",
+    "description": "Message Status",
+    "defaultMessage": "Expired",
+    "message": ""
+  },
+  {
+    "id": "rentall.messages",
+    "description": "Menu item",
+    "defaultMessage": "Messages",
+    "message": ""
+  },
+  {
+    "id": "rentall.messagesNew",
+    "description": "New",
+    "defaultMessage": "New",
+    "message": ""
+  },
+  {
+    "id": "rentall.minMaxNights",
+    "description": "Tab bar",
+    "defaultMessage": "Min Max Nights",
+    "message": ""
+  },
+  {
+    "id": "rentall.missedEarnings",
+    "description": "Missed Earnings",
+    "defaultMessage": "Missed Earnings",
+    "message": ""
+  },
+  {
+    "id": "rentall.moderate",
+    "description": "Moderate",
+    "defaultMessage": "Moderate",
+    "message": ""
+  },
+  {
+    "id": "rentall.month",
+    "description": "Month of birthday",
+    "defaultMessage": "Month",
+    "message": ""
+  },
+  {
+    "id": "rentall.monthRequired",
+    "description": "Month is required",
+    "defaultMessage": "Month is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.moreVerifications",
+    "description": "View profile",
+    "defaultMessage": "Add More Verifications",
+    "message": ""
+  },
+  {
+    "id": "rentall.mostViewed",
+    "description": "Most Viewed Home page Slider title",
+    "defaultMessage": "Most Viewed",
+    "message": ""
+  },
+  {
+    "id": "rentall.mustBe18OrOld",
+    "description": "You must at least 18 years old",
+    "defaultMessage": "You must be at least 18 years old",
+    "message": ""
+  },
+  {
+    "id": "rentall.name",
+    "description": "Name",
+    "defaultMessage": "Name",
+    "message": ""
+  },
+  {
+    "id": "rentall.neighborhood",
+    "description": "View listing neighborhood",
+    "defaultMessage": "The neighborhood",
+    "message": ""
+  },
+  {
+    "id": "rentall.neighborhoodInfo",
+    "description": "View listing neighborhoodInfo",
+    "defaultMessage": "Exact location information is provided after a booking is confirmed.",
+    "message": ""
+  },
+  {
+    "id": "rentall.newPassword",
+    "description": "New Password",
+    "defaultMessage": "New Password",
+    "message": ""
+  },
+  {
+    "id": "rentall.next",
+    "description": "Next button",
+    "defaultMessage": "Next",
+    "message": ""
+  },
+  {
+    "id": "rentall.nights",
+    "description": "Bill details",
+    "defaultMessage": "nights",
+    "message": ""
+  },
+  {
+    "id": "rentall.noAccount",
+    "description": "Don’t have an account?",
+    "defaultMessage": "Don’t have an account?",
+    "message": ""
+  },
+  {
+    "id": "rentall.noCharge",
+    "description": "Extra people no charge",
+    "defaultMessage": "No Charge",
+    "message": ""
+  },
+  {
+    "id": "rentall.noItmesFound",
+    "description": "No items found",
+    "defaultMessage": "No items found",
+    "message": ""
+  },
+  {
+    "id": "rentall.noList",
+    "description": "No List Found",
+    "defaultMessage": "No List Found",
+    "message": ""
+  },
+  {
+    "id": "rentall.noMessagesTitle",
+    "description": "Inbox",
+    "defaultMessage": "No Messages yet.",
+    "message": ""
+  },
+  {
+    "id": "rentall.noMessagesTitle1",
+    "description": "Inbox",
+    "defaultMessage": "When hosts respond to your inquiries or booking requests, you'll see their messages here.",
+    "message": ""
+  },
+  {
+    "id": "rentall.noPaymentFound",
+    "description": "No payment",
+    "defaultMessage": "No Payment method found",
+    "message": ""
+  },
+  {
+    "id": "rentall.noReservation",
+    "description": "No reservation",
+    "defaultMessage": "You don't have any upcoming reservations!",
+    "message": ""
+  },
+  {
+    "id": "rentall.noResultsSubTitle",
+    "description": "No results message for search listing",
+    "defaultMessage": "Try adjusting your search. Here are some ideas:",
+    "message": ""
+  },
+  {
+    "id": "rentall.noResultsTerms1",
+    "description": "No results message for search listing",
+    "defaultMessage": "Change your filters or dates",
+    "message": ""
+  },
+  {
+    "id": "rentall.noResultsTerms2",
+    "description": "No results message for search listing",
+    "defaultMessage": "Zoom out on the map",
+    "message": ""
+  },
+  {
+    "id": "rentall.noResultsTerms3",
+    "description": "No results message for search listing",
+    "defaultMessage": "Search for a specific city, address",
+    "message": ""
+  },
+  {
+    "id": "rentall.noResultsTitle",
+    "description": "No results message for search listing",
+    "defaultMessage": "No Results",
+    "message": ""
+  },
+  {
+    "id": "rentall.noReview",
+    "description": "Review",
+    "defaultMessage": "There are no reviews about you yet.",
+    "message": ""
+  },
+  {
+    "id": "rentall.noReviewInfo",
+    "description": "View listing no review info",
+    "defaultMessage": "When you book this place, here’s where your review will show up!",
+    "message": ""
+  },
+  {
+    "id": "rentall.noReviewTitle",
+    "description": "View listing no review title",
+    "defaultMessage": "This place would love your review",
+    "message": ""
+  },
+  {
+    "id": "rentall.noThreadFound",
+    "description": "View Message",
+    "defaultMessage": "No thread found! If you think something went wrong, please refresh the page",
+    "message": ""
+  },
+  {
+    "id": "rentall.noTransactions",
+    "description": "No Transactions",
+    "defaultMessage": "No Transactions",
+    "message": ""
+  },
+  {
+    "id": "rentall.noTripTitle1",
+    "description": "No trips title",
+    "defaultMessage": "You don't have any upcoming trips!",
+    "message": ""
+  },
+  {
+    "id": "rentall.noTripTitle2",
+    "description": "No trips title",
+    "defaultMessage": "Choose your next adventure right away!",
+    "message": ""
+  },
+  {
+    "id": "rentall.noTripsButton",
+    "description": "No trips button",
+    "defaultMessage": "Search listings",
+    "message": ""
+  },
+  {
+    "id": "rentall.noVerifications",
+    "description": "View profile",
+    "defaultMessage": "No verifications yet",
+    "message": ""
+  },
+  {
+    "id": "rentall.nonDiscriminationPolicy",
+    "description": "NonDiscrimination Policy",
+    "defaultMessage": "NonDiscrimination Policy",
+    "message": ""
+  },
+  {
+    "id": "rentall.nonRefundable",
+    "description": "Cancel your trip",
+    "defaultMessage": "Non-Refundable",
+    "message": ""
+  },
+  {
+    "id": "rentall.notFoundSubTitle",
+    "description": "Not Found",
+    "defaultMessage": "We can't seem to find the page you're looking for!",
+    "message": ""
+  },
+  {
+    "id": "rentall.notFoundTitle",
+    "description": "Not Found",
+    "defaultMessage": "Uh-oh!",
+    "message": ""
+  },
+  {
+    "id": "rentall.notLoggedIn",
+    "description": "Wrong went wrong",
+    "defaultMessage": "You are not logged In. Please login to continue!",
+    "message": ""
+  },
+  {
+    "id": "rentall.notVerifiedDetails",
+    "description": "Not verified information",
+    "defaultMessage": "You haven't verified any of the below items",
+    "message": ""
+  },
+  {
+    "id": "rentall.notVerifiedInfo",
+    "description": "Not Verified Info",
+    "defaultMessage": "Not Verified Info",
+    "message": ""
+  },
+  {
+    "id": "rentall.notexist",
+    "description": "Guest profile not exist",
+    "defaultMessage": "Guest profile doesn't exist",
+    "message": ""
+  },
+  {
+    "id": "rentall.oldPassword",
+    "description": "Old Password",
+    "defaultMessage": "Old Password",
+    "message": ""
+  },
+  {
+    "id": "rentall.options",
+    "description": "Payout Method",
+    "defaultMessage": "Options",
+    "message": ""
+  },
+  {
+    "id": "rentall.or",
+    "description": "or",
+    "defaultMessage": "or",
+    "message": ""
+  },
+  {
+    "id": "rentall.pageError",
+    "description": "Page Error",
+    "defaultMessage": "Error",
+    "message": ""
+  },
+  {
+    "id": "rentall.pageErrorInfo",
+    "description": "Page Error",
+    "defaultMessage": "Sorry, a critical error occurred on this page.",
+    "message": ""
+  },
+  {
+    "id": "rentall.paidOut",
+    "description": "Paid Out",
+    "defaultMessage": "Paid Out",
+    "message": ""
+  },
+  {
+    "id": "rentall.panelHeader1",
+    "description": "Panel Header",
+    "defaultMessage": "In progress",
+    "message": ""
+  },
+  {
+    "id": "rentall.panelHeader2",
+    "description": "Panel Header",
+    "defaultMessage": "Completed",
+    "message": ""
+  },
+  {
+    "id": "rentall.panelReservation",
+    "description": "Reservations",
+    "defaultMessage": "Reservations",
+    "message": ""
+  },
+  {
+    "id": "rentall.password",
+    "description": "Your Password to Login",
+    "defaultMessage": "Password",
+    "message": ""
+  },
+  {
+    "id": "rentall.passwordError1",
+    "description": "Password Error",
+    "defaultMessage": "Old Password is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.passwordError2",
+    "description": "Password Error",
+    "defaultMessage": "New Password is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.passwordError3",
+    "description": "Password Error",
+    "defaultMessage": "New Password must be minimum 8 characters",
+    "message": ""
+  },
+  {
+    "id": "rentall.passwordError4",
+    "description": "Password Error",
+    "defaultMessage": "Confirm Password is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.passwordError5",
+    "description": "Password Error",
+    "defaultMessage": "Confirm Password must be minimum 8 characters",
+    "message": ""
+  },
+  {
+    "id": "rentall.passwordInValid",
+    "description": "Invalid Password",
+    "defaultMessage": "Your password must be at least 8 characters. Please try again",
+    "message": ""
+  },
+  {
+    "id": "rentall.passwordRequired",
+    "description": "Password is required",
+    "defaultMessage": "Password is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.passwordWrong",
+    "description": "Wrong Password",
+    "defaultMessage": "Wrong Password. Please try again",
+    "message": ""
+  },
+  {
+    "id": "rentall.pastReviewTitle",
+    "description": "Review",
+    "defaultMessage": "Past Reviews You’ve Written",
+    "message": ""
+  },
+  {
+    "id": "rentall.payTo",
+    "description": "Pay to",
+    "defaultMessage": "Pay to",
+    "message": ""
+  },
+  {
+    "id": "rentall.payment",
+    "description": "Payment",
+    "defaultMessage": "Payment",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentCurrency",
+    "description": "Payment currency",
+    "defaultMessage": "Payment Currency",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentInfo",
+    "description": "Payment information",
+    "defaultMessage": "You’ll only be charged if your request is accepted by the host.They’ll have 24 hours to accept or decline.",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentReceived",
+    "description": "Payment Received:",
+    "defaultMessage": "Payment Received:",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentReleaseInfo1",
+    "description": "Payout Method",
+    "defaultMessage": "releases payouts about 24 hours after a guest’s scheduled check-in time.",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentReleaseInfo2",
+    "description": "Payout Method",
+    "defaultMessage": "The time it takes for the funds to appear in your account depends on your payout method.",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentTerms",
+    "description": "Payments Terms of Service",
+    "defaultMessage": "Payments Terms of Service",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentType",
+    "description": "Payment Type",
+    "defaultMessage": "Payment Type",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutError1",
+    "description": "Payout Form",
+    "defaultMessage": "Country is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutError2",
+    "description": "Payout Form",
+    "defaultMessage": "City is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutError3",
+    "description": "Payout Form",
+    "defaultMessage": "State / Province is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutError4",
+    "description": "Payout Form",
+    "defaultMessage": "ZIP Code / Postal Code is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutError5",
+    "description": "Payout Form",
+    "defaultMessage": "Enter valid email address",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutError6",
+    "description": "Payout Form",
+    "defaultMessage": "Currency is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutFaq",
+    "description": "Payout Method",
+    "defaultMessage": "Visit the Payout FAQ",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutIntro1",
+    "description": "Payout intro",
+    "defaultMessage": "Payouts for reservations are released to you the day after your guest checks in, and it takes some additional time for the money to arrive depending on your payout method.",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutIntro2",
+    "description": "Payout intro",
+    "defaultMessage": "We can send money to people in United States with these payout methods. Which do you prefer?",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutMethod",
+    "description": "Payout Method",
+    "defaultMessage": "Payout Methods",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutPreferences",
+    "description": "Payout Preferences",
+    "defaultMessage": "Payout Preferences",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutTitle",
+    "description": "Payout header",
+    "defaultMessage": "Method",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutTitle1",
+    "description": "Payout header",
+    "defaultMessage": "Processed in",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutTitle2",
+    "description": "Payout header",
+    "defaultMessage": "Fees",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutTitle3",
+    "description": "Payout header",
+    "defaultMessage": "Currency",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutTitle4",
+    "description": "Payout header",
+    "defaultMessage": "Details",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutTitleBlock1",
+    "description": "Payout Method",
+    "defaultMessage": "When you receive a payment for a reservation, we call that payment to you a “payout”. Our secure payment system supports several payout methods, which can be setup and edited here. Your available payout options and currencies differ by country.",
+    "message": ""
+  },
+  {
+    "id": "rentall.paypal",
+    "description": "Paypal",
+    "defaultMessage": "PayPal",
+    "message": ""
+  },
+  {
+    "id": "rentall.paypalCurrency",
+    "description": "Paypal currency",
+    "defaultMessage": "In what currency would you like to be paid?",
+    "message": ""
+  },
+  {
+    "id": "rentall.paypalEmail",
+    "description": "Paypal email",
+    "defaultMessage": "Enter the email address associated with your existing PayPal account.",
+    "message": ""
+  },
+  {
+    "id": "rentall.paypalIntro1",
+    "description": "Paypal intro",
+    "defaultMessage": "PayPal is an online payment processing service that allows you to receive payments from",
+    "message": ""
+  },
+  {
+    "id": "rentall.paypalIntro2",
+    "description": "Paypal intro",
+    "defaultMessage": "To use PayPal with",
+    "message": ""
+  },
+  {
+    "id": "rentall.paypalIntro3",
+    "description": "Paypal intro",
+    "defaultMessage": "you must have an existing account with PayPal.",
+    "message": ""
+  },
+  {
+    "id": "rentall.paypalIntro4",
+    "description": "Paypal intro",
+    "defaultMessage": "Learn more about PayPal",
+    "message": ""
+  },
+  {
+    "id": "rentall.perNight",
+    "description": "Per Night",
+    "defaultMessage": "Per Night",
+    "message": ""
+  },
+  {
+    "id": "rentall.phoneNumber",
+    "description": "Phone Number",
+    "defaultMessage": "Phone Number",
+    "message": ""
+  },
+  {
+    "id": "rentall.phoneNumberInfo",
+    "description": "phoneNumberInfo",
+    "defaultMessage": "This is only shared once you have a confirmed booking with another user. This is how we can all get in touch.",
+    "message": ""
+  },
+  {
+    "id": "rentall.phoneNumberInvalid",
+    "description": "Phone Number is Invalid",
+    "defaultMessage": "Invalid Phone Number",
+    "message": ""
+  },
+  {
+    "id": "rentall.phoneNumberRequired",
+    "description": "Phone number is required",
+    "defaultMessage": "Phone number is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.photos",
+    "description": "Photos",
+    "defaultMessage": "Photos",
+    "message": ""
+  },
+  {
+    "id": "rentall.photosPlaceholder",
+    "description": "Photos Placeholder",
+    "defaultMessage": "Click here to upload photos or drag them in",
+    "message": ""
+  },
+  {
+    "id": "rentall.placeTitle",
+    "description": "Title",
+    "defaultMessage": "Name your place",
+    "message": ""
+  },
+  {
+    "id": "rentall.pleaseVerify",
+    "description": "Verify your email address.",
+    "defaultMessage": "Please verify your email address.",
+    "message": ""
+  },
+  {
+    "id": "rentall.policies",
+    "description": "Menu item",
+    "defaultMessage": "Policies",
+    "message": ""
+  },
+  {
+    "id": "rentall.preApprove",
+    "description": "Pre-approve",
+    "defaultMessage": "Pre-approve",
+    "message": ""
+  },
+  {
+    "id": "rentall.preferredCurrency",
+    "description": "Preferred Currency",
+    "defaultMessage": "Preferred Currency",
+    "message": ""
+  },
+  {
+    "id": "rentall.preferredCurrencyInfo",
+    "description": "preferredCurrencyInfo",
+    "defaultMessage": "We’ll show you prices in this currency.",
+    "message": ""
+  },
+  {
+    "id": "rentall.preferredCurrencyRequired",
+    "description": "Preferred currency is required",
+    "defaultMessage": "Preferred currency is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.preferredLanguage",
+    "description": "Preferred Language",
+    "defaultMessage": "Preferred Language",
+    "message": ""
+  },
+  {
+    "id": "rentall.preferredLanguageInfo",
+    "description": "preferredLanguageInfo",
+    "defaultMessage": "We’ll send you messages in this language.",
+    "message": ""
+  },
+  {
+    "id": "rentall.preferredLanguageRequired",
+    "description": "Preferred language is required",
+    "defaultMessage": "Preferred language is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.press",
+    "description": "Menu item",
+    "defaultMessage": "Press",
+    "message": ""
+  },
+  {
+    "id": "rentall.preview",
+    "description": "Manage listing button",
+    "defaultMessage": "Preview",
+    "message": ""
+  },
+  {
+    "id": "rentall.previewListing",
+    "description": "Listing index",
+    "defaultMessage": "Preview Listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.priceRange",
+    "description": "Price Range",
+    "defaultMessage": "Price Range",
+    "message": ""
+  },
+  {
+    "id": "rentall.prices",
+    "description": "View listing prices",
+    "defaultMessage": "Prices",
+    "message": ""
+  },
+  {
+    "id": "rentall.pricing",
+    "description": "pricing title",
+    "defaultMessage": "Base price",
+    "message": ""
+  },
+  {
+    "id": "rentall.pricingDescription",
+    "description": "pricing description",
+    "defaultMessage": "Your base price is your default nightly rate.",
+    "message": ""
+  },
+  {
+    "id": "rentall.privacyPolicy",
+    "description": "Privacy Policy",
+    "defaultMessage": "Privacy Policy",
+    "message": ""
+  },
+  {
+    "id": "rentall.profile",
+    "description": "Menu item",
+    "defaultMessage": "Profile",
+    "message": ""
+  },
+  {
+    "id": "rentall.profilePhoto",
+    "description": "Profile Photo",
+    "defaultMessage": "Profile Photo",
+    "message": ""
+  },
+  {
+    "id": "rentall.profilePhotoInfo",
+    "description": "Profile photo upload information",
+    "defaultMessage": "Clear frontal face photos are an important way for hosts and guests to learn about each other. It’s not much fun to host a landscape! Please upload a photo that clearly shows your face.",
+    "message": ""
+  },
+  {
+    "id": "rentall.progressBarText1",
+    "description": "Manage listing Progress bar text",
+    "defaultMessage": "You’re",
+    "message": ""
+  },
+  {
+    "id": "rentall.progressBarText2",
+    "description": "Manage listing Progress bar text",
+    "defaultMessage": "done with your listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.propertyType",
+    "description": "The space property type",
+    "defaultMessage": "Property type",
+    "message": ""
+  },
+  {
+    "id": "rentall.publishNow",
+    "description": "Listing index",
+    "defaultMessage": "Publish Now",
+    "message": ""
+  },
+  {
+    "id": "rentall.ready",
+    "description": "Payout Method",
+    "defaultMessage": "Ready",
+    "message": ""
+  },
+  {
+    "id": "rentall.readyToPublish",
+    "description": "Listing inde",
+    "defaultMessage": "Your listing is ready to be published!",
+    "message": ""
+  },
+  {
+    "id": "rentall.receipt",
+    "description": "Receipt",
+    "defaultMessage": "Receipt",
+    "message": ""
+  },
+  {
+    "id": "rentall.receiptInfo1",
+    "description": "Receipt information",
+    "defaultMessage": "is authorized to accept accomodation fees on behalf of the Host as their limited agent.",
+    "message": ""
+  },
+  {
+    "id": "rentall.receiptInfo2",
+    "description": "Receipt information",
+    "defaultMessage": "This means that your payment obligation to the Host is satisfied by your payment to",
+    "message": ""
+  },
+  {
+    "id": "rentall.receiptInfo3",
+    "description": "Receipt information",
+    "defaultMessage": "Any of the Host's disagreements by the Host regarding that payment must be settled between the Host and",
+    "message": ""
+  },
+  {
+    "id": "rentall.recommended",
+    "description": "Recommended Home page Slider title",
+    "defaultMessage": "Recommended",
+    "message": ""
+  },
+  {
+    "id": "rentall.refundAmount",
+    "description": "Refund Amount",
+    "defaultMessage": "Refund Amount",
+    "message": ""
+  },
+  {
+    "id": "rentall.refundCost",
+    "description": "Cancel your trip",
+    "defaultMessage": "You will be refunded the above cost.",
+    "message": ""
+  },
+  {
+    "id": "rentall.refundable",
+    "description": "Cancel your trip",
+    "defaultMessage": "Refundable",
+    "message": ""
+  },
+  {
+    "id": "rentall.remove",
+    "description": "Payout Method",
+    "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "rentall.rentals",
+    "description": "Rentals",
+    "defaultMessage": "Rentals",
+    "message": ""
+  },
+  {
+    "id": "rentall.reportUser",
+    "description": "View profile",
+    "defaultMessage": "Report this user",
+    "message": ""
+  },
+  {
+    "id": "rentall.requestApproved",
+    "description": "Request Approved",
+    "defaultMessage": "Request Approved",
+    "message": ""
+  },
+  {
+    "id": "rentall.requestApprovedAction1",
+    "description": "Request approved",
+    "defaultMessage": "Your booking request approved by",
+    "message": ""
+  },
+  {
+    "id": "rentall.requestDeclined",
+    "description": "Request declined",
+    "defaultMessage": "Request declined",
+    "message": ""
+  },
+  {
+    "id": "rentall.requestTimeInfo1",
+    "description": "Request approved",
+    "defaultMessage": "You have to book within",
+    "message": ""
+  },
+  {
+    "id": "rentall.requestTimeInfo2",
+    "description": "Request approved",
+    "defaultMessage": "or it will expire.",
+    "message": ""
+  },
+  {
+    "id": "rentall.requestToBook",
+    "description": "Booking button",
+    "defaultMessage": "Request to Book",
+    "message": ""
+  },
+  {
+    "id": "rentall.resendEmail",
+    "description": "Resend email button",
+    "defaultMessage": "Resend email",
+    "message": ""
+  },
+  {
+    "id": "rentall.reservation",
+    "description": "Reservation",
+    "defaultMessage": "Reservation",
+    "message": ""
+  },
+  {
+    "id": "rentall.reservationCancel",
+    "description": "Cancel your trip",
+    "defaultMessage": "The reservation will be cancelled immediately",
+    "message": ""
+  },
+  {
+    "id": "rentall.reservationCharges",
+    "description": "Reservation Charges",
+    "defaultMessage": "Reservation Charges",
+    "message": ""
+  },
+  {
+    "id": "rentall.reservationCode",
+    "description": "Itinerary",
+    "defaultMessage": "Reservation code:",
+    "message": ""
+  },
+  {
+    "id": "rentall.response",
+    "description": "Review",
+    "defaultMessage": "Response",
+    "message": ""
+  },
+  {
+    "id": "rentall.responseRate",
+    "description": "View listing response rate",
+    "defaultMessage": "Response rate",
+    "message": ""
+  },
+  {
+    "id": "rentall.responseTime",
+    "description": "View listing response time",
+    "defaultMessage": "Response time",
+    "message": ""
+  },
+  {
+    "id": "rentall.responsibleHosting",
+    "description": "Menu item",
+    "defaultMessage": "Responsible Hosting",
+    "message": ""
+  },
+  {
+    "id": "rentall.results",
+    "description": "Results button for mobile",
+    "defaultMessage": "Results",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewContent",
+    "description": "Review",
+    "defaultMessage": "Nobody to review right now. Looks like it’s time for another trip!",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewError1",
+    "description": "Review",
+    "defaultMessage": "Please write your review!",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewError2",
+    "description": "Review",
+    "defaultMessage": "Please rate your review!",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewGuestBook",
+    "description": "Tab bar",
+    "defaultMessage": "Review GuestBook",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewGuestBookDescription",
+    "description": "Guests can book available",
+    "defaultMessage": "Guests can book available days instantly as long as they:",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewGuestBookNote",
+    "description": "Review Guests Note",
+    "defaultMessage": "Guests who don’t meet your requirements must send a reservation request.",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewGuestBookTitle",
+    "description": "How guests book: Instantly",
+    "defaultMessage": "How guests book: Instantly",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewPageTitle",
+    "description": "Review",
+    "defaultMessage": "Describe your experience (required)",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewPageTitle1",
+    "description": "Review",
+    "defaultMessage": "Your review will be public on your guest profile",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewPanelTitle",
+    "description": "Review",
+    "defaultMessage": "Reviews About you",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewPanelTitle2",
+    "description": "Review",
+    "defaultMessage": "Reviews By you",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewRating",
+    "description": "Review",
+    "defaultMessage": "Overall Rating",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewTextArea",
+    "description": "Review",
+    "defaultMessage": "What was it like to host this guest",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewTitle",
+    "description": "Review",
+    "defaultMessage": "Thank you for reviewing",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewTitle2",
+    "description": "Review",
+    "defaultMessage": "Thank you for reviewing your guest. Your review will be visible on their profile.",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewToWrite",
+    "description": "Reviews Panel",
+    "defaultMessage": "Reviews to Write",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewWritten",
+    "description": "Review",
+    "defaultMessage": "Reviews are written at the end of a reservation. Reviews you’ve received will be visible both here and on your public profile.",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviews",
+    "description": "Reviews",
+    "defaultMessage": "Reviews",
+    "message": ""
+  },
+  {
+    "id": "rentall.roomType",
+    "description": "Type of Room",
+    "defaultMessage": "Room Type",
+    "message": ""
+  },
+  {
+    "id": "rentall.safetyFeatures",
+    "description": "View listing Safety features",
+    "defaultMessage": "Safety features",
+    "message": ""
+  },
+  {
+    "id": "rentall.safetyamenities",
+    "description": "Safety amenities Headline",
+    "defaultMessage": "Safety amenities",
+    "message": ""
+  },
+  {
+    "id": "rentall.save",
+    "description": "Save Button",
+    "defaultMessage": "Save",
+    "message": ""
+  },
+  {
+    "id": "rentall.saveAndContinue",
+    "description": "Save & Continue",
+    "defaultMessage": "Save & Continue",
+    "message": ""
+  },
+  {
+    "id": "rentall.saveAndExit",
+    "description": "Save and Exit",
+    "defaultMessage": "Save and Exit",
+    "message": ""
+  },
+  {
+    "id": "rentall.sayHello",
+    "description": "Payment page info",
+    "defaultMessage": "Say hello to your host and tell them why you’re coming",
+    "message": ""
+  },
+  {
+    "id": "rentall.search",
+    "description": "Search",
+    "defaultMessage": "Search",
+    "message": ""
+  },
+  {
+    "id": "rentall.security",
+    "description": "Security",
+    "defaultMessage": "Security",
+    "message": ""
+  },
+  {
+    "id": "rentall.seeHomes",
+    "description": "See Homes",
+    "defaultMessage": "See Homes",
+    "message": ""
+  },
+  {
+    "id": "rentall.sendLink",
+    "description": "Send Link",
+    "defaultMessage": "Send Link",
+    "message": ""
+  },
+  {
+    "id": "rentall.sendMessage",
+    "description": "Contact host button",
+    "defaultMessage": "Send message",
+    "message": ""
+  },
+  {
+    "id": "rentall.serviceFee",
+    "description": "Bill details",
+    "defaultMessage": "Service fee",
+    "message": ""
+  },
+  {
+    "id": "rentall.setCover",
+    "description": "Set Cover Photo",
+    "defaultMessage": "Set Cover Photo",
+    "message": ""
+  },
+  {
+    "id": "rentall.setCoverPhoto",
+    "description": "setCoverPhoto",
+    "defaultMessage": "Choose a photo for cover image",
+    "message": ""
+  },
+  {
+    "id": "rentall.setDefault",
+    "description": "Payout Method",
+    "defaultMessage": "Set Default",
+    "message": ""
+  },
+  {
+    "id": "rentall.setHouseRules",
+    "description": "House Rules",
+    "defaultMessage": "Set house rules for your guests",
+    "message": ""
+  },
+  {
+    "id": "rentall.sharedSpaces",
+    "description": "View listing shared spaces",
+    "defaultMessage": "Shared Spaces",
+    "message": ""
+  },
+  {
+    "id": "rentall.signUp",
+    "description": "Sign Up Button",
+    "defaultMessage": "Sign Up",
+    "message": ""
+  },
+  {
+    "id": "rentall.signUpTitle",
+    "description": "Signup Title",
+    "defaultMessage": "New User Registration",
+    "message": ""
+  },
+  {
+    "id": "rentall.signup",
+    "description": "Menu item",
+    "defaultMessage": "Sign up",
+    "message": ""
+  },
+  {
+    "id": "rentall.signupWith",
+    "description": "Signup with",
+    "defaultMessage": "Sign up with",
+    "message": ""
+  },
+  {
+    "id": "rentall.signupWithEmail",
+    "description": "Login Modal title",
+    "defaultMessage": "Signup with Email",
+    "message": ""
+  },
+  {
+    "id": "rentall.size",
+    "description": "Size",
+    "defaultMessage": "Size",
+    "message": ""
+  },
+  {
+    "id": "rentall.skip",
+    "description": "Skip Button",
+    "defaultMessage": "Skip now",
+    "message": ""
+  },
+  {
+    "id": "rentall.somethingWentWrong",
+    "description": "Wrong went wrong",
+    "defaultMessage": "Sorry, something went wrong. Please try again",
+    "message": ""
+  },
+  {
+    "id": "rentall.state",
+    "description": "Payout Form",
+    "defaultMessage": "State / Province",
+    "message": ""
+  },
+  {
+    "id": "rentall.stateRequired",
+    "description": "stateRequired",
+    "defaultMessage": "State is Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.status",
+    "description": "Status",
+    "defaultMessage": "Status",
+    "message": ""
+  },
+  {
+    "id": "rentall.step1Heading",
+    "description": "STEP 1 Heading",
+    "defaultMessage": "Become a host",
+    "message": ""
+  },
+  {
+    "id": "rentall.step1HeadingContent",
+    "description": "STEP 1 Heading Content",
+    "defaultMessage": "Beds, bathrooms, amenities, and more",
+    "message": ""
+  },
+  {
+    "id": "rentall.step1SubHeading",
+    "description": "STEP 1 Sub Heading",
+    "defaultMessage": "Start with the basics",
+    "message": ""
+  },
+  {
+    "id": "rentall.step2Heading",
+    "description": "STEP 2 Heading",
+    "defaultMessage": "STEP 2",
+    "message": ""
+  },
+  {
+    "id": "rentall.step2HeadingContent",
+    "description": "STEP 2 Heading Content",
+    "defaultMessage": "Photos, short description, title",
+    "message": ""
+  },
+  {
+    "id": "rentall.step2SubHeading",
+    "description": "STEP 2 Sub Heading",
+    "defaultMessage": "Set the scene",
+    "message": ""
+  },
+  {
+    "id": "rentall.step3Heading",
+    "description": "STEP 3 Heading",
+    "defaultMessage": "STEP 3",
+    "message": ""
+  },
+  {
+    "id": "rentall.step3HeadingContent",
+    "description": "STEP 3 Heading Content",
+    "defaultMessage": "Booking settings, calendar, price",
+    "message": ""
+  },
+  {
+    "id": "rentall.step3SubHeading",
+    "description": "STEP 3 Sub Heading",
+    "defaultMessage": "Get ready for guests",
+    "message": ""
+  },
+  {
+    "id": "rentall.street",
+    "description": "Street Address",
+    "defaultMessage": "Street Address",
+    "message": ""
+  },
+  {
+    "id": "rentall.streetRequired",
+    "description": "streetRequired",
+    "defaultMessage": "Street is Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.strict",
+    "description": "Strict",
+    "defaultMessage": "Strict",
+    "message": ""
+  },
+  {
+    "id": "rentall.subTotal",
+    "description": "Payment details",
+    "defaultMessage": "Subtotal",
+    "message": ""
+  },
+  {
+    "id": "rentall.submit",
+    "description": "Submit button",
+    "defaultMessage": "Submit",
+    "message": ""
+  },
+  {
+    "id": "rentall.submitReviewFor",
+    "description": "Review",
+    "defaultMessage": "Submit a public review for",
+    "message": ""
+  },
+  {
+    "id": "rentall.summary",
+    "description": "Summary Title",
+    "defaultMessage": "Based on your settings, here’s what you could expect",
+    "message": ""
+  },
+  {
+    "id": "rentall.syncCalendars",
+    "description": "Sync calendars",
+    "defaultMessage": "Sync calendars",
+    "message": ""
+  },
+  {
+    "id": "rentall.tabBooking",
+    "description": "Tab bar",
+    "defaultMessage": "Booking",
+    "message": ""
+  },
+  {
+    "id": "rentall.tabCalendar",
+    "description": "Tab bar",
+    "defaultMessage": "Calendar",
+    "message": ""
+  },
+  {
+    "id": "rentall.tabDescription",
+    "description": "Tab bar",
+    "defaultMessage": "Description",
+    "message": ""
+  },
+  {
+    "id": "rentall.tabDiscount",
+    "description": "Tab bar",
+    "defaultMessage": "Discount",
+    "message": ""
+  },
+  {
+    "id": "rentall.tabLocalLaws",
+    "description": "Tab bar",
+    "defaultMessage": "Local Laws",
+    "message": ""
+  },
+  {
+    "id": "rentall.tabPlaceType",
+    "description": "Tab bar",
+    "defaultMessage": "Place type",
+    "message": ""
+  },
+  {
+    "id": "rentall.tabPricing",
+    "description": "Tab bar",
+    "defaultMessage": "Pricing",
+    "message": ""
+  },
+  {
+    "id": "rentall.tabTitle",
+    "description": "Tab bar",
+    "defaultMessage": "Title",
+    "message": ""
+  },
+  {
+    "id": "rentall.terms1",
+    "description": "Terms content part1",
+    "defaultMessage": "By signing up, I agree to",
+    "message": ""
+  },
+  {
+    "id": "rentall.terms2",
+    "description": "Terms content part1",
+    "defaultMessage": "Terms of Service, Nondiscrimination Policy, Payments Terms of Service, Privacy Policy, Guest Refund Policy, and Host Guarantee Terms.",
+    "message": ""
+  },
+  {
+    "id": "rentall.termsOfService",
+    "description": "Terms of Service",
+    "defaultMessage": "Terms of Service",
+    "message": ""
+  },
+  {
+    "id": "rentall.termsPrivacy",
+    "description": "Menu item",
+    "defaultMessage": "Terms & Privacy",
+    "message": ""
+  },
+  {
+    "id": "rentall.textBoxMessage",
+    "description": "Contact host text box start your message",
+    "defaultMessage": "Start your message",
+    "message": ""
+  },
+  {
+    "id": "rentall.theSpace",
+    "description": "The space",
+    "defaultMessage": "The space",
+    "message": ""
+  },
+  {
+    "id": "rentall.timeToExpire",
+    "description": "Time To Expire",
+    "defaultMessage": "Your guest have 24 hours to respond to this or it will get expired",
+    "message": ""
+  },
+  {
+    "id": "rentall.title",
+    "description": "You don't have any listings!",
+    "defaultMessage": "You don't have any listings!",
+    "message": ""
+  },
+  {
+    "id": "rentall.titleLabel",
+    "description": "Title",
+    "defaultMessage": "Listing title",
+    "message": ""
+  },
+  {
+    "id": "rentall.titleRequired",
+    "description": "Title is required",
+    "defaultMessage": "Oops! We need a title for your place.",
+    "message": ""
+  },
+  {
+    "id": "rentall.total",
+    "description": "Bill details",
+    "defaultMessage": "Total",
+    "message": ""
+  },
+  {
+    "id": "rentall.transactionHistory",
+    "description": "Menu item",
+    "defaultMessage": "Transaction History",
+    "message": ""
+  },
+  {
+    "id": "rentall.transactionPayout",
+    "description": "Transaction history",
+    "defaultMessage": "Payout",
+    "message": ""
+  },
+  {
+    "id": "rentall.transactions",
+    "description": "Transactions",
+    "defaultMessage": "Transactions",
+    "message": ""
+  },
+  {
+    "id": "rentall.transactionsAddPayout",
+    "description": "Transaction payout",
+    "defaultMessage": "Add Payout",
+    "message": ""
+  },
+  {
+    "id": "rentall.transferAmount",
+    "description": "Amount",
+    "defaultMessage": "Amount",
+    "message": ""
+  },
+  {
+    "id": "rentall.transferDate",
+    "description": "Date",
+    "defaultMessage": "Date",
+    "message": ""
+  },
+  {
+    "id": "rentall.transferTo",
+    "description": "Transaction history",
+    "defaultMessage": "Transfer to",
+    "message": ""
+  },
+  {
+    "id": "rentall.transferType",
+    "description": "Type",
+    "defaultMessage": "Type",
+    "message": ""
+  },
+  {
+    "id": "rentall.travelCredit",
+    "description": "Menu item",
+    "defaultMessage": "Travel Credit",
+    "message": ""
+  },
+  {
+    "id": "rentall.travelDestination",
+    "description": "Travel Destination",
+    "defaultMessage": "Travel Destination",
+    "message": ""
+  },
+  {
+    "id": "rentall.traveling",
+    "description": "Traveling",
+    "defaultMessage": "Travelling",
+    "message": ""
+  },
+  {
+    "id": "rentall.tripDetails",
+    "description": "Trip details",
+    "defaultMessage": "Trip details",
+    "message": ""
+  },
+  {
+    "id": "rentall.tripLength",
+    "description": "Trip length",
+    "defaultMessage": "Trip length",
+    "message": ""
+  },
+  {
+    "id": "rentall.tripLengthError1",
+    "description": "Trip length",
+    "defaultMessage": "Minimum nights can't be higher than maximum nights",
+    "message": ""
+  },
+  {
+    "id": "rentall.trips",
+    "description": "Menu item",
+    "defaultMessage": "Trips",
+    "message": ""
+  },
+  {
+    "id": "rentall.trustAndVerification",
+    "description": "Trust and Verification",
+    "defaultMessage": "Trust and Verification",
+    "message": ""
+  },
+  {
+    "id": "rentall.trustSafety",
+    "description": "Menu item",
+    "defaultMessage": "Trust & Safety",
+    "message": ""
+  },
+  {
+    "id": "rentall.unListed",
+    "description": "Manage listing dropdown",
+    "defaultMessage": "Unlisted",
+    "message": ""
+  },
+  {
+    "id": "rentall.unPublishNow",
+    "description": "Listing index",
+    "defaultMessage": "UnPublish Now",
+    "message": ""
+  },
+  {
+    "id": "rentall.updatePassword",
+    "description": "Update Password",
+    "defaultMessage": "Update Password",
+    "message": ""
+  },
+  {
+    "id": "rentall.uploadInfo",
+    "description": "Avatar upload info",
+    "defaultMessage": "This helps your host recognize you when you meet, so make sure it shows your face.",
+    "message": ""
+  },
+  {
+    "id": "rentall.verificationInfo1",
+    "description": "Verification info",
+    "defaultMessage": "Tap the link in the email we sent you.",
+    "message": ""
+  },
+  {
+    "id": "rentall.verificationInfo2",
+    "description": "Verification info",
+    "defaultMessage": "Confirming your email address helps us send you trip information.",
+    "message": ""
+  },
+  {
+    "id": "rentall.verifiedEmail",
+    "description": "You have verified your email address",
+    "defaultMessage": "You have verified your email address",
+    "message": ""
+  },
+  {
+    "id": "rentall.verifiedInfo",
+    "description": "Verified Info",
+    "defaultMessage": "Verified Info",
+    "message": ""
+  },
+  {
+    "id": "rentall.verifyEmail",
+    "description": "Verify Email",
+    "defaultMessage": "Verify Email",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewCountInfo",
+    "description": "View listing view count details",
+    "defaultMessage": "This home is on people minds.",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewCountTotal1",
+    "description": "View listing view count details",
+    "defaultMessage": "It’s been viewed",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewCountTotal2",
+    "description": "View listing view count details",
+    "defaultMessage": "times in the past week.",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewDetails",
+    "description": "Cancellations view details",
+    "defaultMessage": "View details",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewItinerary",
+    "description": "View Itinerary",
+    "defaultMessage": "View Itinerary",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewListing",
+    "description": "View Listing",
+    "defaultMessage": "View Listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewLitneray",
+    "description": "Review",
+    "defaultMessage": "View Itinerary",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewOtherListings",
+    "description": "Booking button",
+    "defaultMessage": "View Other Listings",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewPhotos",
+    "description": "View photos button",
+    "defaultMessage": "View Photos",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewProfile",
+    "description": "View Profile",
+    "defaultMessage": "View Profile",
+    "message": ""
+  },
+  {
+    "id": "rentall.viewReceipt",
+    "description": "View Receipt",
+    "defaultMessage": "View Receipt",
+    "message": ""
+  },
+  {
+    "id": "rentall.whatGuestHave",
+    "description": "What will guests have",
+    "defaultMessage": "What will guests have?",
+    "message": ""
+  },
+  {
+    "id": "rentall.whatKindOfPlace",
+    "description": "What Kind Of Place",
+    "defaultMessage": "What kind of place do you have?",
+    "message": ""
+  },
+  {
+    "id": "rentall.whatKindOfPlaceListing",
+    "description": "What Kind Of Place Listing",
+    "defaultMessage": "What kind of place are you listing?",
+    "message": ""
+  },
+  {
+    "id": "rentall.whatSpace",
+    "description": "What spaces can guests use?",
+    "defaultMessage": "What spaces can guests use?",
+    "message": ""
+  },
+  {
+    "id": "rentall.whatTypeOfProperty",
+    "description": "What Type Of Property",
+    "defaultMessage": "What type of property is this?",
+    "message": ""
+  },
+  {
+    "id": "rentall.whatamenities",
+    "description": "Amenities Headline",
+    "defaultMessage": "What amenities do you offer?",
+    "message": ""
+  },
+  {
+    "id": "rentall.when",
+    "description": "When",
+    "defaultMessage": "When",
+    "message": ""
+  },
+  {
+    "id": "rentall.where",
+    "description": "Where",
+    "defaultMessage": "Where",
+    "message": ""
+  },
+  {
+    "id": "rentall.whereLocated",
+    "description": "Where’s your place located?",
+    "defaultMessage": "Where’s your place located?",
+    "message": ""
+  },
+  {
+    "id": "rentall.whoCanBook",
+    "description": "Instant booking",
+    "defaultMessage": "Who can book instantly",
+    "message": ""
+  },
+  {
+    "id": "rentall.whoCanBookInfo",
+    "description": "Instant booking",
+    "defaultMessage": "Choose who can book available days without requesting approval.",
+    "message": ""
+  },
+  {
+    "id": "rentall.whoCanBookInfo1",
+    "description": "Instant booking",
+    "defaultMessage": "Guests who meet your requirements and agree to your rules.",
+    "message": ""
+  },
+  {
+    "id": "rentall.whoCanBookInfo2",
+    "description": "Instant booking",
+    "defaultMessage": "Anyone else must send a reservation request.",
+    "message": ""
+  },
+  {
+    "id": "rentall.whoCanBookInfo3",
+    "description": "Instant booking",
+    "defaultMessage": "No one. All guests must send reservation requests.",
+    "message": ""
+  },
+  {
+    "id": "rentall.whoComing",
+    "description": "Who's Coming",
+    "defaultMessage": "Who's Coming",
+    "message": ""
+  },
+  {
+    "id": "rentall.whyHost",
+    "description": "Menu item",
+    "defaultMessage": "Why Host",
+    "message": ""
+  },
+  {
+    "id": "rentall.writeMessage",
+    "description": "Write your message",
+    "defaultMessage": "Write your message...",
+    "message": ""
+  },
+  {
+    "id": "rentall.writeReview",
+    "description": "Review",
+    "defaultMessage": "Write a Review",
+    "message": ""
+  },
+  {
+    "id": "rentall.year",
+    "description": "Year of birthday",
+    "defaultMessage": "Year",
+    "message": ""
+  },
+  {
+    "id": "rentall.yearRequired",
+    "description": "Year is required",
+    "defaultMessage": "Year is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.youEarn",
+    "description": "Payment details",
+    "defaultMessage": "You earn",
+    "message": ""
+  },
+  {
+    "id": "rentall.yourFullAddress",
+    "description": "Your Full Address",
+    "defaultMessage": "Your Full Address",
+    "message": ""
+  },
+  {
+    "id": "rentall.yourHost",
+    "description": "View listing your host",
+    "defaultMessage": "Your Host",
+    "message": ""
+  },
+  {
+    "id": "rentall.yourListings",
+    "description": "Your Listings",
+    "defaultMessage": "Your Listings",
+    "message": ""
+  },
+  {
+    "id": "rentall.yourReservations",
+    "description": "Menu item",
+    "defaultMessage": "Your Reservations",
+    "message": ""
+  },
+  {
+    "id": "rentall.yourTrips",
+    "description": "Your Trips",
+    "defaultMessage": "Your Trips",
+    "message": ""
+  },
+  {
+    "id": "rentall.zipCode",
+    "description": "Payout Form",
+    "defaultMessage": "ZIP Code / Postal Code",
+    "message": ""
+  },
+  {
+    "id": "rentall.zipcode",
+    "description": "ZIP Code",
+    "defaultMessage": "ZIP Code",
+    "message": ""
+  },
+  {
+    "id": "rentall.zipcodeRequired",
+    "description": "zipcodeRequired",
+    "defaultMessage": "Zip Code is Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.cleaningMinusServiceFee",
+    "description": "Cleaning fee and service fee",
+    "defaultMessage": "cleaning fees, minus service fees.",
+    "message": ""
+  },
+  {
+    "id": "rentall.cleaningPlusServiceFee",
+    "description": "plus cleaning fees, plus host service fees.",
+    "defaultMessage": "plus cleaning fees, minus host service fees.",
+    "message": ""
+  },
+  {
+    "id": "rentall.earnings",
+    "description": "Earnings",
+    "defaultMessage": "Earnings",
+    "message": ""
+  },
+  {
+    "id": "rentall.reservationCost",
+    "description": "Reservation cost",
+    "defaultMessage": "reservation cost.",
+    "message": ""
+  },
+  {
+    "id": "rentall.willBeRefund",
+    "description": "will be refunded the",
+    "defaultMessage": "will be refunded the",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancelYourTrip",
+    "description": "Cancel your Trip",
+    "defaultMessage": "Cancel your trip",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellingInfo",
+    "description": "Trip before canceling",
+    "defaultMessage": "Cancelling a guest's reservation can disrupt their plans and have serious implications on their trip.",
+    "message": ""
+  },
+  {
+    "id": "rentall.consider",
+    "description": "Consider",
+    "defaultMessage": "Consider",
+    "message": ""
+  },
+  {
+    "id": "rentall.needToCancel",
+    "description": "why you need to cancel",
+    "defaultMessage": "why you need to cancel",
+    "message": ""
+  },
+  {
+    "id": "rentall.startIn",
+    "description": "Starts in",
+    "defaultMessage": "Starts in",
+    "message": ""
+  },
+  {
+    "id": "rentall.started",
+    "description": "Started",
+    "defaultMessage": "Started",
+    "message": ""
+  },
+  {
+    "id": "rentall.stayingFor",
+    "description": "Staying for",
+    "defaultMessage": "Staying for",
+    "message": ""
+  },
+  {
+    "id": "rentall.travelingWith",
+    "description": "Traveling With",
+    "defaultMessage": "Traveling With",
+    "message": ""
+  },
+  {
+    "id": "rentall.tripBeforeCanceling",
+    "description": "Trip before canceling",
+    "defaultMessage": "trip before canceling",
+    "message": ""
+  },
+  {
+    "id": "rentall.propertyLocated",
+    "description": "Property is located in",
+    "defaultMessage": "property is located in",
+    "message": ""
+  },
+  {
+    "id": "rentall.responseFrom",
+    "description": "Response from",
+    "defaultMessage": "Response from",
+    "message": ""
+  },
+  {
+    "id": "rentall.savingButton",
+    "description": "Saving Button",
+    "defaultMessage": "Saving",
+    "message": ""
+  },
+  {
+    "id": "rentall.maximumNightStay",
+    "description": "Maximum stay",
+    "defaultMessage": "maximum stay",
+    "message": ""
+  },
+  {
+    "id": "rentall.minimumStay",
+    "description": "Minimum stay",
+    "defaultMessage": "minimum stay",
+    "message": ""
+  },
+  {
+    "id": "rentall.night",
+    "description": "Bill Details",
+    "defaultMessage": "night",
+    "message": ""
+  },
+  {
+    "id": "rentall.review",
+    "description": "Review",
+    "defaultMessage": "Review",
+    "message": ""
+  },
+  {
+    "id": "rentall.verification",
+    "description": "Verification",
+    "defaultMessage": "Verification",
+    "message": ""
+  },
+  {
+    "id": "rentall.verifications",
+    "description": "Verifications",
+    "defaultMessage": "Verifications",
+    "message": ""
+  },
+  {
+    "id": "rentall.guestCapcity",
+    "description": "Guest",
+    "defaultMessage": "guest",
+    "message": ""
+  },
+  {
+    "id": "rentall.guestsCapcity",
+    "description": "Guests",
+    "defaultMessage": "guests",
+    "message": ""
+  },
+  {
+    "id": "rentall.monthlyDiscount",
+    "description": "Monthly Discount",
+    "defaultMessage": "monthly price discount",
+    "message": ""
+  },
+  {
+    "id": "rentall.weeklyDiscount",
+    "description": "Weekly Discount",
+    "defaultMessage": "weekly price discount",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleCheckIn",
+    "description": "Flexible check in time",
+    "defaultMessage": "Flexible check in time",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellationNote",
+    "description": "Cancellation Notes",
+    "defaultMessage": "A personal note can help",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellationNoteForGuest",
+    "description": "Cancellation notes fot guest",
+    "defaultMessage": "understand why you want to cancel your reservation",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellationNoteForHost",
+    "description": "Cancellation Notes",
+    "defaultMessage": "understand why you can't host them",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManyGuest",
+    "description": "Guest",
+    "defaultMessage": "Guests",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManyday",
+    "description": "day",
+    "defaultMessage": "day",
+    "message": ""
+  },
+  {
+    "id": "rentall.howManydays",
+    "description": "days",
+    "defaultMessage": "days",
+    "message": ""
+  },
+  {
+    "id": "rentall.reviewFor",
+    "description": "Review for",
+    "defaultMessage": "Review for",
+    "message": ""
+  },
+  {
+    "id": "rentall.your",
+    "description": "Your",
+    "defaultMessage": "Your",
+    "message": ""
+  },
+  {
+    "id": "rentall.chooseCancellationPolicy",
+    "description": "Cancellation Policy",
+    "defaultMessage": "Cancellation Policy",
+    "message": ""
+  },
+  {
+    "id": "rentall.pendingPayouts",
+    "description": "Pending Payouts",
+    "defaultMessage": "Pending Payouts",
+    "message": ""
+  },
+  {
+    "id": "rentall.allPayoutMethod",
+    "description": "All payout methods",
+    "defaultMessage": "All payout methods",
+    "message": ""
+  },
+  {
+    "id": "rentall.inboxCompleted",
+    "description": "Message Status - Inbox Item",
+    "defaultMessage": "Completed",
+    "message": ""
+  },
+  {
+    "id": "rentall.loginConfirmation",
+    "description": "Login confirmation",
+    "defaultMessage": "Sorry, you must login to confirm your email. Please login and try clicking the link from your email again!",
+    "message": ""
+  },
+  {
+    "id": "rentall.basePriceRequired",
+    "description": "Base Price is required",
+    "defaultMessage": "Base Price is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.noPreviousReservation",
+    "description": "noPreviousReservation",
+    "defaultMessage": "You don't have any previous reservations!",
+    "message": ""
+  },
+  {
+    "id": "rentall.noPreviousTrips",
+    "description": "noPreviousTrips",
+    "defaultMessage": "You don't have any previous trips!",
+    "message": ""
+  },
+  {
+    "id": "rentall.noUpcomingReservation",
+    "description": "noUpcomingReservation",
+    "defaultMessage": "You don't have any upcoming reservations!",
+    "message": ""
+  },
+  {
+    "id": "rentall.noUpcomingTrips",
+    "description": "noUpcomingTrips",
+    "defaultMessage": "You don't have any upcoming trips!",
+    "message": ""
+  },
+  {
+    "id": "rentall.previousReservations",
+    "description": "Previous Reservations",
+    "defaultMessage": "Previous Reservations",
+    "message": ""
+  },
+  {
+    "id": "rentall.previousTrips",
+    "description": "Previous Trips",
+    "defaultMessage": "Previous Trips",
+    "message": ""
+  },
+  {
+    "id": "rentall.upcomingReservations",
+    "description": "Upcoming Reservations",
+    "defaultMessage": "Upcoming Reservations",
+    "message": ""
+  },
+  {
+    "id": "rentall.upcomingTrips",
+    "description": "Upcoming Trips",
+    "defaultMessage": "Upcoming Trips",
+    "message": ""
+  },
+  {
+    "id": "rentall.Expires",
+    "description": "Expires",
+    "defaultMessage": "Expires",
+    "message": ""
+  },
+  {
+    "id": "rentall.cardNumber",
+    "description": "cardNumber",
+    "defaultMessage": "Credit Card Number",
+    "message": ""
+  },
+  {
+    "id": "rentall.creditCard",
+    "description": "Credit Card",
+    "defaultMessage": "Credit Card",
+    "message": ""
+  },
+  {
+    "id": "rentall.cvv",
+    "description": "cvv",
+    "defaultMessage": "CVV",
+    "message": ""
+  },
+  {
+    "id": "rentall.expiryDate",
+    "description": "expiryDate",
+    "defaultMessage": "Month",
+    "message": ""
+  },
+  {
+    "id": "rentall.expiryYear",
+    "description": "expiryYear",
+    "defaultMessage": "Year",
+    "message": ""
+  },
+  {
+    "id": "rentall.fullName",
+    "description": "fullName",
+    "defaultMessage": "Full Name",
+    "message": ""
+  },
+  {
+    "id": "rentall.payPal",
+    "description": "payPal",
+    "defaultMessage": "Pay Pal",
+    "message": ""
+  },
+  {
+    "id": "rentall.paynow",
+    "description": "Pay now",
+    "defaultMessage": "Pay now",
+    "message": ""
+  },
+  {
+    "id": "rentall.invalid",
+    "description": "*Invalid",
+    "defaultMessage": "*Invalid",
+    "message": ""
+  },
+  {
+    "id": "rentall.required",
+    "description": "*Required",
+    "defaultMessage": "*Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.accountNumber",
+    "description": "accountNumber",
+    "defaultMessage": "Account number",
+    "message": ""
+  },
+  {
+    "id": "rentall.accountNumberInvalid",
+    "description": "accountNumberInvalid",
+    "defaultMessage": "Invalid account number",
+    "message": ""
+  },
+  {
+    "id": "rentall.accountNumberRequired",
+    "description": "accountNumberRequired",
+    "defaultMessage": "Account number is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.confirmAccountNumber",
+    "description": "confirmAccountNumber",
+    "defaultMessage": "Confirm account number",
+    "message": ""
+  },
+  {
+    "id": "rentall.confirmAccountNumberInvalid",
+    "description": "confirmAccountNumberInvalid",
+    "defaultMessage": "Invalid confirm account number",
+    "message": ""
+  },
+  {
+    "id": "rentall.confirmAccountNumberMismatch",
+    "description": "confirmAccountNumberMismatch",
+    "defaultMessage": "Account number mismatch",
+    "message": ""
+  },
+  {
+    "id": "rentall.confirmAccountNumberRequired",
+    "description": "confirmAccountNumberRequired",
+    "defaultMessage": "Confirm account number is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutFirstName",
+    "description": "payoutFirstName",
+    "defaultMessage": "Account holder first name",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutFirstNameRequired",
+    "description": "payoutFirstNameRequired",
+    "defaultMessage": "First name is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutLastName",
+    "description": "payoutLastName",
+    "defaultMessage": "Account holder last name",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutLastNameRequired",
+    "description": "payoutLastNameRequired",
+    "defaultMessage": "Last name is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutRouting",
+    "description": "payoutRouting",
+    "defaultMessage": "Routing number",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutRoutingInvalid",
+    "description": "payoutRoutingInvalid",
+    "defaultMessage": "Invalid routing number",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutRoutingRequired",
+    "description": "payoutRoutingRequired",
+    "defaultMessage": "Routing number is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.ssn4Digits",
+    "description": "ssn4Digits",
+    "defaultMessage": "SSN last 4 digits",
+    "message": ""
+  },
+  {
+    "id": "rentall.ssn4DigitsInvalid",
+    "description": "ssn4DigitsInvalid",
+    "defaultMessage": "Invalid SSN number",
+    "message": ""
+  },
+  {
+    "id": "rentall.ssn4DigitsRequired",
+    "description": "ssn4DigitsRequired",
+    "defaultMessage": "SSN number is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.verifiedBy",
+    "description": "verifiedBy",
+    "defaultMessage": "Verified By",
+    "message": ""
+  },
+  {
+    "id": "rentall.createWishList",
+    "description": "createWishList",
+    "defaultMessage": "Create Wish List",
+    "message": ""
+  },
+  {
+    "id": "rentall.deleteWishList",
+    "description": "deleteWishList",
+    "defaultMessage": "Delete this list",
+    "message": ""
+  },
+  {
+    "id": "rentall.editWishList",
+    "description": "editWishList",
+    "defaultMessage": "Edit Wish List",
+    "message": ""
+  },
+  {
+    "id": "rentall.homes",
+    "description": "homes",
+    "defaultMessage": "Homes",
+    "message": ""
+  },
+  {
+    "id": "rentall.list",
+    "description": "list",
+    "defaultMessage": "List",
+    "message": ""
+  },
+  {
+    "id": "rentall.lists",
+    "description": "lists",
+    "defaultMessage": "Lists",
+    "message": ""
+  },
+  {
+    "id": "rentall.nameRequired",
+    "description": "Name Required",
+    "defaultMessage": "Name is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.noWishlists",
+    "description": "noWishlists",
+    "defaultMessage": "Sorry, you don't have any homes wishlisted.",
+    "message": ""
+  },
+  {
+    "id": "rentall.privacySettings",
+    "description": "Privacy Settings",
+    "defaultMessage": "Privacy Settings",
+    "message": ""
+  },
+  {
+    "id": "rentall.saved",
+    "description": "saved",
+    "defaultMessage": "Saved",
+    "message": ""
+  },
+  {
+    "id": "rentall.wishList",
+    "description": "wishList",
+    "defaultMessage": "Wish List",
+    "message": ""
+  },
+  {
+    "id": "rentall.wishListAdded",
+    "description": "Wish list added",
+    "defaultMessage": "Wish list added successfully.",
+    "message": ""
+  },
+  {
+    "id": "rentall.wishListUpdated",
+    "description": "Wish list updated",
+    "defaultMessage": "Wish list updated successfully.",
+    "message": ""
+  },
+  {
+    "id": "rentall.wishLists",
+    "description": "wishLists",
+    "defaultMessage": "Wish Lists",
+    "message": ""
+  },
+  {
+    "id": "rentall.yourHomes",
+    "description": "hoyourHomesmes",
+    "defaultMessage": "Your Homes",
+    "message": ""
+  },
+  {
+    "id": "rentall.yourLists",
+    "description": "yourLists",
+    "defaultMessage": "Your lists",
+    "message": ""
+  },
+  {
+    "id": "rentall.areYouSureDeleteWishList",
+    "description": "areYouSureDeleteWishList",
+    "defaultMessage": "Are you sure you want to delete this?",
+    "message": ""
+  },
+  {
+    "id": "rentall.confirmDelete",
+    "description": "confirmDelete",
+    "defaultMessage": "Confirm Delete",
+    "message": ""
+  },
+  {
+    "id": "rentall.goToAllLists",
+    "description": "Go to All Lists",
+    "defaultMessage": "Go to All Lists",
+    "message": ""
+  },
+  {
+    "id": "rentall.noWishlistsHomes",
+    "description": "noWishlistsHomes",
+    "defaultMessage": "Sorry, You don't have any wishlist homes!",
+    "message": ""
+  },
+  {
+    "id": "rentall.overview",
+    "description": "Overview",
+    "defaultMessage": "Overview",
+    "message": ""
+  },
+  {
+    "id": "rentall.private",
+    "description": "private",
+    "defaultMessage": "Private",
+    "message": ""
+  },
+  {
+    "id": "rentall.public",
+    "description": "public",
+    "defaultMessage": "Public",
+    "message": ""
+  },
+  {
+    "id": "rentall.similarListings",
+    "description": "similarListings",
+    "defaultMessage": "Similar Listings",
+    "message": ""
+  },
+  {
+    "id": "rentall.theHost",
+    "description": "The Host",
+    "defaultMessage": "The Host",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentVerificaitonInfo",
+    "description": "Document Verification Info",
+    "defaultMessage": "Please upload your documents for ID verification. Eg: Passport, Driving License",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentAppRejRequried",
+    "description": "documentAppRejRequried",
+    "defaultMessage": "Please Fill Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentApprove",
+    "description": "documentApprove",
+    "defaultMessage": "Approve",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentApproveRejectMessage",
+    "description": "documentApproveRejectMessage",
+    "defaultMessage": "Type Your Message",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentReject",
+    "description": "documentReject",
+    "defaultMessage": "Reject",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentUploadPlaceholder",
+    "description": "Document Upload Placeholder",
+    "defaultMessage": "Click here to upload document or drag them in",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentverificaiton",
+    "description": "documentverificaiton",
+    "defaultMessage": "Document Verification",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentverificaitonDetails",
+    "description": "documentverificaitonDetails",
+    "defaultMessage": "Your document have been verified",
+    "message": ""
+  },
+  {
+    "id": "rentall.verificationdocument",
+    "description": "verificationdocument",
+    "defaultMessage": "Documents Verified",
+    "message": ""
+  },
+  {
+    "id": "rentall.searchAsIMove",
+    "description": "Search as I move the map",
+    "defaultMessage": "Search as I move the map",
+    "message": ""
+  },
+  {
+    "id": "rentall.blankSpace",
+    "description": "blankSpace",
+    "defaultMessage": "Input is Blank",
+    "message": ""
+  },
+  {
+    "id": "rentall.ContactMessage",
+    "description": "ContactMessage",
+    "defaultMessage": "Message",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactForm",
+    "description": "contactForm",
+    "defaultMessage": "Contact Us",
+    "message": ""
+  },
+  {
+    "id": "rentall.Nameincontact",
+    "description": "Nameincontact",
+    "defaultMessage": "Name",
+    "message": ""
+  },
+  {
+    "id": "rentall.recaptchaRequired",
+    "description": "recaptchaRequired",
+    "defaultMessage": "Recaptcha Required",
+    "message": ""
+  },
+  {
+    "id": "rentall.sendmail",
+    "description": "Send",
+    "defaultMessage": "Send",
+    "message": ""
+  },
+  {
+    "id": "rentall.createButton",
+    "description": "Wish list button",
+    "defaultMessage": "Create",
+    "message": ""
+  },
+  {
+    "id": "rentall.nameYourList",
+    "description": "List Name",
+    "defaultMessage": "Name your list",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleCheckOut",
+    "description": "Flexible check out time",
+    "defaultMessage": "Flexible check out time",
+    "message": ""
+  },
+  {
+    "id": "rentall.anonymousMessage",
+    "description": "Report User",
+    "defaultMessage": "Do you want to report this User?",
+    "message": ""
+  },
+  {
+    "id": "rentall.close",
+    "description": "Report User",
+    "defaultMessage": "Close",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpFirstDesc1",
+    "description": "Description",
+    "defaultMessage": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpFirstDesc2",
+    "description": "Description",
+    "defaultMessage": "Maecenas non scelerisque purus, congue cursus arcu. Donec vel dapibus mi. Mauris maximus posuere placerat. Sed et libero eu nibh tristique mollis a eget lectus",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpFirstTitle",
+    "description": "Title",
+    "defaultMessage": "Create your listing",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpSecondDesc1",
+    "description": "Description",
+    "defaultMessage": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpSecondDesc2",
+    "description": "Description",
+    "defaultMessage": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy.",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpSecondDesc3",
+    "description": "Description",
+    "defaultMessage": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpSecondTitle",
+    "description": "Title",
+    "defaultMessage": "Welcome your guests",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpThirdDesc1",
+    "description": "Description",
+    "defaultMessage": "Morbi pellentesque venenatis felis sed convallis. Nulla varius, nibh vitae placerat tempus, mauris sem elementum ipsum.",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpThirdDesc2",
+    "description": "Description",
+    "defaultMessage": "Fusce quis varius nulla. Nullam nisi nisi, suscipit ut magna quis, feugiat porta nibh.",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpThirdDesc3",
+    "description": "Description",
+    "defaultMessage": "Pellentesque sagittis vehicula sem quis luctus. Proin sodales magna in lorem hendrerit aliquam. Integer eu varius orci.",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpThirdTitle",
+    "description": "Title",
+    "defaultMessage": "Getting paid safely",
+    "message": ""
+  },
+  {
+    "id": "rentall.processFlowHeading",
+    "description": "Process Flow Heading",
+    "defaultMessage": "Earn Extra Money and Become a Host with Rentall",
+    "message": ""
+  },
+  {
+    "id": "rentall.processFlowSubHeading",
+    "description": "Process Flow Heading",
+    "defaultMessage": "Explorez le site à la recherche du photographe idéal et profitez des bons moments en toute sereinité",
+    "message": ""
+  },
+  {
+    "id": "rentall.reportContent1",
+    "description": "Report User",
+    "defaultMessage": "This profile should not be on",
+    "message": ""
+  },
+  {
+    "id": "rentall.reportContent2",
+    "description": "Report User",
+    "defaultMessage": "Attempt to share contact information",
+    "message": ""
+  },
+  {
+    "id": "rentall.reportContent3",
+    "description": "Report User",
+    "defaultMessage": "Inappropriate content of spam",
+    "message": ""
+  },
+  {
+    "id": "rentall.reportUserInfo",
+    "description": "Report User",
+    "defaultMessage": "If so, please choose one of the following reasons.",
+    "message": ""
+  },
+  {
+    "id": "rentall.stepOneFlow",
+    "description": "Step 1",
+    "defaultMessage": "Share your villa, condo or apartment and earn yourself an extra income. With over 12 years of experience, we make it simple and safe to reach guests that are looking for fun and unique Places to stay across Thailand and Bali.",
+    "message": ""
+  },
+  {
+    "id": "rentall.stepOneHeading",
+    "description": "Step 1",
+    "defaultMessage": "Why host with Rentall?",
+    "message": ""
+  },
+  {
+    "id": "rentall.stepThreeFlow",
+    "description": "Step 3",
+    "defaultMessage": "We offer all the right tools to allow you to host in confidence. From a flexible booking system through to a secure payment system. Stay connected and confident with the latest technology.",
+    "message": ""
+  },
+  {
+    "id": "rentall.stepThreeHeading",
+    "description": "Step 3",
+    "defaultMessage": "Stay Confident",
+    "message": ""
+  },
+  {
+    "id": "rentall.stepTwoFlow",
+    "description": "Step 2",
+    "defaultMessage": "Stay in control with Rentall. You have full control of your availability, rates and rules. You can, block dates, set check-in times and manage your own communications directly with your guests through the system.",
+    "message": ""
+  },
+  {
+    "id": "rentall.stepTwoHeading",
+    "description": "Step 2",
+    "defaultMessage": "Stay in Control",
+    "message": ""
+  },
+  {
+    "id": "rentall.thankyouInfo1",
+    "description": "Report User",
+    "defaultMessage": "Thanks for taking the time to report this user. These reports help make better for everyone, so we take them seriously. We will reach out if we have questions about your report.",
+    "message": ""
+  },
+  {
+    "id": "rentall.thankyouTitle",
+    "description": "Report User",
+    "defaultMessage": "Thank You",
+    "message": ""
+  },
+  {
+    "id": "rentall.messageHistroyLabel",
+    "description": "Report User",
+    "defaultMessage": "View",
+    "message": ""
+  },
+  {
+    "id": "rentall.titleRequiredLabel",
+    "description": "Report User",
+    "defaultMessage": "Message History",
+    "message": ""
+  },
+  {
+    "id": "rentall.topBannerTitle",
+    "description": "Report User",
+    "defaultMessage": "It's simple to become a RentALL host",
+    "message": ""
+  },
+  {
+    "id": "rentall.footerClose",
+    "description": "Footer Button",
+    "defaultMessage": "Close",
+    "message": ""
+  },
+  {
+    "id": "rentall.footerTerms",
+    "description": "Footer Button",
+    "defaultMessage": "Terms, Privacy, Currency & More",
+    "message": ""
+  },
+  {
+    "id": "rentall.addAPhoneNumber",
+    "description": "Add a phone number",
+    "defaultMessage": "Add a phone number",
+    "message": ""
+  },
+  {
+    "id": "rentall.addPhoneNumber",
+    "description": "Add phone number",
+    "defaultMessage": "Add phone number",
+    "message": ""
+  },
+  {
+    "id": "rentall.apply",
+    "description": "apply",
+    "defaultMessage": "Apply",
+    "message": ""
+  },
+  {
+    "id": "rentall.bedTypes",
+    "description": "Bed Types",
+    "defaultMessage": "Bed Types",
+    "message": ""
+  },
+  {
+    "id": "rentall.bookNow",
+    "description": "Booking button",
+    "defaultMessage": "Book Now",
+    "message": ""
+  },
+  {
+    "id": "rentall.chooseACountry",
+    "description": "Choose a country",
+    "defaultMessage": "Choose a country",
+    "message": ""
+  },
+  {
+    "id": "rentall.clear",
+    "description": "clear",
+    "defaultMessage": "Clear",
+    "message": ""
+  },
+  {
+    "id": "rentall.closeAmenities",
+    "description": "Toggle Button",
+    "defaultMessage": "Close all amenities",
+    "message": ""
+  },
+  {
+    "id": "rentall.closeFacilities",
+    "description": "Close facilities text",
+    "defaultMessage": "Close all facilities",
+    "message": ""
+  },
+  {
+    "id": "rentall.closeHouseRules",
+    "description": "Close house rules text",
+    "defaultMessage": "Close all house rules",
+    "message": ""
+  },
+  {
+    "id": "rentall.closeSafetyFeatures",
+    "description": "Toggle Button",
+    "defaultMessage": "Close safety features",
+    "message": ""
+  },
+  {
+    "id": "rentall.closeSharedSpaces",
+    "description": "Toggle Button",
+    "defaultMessage": "Close Shared Spaces",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactAdmin",
+    "description": "Contact Admin",
+    "defaultMessage": "contact us.",
+    "message": ""
+  },
+  {
+    "id": "rentall.gettingAround",
+    "description": "View Listing",
+    "defaultMessage": "Getting Around",
+    "message": ""
+  },
+  {
+    "id": "rentall.hideButton",
+    "description": "View Listing",
+    "defaultMessage": "Hide",
+    "message": ""
+  },
+  {
+    "id": "rentall.homeType",
+    "description": "homeType",
+    "defaultMessage": "Home type",
+    "message": ""
+  },
+  {
+    "id": "rentall.mobileNumberRequired",
+    "description": "Please enter a phone number.",
+    "defaultMessage": "Please enter a phone number.",
+    "message": ""
+  },
+  {
+    "id": "rentall.moreFilters",
+    "description": "moreFilters",
+    "defaultMessage": "More filters",
+    "message": ""
+  },
+  {
+    "id": "rentall.myHostSpaces",
+    "description": "Menu Item",
+    "defaultMessage": "Spaces",
+    "message": ""
+  },
+  {
+    "id": "rentall.mySpace",
+    "description": "Menu Item",
+    "defaultMessage": "Space",
+    "message": ""
+  },
+  {
+    "id": "rentall.neighbourHood",
+    "description": "Become Host Form",
+    "defaultMessage": "Neighbourhood",
+    "message": ""
+  },
+  {
+    "id": "rentall.price",
+    "description": "price",
+    "defaultMessage": "Price",
+    "message": ""
+  },
+  {
+    "id": "rentall.readMoreAboutSpaces",
+    "description": "View Listing",
+    "defaultMessage": "Read more about the space",
+    "message": ""
+  },
+  {
+    "id": "rentall.roomsAndBeds",
+    "description": "Rooms and Beds",
+    "defaultMessage": "Rooms and Beds",
+    "message": ""
+  },
+  {
+    "id": "rentall.seeAll",
+    "description": "seeAll",
+    "defaultMessage": "See All",
+    "message": ""
+  },
+  {
+    "id": "rentall.showAll",
+    "description": "Toggle Button",
+    "defaultMessage": "Show all",
+    "message": ""
+  },
+  {
+    "id": "rentall.showAllFacilities",
+    "description": "Show all facilities text",
+    "defaultMessage": "Show all facilities",
+    "message": ""
+  },
+  {
+    "id": "rentall.showAllHouseRules",
+    "description": "Show all house rules text",
+    "defaultMessage": "Show all house rules",
+    "message": ""
+  },
+  {
+    "id": "rentall.showAmenities",
+    "description": "Toggle Button",
+    "defaultMessage": "Show all amenities",
+    "message": ""
+  },
+  {
+    "id": "rentall.showLess",
+    "description": "Toggle Button",
+    "defaultMessage": "Show Less",
+    "message": ""
+  },
+  {
+    "id": "rentall.showMore",
+    "description": "Toggle Button",
+    "defaultMessage": "Show More",
+    "message": ""
+  },
+  {
+    "id": "rentall.showNeighbourHood",
+    "description": "Toggle Button",
+    "defaultMessage": "Show NeighbourHood",
+    "message": ""
+  },
+  {
+    "id": "rentall.spacesInfo",
+    "description": "Spaces",
+    "defaultMessage": "Spaces",
+    "message": ""
+  },
+  {
+    "id": "rentall.userBanned",
+    "description": "You are Banned",
+    "defaultMessage": "You are banned by admin. Please contact admin for Unban",
+    "message": ""
+  },
+  {
+    "id": "rentall.userBannedSubTitle",
+    "description": "Not Found",
+    "defaultMessage": "It looks like your account is blocked for some reason. If you need further information, please",
+    "message": ""
+  },
+  {
+    "id": "rentall.userBannedTitle",
+    "description": "Not Found",
+    "defaultMessage": "We're Sorry!",
+    "message": ""
+  },
+  {
+    "id": "rentall.verificationCodeLabel",
+    "description": "Please enter the 4-digit code",
+    "defaultMessage": "Please enter the 4-digit code",
+    "message": ""
+  },
+  {
+    "id": "rentall.verificationCodeRequired",
+    "description": "Please enter a verification code.",
+    "defaultMessage": "Please enter a verification code.",
+    "message": ""
+  },
+  {
+    "id": "rentall.verifyViaSms",
+    "description": "Verify via SMS",
+    "defaultMessage": "Verify via SMS",
+    "message": ""
+  },
+  {
+    "id": "rentall.weHaveSentVerificationCode",
+    "description": "We sent a verification code to",
+    "defaultMessage": "We sent a verification code to",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.addNewDescription",
+    "description": "Item description",
+    "defaultMessage": "Item description",
+    "message": ""
+  },
+  {
+    "id": "blankSpace",
+    "description": "blankSpace",
+    "defaultMessage": "Input is Blank",
+    "message": ""
+  },
+  {
+    "id": "descriptionEmpty",
+    "description": "Wrong went wrong",
+    "defaultMessage": "Empty spaces are not allowed",
+    "message": ""
+  },
+  {
+    "id": "exceedLimit",
+    "description": "exceedLimit",
+    "defaultMessage": "Limit Exceeded",
+    "message": ""
+  },
+  {
+    "id": "rentall.ListPlaceTipOne",
+    "description": "List Plce Tips",
+    "defaultMessage": "Entire place",
+    "message": ""
+  },
+  {
+    "id": "rentall.ListPlaceTipsTwo",
+    "description": "List Plce Tips",
+    "defaultMessage": "Guests will rent the entire place. Includes in-law units.",
+    "message": ""
+  },
+  {
+    "id": "rentall.Maximumupload",
+    "description": "Photos Upload",
+    "defaultMessage": "Maximum upload size:1MB",
+    "message": ""
+  },
+  {
+    "id": "rentall.RequiredDetails",
+    "description": "Required Heading",
+    "defaultMessage": "Profile information",
+    "message": ""
+  },
+  {
+    "id": "rentall.Sayyourspace",
+    "description": "Sayyourspace",
+    "defaultMessage": "Say your space",
+    "message": ""
+  },
+  {
+    "id": "rentall.Youhadreviewsfor",
+    "description": "You reviewed",
+    "defaultMessage": "You reviewed",
+    "message": ""
+  },
+  {
+    "id": "rentall.aboutDescPayment",
+    "description": "Sayyourspace",
+    "defaultMessage": "Tell your expectations and the number of guests you are bringing with you so that the host can make your trip an organized and a perfect trip you ever had!",
+    "message": ""
+  },
+  {
+    "id": "rentall.aboutSectiondesc1",
+    "description": "About Section Description",
+    "defaultMessage": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "message": ""
+  },
+  {
+    "id": "rentall.aboutSectiondesc2",
+    "description": "About Section Description",
+    "defaultMessage": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "message": ""
+  },
+  {
+    "id": "rentall.aboutSectionheading1",
+    "description": "About Section Heading",
+    "defaultMessage": "What is Lorem Ipsum?",
+    "message": ""
+  },
+  {
+    "id": "rentall.aboutSectionheading2",
+    "description": "About Section Heading",
+    "defaultMessage": "This tool for our day to day work and our clients?",
+    "message": ""
+  },
+  {
+    "id": "rentall.aboutSectiontitle",
+    "description": "About Section Title",
+    "defaultMessage": "Lorem Ipsum",
+    "message": ""
+  },
+  {
+    "id": "rentall.availableLabel",
+    "description": "Listing Step3",
+    "defaultMessage": "Available",
+    "message": ""
+  },
+  {
+    "id": "rentall.availablilityterm",
+    "description": "Availability term",
+    "defaultMessage": "Availability term",
+    "message": ""
+  },
+  {
+    "id": "rentall.blockLabel",
+    "description": "Listing Step3",
+    "defaultMessage": "Block",
+    "message": ""
+  },
+  {
+    "id": "rentall.blockedDates",
+    "description": "Listing Step3",
+    "defaultMessage": "Block dates",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancelDetailsTwelve",
+    "description": "Flexible",
+    "defaultMessage": "for any other reason permitted under the Terms of Service. Please review these exceptions.",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancelInfoBooking",
+    "description": "View message",
+    "defaultMessage": "Most hosts respond within 24 hours.",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellationPoliciesOne",
+    "description": "Cancellation Policies",
+    "defaultMessage": "allows hosts to choose among three standardized cancellation policies (Flexible, Moderate, and Strict) Will be enforced to protect both guest and host alike.",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellationPoliciesThree",
+    "description": "Cancellation Policies",
+    "defaultMessage": "A host will be able to see the number of reservations a guest has Cancelled Over the past 12 months when the guest submits Booking request.",
+    "message": ""
+  },
+  {
+    "id": "rentall.cancellationPoliciesTwo",
+    "description": "Cancellation Policies",
+    "defaultMessage": "Each listing and reservation on our site will clearly state the cancellation policy. Guests while viewing their travel plans are able to review any penalties and also cancel by clicking  ‘Cancel’ on the respective reservation.",
+    "message": ""
+  },
+  {
+    "id": "rentall.closeAllSharedSpaces",
+    "description": "Toggle Button",
+    "defaultMessage": "Close all shared spaces",
+    "message": ""
+  },
+  {
+    "id": "rentall.completeRequest",
+    "description": "Warning",
+    "defaultMessage": "We couldn't complete your request",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactFormAddress",
+    "description": "Contact Address",
+    "defaultMessage": "Contact Address",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactFormCall",
+    "description": "contactForm",
+    "defaultMessage": "Call Us",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactFormEmail",
+    "description": "contactForm",
+    "defaultMessage": "Email Us",
+    "message": ""
+  },
+  {
+    "id": "rentall.contactFormInformation",
+    "description": "contactForm",
+    "defaultMessage": "Contact & Support",
+    "message": ""
+  },
+  {
+    "id": "rentall.cookiePolicy",
+    "description": "cookies Disclaimer Link",
+    "defaultMessage": "Cookie policy",
+    "message": ""
+  },
+  {
+    "id": "rentall.cookiesDisclaimer",
+    "description": "extraGuestIncluded",
+    "defaultMessage": "uses cookies to understand how you use our site and to improve your experience. By using our site, you accept our use of cookies. To learn more, go to our",
+    "message": ""
+  },
+  {
+    "id": "rentall.countingSectiontagline1",
+    "description": "Counting Section Tagline",
+    "defaultMessage": "Lorem ipsum dolor sit amet",
+    "message": ""
+  },
+  {
+    "id": "rentall.countingSectiontagline2",
+    "description": "Counting Section Tagline",
+    "defaultMessage": "quis nostrud exercitation ullamco",
+    "message": ""
+  },
+  {
+    "id": "rentall.countingSectiontagline3",
+    "description": "Counting Section Tagline",
+    "defaultMessage": "Neque porro quisquam",
+    "message": ""
+  },
+  {
+    "id": "rentall.countingSectiontitle",
+    "description": "Counting Section Title",
+    "defaultMessage": "Lorem Ipsum as their default model text",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverLabel",
+    "description": "Listing Step2",
+    "defaultMessage": "Cover",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectiondesc1",
+    "description": "Cover Section Description",
+    "defaultMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectiondesc2",
+    "description": "Cover Section Description",
+    "defaultMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectionlistItem1",
+    "description": "Cover Section List Item",
+    "defaultMessage": "Excepteur sint occaecat cupidatat non proident",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectionlistItem2",
+    "description": "Cover Section List Item",
+    "defaultMessage": "quis nostrud exercitation ullamco laboris nisi",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectionlistItem3",
+    "description": "Cover Section List Item",
+    "defaultMessage": "Sed ut perspiciatis unde omnis iste natus error sit",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectionlistItem4",
+    "description": "Cover Section List Item",
+    "defaultMessage": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectionlistItem5",
+    "description": "Cover Section List Item",
+    "defaultMessage": "Ut enim ad minima veniam, quis nostrum exercitationem",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectionlistItem6",
+    "description": "Cover Section List Item",
+    "defaultMessage": "Excepteur sint occaecat cupidatat non proident",
+    "message": ""
+  },
+  {
+    "id": "rentall.coverSectiontitle",
+    "description": "Cover Section Title",
+    "defaultMessage": "Use our generator to get your own",
+    "message": ""
+  },
+  {
+    "id": "rentall.dayPrior",
+    "description": "Flexible",
+    "defaultMessage": "day Prior",
+    "message": ""
+  },
+  {
+    "id": "rentall.daysPrior",
+    "description": "Moderate",
+    "defaultMessage": "days Prior",
+    "message": ""
+  },
+  {
+    "id": "rentall.deSelect",
+    "description": "Cancel deSelect button",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "rentall.disableLabel",
+    "description": "Disable",
+    "defaultMessage": "Disable",
+    "message": ""
+  },
+  {
+    "id": "rentall.documentverified",
+    "description": "Documents verified",
+    "defaultMessage": "Documents verified",
+    "message": ""
+  },
+  {
+    "id": "rentall.emptySpace",
+    "description": "emptySpace",
+    "defaultMessage": "Invalid input",
+    "message": ""
+  },
+  {
+    "id": "rentall.enableLabel",
+    "description": "Enable",
+    "defaultMessage": "Enable",
+    "message": ""
+  },
+  {
+    "id": "rentall.errorCodeWarning",
+    "description": "Warning",
+    "defaultMessage": "Error code:",
+    "message": ""
+  },
+  {
+    "id": "rentall.example",
+    "description": "Flexible",
+    "defaultMessage": "Example",
+    "message": ""
+  },
+  {
+    "id": "rentall.exceedLimit",
+    "description": "exceedLimit",
+    "defaultMessage": "Limit Exceeded",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapseContent1",
+    "description": "Faq collapse Content",
+    "defaultMessage": "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim   esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapseContent2",
+    "description": "Faq collapse Content",
+    "defaultMessage": "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim   esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapseContent3",
+    "description": "Faq collapse Content",
+    "defaultMessage": "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim   esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapseContent4",
+    "description": "Faq collapse Content",
+    "defaultMessage": "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim   esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapseContent5",
+    "description": "Faq collapse Content",
+    "defaultMessage": "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim   esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapseContent6",
+    "description": "Faq collapse Content",
+    "defaultMessage": "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim   esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapseContent7",
+    "description": "Faq collapse Content",
+    "defaultMessage": "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim   esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapseContent8",
+    "description": "Faq collapse Content",
+    "defaultMessage": "Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim   esse tempor laborum consequat esse adipisicing eu reprehenderit enim.",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapsetitle1",
+    "description": "Faq collapse title",
+    "defaultMessage": "Lorem ipsum dolor sit amet, consecteturt",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapsetitle2",
+    "description": "Faq collapse title",
+    "defaultMessage": "sed do eiusmod tempor incididunt ut labore et",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapsetitle3",
+    "description": "Faq collapse title",
+    "defaultMessage": "Ut enim ad minim veniam",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapsetitle4",
+    "description": "Faq collapse title",
+    "defaultMessage": "Lorem ipsum dolor sit amet, consecteturt",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapsetitle5",
+    "description": "Faq collapse title",
+    "defaultMessage": "Lorem ipsum dolor sit amet, consecteturt",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapsetitle6",
+    "description": "Faq collapse title",
+    "defaultMessage": "sed do eiusmod tempor incididunt ut labore et",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapsetitle7",
+    "description": "Faq collapse title",
+    "defaultMessage": "Ut enim ad minim veniam",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqcollapsetitle8",
+    "description": "Faq collapse title",
+    "defaultMessage": "Lorem ipsum dolor sit amet, consecteturt",
+    "message": ""
+  },
+  {
+    "id": "rentall.faqtitle",
+    "description": "Faq  title",
+    "defaultMessage": "FAQ",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleEight",
+    "description": "Flexible",
+    "defaultMessage": "will mediate when necessary, and has the final say in all disputes.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleEleven",
+    "description": "Flexible",
+    "defaultMessage": "Applicable taxes will be retained and remitted.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleFive",
+    "description": "Flexible",
+    "defaultMessage": "Accommodation fees (the total nightly rate you're charged) are refundable in certain circumstances as outlined below.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleFour",
+    "description": "Flexible",
+    "defaultMessage": "service fee if they decide to cancel.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleFourteen",
+    "description": "Flexible",
+    "defaultMessage": "If the guest arrives and decides to leave early, the accommodation fees for the nights not spent 24 hours after the official cancellation are fully refunded.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleNine",
+    "description": "Flexible",
+    "defaultMessage": "A reservation is officially canceled when the guest clicks the cancellation button on the cancellation confirmation page, which they can find in Dashboard > Your Trips > Cancel.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleOne",
+    "description": "Flexible",
+    "defaultMessage": "Cleaning fees are always refunded if the guest did not check in.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleSecondMonths",
+    "description": "Flexible",
+    "defaultMessage": "Fri, Jun",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleSecondTime",
+    "description": "Flexible",
+    "defaultMessage": "AM",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleSeven",
+    "description": "Flexible",
+    "defaultMessage": "within 24 hours of check-in.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleSix",
+    "description": "Flexible",
+    "defaultMessage": "If there is a complaint from either party, notice must be given to",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleTen",
+    "description": "Flexible",
+    "defaultMessage": "Cancellation policies may be superseded by the Guest Refund Policy, extenuating circumstances, or cancellations by",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleThirdMonths",
+    "description": "Flexible",
+    "defaultMessage": "Mon, Jun",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleThirteen",
+    "description": "Flexible",
+    "defaultMessage": "If the guest cancels less than 24 hours before check-in, the first night is non-refundable.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleThree",
+    "description": "Flexible",
+    "defaultMessage": "service fee is refundable if the guest cancels before the trip starts. If a guest books a reservation that overlaps with any part of an existing reservation, we won’t refund the",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleTime",
+    "description": "Flexible",
+    "defaultMessage": "PM",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleTitle",
+    "description": "Flexible",
+    "defaultMessage": "Flexible: Full refund 1 day prior to arrival",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleTwelve",
+    "description": "Flexible",
+    "defaultMessage": "For a full refund of accommodation fees, cancellation must be made a full 24 hours prior to listing’s local check in time (or 3:00 PM if not specified) on the day of check in. For example, if check-in is on Friday, cancel by Thursday of that week before check in time.",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleTwo",
+    "description": "Flexible",
+    "defaultMessage": "The",
+    "message": ""
+  },
+  {
+    "id": "rentall.freeOutMore",
+    "description": "Space Free",
+    "defaultMessage": "Find out more",
+    "message": ""
+  },
+  {
+    "id": "rentall.gotIt",
+    "description": "cookies Disclaimer Button",
+    "defaultMessage": "GOT IT",
+    "message": ""
+  },
+  {
+    "id": "rentall.helpfulLinks",
+    "description": "Warning",
+    "defaultMessage": "Here are some helpful links instead:",
+    "message": ""
+  },
+  {
+    "id": "rentall.hideDescription",
+    "description": "View Listing",
+    "defaultMessage": "Hide description",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostingBlockdesc1",
+    "description": "Hosting Block Description",
+    "defaultMessage": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostingBlockdesc2",
+    "description": "Hosting Block Description",
+    "defaultMessage": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostingBlockdesc3",
+    "description": "Hosting Block Description",
+    "defaultMessage": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostingBlockheading1",
+    "description": "Hosting Block heading",
+    "defaultMessage": "Lorem Ipsum",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostingBlockheading2",
+    "description": "Hosting Block heading",
+    "defaultMessage": "Lorem Ipsum",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostingBlockheading3",
+    "description": "Hosting Block heading",
+    "defaultMessage": "Lorem Ipsum",
+    "message": ""
+  },
+  {
+    "id": "rentall.hostingBlocktitle",
+    "description": "Hosting Block title",
+    "defaultMessage": "There are 3 Lorem Ipsum generators",
+    "message": ""
+  },
+  {
+    "id": "rentall.infoRequiredone",
+    "description": "Describe Yourself is Required",
+    "defaultMessage": "Describe yourself is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.listNotFoundTitle",
+    "description": "Not Found",
+    "defaultMessage": "It looks like this listing may deleted or unpublished.",
+    "message": ""
+  },
+  {
+    "id": "rentall.localLawsFive",
+    "description": "Lowcal Law",
+    "defaultMessage": "Since you are responsible for your own decision to list or book, you should get comfortable with the applicable rules before listing on",
+    "message": ""
+  },
+  {
+    "id": "rentall.localLawsFour",
+    "description": "Lowcal Law",
+    "defaultMessage": "Most cities have rules covering homesharing, and the specific codes and ordinances can appear in many places (such as zoning, building, licensing or tax codes). In most places, you must register, get a permit, or obtain a license before you list your property or accept guests. You may also be responsible for collecting and remitting certain taxes. In some places, short-term rentals could be prohibited altogether.",
+    "message": ""
+  },
+  {
+    "id": "rentall.localLawsOne",
+    "description": "Lowcal Law",
+    "defaultMessage": "Take a moment to review your local laws. We want to make sure you’ve got everything you need to get off to a great start.",
+    "message": ""
+  },
+  {
+    "id": "rentall.localLawsSeven",
+    "description": "Lowcal Law",
+    "defaultMessage": "By accepting our Terms of Service and listing your space, you certify that you will follow applicable laws and regulations.",
+    "message": ""
+  },
+  {
+    "id": "rentall.localLawsSix",
+    "description": "Lowcal Law",
+    "defaultMessage": "To get you started, we offer some helpful resources under “Your City Laws.”",
+    "message": ""
+  },
+  {
+    "id": "rentall.localLawsThree",
+    "description": "Lowcal Law",
+    "defaultMessage": "Most cities have rules covering homesharing, and the specific codes and ordinances can appear in many places (such as zoning, building, licensing or tax codes). In most places, you must register, get a permit, or obtain a license before you list your property or accept guests. You may also be responsible for collecting and remitting certain taxes. In some places, short-term rentals could be prohibited altogether.",
+    "message": ""
+  },
+  {
+    "id": "rentall.localLawsTwo",
+    "description": "Lowcal Law",
+    "defaultMessage": "Please educate yourself about the laws in your jurisdiction before listing your space.",
+    "message": ""
+  },
+  {
+    "id": "rentall.locationAddressRequired",
+    "description": "Location Address is required",
+    "defaultMessage": "Location Address is required",
+    "message": ""
+  },
+  {
+    "id": "rentall.makeDateAvailable",
+    "description": "Listing Step3",
+    "defaultMessage": "Special Price",
+    "message": ""
+  },
+  {
+    "id": "rentall.maximumCharcter",
+    "description": "maximumCharcter",
+    "defaultMessage": "(Allows Maximum 50 characters)",
+    "message": ""
+  },
+  {
+    "id": "rentall.maximumCharcterLeft",
+    "description": "maximumCharcterLeft",
+    "defaultMessage": "characters left.",
+    "message": ""
+  },
+  {
+    "id": "rentall.moderateOne",
+    "description": "Moderate",
+    "defaultMessage": "For a full refund of accommodation fees, cancellation must be made five full days prior to listing’s local check in time (or 3:00 PM if not specified) on the day of check in. For example, if check-in is on Friday, cancel by the previous Sunday before check in time.",
+    "message": ""
+  },
+  {
+    "id": "rentall.moderateThree",
+    "description": "Moderate",
+    "defaultMessage": "If the guest arrives and decides to leave early, 50% of the accommodation fees for the nights not spent 24 hours after the cancellation occurs are refunded.",
+    "message": ""
+  },
+  {
+    "id": "rentall.moderateTitle",
+    "description": "Moderate",
+    "defaultMessage": "Moderate: Full refund 5 days prior to arrival",
+    "message": ""
+  },
+  {
+    "id": "rentall.moderateTwo",
+    "description": "Moderate",
+    "defaultMessage": "If the guest cancels less than 5 days in advance, the first night is non-refundable but 50% of the accommodation fees for remaining nights will be refunded.",
+    "message": ""
+  },
+  {
+    "id": "rentall.months",
+    "description": "Flexible",
+    "defaultMessage": "Thu, Jun",
+    "message": ""
+  },
+  {
+    "id": "rentall.nightOf",
+    "description": "Night of",
+    "defaultMessage": "Night of",
+    "message": ""
+  },
+  {
+    "id": "rentall.noReviewPast",
+    "description": "Review",
+    "defaultMessage": "There are no reviews published by you.",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentContentdesc1",
+    "description": "payment Content Description",
+    "defaultMessage": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentContentdesc2",
+    "description": "payment Content Description",
+    "defaultMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentContentdesc3",
+    "description": "payment Content Description",
+    "defaultMessage": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentContentheading1",
+    "description": "payment Content Heading",
+    "defaultMessage": "Sed ut perspiciatis",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentContentheading2",
+    "description": "payment Content Heading",
+    "defaultMessage": "Nemo enim ipsam",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentContentheading3",
+    "description": "payment Content Heading",
+    "defaultMessage": "Neque porro",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentContenttitle",
+    "description": "payment Content title",
+    "defaultMessage": "It to make a type specimen book",
+    "message": ""
+  },
+  {
+    "id": "rentall.popularLocation",
+    "description": "Popular Locations Home page Slider title",
+    "defaultMessage": "Popular Locations",
+    "message": ""
+  },
+  {
+    "id": "rentall.quoteText1",
+    "description": "Quote text",
+    "defaultMessage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "message": ""
+  },
+  {
+    "id": "rentall.quoteText2",
+    "description": "Quote text",
+    "defaultMessage": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
+    "message": ""
+  },
+  {
+    "id": "rentall.quotebutton1",
+    "description": "Quote Button",
+    "defaultMessage": "Lorem Ipsum Text",
+    "message": ""
+  },
+  {
+    "id": "rentall.quotebutton3",
+    "description": "Quote Button",
+    "defaultMessage": "Lorem Ipsum Text",
+    "message": ""
+  },
+  {
+    "id": "rentall.quotetagline1",
+    "description": "Quote Tag Line",
+    "defaultMessage": "software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "message": ""
+  },
+  {
+    "id": "rentall.quotetagline2",
+    "description": "Quote Tag Line",
+    "defaultMessage": "software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "message": ""
+  },
+  {
+    "id": "rentall.removeDateError",
+    "description": "Remove date from special pricing error message",
+    "defaultMessage": "Please choose the blocked or special pricing dates to make them available.",
+    "message": ""
+  },
+  {
+    "id": "rentall.removeFile",
+    "description": "Remove file",
+    "defaultMessage": "Remove file",
+    "message": ""
+  },
+  {
+    "id": "rentall.selectedDates",
+    "description": "Selected dates",
+    "defaultMessage": "Selected dates",
+    "message": ""
+  },
+  {
+    "id": "rentall.selectedDatesBlocked",
+    "description": "Selected dates will be blocked.",
+    "defaultMessage": "Selected dates will be blocked.",
+    "message": ""
+  },
+  {
+    "id": "rentall.selectedDatesError",
+    "description": "Something went wrong, please try again.",
+    "defaultMessage": "Something went wrong, please try again.",
+    "message": ""
+  },
+  {
+    "id": "rentall.selectedDatesSuccess",
+    "description": "Your calendar has been updated successfully.",
+    "defaultMessage": "Your calendar has been updated successfully",
+    "message": ""
+  },
+  {
+    "id": "rentall.sessionPrice",
+    "description": "sessionPrice",
+    "defaultMessage": "Special Price",
+    "message": ""
+  },
+  {
+    "id": "rentall.showAllSafetyFeatures",
+    "description": "Toggle Button",
+    "defaultMessage": "Show all safety features",
+    "message": ""
+  },
+  {
+    "id": "rentall.showAllSharedSpaces",
+    "description": "Toggle Button",
+    "defaultMessage": "Show all shared spaces",
+    "message": ""
+  },
+  {
+    "id": "rentall.showDescription",
+    "description": "View Listing",
+    "defaultMessage": "Show description",
+    "message": ""
+  },
+  {
+    "id": "rentall.spaceFreeOne",
+    "description": "Space Free",
+    "defaultMessage": "Find out how much you could earn hosting your place",
+    "message": ""
+  },
+  {
+    "id": "rentall.spaceFreeTwo",
+    "description": "Space Free",
+    "defaultMessage": "Turn your extra space into extra income.",
+    "message": ""
+  },
+  {
+    "id": "rentall.sreview",
+    "description": "s review",
+    "defaultMessage": "s review",
+    "message": ""
+  },
+  {
+    "id": "rentall.step1HeadingNew",
+    "description": "STEP 2 Heading",
+    "defaultMessage": "STEP 1",
+    "message": ""
+  },
+  {
+    "id": "rentall.strictOne",
+    "description": "Moderate",
+    "defaultMessage": "For a 50% refund of accommodation fees, cancellation must be made seven full days prior to listing’s local check in time (or 3:00 PM if not specified) on the day of check in, otherwise no refund. For example, if check-in is on Friday, cancel by Friday of the previous week before check in time.",
+    "message": ""
+  },
+  {
+    "id": "rentall.strictThree",
+    "description": "Moderate",
+    "defaultMessage": "If the guest arrives and decides to leave early, the remaining nights are not refunded.",
+    "message": ""
+  },
+  {
+    "id": "rentall.strictTitle",
+    "description": "Moderate",
+    "defaultMessage": "Strict: 50% refund up until 1 week prior to arrival",
+    "message": ""
+  },
+  {
+    "id": "rentall.strictTwo",
+    "description": "Moderate",
+    "defaultMessage": "If the guest cancels less than 7 days in advance, the remaining nights are not refunded.",
+    "message": ""
+  },
+  {
+    "id": "rentall.unBlockInfo",
+    "description": "calendar unblock info",
+    "defaultMessage": "Note: To unblock a date, select any blocked or available date and save without giving special price.",
+    "message": ""
+  },
+  {
+    "id": "rentall.userDeleted",
+    "description": "You are deleted user",
+    "defaultMessage": "You are deleted by admin.",
+    "message": ""
+  },
+  {
+    "id": "rentall.warningLabel",
+    "description": "Warning",
+    "defaultMessage": "Something went wrong!",
+    "message": ""
+  },
+  {
+    "id": "rentall.whyblockTitle1",
+    "description": "why block Title",
+    "defaultMessage": "What is Lorem Ipsum?",
+    "message": ""
+  },
+  {
+    "id": "rentall.whyblockTitle2",
+    "description": "why block title",
+    "defaultMessage": "This tool for our day to day work and our clients?",
+    "message": ""
+  },
+  {
+    "id": "rentall.whyblockdesc1",
+    "description": "why block description",
+    "defaultMessage": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "message": ""
+  },
+  {
+    "id": "rentall.whyblockdesc2",
+    "description": "why block description",
+    "defaultMessage": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "message": ""
+  },
+  {
+    "id": "rentall.youLabel",
+    "description": "Review",
+    "defaultMessage": "You",
+    "message": ""
+  },
+  {
+    "id": "rentall.zipcodeOne",
+    "description": "ZIP Code",
+    "defaultMessage": "ZIP",
+    "message": ""
+  },
+  {
+    "id": "rentall.chooseACurrency",
+    "description": "Choose a Currency",
+    "defaultMessage": "Choose a Currency",
+    "message": ""
+  },
+  {
+    "id": "rentall.chooseLanguage",
+    "description": "Choose a Language",
+    "defaultMessage": "Choose a Language",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.required",
+    "description": "Required",
+    "defaultMessage": "*Required",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.emailInvalid",
+    "description": "email address error",
+    "defaultMessage": "*Invalid email address",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.passwordInvalid",
+    "description": "Password minimum characters error",
+    "defaultMessage": "Password should be minimum 8 characters.",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.blankSpace",
+    "description": "Password error",
+    "defaultMessage": "Password should not be blank space.",
+    "message": ""
+  },
+  {
+    "id": "ListSettingsForm.emailBlankSpace",
+    "description": "email address error",
+    "defaultMessage": "Email should not be blank spaces",
+    "message": ""
+  },
+  {
+    "id": "rentall.averagePricePerNight",
+    "description": "Tooltip",
+    "defaultMessage": "Average rate per night for your trip.",
+    "message": ""
+  },
+  {
+    "id": "rentall.booked",
+    "description": "Calendar",
+    "defaultMessage": "Booked",
+    "message": ""
+  },
+  {
+    "id": "rentall.confirmedLabel",
+    "description": "Confirmed",
+    "defaultMessage": "Confirmed",
+    "message": ""
+  },
+  {
+    "id": "rentall.countingSectionNumberOne",
+    "description": "2.9M",
+    "defaultMessage": "2.9M",
+    "message": ""
+  },
+  {
+    "id": "rentall.countingSectionNumberThree",
+    "description": "14K",
+    "defaultMessage": "14K",
+    "message": ""
+  },
+  {
+    "id": "rentall.countingSectionNumberTwo",
+    "description": "800K",
+    "defaultMessage": "800K",
+    "message": ""
+  },
+  {
+    "id": "rentall.discountStays",
+    "description": "Discount",
+    "defaultMessage": "Discount for longer stay",
+    "message": ""
+  },
+  {
+    "id": "rentall.emailLabel",
+    "description": "emailLabel",
+    "defaultMessage": "Email",
+    "message": ""
+  },
+  {
+    "id": "rentall.exportCalendar",
+    "description": "exportCalendar",
+    "defaultMessage": "Export Calendar",
+    "message": ""
+  },
+  {
+    "id": "rentall.exportCalendarDescription",
+    "description": "exportCalendar",
+    "defaultMessage": "Copy and paste the link into other ICAL applications",
+    "message": ""
+  },
+  {
+    "id": "rentall.firstNameInvalid",
+    "description": "First Name is Invalid",
+    "defaultMessage": "First Name Invalid",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleThirdMonthsNumberOne",
+    "description": "Flexible",
+    "defaultMessage": 8,
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleThirdMonthsNumberThree",
+    "description": "Flexible",
+    "defaultMessage": 12,
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleThirdMonthsNumberTwo",
+    "description": "Flexible",
+    "defaultMessage": 9,
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleThirdMonthsTimeOne",
+    "description": "Flexible",
+    "defaultMessage": "3:00",
+    "message": ""
+  },
+  {
+    "id": "rentall.flexibleThirdMonthsTimeTwo",
+    "description": "Flexible",
+    "defaultMessage": 11,
+    "message": ""
+  },
+  {
+    "id": "rentall.importCalendar",
+    "description": "importCalendar",
+    "defaultMessage": "Import a New Calendar",
+    "message": ""
+  },
+  {
+    "id": "rentall.importCalendarBtn",
+    "description": "importCalendar",
+    "defaultMessage": "Import Calendar",
+    "message": ""
+  },
+  {
+    "id": "rentall.importCalendarDesc",
+    "description": "importCalendar",
+    "defaultMessage": "Import other calendars you use and we’ll automatically keep this listing’s availability up-to-date.",
+    "message": ""
+  },
+  {
+    "id": "rentall.importCalendarDesc1",
+    "description": "importCalendar",
+    "defaultMessage": "Calendar Address (URL)",
+    "message": ""
+  },
+  {
+    "id": "rentall.importCalendarDesc2",
+    "description": "importCalendar",
+    "defaultMessage": "Calendar Address (URL)",
+    "message": ""
+  },
+  {
+    "id": "rentall.inLabel",
+    "description": "inLabel",
+    "defaultMessage": "in",
+    "message": ""
+  },
+  {
+    "id": "rentall.lastNameInvalid",
+    "description": "Last Name is Invalid",
+    "defaultMessage": "Last Name Invalid",
+    "message": ""
+  },
+  {
+    "id": "rentall.logoHeight",
+    "description": "Logo height must be numeric value",
+    "defaultMessage": "Logo height must be numeric value",
+    "message": ""
+  },
+  {
+    "id": "rentall.logoWidth",
+    "description": "Logo width must be numeric value",
+    "defaultMessage": "Logo width must be numeric value",
+    "message": ""
+  },
+  {
+    "id": "rentall.metaDescription",
+    "description": "Description must be 255 characters or less",
+    "defaultMessage": "Description must be 255 characters or less",
+    "message": ""
+  },
+  {
+    "id": "rentall.metaKeyword",
+    "description": "Keyword must be 255 characters or less",
+    "defaultMessage": "Keyword must be 255 characters or less",
+    "message": ""
+  },
+  {
+    "id": "rentall.metaTitle",
+    "description": "Meta Title T must be 255 characters or less",
+    "defaultMessage": "Meta Title must be 255 characters or less",
+    "message": ""
+  },
+  {
+    "id": "rentall.moderateMonthsNumberOne",
+    "description": "Flexible",
+    "defaultMessage": 13,
+    "message": ""
+  },
+  {
+    "id": "rentall.moderateMonthsNumberTwo",
+    "description": "Flexible",
+    "defaultMessage": 16,
+    "message": ""
+  },
+  {
+    "id": "rentall.noText",
+    "description": "No",
+    "defaultMessage": "No",
+    "message": ""
+  },
+  {
+    "id": "rentall.notAvailable",
+    "description": "Calendar",
+    "defaultMessage": "Not Available",
+    "message": ""
+  },
+  {
+    "id": "rentall.notReady",
+    "description": "Payout Method",
+    "defaultMessage": "Not Ready",
+    "message": ""
+  },
+  {
+    "id": "rentall.paymentCardNumber",
+    "description": "cardNumber",
+    "defaultMessage": "Card Number",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutCompany",
+    "description": "Company text",
+    "defaultMessage": "Company",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutCompanyName",
+    "description": "Company text",
+    "defaultMessage": "Company Name",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutFailure",
+    "description": "Uh-oh, the registration has failed.",
+    "defaultMessage": "Oops! We are sorry!",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutFailureContent",
+    "description": "Please add a valid SSN.",
+    "defaultMessage": "Please try again to add your bank account with the platform by clickting the \"Retry\" option or Add a new payout account by clicking the \"Add Payout Method\".",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutFailureSubtitle",
+    "description": "Please add a valid SSN.",
+    "defaultMessage": "Connecting your bank account with the platform verification is failed.",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutIndividual",
+    "description": "Individual text",
+    "defaultMessage": "Individual",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutRetry",
+    "description": "Payout Method",
+    "defaultMessage": "Retry",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutStripeInfo",
+    "description": "Stripe text info",
+    "defaultMessage": "We use Stripe to make sure you get paid on time and to keep your personal bank and details secure. Click \"Finish\" to set up your payments on Stripe.",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutType",
+    "description": "payout Account Type",
+    "defaultMessage": "Account Type",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutVerify",
+    "description": "Payout Method",
+    "defaultMessage": "Verify",
+    "message": ""
+  },
+  {
+    "id": "rentall.payoutVerifyStripeInfo",
+    "description": "Payout Method",
+    "defaultMessage": "We use Stripe to make sure you get paid on time safe and secure. It requires additional verification to connect your bank account with the platform.",
+    "message": ""
+  },
+  {
+    "id": "rentall.phoneNumberLengthInvalid",
+    "description": "Mobile Number must be 30 digits or less",
+    "defaultMessage": "Mobile Number must be 30 digits or less",
+    "message": ""
+  },
+  {
+    "id": "rentall.readyToEarn",
+    "description": "Ready to earn?",
+    "defaultMessage": "Ready to earn?",
+    "message": ""
+  },
+  {
+    "id": "rentall.readyToEarnDesc",
+    "description": "Ready to earn?",
+    "defaultMessage": "Get started",
+    "message": ""
+  },
+  {
+    "id": "rentall.recepitInfoDesc",
+    "description": "Receipt Info",
+    "defaultMessage": "Average rate per night for your trip.",
+    "message": ""
+  },
+  {
+    "id": "rentall.reservationIsCompleted",
+    "description": "View message action",
+    "defaultMessage": "Reservation is completed",
+    "message": ""
+  },
+  {
+    "id": "rentall.reservationIsCompletedDescription",
+    "description": "View message action",
+    "defaultMessage": "Reservation of your listing is completed.",
+    "message": ""
+  },
+  {
+    "id": "rentall.shareLabel",
+    "description": "shareLabel",
+    "defaultMessage": "Share",
+    "message": ""
+  },
+  {
+    "id": "rentall.shareModal",
+    "description": "shareModal",
+    "defaultMessage": "Modal",
+    "message": ""
+  },
+  {
+    "id": "rentall.showMap",
+    "description": "showMap",
+    "defaultMessage": "Show Map",
+    "message": ""
+  },
+  {
+    "id": "rentall.socialShareDesc",
+    "description": "socialShareDesc",
+    "defaultMessage": "Check out this awesome listing on RentALL",
+    "message": ""
+  },
+  {
+    "id": "rentall.strictMonthsOne",
+    "description": "Moderate",
+    "defaultMessage": 15,
+    "message": ""
+  },
+  {
+    "id": "rentall.strictMonthsTwo",
+    "description": "Moderate",
+    "defaultMessage": 18,
+    "message": ""
+  },
+  {
+    "id": "rentall.tripCompleted",
+    "description": "tripCompleted",
+    "defaultMessage": "Trip is completed",
+    "message": ""
+  },
+  {
+    "id": "rentall.twitter",
+    "description": "sign up with twitter",
+    "defaultMessage": "Twitter",
+    "message": ""
+  },
+  {
+    "id": "rentall.uploadSizedLabel",
+    "description": "uploadSizedLabel",
+    "defaultMessage": "Maximum upload size:",
+    "message": ""
+  },
+  {
+    "id": "rentall.urlInvalid",
+    "description": "URL invalid",
+    "defaultMessage": "Invalid URL",
+    "message": ""
+  },
+  {
+    "id": "rentall.verificationDesc",
+    "description": "Verification",
+    "defaultMessage": "If it doesn't arrive, click cancel and try again.",
+    "message": ""
+  },
+  {
+    "id": "rentall.yesText",
+    "description": "yes",
+    "defaultMessage": "Yes",
+    "message": ""
+  },
+  {
+    "id": "rentall.appsAvailableOn",
+    "description": "Apps available on",
+    "defaultMessage": "Apps available on",
+    "message": ""
+  }
+]

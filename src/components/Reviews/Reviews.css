@@ -1,0 +1,411 @@
+
+@import '../../components/variables.css';
+
+/*************************Sidenavigation Styles start******************************************/
+
+.listContainer {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sideNavitem{
+  display: block;
+  padding: 6px 0;
+  font-size: 16px;
+  color: #767676;
+  text-decoration: none;
+}
+
+.sideNavitem:hover{
+  text-decoration: none;
+  color: #484848;
+}
+
+.sideNavitem:active{
+  text-decoration: none;
+  color: #484848;
+  font-weight: bold;
+}
+.sideNavitem:active{
+  text-decoration: none;
+  color: #484848;
+  font-weight: bold;
+}
+
+/*************************Sidenavigation Styles end******************************************/
+
+.panelHeader{
+
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce0e0;
+
+}
+
+.listLayout{
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  color: #484848;
+}
+.description{
+  font-size: 14px;
+  line-height: 1.43;
+
+}
+
+a{
+  color: #008489;
+  text-decoration: none;
+
+}
+
+a:hover, a:focus, a:active{
+  color: #008489;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.space4{
+  margin-bottom: 24px;
+}
+
+.space2{
+  margin-bottom: 12px;
+}
+
+.spaceTop4{
+  margin-top: 24px;
+}
+.spaceTop2{
+  margin-top: 12px;
+}
+
+.mediaContainer {
+  display: table;
+  position: relative;
+}
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.avatarDisplay{
+  display: table-cell;
+}
+
+.noBorder{
+  border: 0px none !important;
+}
+
+.panelNolist{
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 14px;
+  line-height: 1.43;
+  background: #f5f5f5;
+}
+
+.textCenter{
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+.textBold{
+  font-weight: bold;
+}
+
+.pullLeft{
+  float: left;
+  margin-right: 2px;
+}
+
+.listStyle{
+  list-style: none;
+  padding-left: 0;
+}
+
+.mediaDisplay{
+  display: table;
+  width: 100%;
+}
+
+.mediaDisplayCell{
+  display: table-cell;
+}
+
+.name{
+  margin: 4px 0;
+  max-width: 74px;
+  word-wrap: break-word;
+}
+
+.reviewMuted{
+  color: #767676;
+}
+
+.reviewBody{
+  display: table-cell;
+  padding-left: 5px;
+}
+
+.reviewTitle{
+  font-weight: bold;
+  color: #484848;
+}
+
+.iconColor{
+  color: #ff5a5f;
+  font-size: 16px;
+  
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.tabs{
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  font-size: inherit;
+  border-bottom: 1px solid #dce0e0;
+
+}
+
+.tabs>li{
+  margin-right: 20px;
+}
+
+@media screen and (max-width:480px){
+  .tabs>li{
+    margin-right: 8px;
+  }
+}
+
+.tabItem{
+  display: block;
+  padding: 14px 0px;
+  position: relative;
+  text-align: center;
+  color: #767676;
+  cursor: pointer;
+  border-bottom: 5px solid transparent;
+}
+
+.tabItem:hover{
+  text-decoration: none;
+  color: #484848;
+}
+
+.active .tabItem {
+  color: #484848;
+  border-color: #aaa;
+  text-decoration: none;
+}
+
+.showSm{
+  display: none;
+}
+
+@media screen and (max-width: 640px){
+  .mediaDisplay{
+    display: block;
+  }
+  .textAlignCenter{
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 743px){
+  .name{
+    width:100%;
+    max-width: 100%;
+  }
+
+  .mediaContainer{
+    display: block;
+    text-align: center;
+  }
+
+  .avatarWrapper{
+    float: none;
+  }
+
+  .pullLeft{  
+    float: none;
+  }
+}
+
+.recommondations {
+  position: relative;
+}
+
+.recommondations li:last-child .horizontalLineThrough{
+  opacity: 0;
+  height: 0;
+  margin: 0px;
+}
+
+.btn {
+    padding: 7px 21px;
+    border-color: #c4c4c4;
+    background: white;
+    color: #484848;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0px;
+} 
+
+.btnPrimary {
+   border-color: #ff5a5f;
+   background-color: #ff5a5f;
+   color: #fff;
+   font-family: inherit;
+}
+
+.btnlarge {
+   padding: 9px 27px;
+ }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+   border-color: #ff5a5f;
+   color: #ff5a5f;
+   background-color: #fff;
+  
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnRadius{
+  border-radius: 0px;
+}
+
+.linkBtn{
+  border-radius: 4px;
+  padding: 9px 21px;
+}
+
+.noBackground {
+  background: transparent !important;
+}
+.displayTable{
+  display: table;
+  width:100%;
+
+}
+.displayTableRow{
+  display: table-row;
+  width:100%;
+}
+.displayTableCell{
+  display: table-cell;
+  vertical-align: top;
+}
+.rightBg{
+  background: #ffffff;
+  padding: 15px  24px;
+  position: relative;
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-left: 5px;
+
+}
+.rightBg::before{
+  content: ' ';
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  bottom: auto;
+  border: 10px solid transparent;
+  border-left: 0;
+  border-right-color: #fff;
+  top: 0px;
+  left: initial;
+  right: 100%;
+  border-width: 0 24px 24px 0;
+  border-color: transparent #fff transparent transparent;
+}
+.rightBg::after{
+  content: '';
+  position: absolute;
+  left: -38px;
+  top: 0;
+  right: auto;
+  width: 38px;
+  height: 40px;
+  background: #f5f5f5;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  z-index: 3;
+}
+.LeftBg{
+  width:10%;
+}
+.marginTop{
+  margin-top: 20px;
+}
+.nameBold{
+  font-weight: bold;
+}
+/* @media (max-width:1199px) and (min-width:1024px) {
+  .rightBg{
+    width:83%; 
+}
+  }
+@media (max-width:1023px) and (min-width:768px) {
+  .rightBg{
+    width:78%; 
+}
+  }
+@media (max-width: 767px){
+  .rightBg{
+   
+    padding: 15px;
+    width:64%;
+    
+}
+
+  } */
+
+
+
+
+

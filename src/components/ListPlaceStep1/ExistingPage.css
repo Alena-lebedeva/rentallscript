@@ -1,0 +1,428 @@
+@import '../../components/variables.css';
+
+/* Common Helpers Style - Start */
+
+.landingContainer {
+  max-width: 1310px;
+  width: 100%;
+  display: block;
+  
+}
+
+.landingContent {
+  margin-top: 60px;
+}
+
+.pullCenter{
+  text-align: center;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Common Helpers Style - Start */
+.button {
+	border-color: #007d73;
+  background-color: #008489;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 6px;
+  padding: 7px 21px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.button:hover {
+  background: #ff5a5f;
+  text-decoration: none;
+}
+
+.button:focus {
+  border-color: #ff5a5f;
+  box-shadow: 0 0 8px #008489;
+}
+
+.btnPrimary {
+   border-color: #ff5a5f;
+   background-color: #ff5a5f;
+   color: #fff;
+}
+
+.btnlarge {
+   padding: 9px 27px;
+ }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff5a5f !important;
+  background-color: #ff5a5f !important;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+   border-color: #ff5a5f;
+   color: #ff5a5f;
+   background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.previewLink{
+  color: #008489;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 18px;
+  line-height: 42px;
+  vertical-align: middle;
+  
+}
+
+.previewLink:hover , .previewLink:active, .previewLink:focus{
+  color: #008489;
+  text-decoration: none;
+}
+
+.previewLinkUserBan{
+  color: #008489;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 42px;
+  vertical-align: middle;
+ }
+
+.previewLinkUserBan:hover , .previewLinkUserBan:active, .previewLinkUserBan:focus{
+  color: #008489;
+  text-decoration: none;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.pullRight {
+  float: right;
+}
+
+.pullLeft {
+  float: left;
+}
+
+.landingTitle {
+  font-size: 32px;
+  color: #484848;
+  margin: 0px 0px 30px 0px;
+}
+.landingTitleStep {
+  font-size: 16px;
+  color: #2d2d2d;
+  
+}
+.step{
+  font-size: 14px;
+  color: #bbbbbb;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.5;
+ 
+}
+
+.horizontalLineThrough {
+  
+  display: block;
+  margin: 30px 0;
+  border-color: #f5f5f5;
+  border: 0;
+  height: 0;
+  border-top: 1px solid #dce0e0;
+  width: 100%;
+  font-size: 16px;
+
+
+}
+
+.modalCaptionLink, .modalCaptionLink:hover, .modalCaptionLink:active, .modalCaptionLink:focus  {
+  color: #ff5a5f;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.icon{
+    
+  font-size: 2.4em;
+  line-height: 1;
+  top: 50%;
+  right:0;
+  color: #008489;
+  display: block;
+
+}
+
+.spaceTop1{
+  margin-top: 6px;
+}
+
+.spaceTop3{
+  margin-top: 18px;
+}
+
+.spaceTop5 {
+  margin-top: 48px;
+}
+
+
+@media screen and (max-width:640px){
+ .previewLink{
+    margin: 0px;
+    display: inline-block;
+  }
+
+  .previewLinkUserBan{
+    margin: 0px;
+    display: inline-block;
+  }
+
+  .button{
+    display: block;
+  }
+}
+
+
+.step1Margin {
+  margin-top: 20px;
+}
+
+.imageSection {
+  width: 100%;
+  height: 100%;
+  margin-top: 90px;
+}
+
+.displayInline {
+  display: inline-block;
+}
+
+@media screen and (max-width:640px) {
+  .displayInline {
+    display: inline-block;
+    padding-right: 10px;
+  }
+}
+
+/* Common Helpers Style - End */
+
+
+/* New Design */
+
+.displayTable {
+  display: table;
+  width: 100%;
+}
+
+.displayTableRow {
+  display: table-row;
+}
+
+.displayTableCell {
+  display: table-cell;
+}
+
+.vtrTop {
+  vertical-align: top;
+}
+
+.iconWidth {
+  width: 8%;
+  position: relative;
+}
+
+.contentWidth {
+  width: 90%;
+}
+
+
+
+.borderLine::after {
+  content: '';
+  width: 4px;
+  height: 100%;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  z-index: 5;
+  box-shadow: 0px 0px 2px 1px #dedede;
+}
+
+
+.circle {
+  width: 100%;
+  background: #fff;
+  height: 20px;
+  max-width: 20px;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #ff5a5f;
+  left: 13px;
+  top: 0px;
+  z-index: 6;
+}
+
+.paddingBottom {
+  padding-bottom: 48px;
+}
+
+.paddingLeft {
+  padding-left: 18px;
+}
+
+.mainSectionPadding {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+  background: #f3f3f3;
+}
+
+.contentSection {
+  background: #fff;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px 0px #dedede;
+  width: 100%;
+  max-width: 558px;
+}
+
+.borderLineActive::after {
+  background: #54afb0;
+}
+
+.positionRelative{
+  position: relative;
+}
+
+.mainSection {
+  display: block;
+  position: relative;
+  height: auto;
+  /* border-radius: 0;
+  border: none;
+  background: #fff;
+  padding: 15px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px; */
+}
+
+.mainSection::before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: auto;
+  top: 0;
+}
+
+.circleSuccess {
+  border: 3px solid #54afb0;
+}
+
+
+
+/* @media screen and (max-width: 1030px) {
+  .circle {
+    width: 100%;
+    background: #fff;
+    height: 20px;
+    max-width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ff5a5f;
+    left: 28px;
+    top: 34px;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .circle {
+    width: 100%;
+    background: #fff;
+    height: 20px;
+    max-width: 20px;
+    position: relative;
+    border-radius: 50%;
+    border: 3px solid #ff5a5f;
+    left: -37px;
+    top: 54px;
+    z-index: 5;
+  }
+} */
+
+
+@media screen and (max-width: 1199px) {
+  .circle {
+    width: 100%;
+    background: #fff;
+    height: 20px;
+    max-width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ff5a5f;
+    left: 14px;
+    top: 0px;
+    z-index: 5;
+  }
+
+  .iconWidth {
+    width: 10%;
+    position: relative;
+  }
+
+  .circleSuccess {
+    border: 3px solid #54afb0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .circle {
+    width: 100%;
+    background: #fff;
+    height: 20px;
+    max-width: 20px;
+    position: relative;
+    border-radius: 50%;
+    border: 3px solid #ff5a5f;
+    left: -37px;
+    top: 0px;
+    z-index: 5;
+  }
+
+  .iconWidth {
+    width: 8%;
+    position: relative;
+    padding-left: 50px;
+  }
+
+  .contentWidth {
+    width: 100%;
+  }
+
+  .circleSuccess {
+    border: 3px solid #54afb0;
+  }
+}
+
+

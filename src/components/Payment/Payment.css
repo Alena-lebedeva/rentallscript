@@ -1,0 +1,356 @@
+@import '../../components/variables.css';
+
+.pageContainer{
+  width: 1080px;
+  max-width: 1080px;
+
+}
+
+.bookItPanel{
+  font-size: 16px;
+  padding: 5px;
+
+}
+.textLeft{
+  text-align: left;
+}
+
+.textRight{
+  text-align:right;
+}
+
+.textGray{
+  color: #9b9b9b;
+  font-size: 14px;
+}
+
+.chevronIcon{
+  font-size: 1.5em;
+  margin-top: 10px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.checkInDate{
+  font-size: 14px;
+  color: #484848;
+}
+
+.editLink{
+  line-height: 26px;
+}
+
+.pullLeft{
+  float: left;
+}
+
+.pullRight{
+  float:right;
+}
+
+.h3{
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.bookItDetails{
+font-size: 16px;
+}
+
+.space4{
+  margin-bottom: 24px;
+}
+
+.spaceTop1{
+  margin-top: 6px;
+}
+
+.spaceTop2{
+  margin-top: 12px;
+}
+
+.spaceTop3{
+  margin-top: 18px;
+}
+
+.space2{
+  margin-bottom: 12px;
+}
+
+.space3{
+  margin-bottom: 18px;
+}
+
+.textArea{
+  height: 110px !important;
+  border-radius: 0px;
+  margin-top: 12px;
+}
+
+.houseRulesPanel{
+  background-color: #f9f9f9;
+  border-style: none;
+  margin-top: 37px;
+}
+
+.houseRules{
+  padding-bottom: 26px;
+  padding: 18px 0;
+}
+
+.houseRuleContent{
+  white-space: pre-wrap !important;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  white-space: pre;
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 60vh;
+  border: none;
+  border-radius: 0;
+  word-break: normal;
+  color: inherit;
+}
+
+.circleIcon{
+  font-size: 19px;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  color: #008489;
+  display: block;
+  float: right;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.button {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+  font-size: 14px;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnlarge{
+    padding: 7px 30px;
+  }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82 !important;
+  background-color: #ff7e82 !important;
+  color: #fff;
+}
+
+.paymentHeader{
+  padding: 5px;
+  font-size: 16px;
+}
+
+.headerDivider{
+  border-top-width: 2px;
+  margin: 4px 0px;
+}
+
+.textLeft{
+  text-align: left;
+}
+
+.textLight{
+  color: #bbb;
+}
+
+.countryName{
+  margin: 0px 0px 8px;
+}
+
+.textRegular{
+  font-weight: normal ;
+  color: #484848 ;
+  margin: 0px ;
+  word-wrap: break-word ;
+  font-size: 19px ;
+  line-height: 24px ;
+  padding-top: 0px ;
+  padding-bottom: 0px ;
+
+}
+
+.selectContainer{
+  font-size: 19px;
+  line-height: 24px;
+  color: #484848;
+  position: relative;
+  display: block;
+}
+
+
+.formControlSelect {
+  height: 40px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px 10px;
+  width:100%;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  color: #484848;
+  display: inline-block;
+  overflow: hidden;
+  appearance: none;
+  }
+
+  .summaryCard{
+    background: transparent;
+    padding: 0 0 15px;
+    font-size: 16px;
+  }
+
+  .colCenter{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .backgroundCover{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+  }
+
+  .bannerImage{
+    height: 140px;
+  }
+
+  .hostProfilePhoto{
+    margin-bottom: 0;
+    margin-right: 30px;
+    margin-top: -25px;
+  }
+
+  .profileAvatarSection {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.profileAvatar {
+  height: 60px;
+  width: 60px;
+}
+
+.panelHeader{
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.textMuted{
+  color: #767676;
+  font-size: 16px;
+}
+
+.textMedium{
+  font-size: 14px
+}
+
+.textLarge{
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.listStyle{
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.noBorder {
+  border: 0px none !important;
+}
+
+.tableText{
+  font-weight: normal;
+  color: #484848;
+}
+
+.totalText{
+  
+  border: 0;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+  text-align: start;
+  cursor: default;
+  pointer-events: none;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.totalValue{
+  border-top: 1px solid #dce0e0;
+  border-color: rgba(220,224,224,0.5);
+  content: "";
+  top: -1px;
+  height: 1px;
+  left: 20px;
+  right: 20px;
+
+}
+
+.space1{
+  margin-bottom:6px;
+}
+
+a{
+  color: #008489;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #008489;
+  cursor: pointer;
+}
+
+.horizondalLine{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 1px solid #dce0e0;
+}

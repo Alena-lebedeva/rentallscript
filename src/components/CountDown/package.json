@@ -1,0 +1,6 @@
+{
+    "name": "CountDown",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./CountDown.js"
+}

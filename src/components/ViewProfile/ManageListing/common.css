@@ -1,0 +1,121 @@
+.noPadding {
+  padding: 0px;
+}
+
+.space1 {
+  margin-bottom: 6px;
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.space4 {
+  margin-bottom: 24px;
+}
+
+.space5 {
+  margin-bottom: 48px;
+}
+
+.spaceTop1 {
+  margin-top: 6px;
+}
+
+.spaceTop2 {
+  margin-top: 12px;
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.spaceTop5 {
+  margin-top: 48px;
+}
+
+.spaceRight1 {
+  margin-right: 6px;
+}
+
+.spaceRight2 {
+  margin-right: 12px;
+}
+
+.spaceRight3 {
+  margin-right: 18px;
+}
+
+.spaceRight4 {
+  margin-right: 24px;
+}
+
+.spaceRight5 {
+  margin-right: 48px;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.button {
+
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+    }
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnlarge{
+
+      padding: 7px 21px;
+  }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+@media screen and (max-width: 640px){
+  .smButton{
+    width: 100%
+  }
+}

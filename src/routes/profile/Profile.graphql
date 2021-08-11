@@ -1,0 +1,60 @@
+query ($profileId:Int, $isUser: Boolean) {
+    showUserProfile (profileId:$profileId, isUser: $isUser) {
+        userId
+        profileId
+        firstName
+        location
+        info
+        createdAt
+        picture
+        profileBanStatus {
+            userBanStatus
+        }
+        reviewsCount
+        reviews {
+            id
+            reservationId
+            listId
+            authorId
+            userId
+            reviewContent
+            rating
+            parentId
+            automated
+            createdAt
+            status
+            isAdmin
+            authorData {
+                ...userprofileFields
+            }
+            userData {
+                ...userprofileFields
+            }
+            response {
+                id
+                reservationId
+                listId
+                authorId
+                userId
+                reviewContent
+                rating
+                parentId
+                automated
+                createdAt
+                status
+                authorData {
+                    ...userprofileFields
+                }
+                userData {
+                    ...userprofileFields
+                }
+            }
+        }
+    }
+}
+fragment userprofileFields on userProfile {
+    profileId
+    firstName
+    picture
+    location
+}

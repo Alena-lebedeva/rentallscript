@@ -1,0 +1,108 @@
+@import '../../common.css';
+
+.btn {
+    padding: 7px 21px;
+    border-color: #c4c4c4;
+    background: white;
+    color: #484848;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btnBlock {
+  width: 100%;
+  position: relative; 
+  white-space: normal;
+  display: block;
+}
+
+.btnPrimary {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82 !important;
+    background-color: #ff7e82 !important;
+    color: #fff !important;
+}
+
+.btnLarge, .btnLarge:hover, .btnLarge:focus,
+.btnLarge:active:hover, .btnLarge:active:focus {
+    padding: 12px 15px !important;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.geoSuggestContainer {
+    width: 100% !important;
+    margin: 0px !important;
+}
+/** Search Form - End **/
+
+.searchContainer {
+    font-size: 19px;
+    line-height: 24px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    table-layout: fixed;
+    height: 42px;
+    width: 100%;
+    position: relative;
+    max-width: 400px;
+    margin-top: 8px
+  }
+  
+  .searchIconContainer {
+    width: 35px;  
+    padding-left: 5px;
+  }
+  
+  .searchIcon {
+    height: 24px; 
+    width: 24px; 
+    display: block; 
+    fill: rgb(118, 118, 118);
+  }
+  
+  .geosuggest {
+      outline: none;
+      width: 100% !important;
+      margin: 0px !important;
+  }
+
+  .locationSection {
+      width: 100%;
+      height: 60px;
+  }
+
+  .searchFormContainer {
+      width: 100%;
+      background: #ffffff;
+      padding: 0px 10px;
+      border: 1px solid #dce0e0;
+      border-radius: 4px;
+      box-shadow: 0 0px 1px 0 #dce0e0;
+  }
+
+  .searchBtnContainer {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    z-index: 4;
+  }
+  @media screen and (max-width: 767px) {
+   
+  }
+  @media screen and (max-width: 370px) {
+    .searchIconContainer {
+        width: 28px;  
+        padding-left: 0px;
+      }
+  }

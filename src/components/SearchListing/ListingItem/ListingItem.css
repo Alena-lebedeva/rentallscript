@@ -1,0 +1,180 @@
+/** Common **/
+.textEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pullRight {
+    float: right;
+}
+/** Common **/
+/* List Item - Start **/
+.listItemContainer {
+    position: relative;
+}
+.listPhotoContainer {
+    position: relative;
+}
+.listPhotoCover {
+  display: block;
+  height: 345px;
+  backface-visibility: hidden;
+  position: relative;
+  vertical-align: middle;
+  overflow: hidden;
+  background-color: #D8D8D8;
+  text-align: center;
+}
+
+.listPhotoMedia {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.imgResponsive{
+  height: 100%;
+  width: auto;
+}
+
+.listInfo {
+    padding-top: 0px;
+}
+
+.listInfoLink {
+    cursor: pointer;
+    display: block;
+}
+
+.listingInfo{
+    word-wrap: break-word;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: normal;
+    color: #A02F18;
+    font-weight: 800;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.displayInline{
+    display: inline-block;
+
+}
+
+.textInline{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.listingTitle{
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: rgb(72, 72, 72);
+    font-weight: 800;
+}
+.infoSpace{
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.infoSpaceTop1{
+    margin-top: 2px
+}
+.infoText {
+    color: #484848;
+    font-family: inherit;
+    word-wrap: break-word;
+    line-height: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline;
+}
+
+.infoPrice {
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: rgb(72, 72, 72);
+    font-weight: normal;
+    display: inline;
+}
+
+.infoReview {
+    font-weight: 600;
+    word-wrap: break-word;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: rgb(72, 72, 72);
+    display: inline;
+}
+
+.infoTitle {
+    font-size: 19px;
+}
+
+.infoDesc {
+    font-weight: 200;
+    font-size: 14px;
+    color: #767676;
+}
+
+.wishListContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.wishListBtn {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.wishListBtn:hover, .wishListBtn:focus {
+    color: #58595B;
+}
+
+.activeWishList {
+    color: #58595B;
+}
+
+@media screen and (max-width: 1280px) {
+    .listPhotoCover {
+            height: 200px;
+        }
+}    
+
+@media screen and (max-width: 800px) {
+        .listPhotoCover {
+            height: 345px;
+        }    
+}
+
+@media screen and (max-width: 480px) {
+        .listPhotoCover {
+            height: 215px;
+        }    
+}
+
+.reviewStar {
+    display: block;
+    position: relative;
+}
+
+.reviewText {
+    font-size: 14px;
+}
+
+.instantIcon{
+    color: #ffb400;
+    height: 16px;
+    width: 16px;
+}
+
+/* List Item - End */

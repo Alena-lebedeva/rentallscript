@@ -1,0 +1,6 @@
+{
+  "name": "AdminRolesManagement",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AdminRolesManagement.js"
+}

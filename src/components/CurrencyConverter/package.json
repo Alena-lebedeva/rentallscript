@@ -1,0 +1,6 @@
+{
+  "name": "CurrencyConverter",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CurrencyConverter.js"
+}

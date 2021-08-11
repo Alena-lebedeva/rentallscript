@@ -1,0 +1,9 @@
+query editPopularLocation ($id: Int!) {
+    editPopularLocation (id: $id) {
+        id
+        location
+        locationAddress
+        isEnable
+        image
+    }
+}

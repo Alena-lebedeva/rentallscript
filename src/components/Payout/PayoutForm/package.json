@@ -1,0 +1,6 @@
+{
+  "name": "PayoutForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PayoutForm.js"
+}

@@ -1,0 +1,8 @@
+@import '../../../../components/common.css';
+
+.capitalizeText {
+    text-transform: capitalize;
+}
+.alignCenter{
+    text-align: center;
+}

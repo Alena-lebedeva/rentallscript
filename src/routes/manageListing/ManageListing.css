@@ -1,0 +1,69 @@
+@import '../../components/variables.css';
+
+.container {
+  margin: 0px auto;
+  padding-top: 30px;
+  max-width: var(--max-content-width);
+}
+
+.landingContainer {
+  max-width: 1080px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.panelSpace{
+  padding-right: 20px;
+}
+
+.panelBody {
+  margin: 0;
+  padding: 15px 0px;
+  position: relative;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.iconRemove {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    color: #bbbbbb;
+    display: none;
+}
+
+.panelBody:hover .iconRemove {
+  display: block;
+} 
+
+.icon{
+  font-weight: normal;
+  line-height: 1;
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+
+
+@media screen and (max-width: 640px) {
+  .listDetailContent {
+    padding: 0px;
+  } 
+}
+
+@media screen and (max-width: 768px){
+  .smPadding{
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .iconRemove {
+    position: relative;
+    display: block;
+    right: unset;
+  } 
+}
+

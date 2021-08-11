@@ -1,0 +1,44 @@
+query getAllWishListGroup ($profileId: Int!){
+    getAllWishListGroup(profileId: $profileId){
+    	wishListGroupData {
+        id
+        name
+        userId
+        isPublic
+        updatedAt
+        wishListCount
+        wishListCover {
+          id
+          listId
+          listData {
+            id
+            title
+            personCapacity
+            beds
+            bookingType
+            coverPhoto
+            reviewsCount,
+            reviewsStarRating,
+            listPhotos {
+              id
+              name
+              type
+              status
+            }
+            listingData {
+              basePrice
+              currency
+            }
+            settingsData {
+              listsettings {
+                id
+                itemName
+              }
+            }
+          }
+        }
+  		}
+      count
+      status
+    }
+}

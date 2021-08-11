@@ -1,0 +1,6 @@
+{
+    "name": "CountryList",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./CountryList.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PopularLocationGrid",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PopularLocationGrid.js"
+}

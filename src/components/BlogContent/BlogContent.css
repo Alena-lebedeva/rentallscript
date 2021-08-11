@@ -1,0 +1,107 @@
+.imageBanner{
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    max-height: 350px; 
+}
+
+.titleText{
+    font-size: 36px;
+    color: #484848;
+    text-align: center;
+    font-weight: 700;
+}
+
+.subText{
+    margin-top: 45px;
+    font-size: 16px; 
+    color: #484848; 
+    text-align: justify;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.spaceTop3{
+    margin-bottom: 18px;
+}
+
+.space6{
+    margin-bottom: 30px;
+}
+
+.root{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    min-height: 50vh;
+}
+
+h1 {
+  font-size: 28px;
+  color: #484848;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  color: #484848;
+  font-weight: 700;
+}
+
+
+.bannerContainer {
+    padding-top: 48px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.bannerHeader{
+    position: relative;
+    /* min-height: 680px; */
+    min-height: calc(100vh - 84px);
+}
+
+.realtivePosition{
+    position: relative;
+}
+
+@media screen and (min-width:768px){
+    .captionText{
+        position: absolute !important;
+        top: 15px;
+        left: 0;
+        right: 0;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 640px) {  
+   
+    .bannerContainer {
+      padding-top: 28px;  
+   }
+ 
+.bannerHeader{
+    position: relative;
+    min-height: 680px;
+}
+h1 {
+    text-align: left;
+   
+  
+}
+
+h2 {
+    text-align: left;
+    
+  
+}
+}
+
+
+
+/** Banner caption - End **/

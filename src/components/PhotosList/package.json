@@ -1,0 +1,6 @@
+{
+  "name": "PhotosList",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PhotosList.js"
+}

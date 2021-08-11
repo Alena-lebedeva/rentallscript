@@ -1,0 +1,300 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+
+.landingContainer {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.Cancel-container-1VRb7 {
+  margin: 0px auto;
+ 
+  max-width: 1080px;
+}
+
+.landingContentTitle {
+	font-size: 24px;
+	color: #484848;
+  font-weight: bold;
+}
+
+.landingSubTitle{
+  font-size: 20px;
+  color: #484848;
+}
+
+.textareaInput{
+  height: 80px !important;
+  padding: 20px;
+  border-color: #dce0e0;
+  border-radius: 2px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #767676;
+}
+
+.textHigh{
+  font-size: 18px;
+  color: #484848;
+  line-height: 1.43;
+}
+
+.textTruncate{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+}
+
+.textLine{
+  text-decoration: line-through;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+a, a:hover, a:focus, a:active{
+  color: #008489;
+  text-decoration: none;
+}
+.textBold{
+  font-weight: bold;
+}
+
+.button {
+	border-color: #007d73;
+  background-color: #008489;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+}
+
+.button:hover {
+  background: #ff5a5f;
+}
+
+.button:focus {
+  border-color: #ff5a5f;
+  box-shadow: 0 0 8px #008489;
+}
+
+.btnPrimary {
+   border-color: #ff5a5f;
+   background-color: #ff5a5f;
+   color: #fff;
+}
+
+.btnlarge {
+   padding: 9px 27px;
+ }
+
+.btnJumbo {
+   padding: 20px 36px;
+   line-height: 1;
+   font-size: 18px;
+   text-align: center;
+ }
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff5a5f !important;
+  background-color: #ff5a5f !important;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+   border-color: #ff5a5f;
+   color: #ff5a5f;
+   background-color: #fff;
+   border:1px solid;
+   border-radius: 4px;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+
+.landingStep {
+	font-size: 16px;
+	color: #767676;
+	line-height: 1.43;
+  font-weight: normal;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 15px 1px;
+  width: 100%;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.space1 {
+  margin-bottom: 6px;
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.space4 {
+  margin-bottom: 24px;
+}
+
+.space5 {
+  margin-bottom: 30px;
+}
+
+.spaceTop1 {
+  margin-top: 6px;
+}
+
+.spaceTop2 {
+  margin-top: 12px;
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.spaceTop5 {
+  margin-top: 30px;
+}
+
+.spaceTop6{
+  margin-top: 36px;
+}
+
+.panelHeader{
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 14px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #dce0e0;
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0 8px 20px 5px #eeebeb;
+  border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.profileAvatarSection {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.textRight{
+  text-align: right;
+}
+
+.textLeft{
+  text-align: left;
+}
+
+.pullRight{
+  float: right;
+}
+
+.pullLeft{
+  float: left;
+}
+
+.amountColor{
+  color: #ff5a5f;
+}
+.cancelBg{
+  width:100%;
+  height:140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.cancelLeftBg{
+  background: #fff;
+  border-radius: 4px;
+  padding: 1px 22px 5px;
+  box-shadow: 0 5px 15px 5px #eeebeb;
+}
+.cancellation a{
+  font-size: 16px;
+  color: #767676;
+  line-height: 1.43;
+  font-weight: normal;
+  text-decoration: none;
+}
+.greenColor{
+  font-weight: bold;
+  color: #007d73 !important; 
+}
+@media screen and (max-width:640px){
+  .pullLeft{
+    float: none;
+  }
+  .pullRight{
+    float: none;
+  }
+  .btnWidth{
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .textHigh{
+    font-size: 14px;
+    color: #484848;
+    line-height: 1.43;
+  }
+}
+@media (max-width:360px)
+{
+  .textHigh
+  {
+    font-size:12px;
+  }
+}
+
+
+

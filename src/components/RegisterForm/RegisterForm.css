@@ -1,0 +1,131 @@
+@import '../../components/variables.css';
+@import '../../components/utils.css';
+
+/** RentAll - Begin **/
+
+.formGroup {
+  margin-bottom: 6px;
+  position: relative;
+}
+.iconPosition{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+/* .formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+} */
+.formControlInput {
+  padding: 12px 35px 15px 10px;
+  height: 46px;
+  border-radius: 2px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #484848;
+  margin: 5px 0 0 0;
+
+}
+
+
+select{
+  background-position:96% 9px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 13px 16px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #373277;
+  border-radius: 4px;
+  background: #373277;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.3333333;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.facebook {
+  border-color: #3b5998;
+  background: #3b5998;
+  border-radius: 4px;
+  text-decoration: none;
+  composes: button;
+}
+
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82 !important;
+  background-color: #ff7e82 !important;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.noPadding {
+  padding: 0px;
+}
+.Birthpadding{
+  padding: 12px 0 0 1px;
+}
+.paddingBottom{
+  padding-bottom: 7px;
+}
+.birthForm{
+  height:46px;
+  font-size: 16px;
+}
+.backgroundOne{
+  /* background: url("./mail.png") no-repeat; */
+  background-position:98% 50%;
+}
+.backgroundTwo{
+  /* background: url("./avatar.png") no-repeat; */
+  background-position:98% 50%;
+}
+.backgroundThree{
+  /* background: url("./lock.png") no-repeat; */
+  background-position:98% 50%;
+}

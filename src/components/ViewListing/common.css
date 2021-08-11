@@ -1,0 +1,392 @@
+.pageContent {
+  max-width: 1080px;
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.titleText {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0px;
+  margin-bottom: 6px;
+  color: #484848;
+  font-weight: bold;
+  word-break: break-word;
+}
+
+.titleText:hover, .titleText:active, .titleText:focus {
+  color: #484848;
+  text-decoration: none;
+}
+
+.sectionTitleText {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+.sectionTitleContent {
+  font-size: 16px;
+  color: #767676;
+}
+
+.sectionCaptionLink {
+  font-size: 16px;
+  color: #767676;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:focus {
+  outline: none;
+}
+
+.textMuted, .textMuted:hover, .textMuted:focus, .textMuted:hover:focus {
+  color: #767676;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.text {
+  color: inherit;
+  font-size: inherit;
+  font-weight: normal;
+}
+
+.textLine {
+  text-decoration: line-through;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textError {
+  color: #d43242;
+}
+
+.horizontalLineThrough {
+  position: relative;
+  display: block;
+  /* border-bottom: 1px solid #dce0e0; */
+}
+
+.pageContent .horizontalLineThrough:last-child {
+  border-bottom: 0px;
+}
+
+.space1 {
+  margin-bottom: 6px;
+}
+
+.space2 {
+  margin-bottom: 12px;
+}
+
+.space3 {
+  margin-bottom: 18px;
+}
+
+.space4 {
+  margin-bottom: 24px;
+}
+
+.space5 {
+  margin-bottom: 48px;
+}
+
+.spaceTop1 {
+  margin-top: 6px;
+}
+
+.spaceTop2 {
+  margin-top: 12px;
+}
+
+.spaceTop3 {
+  margin-top: 18px;
+}
+
+.spaceTop4 {
+  margin-top: 24px;
+}
+
+.spaceTop5 {
+  margin-top: 48px;
+}
+
+.padding1 {
+  padding-bottom: 6px;
+}
+
+.padding2 {
+  padding-bottom: 12px;
+}
+
+.padding3 {
+  padding-bottom: 18px;
+}
+
+.padding4 {
+  padding-bottom: 24px;
+}
+
+.padding5 {
+  padding-bottom: 48px;
+}
+
+.paddingTop1 {
+  padding-top: 6px;
+}
+
+.paddingTop2 {
+  padding-top: 12px;
+}
+
+.paddingTop3 {
+  padding-top: 18px;
+}
+
+.paddingTop4 {
+  padding-top: 24px;
+}
+
+.paddingTop5 {
+  padding-top: 48px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.noBorder {
+  border: 0px none !important;
+}
+
+.btn {
+  padding: 7px 21px;
+  border-color: #c4c4c4;
+  background: white;
+  color: #484848;
+  font-weight: bold;
+  font-size: 16px;
+  outline:none !important;
+}
+
+.btnBlock {
+  width: 100%;
+  position: relative;
+  white-space: normal;
+  display: block;
+}
+
+.btn:hover, .btn:focus, .btn:hover:focus {
+  background: white;
+  color: #484848;
+}
+
+.btnPrimary {
+  border-color: #ff5a5f;
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.btnlarge {
+  padding: 12px 27px;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active, .btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82 !important;
+  background-color: #ff7e82 !important;
+  color: #fff !important;
+  outline: 0 !important;
+}
+
+.btnPrimaryBorder {
+  border-color: #ff5a5f;
+  color: #ff5a5f;
+  background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active, .btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.btnSmall {
+  padding: 5px 0px;
+}
+
+.formControlInput {
+  padding: 10px 35px 10px 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #767676;
+}
+
+.formControlSelect {
+  height: 40px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  color: #484848;
+  line-height: 24px;
+  display: block;
+  overflow: hidden;
+  appearance: none;
+}
+
+@media screen and (max-width: 767px) {
+  .titleText {
+    font-weight: 700;
+    font-size: 26px;
+    word-break: break-word;
+  }
+  .splitList {
+    display: inline-block;
+    width: 100% !important;
+   
+  }
+  .listingIntroWidth {
+    width: 100% !important;
+  }
+  .responsiveListIngIntro {
+    display: inline-block !important;
+  }
+}
+
+.splitList {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;  
+  padding-right: 8px;
+}
+
+
+.displayTable {
+  display: table;
+  width: 100%;
+}
+
+.displayTableRow {
+  display: table-row;
+  width: 100%;
+}
+
+.displayTableCell {
+  display: table-cell;
+  width: 100%;
+}
+
+.displayTableCellIcon {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.textMutedNew {
+  font-size: 16px;
+  font-weight: 700;
+  vertical-align: middle;
+  word-break: break-word;
+  line-height: 26px;
+}
+
+.tableMarginTop {
+  margin-top: 16px;
+}
+
+.calendarTableCell {
+  display: inline-block;
+}
+
+.vrAlignTop {
+  vertical-align: top;
+}
+
+.currenyMarginR {
+  margin-right: 6px;
+}
+
+.sectionLink {
+  border: 1px solid #008489;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.listingFontSize {
+  font-size: 16px !important;
+}
+
+.vrAlignBottom {
+  vertical-align: bottom;
+}
+
+.introTextPadding {
+  padding-left: 8px;
+}
+
+.showHideBtn {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0px !important;
+  width: auto !important;
+  outline: 0 !important;
+  background: #ffffff !important;
+  color: #008489 !important;
+  font-weight: inherit;
+  word-wrap: break-word;
+  line-height: 18px;
+  letter-spacing: normal;
+  font-size: 16px !important;
+  border: 0px !important;
+}
+
+.showHideBtn.focus, .showHideBtn:focus, .showHideBtn:active, .showHideBtn:active:focus, .showHideBtn:focus, .showHideBtn:hover {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0px !important;
+  width: auto !important;
+  outline: 0 !important;
+  background: #ffffff !important;
+  color: #008489 !important;
+  font-weight: inherit;
+  word-wrap: break-word;
+  line-height: 18px;
+  letter-spacing: normal;
+  font-size: 16px;
+  border: 0px !important;
+  text-decoration: none !important;
+}
+
+
+.showHideMargin {
+  margin-bottom: 10px !important;
+}
+
+.listingIntroWidth {
+  width: 65%;
+}
+
+.showHidePadding {
+  padding-bottom: 10px !important;
+}
+
+.vtrTop {
+  vertical-align: top;
+}
+

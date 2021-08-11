@@ -1,0 +1,45 @@
+@import '../../components/variables.css';
+@import '../../components/common.css';
+
+
+
+.incrementDecrementText {
+	float: left;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 20px 20px;
+    height: 52px;
+    margin: 0px;
+    font-size: 18px;
+    color: #767676;
+    line-height: 1;
+    vertical-align: middle;
+    font-weight: normal;
+    background: #fff;
+}
+
+.iconButton {
+	width: 20%;
+	float: left;
+	border-color: #dce0e0;
+	border-width: 0px 0px 0px 1px;
+	border-radius: 0px;
+	padding: 12px 20px;
+  	height: 52px;
+	margin: 5px 0px;
+	font-size: 15px;
+	line-height: 1px;
+	color: #767676;
+	background: #fff;
+
+}
+
+.iconButton:hover, .iconButton:focus, .iconButton:active {
+	background: #fff;
+	border-color: #dce0e0;
+	border-width: 0px 0px 0px 1px;
+	margin-left: 0px;
+	outline: 0 !important;
+}

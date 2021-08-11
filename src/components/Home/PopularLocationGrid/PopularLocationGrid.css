@@ -1,0 +1,22 @@
+.GridCollapse{
+  margin: 0 -2px;
+  position: relative;
+  min-height: 320px; 
+}
+
+
+@media screen and (max-width: 767px) {
+  .GridCollapse{
+    margin: 0px 0px; 
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .GridCollapse{
+    margin: 0px 2px; 
+  }
+}
+
+
+
+

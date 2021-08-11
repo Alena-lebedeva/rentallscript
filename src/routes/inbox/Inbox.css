@@ -1,0 +1,7 @@
+@import '../../components/variables.css';
+
+.container {
+  margin: 0 auto;
+  max-width: var(--max-content-width);
+  padding-top:30px;
+}

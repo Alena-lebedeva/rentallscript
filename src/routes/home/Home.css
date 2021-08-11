@@ -1,0 +1,37 @@
+@import '../../components/variables.css';
+
+.root {
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding-bottom: 24px;
+  max-width: 1080px;
+}
+
+.pageContainer {
+  padding-top: 48px;
+}
+
+.containerTitle {
+    color: #484848;
+    line-height: 24px;
+    margin: 0 0 24px;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1170px) {
+  .containerTitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .marginLeft {
+    margin: 0 0 24px 34px;
+  }
+}

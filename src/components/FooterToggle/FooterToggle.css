@@ -1,0 +1,44 @@
+.buttonStyle {
+    position: relative !important;
+    text-align: center ;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    width: auto;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 10px 4px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    float:right;
+    z-index:9;
+    color: rgb(72, 72, 72) !important;
+    background: rgb(255, 255, 255) !important;   
+}
+
+.buttonStyle:focus, .buttonStyle:active, .buttonStyle:focus:hover {
+    outline: 0;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 10px 4px;
+}
+
+.buttonStyle:hover {
+    color: rgb(72, 72, 72) !important;
+    background: rgb(255, 255, 255) !important;
+    border-color: transparent !important;
+    outline: 0;
+}
+
+.buttonPosition{
+    position: fixed !important;
+    left: 13px;
+    bottom: 13px;
+} 
+.iconStyle{
+    color: #484848;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    font-size: 20px;
+}   

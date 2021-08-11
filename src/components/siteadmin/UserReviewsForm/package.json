@@ -1,0 +1,6 @@
+{
+    "name": "UserReviewsForm",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./UserReviewsForm.js"
+}

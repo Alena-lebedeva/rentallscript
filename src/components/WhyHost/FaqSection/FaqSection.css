@@ -1,0 +1,125 @@
+@import '../../../components/variables.css';
+/** RentAll - Begin **/
+
+.seperator {
+  background-color: #484848;
+  width: 64px;
+  display: block;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.boxseperator {
+  height: 2.5px;
+  border: 1px solid #484848;
+  background-color: transparent;
+}
+
+.mainhedding h1 {
+  font-size: 60px;
+  line-height: 64px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 73px;
+}
+
+h4.common {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+p.common {
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.faqsection {
+  margin-bottom: 103px;
+}
+
+.faqcolumn span {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-size: 16px;
+  color: #008489;
+  display: table;
+}
+
+
+.faqcolumn span span {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  font-size: 16px;
+  color: #008489;
+  display: table-cell;
+}
+
+
+.faqcolumn p span {
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 16px;
+  color: #484848;
+  display: inline-block;
+}
+
+.faqsection p{
+  
+  font-size: 16px;
+}
+
+
+@media screen and (max-width:991px) {
+  h4.common {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .mainhedding h1 {
+    font-size: 36px;
+    line-height: 51px;
+    margin-bottom: 56px;
+  }
+}
+
+
+
+
+@media screen and (max-width:767px) {
+  .mainhedding h1 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align:left;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  h4.common {
+    font-size: 26px;
+  }
+  .faqsection {
+    margin-bottom: 10px;
+  }
+  .faqsection {
+    margin-bottom: 10px;
+  }
+  .faqcolumn span {
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    vertical-align: middle;
+    padding-left: 21px;
+
+  }
+  
+  
+
+.faqcolumn{
+
+  padding-left:15px;
+  padding-right:15px;
+}
+  
+}

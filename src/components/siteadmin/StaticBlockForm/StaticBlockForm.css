@@ -1,0 +1,16 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+@import '../admin-form.css';
+
+
+.noPadding {
+    padding: 0;
+}
+
+.space2 {
+    margin-bottom: 12px;
+}
+
+.spaceTop2 {
+    margin-top: 12px;
+}

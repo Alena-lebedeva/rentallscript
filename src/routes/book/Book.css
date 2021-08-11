@@ -1,0 +1,13 @@
+@import '../../components/variables.css';
+
+.container {
+  max-width: var(--max-container-width);
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+.landingContainer {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}

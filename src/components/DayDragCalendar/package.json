@@ -1,0 +1,6 @@
+{
+  "name": "DayDragCalendar",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DayDragCalendar.js"
+}

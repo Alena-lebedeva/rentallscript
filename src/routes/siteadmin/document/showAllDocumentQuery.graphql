@@ -1,0 +1,18 @@
+query showAllDocument
+{
+  showAllDocument {
+    id,
+    email,
+     profile{
+          firstName
+    }
+    document{      
+       fileName
+       fileType
+       documentStatus
+    }
+    verification{
+      isIdVerification
+    }
+  }
+}

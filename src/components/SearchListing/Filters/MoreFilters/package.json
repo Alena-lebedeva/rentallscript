@@ -1,0 +1,6 @@
+{
+    "name": "MoreFilters",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./MoreFilters.js"
+}

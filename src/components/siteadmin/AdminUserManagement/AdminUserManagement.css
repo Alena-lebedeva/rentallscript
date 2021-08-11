@@ -1,0 +1,24 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+
+.listContainer {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.listContent {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.checkBoxSection {
+  display: table-cell;
+}
+
+.checkBoxLabel {
+  padding: 0px 10px;
+}
+
+.noPadding {
+  padding: 0px;
+}

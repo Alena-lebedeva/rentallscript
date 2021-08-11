@@ -1,0 +1,68 @@
+@import '../common.css';
+
+.bookItContainer {
+  width: 100%;
+  display: block;
+  margin-top: -50px;
+  position: relative;
+  z-index: 1001;
+}
+
+.bookItContentBox {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background: #fff;
+}
+
+.bootItPriceSection {
+    background-color: #3c3f40;
+    /*background-color: rgba(60,63,64,0.9);*/
+    border: 0;
+    color: #fff;
+    height: 50px;
+    padding: 13px 20px 5px;
+    text-transform: capitalize;
+    width: 100%;
+    z-index: 1001;
+    overflow-y: hidden;
+}
+
+.bookItPriceAmount {
+  display: inline-block;
+}
+
+.bookItPrice {
+  font-size: 24px;
+}
+
+.instantIcon {
+  color: #ffb400;
+  position: relative;
+  bottom: 5px;
+}
+
+.bookItPanel {
+  border: 1px solid #dce0e0;
+  background-color: #fff;
+  border-radius: 0;
+  padding: 20px;
+  position: relative;
+}
+
+.bookItMessage {
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+@media screen and (max-width: 650px) {
+  .bookItContainer {
+      margin-top: 0px;
+      margin-bottom: 48px;
+   } 
+   .bookItContentBox {
+      position: relative;
+   }
+
+}

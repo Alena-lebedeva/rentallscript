@@ -1,0 +1,187 @@
+@import '../variables.css';
+@import './newcommonstyle.css';
+
+/** Admin - Common - Start **/
+
+.pagecontentWrapper{
+    margin-left: 250px;
+    position: relative;
+    padding: 15px;
+    background: #e7e7e7;
+    height: 100%;
+    width: calc(100% - 250px);
+}
+
+.contentBox {
+  background: #FCFAFA;
+  padding: 10px;
+  height: 100%;
+  min-height:1080px;
+}
+
+.headerTitle {
+    font-size: 24px;
+    margin: 0px 0px 15px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 10px;
+}
+
+.panelHeader {
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  color: #484848;
+  font-size: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.table {
+    display: table;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.tableCell {
+    display: table-cell;
+    float: none;
+}
+
+.formGroup {
+  margin-bottom: 6px;
+}
+
+.formControlInput {
+  padding: 10px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #484848;
+  font-weight: normal;
+
+}
+
+.formControlSelect {
+    padding: 10px 32px 10px 10px;
+    height: 40px;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #DBDBDB;
+    background-color: #fff;
+    color: #767676;
+    appearance: none;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+
+.formSection {
+  overflow: hidden;
+}
+
+.captionText {
+  font-size: 16px;
+  color: #484848;
+  margin: 6px 0px;
+}
+
+.labelText{
+  font-size: 14px;
+  color: #767676;
+  margin: 6px 0px;
+  line-height: 1.43;
+  font-weight: normal;
+}
+
+.btn {
+    border-color: #ff7e82;
+    background-color: #ff7e82;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+}
+
+.btnPrimary {
+    border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #ff7e82;
+  background-color: #ff7e82;
+  color: #fff;
+}
+
+.btnPrimaryBorder {
+    border-color: #ff5a5f;
+    color: #ff5a5f;
+    background-color: #fff;
+}
+
+.btnPrimaryBorder:hover, .btnPrimaryBorder:focus, .btnPrimaryBorder:active,
+.btnPrimaryBorder:active:hover, .btnPrimaryBorder:active:focus {
+  border-color: #ff7e82;
+  color: #ff7e82;
+  background-color: #fff;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+a , a:hover{
+  cursor: pointer;
+}
+
+.exportLink {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.seachContent{
+  padding-left: 0px;
+  margin-bottom: 5px;
+}
+.imageWidth{
+  width:100%;
+}
+.marginBottom20{
+  margin-bottom:20px;
+}
+.userSelect {
+  height: 40px !important;
+  background-position: 97% 50% !important;
+}
+.adminUserSelect {
+  height: 45px !important;
+  background-position: 97% 50% !important;
+}
+.labelTextNew {
+  font-weight: 700;
+  color: #484848;
+  font-size: 14px;
+  margin: 6px 0px;
+  line-height: 1.43;
+}
+.noFontWeight {
+  font-weight: 100 !important;
+}
+/** Admin - Common - End **/

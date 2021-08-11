@@ -1,0 +1,6 @@
+{
+  "name": "PopularLocationGridItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PopularLocationGridItem.js"
+}

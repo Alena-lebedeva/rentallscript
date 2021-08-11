@@ -1,0 +1,13 @@
+query getEnabledBlog  {
+        getEnabledBlog  {
+            id
+            metaTitle
+            metaDescription
+            pageUrl
+            pageTitle
+            content
+            footerCategory
+            isEnable
+            createdAt
+        }
+        }

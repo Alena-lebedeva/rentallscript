@@ -1,0 +1,6 @@
+{
+  "name": "WishListModalForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./WishListModalForm.js"
+}

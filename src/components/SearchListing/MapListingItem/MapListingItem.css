@@ -1,0 +1,235 @@
+/** Common **/
+.textEllipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/** Common **/
+/* List Item - Start **/
+.listItemContainer {
+    /* position: relative;
+    max-width: 280px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff; */
+    /* background-color: rgb(255, 255, 255); */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+    position: relative;
+    width: 280px;
+    margin-bottom: 8px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(72, 72, 72);
+    border-image: initial;
+    border-radius: 4px;
+    display: block;
+    max-width: 280px;
+}
+
+.listItemContainer:before {
+    bottom: -8px;
+    content: " ";
+    display: inline-block;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    border-width: 8px 8px 0px;
+    border-style: solid solid solid;
+    border-color:rgba(0, 0, 0, 0.15) transparent;
+    border-image: initial;
+    border-bottom: 0px;
+}
+
+.listItemContainer:after {
+    bottom: -7px;
+    content: " ";
+    display: inline-block;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    border-width: 8px 8px 0px;
+    border-style: solid solid solid;
+    border-color: #fff transparent;
+    border-image: initial;
+    border-bottom: 0px;
+}
+
+@media screen and (min-width: 321px) {
+  .listItemContainer {
+     width: 100%;
+   } 
+}
+
+.listPhotoContainer {
+    position: relative !important;
+    color: rgb(72, 72, 72) !important;
+    height: 100% !important;
+    /* background: rgb(255, 255, 255) !important; */
+}
+.listPhotoCover {
+  display: block;
+  height: 145px !important;
+  backface-visibility: hidden;
+  position: relative;
+  vertical-align: middle;
+  overflow: hidden;
+  background-color: #D8D8D8;
+  text-align: center;
+}
+
+.listPhotoMedia {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.imgResponsive{
+  height: 100%;
+  width: auto;
+}
+
+.listInfo {
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+}
+
+.listInfoLink {
+    cursor: pointer;
+    display: block;
+    font-family: "Circular";
+}
+
+.listingInfo{
+    word-wrap: break-word;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: normal;
+    color: #A02F18;
+    font-weight: 800;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.displayInline{
+    display: inline-block;
+
+}
+
+.textInline{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.listingTitle{
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: rgb(72, 72, 72);
+    font-weight: 800;
+    font-family: "Circular";
+}
+.infoSpace{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Circular";
+}
+
+.infoSpaceTop1{
+    margin-top: 2px
+}
+.infoText {
+    color: #484848;
+    font-family: inherit;
+    word-wrap: break-word;
+    line-height: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline;
+}
+
+.infoPrice {
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: normal;
+    color: rgb(72, 72, 72);
+    font-weight: normal;
+    display: inline;
+}
+
+.infoReview {
+    font-weight: 600;
+    word-wrap: break-word;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: normal;
+    color: rgb(72, 72, 72);
+    display: inline;
+}
+
+.infoTitle {
+    font-size: 19px;
+}
+
+.infoDesc {
+    font-weight: 200;
+    font-size: 14px;
+    color: #767676;
+}
+
+.wishListContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.wishListBtn {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.wishListBtn:hover, .wishListBtn:focus {
+    color: #58595B;
+}
+
+.activeWishList {
+    color: #58595B;
+}
+
+@media screen and (max-width: 1280px) {
+    .listPhotoCover {
+            height: 200px;
+        }
+}    
+
+@media screen and (max-width: 800px) {
+        .listPhotoCover {
+            height: 345px;
+        }    
+}
+
+@media screen and (max-width: 480px) {
+        .listPhotoCover {
+            height: 215px;
+        }    
+}
+
+.reviewStar {
+    display: block;
+    position: relative;
+}
+
+.reviewText {
+    font-size: 14px;
+}
+
+.instantIcon{
+    color: #ffb400;
+    height: 16px;
+    width: 16px;
+}
+
+/* List Item - End */

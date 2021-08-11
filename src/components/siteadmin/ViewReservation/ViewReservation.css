@@ -1,0 +1,14 @@
+@import '../../../components/variables.css';
+@import '../admin-common.css';
+
+.processingtext{
+	color: #ff0000;
+}
+
+.goBackLink {
+	padding: 10px;
+}
+
+.capitalize { 
+	text-transform: capitalize; 
+}

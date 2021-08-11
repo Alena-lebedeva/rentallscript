@@ -1,0 +1,6 @@
+{
+    "name": "EditPopularLocationManagement",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./EditPopularLocationManagement.js"
+}

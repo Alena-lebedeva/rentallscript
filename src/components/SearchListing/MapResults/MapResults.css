@@ -1,0 +1,140 @@
+@import '../../../components/common.css';
+
+.mapCanvas {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(164, 221, 245);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 12px 0px #dedede;
+    border-radius: 12px;
+}
+.mapRefreshControls {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.button {
+  border-color: #58595B;
+  background-color: #58595B;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: rgba(54, 50, 119, 0.8);
+}
+
+.button:focus {
+  border-color: #0074c2;
+  box-shadow: 0 0 8px rgba(0, 116, 194, 0.6);
+}
+
+.btnPrimary {
+    border-color: #F3B944;
+    background-color: #F3B944;
+    color: #fff;
+}
+
+.btnPrimary:hover, .btnPrimary:focus, .btnPrimary:active,
+.btnPrimary:active:hover, .btnPrimary:active:focus {
+  border-color: #58595B;
+  background-color: #58595B;
+  color: #fff;
+}
+
+.customMarkerContainer {
+  position: relative;
+  display: inline-block;
+  margin-top: -8px;
+}
+
+.customMarkerContent {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: var(--btn-color);
+  font-weight: 600;
+  background-color: var(--background-color);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
+  position: relative;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: rgba(0, 0, 0, 0.2) !important;
+  border-image: initial !important;
+  border-radius: 20px !important;
+  padding: 4px 8px 4px 8px !important;
+  font-family: 'Circular' !important;
+}
+.customMarkerPoint {
+    bottom: -4px;
+    left: 50%;
+    margin-left: -4px;
+    background-color: var(--background-color);
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    position: absolute;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+    border-style: solid !important;
+    border-width: 0px 1px 1px 0px !important;
+}
+.customMarkerPointBorder {
+    bottom: -4px;
+    left: 50%;
+    margin-left: -4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 4px 0px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.hoveredMarker .customMarkerContent {
+  color: var(--background-color);
+  font-weight: 600;
+  background-color: #008489;
+  box-shadow: none;
+  z-index: 1000;
+}
+
+.hoveredMarker .customMarkerPoint {
+   background-color: #008489;
+   z-index: 1000;
+}
+
+.hoveredMarker .customMarkerPointBorder {
+  box-shadow: none;
+}
+
+.customInfoBoxContainer {
+  position: relative;
+  display: inline-block;
+  margin-top: -22px;
+}
+
+.customInfoBoxPoint {
+  bottom: -4px;
+  left: 50%;
+  margin-left: -4px;
+  background-color: var(--background-color);
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0.2) !important;
+  border-style: solid !important;
+  border-width: 0px 1px 1px 0px !important;
+}
+.customInfoBoxPointBorder {
+  bottom: -4px;
+  left: 50%;
+  margin-left: -4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 4px 0px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  position: absolute;
+}

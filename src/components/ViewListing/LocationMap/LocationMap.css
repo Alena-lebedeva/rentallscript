@@ -1,0 +1,14 @@
+@import '../common.css';
+
+.neighborhoodMap {
+  width: 100%;
+  max-height: 650px;
+  display: block;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .neighborhoodMap {
+    max-height: 350px;
+  } 
+}

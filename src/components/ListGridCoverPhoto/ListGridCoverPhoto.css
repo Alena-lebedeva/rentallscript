@@ -1,0 +1,86 @@
+@import '../../components/variables.css';
+.leftBanner {
+    height: 402px !important;
+    padding-left: 0;
+    padding-right: 0px;
+    overflow: hidden;
+}
+
+.rightTopBanner {
+    height: 201px !important;
+    padding-left: 0;
+    padding-right: 0px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    border-bottom: 0;
+}
+
+.rightBottom {
+    height: 201px !important;
+    padding-left: 0;
+    padding-right: 0px;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.pad0 {
+    padding: 0!important;
+}
+
+.bgbanner {
+    
+    transform: scale(1) !important;
+    transition: -ms-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, -webkit-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, opacity 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s !important;
+}
+
+.bgbanner:hover {
+    transform: scale(1.05) !important;
+    transition: -ms-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, -webkit-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s !important;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .hiddenxs {
+        display: none;
+    }
+    .leftBanner {
+        width: 100%!important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .leftBanner {
+        height: 400px!important;
+    }
+    .rightTopBanner {
+        height: 200px!important;
+    }
+    .rightBottom {
+        height: 200px!important;
+    }
+}
+
+@media screen and (min-height: 700px) {
+    .leftBanner {
+        height: 552px!important;
+    }
+    .rightTopBanner {
+        height: 276px!important;
+    }
+    .rightBottom {
+        height: 276px!important;
+    }
+}
+
+@media screen and (min-height: 850px) {
+    .leftBanner {
+        height: 444px!important;
+    }
+    .rightTopBanner {
+        height: 250px!important;
+    }
+    .rightBottom {
+        height: 196px!important;
+    }
+}
+
+

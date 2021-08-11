@@ -1,0 +1,6 @@
+{
+  "name": "Booking",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Booking.js"
+}

@@ -1,0 +1,31 @@
+@import '../common.css';
+
+.profileAvatarSection {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.profileAvatar {
+  height: 90px;
+  width: 90px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .profileAvatar {
+    height: 54px;
+    width: 54px;
+  }
+}

@@ -1,0 +1,16 @@
+query {
+    getAdminUser {
+        id
+        email
+        isSuperAdmin
+        roleId
+        createdAt
+        updatedAt
+        adminRole {
+            id
+            privileges
+        }
+        status
+        errorMessage
+    }
+}

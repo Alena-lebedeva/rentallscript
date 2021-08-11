@@ -1,0 +1,6 @@
+{
+  "name": "ChangeAdminForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ChangeAdminForm.js"
+}

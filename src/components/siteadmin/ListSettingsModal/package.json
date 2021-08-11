@@ -1,0 +1,6 @@
+{
+  "name": "ListSettingsModal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ListSettingsModal.js"
+}
